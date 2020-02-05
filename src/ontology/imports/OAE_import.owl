@@ -1,0 +1,1064 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/OAE_import.owl#"
+     xml:base="http://purl.obolibrary.org/obo/OAE_import.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/OAE_import.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118">
+        <rdfs:label>alternative term</rdfs:label>
+        <rdfs:label xml:lang="en">alternative term</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">An alternative name for a class or property which means the same thing as the preferred name (semantically equivalent)</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">alternative term</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117">
+        <rdfs:label>term editor</rdfs:label>
+        <rdfs:label>definition editor</rdfs:label>
+        <rdfs:label xml:lang="en">term editor</rdfs:label>
+        <obo:IAO_0000116 xml:lang="en">20110707, MC: label update to term editor and definition modified accordingly. See http://code.google.com/p/information-artifact-ontology/issues/detail?id=115.</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">20110707, MC: label update to term editor and definition modified accordingly. See https://github.com/information-artifact-ontology/IAO/issues/115.</obo:IAO_0000116>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000115 xml:lang="en">Name of editor entering the term in the file. The term editor is a point of contact for information regarding the term. The term editor may be, but is not always, the author of the definition, which may have been worked upon by several people</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">term editor</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119">
+        <rdfs:label>definition source</rdfs:label>
+        <rdfs:label xml:lang="en">definition source</rdfs:label>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Discussion on obo-discuss mailing-list, see http://bit.ly/hgm99w</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">definition source</obo:IAO_0000111>
+        <obo:IAO_0000115 xml:lang="en">formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007</obo:IAO_0000115>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#isDefinedBy"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114">
+        <rdfs:label>has curation status</rdfs:label>
+        <rdfs:label xml:lang="en">has curation status</rdfs:label>
+        <obo:IAO_0000119 xml:lang="en">OBI_0000281</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Bill Bug</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Melanie Courtot</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">has curation status</obo:IAO_0000111>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116">
+        <rdfs:label>editor note</rdfs:label>
+        <rdfs:label xml:lang="en">editor note</rdfs:label>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</oboInOwl:is_metadata_tag>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IAO:0000116</oboInOwl:hasDbXref>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor_note</oboInOwl:id>
+        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">editor_note</oboInOwl:shorthand>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115 xml:lang="en">An administrative note intended for its editor. It may not be included in the publication version of the ontology, so it should contain nothing necessary for end users to understand the ontology.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obfoundry.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">editor note</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label>imported from</rdfs:label>
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">For external terms/classes, the ontology from which the term was imported</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Melanie Courtot</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">imported from</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">textual definition</rdfs:label>
+        <rdfs:label xml:lang="en">definition</rdfs:label>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</obo:IAO_0000111>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">textual definition</obo:IAO_0000111>
+        <obo:IAO_0000116 xml:lang="en">2012-04-05: 
+Barry Smith
+
+The official OBI definition, explaining the meaning of a class or property: &#39;Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions&#39;  is terrible.
+
+Can you fix to something like:
+
+A statement of necessary and sufficient conditions explaining the meaning of an expression referring to a class or property.
+
+Alan Ruttenberg
+
+Your proposed definition is a reasonable candidate, except that it is very common that necessary and sufficient conditions are not given. Mostly they are necessary, occasionally they are necessary and sufficient or just sufficient. Often they use terms that are not themselves defined and so they effectively can&#39;t be evaluated by those criteria. 
+
+On the specifics of the proposed definition:
+
+We don&#39;t have definitions of &#39;meaning&#39; or &#39;expression&#39; or &#39;property&#39;. For &#39;reference&#39; in the intended sense I think we use the term &#39;denotation&#39;. For &#39;expression&#39;, I think we you mean symbol, or identifier. For &#39;meaning&#39; it differs for class and property. For class we want documentation that let&#39;s the intended reader determine whether an entity is instance of the class, or not. For property we want documentation that let&#39;s the intended reader determine, given a pair of potential relata, whether the assertion that the relation holds is true. The &#39;intended reader&#39; part suggests that we also specify who, we expect, would be able to understand the definition, and also generalizes over human and computer reader to include textual and logical definition. 
+
+Personally, I am more comfortable weakening definition to documentation, with instructions as to what is desirable. 
+
+We also have the outstanding issue of how to aim different definitions to different audiences. A clinical audience reading chebi wants a different sort of definition documentation/definition from a chemistry trained audience, and similarly there is a need for a definition that is adequate for an ontologist to work with.  </obo:IAO_0000116>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">The official OBI definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">definition</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <rdfs:label>database_cross_reference</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111">
+        <rdfs:label>editor preferred label</rdfs:label>
+        <rdfs:label>editor preferred term~editor preferred label</rdfs:label>
+        <rdfs:label>editor preferred term</rdfs:label>
+        <rdfs:label xml:lang="en">editor preferred label</rdfs:label>
+        <rdfs:label xml:lang="en">editor preferred term</rdfs:label>
+        <obo:IAO_0000111>editor preferred term~editor preferred label</obo:IAO_0000111>
+        <obo:IAO_0000111>editor preferred term</obo:IAO_0000111>
+        <obo:IAO_0000111>editor preferred label</obo:IAO_0000111>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">The concise, meaningful, and human-friendly name for a class or property preferred by the ontology developers. (US-English)</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">editor preferred label</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">editor preferred term</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_obo_namespace</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#is_metadata_tag"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#shorthand">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">shorthand</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+        <rdfs:label>label</rdfs:label>
+        <rdfs:label xml:lang="en">label</rdfs:label>
+        <obo:IAO_0000111>label</obo:IAO_0000111>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OAE_0004334">
+        <rdfs:label xml:lang="en">has_MedDRA_id</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000002">
+        <rdfs:label>medical intervention</rdfs:label>
+        <obo:IAO_0000115>medical intervention is a planned process that has the goal of diagnosing, preventing or relieving illness or injury. </obo:IAO_0000115>
+        <obo:IAO_0000116>The act of intervening, interfering or interceding with the intent of modifying the outcome. In medicine, an intervention is usually undertaken to help treat or cure a condition. For example, &quot;Acupuncture as a therapeutic intervention is widely practiced in the United States,&quot; 
+Reference:
+http://www.medterms.com/script/main/art.asp?articlekey=34214 . Some interventions can be used for diagnosis. </obo:IAO_0000116>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000119>WEB: http://wiki.answers.com/Q/What_is_medical_intervention</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000011">
+        <rdfs:label>drug administration</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000002"/>
+        <obo:IAO_0000115>a medical intervention where a patient is administered with a drug</obo:IAO_0000115>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000012">
+        <rdfs:label>medical device usage for medical intervention</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000002"/>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000115>a medical intervention that uses a medical device</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000013">
+        <rdfs:label>nutritional product usage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000002"/>
+        <obo:IAO_0000118>consumption of nutritional product</obo:IAO_0000118>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000115>a medical intervention that uses a nutritional product</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000014">
+        <rdfs:label>dietary supplement consumption</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000013"/>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000115>a nutritional product usage that consumes a dietary supplement</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000015">
+        <rdfs:label>consumption of infant formula</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000013"/>
+        <obo:IAO_0000115>a nutritional product usage that consumes infant formula</obo:IAO_0000115>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000016">
+        <rdfs:label>consumption of medical food</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000013"/>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000115>a nutritional product usage that consumes medial food</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000056 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000056">
+        <rdfs:label>incorrect drug dose administration</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000234"/>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000115>a drug administration that uses incorrect drug dose</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000067 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000067">
+        <rdfs:label>surgery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0002807"/>
+        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10042609</obo:OAE_0004334>
+        <obo:IAO_0000115>Surgery is a medical procedure that uses operative manual and instrumental techniques on a patient to investigate and/or treat a pathological condition such as disease or injury, to help improve bodily function or appearance. The key difference between a surgery and a general procedure is the need for an incision. Making an incision, or cutting into the skin to gain access to the body’s deeper tissues or organs, is a defining characteristic of surgery.</obo:IAO_0000115>
+        <obo:IAO_0000119>WEB: http://www.wisegeekhealth.com/what-is-the-difference-between-a-surgery-and-a-procedure.htm</obo:IAO_0000119>
+        <obo:IAO_0000117>YH, SS</obo:IAO_0000117>
+        <obo:IAO_0000118>surgical procedure</obo:IAO_0000118>
+        <obo:IAO_0000119>WEB: http://en.wikipedia.org/wiki/Surgery</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000094 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000094">
+        <rdfs:label>therapeutic intervention</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000002"/>
+        <obo:IAO_0000115>a medical intervention that is used for therapeutic purpose</obo:IAO_0000115>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000220 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000220">
+        <rdfs:label xml:lang="en">administration of ineffective drug</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000234"/>
+        <obo:IAO_0000115>an errored drug administration where a patient is administered with an ineffective drug</obo:IAO_0000115>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000221 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000221">
+        <rdfs:label xml:lang="en">administration of drug with decreased effectiveness</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000234"/>
+        <obo:IAO_0000115>an errored drug administration where a patient is administered with an ctive drug with decreased effectiveness</obo:IAO_0000115>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000223 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000223">
+        <rdfs:label xml:lang="en">drug overdose administration</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000234"/>
+        <obo:IAO_0000115>an errored drug administration where a patient is administered with a drug above the therapeutic level</obo:IAO_0000115>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000224 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000224">
+        <rdfs:label xml:lang="en">administration of drug with omitted dose</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000234"/>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000115>an errored drug administration where a patient is administered with an drug without knowing the dose used. </obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000228 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000228">
+        <rdfs:label xml:lang="en">administration of drug stored in capsule with physical defect</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000234"/>
+        <obo:IAO_0000115>an errored drug administration where a patient is administered with an drug stored in capsule with physical defect</obo:IAO_0000115>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000229 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000229">
+        <rdfs:label xml:lang="en">administration of drug with wrong technique</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000234"/>
+        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10064353</obo:OAE_0004334>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000115>an errored drug administration where a patient is administered with an drug with wrong technique</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000230 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000230">
+        <rdfs:label xml:lang="en">administration of drug with incorrect route</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000229"/>
+        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10064304</obo:OAE_0004334>
+        <obo:IAO_0000115>a drug administration where a patient is administered with an drug with incorrect route</obo:IAO_0000115>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000233 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000233">
+        <rdfs:label xml:lang="en">errored medication</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000002"/>
+        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10027091</obo:OAE_0004334>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000115>a medical intervention that has an errored medication </obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000234 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000234">
+        <rdfs:label xml:lang="en">errored drug administration</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000233"/>
+        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10064355</obo:OAE_0004334>
+        <obo:IAO_0000115>a medical intervention that has errored drug medication</obo:IAO_0000115>
+        <obo:IAO_0000117>SS, YH</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000235 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000235">
+        <rdfs:label xml:lang="en">radiotherapy</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000094"/>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000115>a therapeutic intervention that uses radiation</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000657 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000657">
+        <rdfs:label>accidental overdose in medical intervention</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000673"/>
+        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10000381</obo:OAE_0004334>
+        <obo:IAO_0000115>an incorrect dose administration that accidentally uses overdose</obo:IAO_0000115>
+        <obo:IAO_0000117>SS, YH</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000673 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000673">
+        <rdfs:label>incorrect dose administration</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000233"/>
+        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10064355</obo:OAE_0004334>
+        <obo:IAO_0000117>SS, YH</obo:IAO_0000117>
+        <obo:IAO_0000115>a medical intervention that uses incorrect dose</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000692 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000692">
+        <rdfs:label>underdose adminstration in medical intervention</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000673"/>
+        <obo:IAO_0000117>SS, YH</obo:IAO_0000117>
+        <obo:IAO_0000115>an incorrect dose administration that uses underdose</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000781 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000781">
+        <rdfs:label>cardiac pacemaker insertion</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000067"/>
+        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10007598</obo:OAE_0004334>
+        <obo:IAO_0000117>DJ, SS, YH</obo:IAO_0000117>
+        <obo:IAO_0000115>a surgery that implants a cardiac pacemaker, a device that supplies electrical impulses to the heart to maintain the heartbeat at a regular rate</obo:IAO_0000115>
+        <obo:IAO_0000119>WEB: http://www.mdguidelines.com/cardiac-pacemaker-insertion</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000843 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000843">
+        <rdfs:label>coronary angioplasty AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000002"/>
+        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10050329</obo:OAE_0004334>
+        <obo:IAO_0000115>a cardiac disorder AE that has an outcome of treatment involving the stenotic coronary arteries in the heart</obo:IAO_0000115>
+        <obo:IAO_0000117>DJ, SS, YH</obo:IAO_0000117>
+        <obo:IAO_0000119>WEB: http://medical-dictionary.thefreedictionary.com/coronary+angioplasty</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000859 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000859">
+        <rdfs:label>debridement</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000067"/>
+        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10057612</obo:OAE_0004334>
+        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10067806</obo:OAE_0004334>
+        <obo:IAO_0000115>a surgery that performs a medical removal of dead, damaged, or infected tissue to improve the healing potential of the remaining healthy tissue</obo:IAO_0000115>
+        <obo:IAO_0000117>DJ, SS, YH, SJ</obo:IAO_0000117>
+        <obo:IAO_0000119>WEB: http://medical-dictionary.thefreedictionary.com/Debridement</obo:IAO_0000119>
+        <obo:IAO_0000119>WEB: http://www.surgeryencyclopedia.com/Ce-Fi/Debridement.html</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001010">
+        <rdfs:label>influenza vaccine administration</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000002"/>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000115>a vaccination that uses an influenza vaccine</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001016">
+        <rdfs:label>haemorrhoid operation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000067"/>
+        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10059624</obo:OAE_0004334>
+        <obo:IAO_0000117>DJ, SS, YH</obo:IAO_0000117>
+        <obo:IAO_0000115>a surgery that removes hemorroids</obo:IAO_0000115>
+        <obo:IAO_0000119>WEB: http://medical-dictionary.thefreedictionary.com/hemorrhoid</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001037 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001037">
+        <rdfs:label>Afluria administration</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001010"/>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000115>an influenza vaccine administration that uses Afluria</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001041 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001041">
+        <rdfs:label>caesarean section</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000067"/>
+        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10006924</obo:OAE_0004334>
+        <obo:IAO_0000115>A surgery where incisions are made through a woman&#39;s abdomen and uterus to deliver her baby.</obo:IAO_0000115>
+        <obo:IAO_0000119>WEB: http://medical-dictionary.thefreedictionary.com/cesarean+section</obo:IAO_0000119>
+        <obo:IAO_0000117>YH, SS</obo:IAO_0000117>
+        <obo:IAO_0000118>cesarean section</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001065 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001065">
+        <rdfs:label>Flumist administration</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001010"/>
+        <obo:IAO_0000115>an influenza vaccine administration that uses Flumist</obo:IAO_0000115>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001080 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001080">
+        <rdfs:label>preventive intervention</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000002"/>
+        <obo:IAO_0000117>YH</obo:IAO_0000117>
+        <obo:IAO_0000115>a medical intervention that is used for preventive purpose</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001089 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001089">
+        <rdfs:label>cataract operation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000067"/>
+        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10063797</obo:OAE_0004334>
+        <obo:IAO_0000115>A surgery that is a procedure to remove the lens of your eye and, in most cases, replace it with an artificial lens. Cataract surgery is used to treat a cataract</obo:IAO_0000115>
+        <obo:IAO_0000117>YH, SS</obo:IAO_0000117>
+        <obo:IAO_0000118>cataract surgery</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001094 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001094">
+        <rdfs:label>intentional overdose AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000056"/>
+        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10022523</obo:OAE_0004334>
+        <obo:IAO_0000117>SZ, DJ, SS, YH</obo:IAO_0000117>
+        <obo:IAO_0000115>an incorrect dose administration AE that results in overdosing on the drug on purpose</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001134 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001134">
+        <rdfs:label>central venous catheterisation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000002"/>
+        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10053377</obo:OAE_0004334>
+        <obo:IAO_0000119>WEB: http://www.nlm.nih.gov/medlineplus/ency/patientinstructions/000157.htm</obo:IAO_0000119>
+        <obo:IAO_0000115>A medical intervention that is a tube going into a vein in your chest. It will help carry nutrients and medicine into your body. It will also be used to take blood when you need to have blood tests.</obo:IAO_0000115>
+        <obo:IAO_0000117>YH, SS</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001159 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001159">
+        <rdfs:label>colectomy</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000067"/>
+        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10061778</obo:OAE_0004334>
+        <obo:IAO_0000117>YH, SS</obo:IAO_0000117>
+        <obo:IAO_0000119>WEB: http://www.mayoclinic.com/health/colectomy/MY00141/METHOD=print</obo:IAO_0000119>
+        <obo:IAO_0000115>A surgery that is a surgical procedure to remove all or part of your colon.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001160 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001160">
+        <rdfs:label>mammoplasty</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000067"/>
+        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10068647</obo:OAE_0004334>
+        <obo:IAO_0000115>a surgery that is performed to change the size of breasts</obo:IAO_0000115>
+        <obo:IAO_0000117>SZ, SS, YH</obo:IAO_0000117>
+        <obo:IAO_0000119>WEB: http://medical-dictionary.thefreedictionary.com/mammoplasty</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001228 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001228">
+        <rdfs:label>obesity surgery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000067"/>
+        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10059610</obo:OAE_0004334>
+        <obo:IAO_0000117>SZ, SS, YH</obo:IAO_0000117>
+        <obo:IAO_0000115>a surgery that aims to control obesity</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001251 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001251">
+        <rdfs:label>oral surgery</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000067"/>
+        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10051059</obo:OAE_0004334>
+        <obo:IAO_0000117>SZ, SS, YH</obo:IAO_0000117>
+        <obo:IAO_0000115>a surgery that treats injuries and defects involving both the functional and esthetic aspects of the hard/soft tissue of the head, mouth, teeth, gums, jaws, and neck</obo:IAO_0000115>
+        <obo:IAO_0000119>WEB: Primary Source: http://medical-dictionary.thefreedictionary.com/oral+surgery Secondary Source: http://www.ncbi.nlm.nih.gov/pubmed/22530364</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001266 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001266">
+        <rdfs:label>overdose AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000673"/>
+        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10033295</obo:OAE_0004334>
+        <obo:IAO_0000119>WEB: http://www.nlm.nih.gov/medlineplus/ency/article/007287.htm</obo:IAO_0000119>
+        <obo:IAO_0000117>SZ, SS, YH</obo:IAO_0000117>
+        <obo:IAO_0000115>Incorrect dose administration AE that results in the ingestion or application of a drug in greater quantities than recommended</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001324 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001324">
+        <rdfs:label>endotracheal intubation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000002"/>
+        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10067450</obo:OAE_0004334>
+        <obo:IAO_0000119>WEB: http://medical-dictionary.thefreedictionary.com/Endotracheal+intubation</obo:IAO_0000119>
+        <obo:IAO_0000117>YH, SS</obo:IAO_0000117>
+        <obo:IAO_0000115>A medical intervention that creates a passage of a tube through the nose or mouth into the trachea for maintenance of the airway, as during the administration of anesthesia.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001325 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001325">
+        <rdfs:label>gastrectomy</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000067"/>
+        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10061965</obo:OAE_0004334>
+        <obo:IAO_0000119>WEB: http://www.nlm.nih.gov/medlineplus/ency/article/002945.htm</obo:IAO_0000119>
+        <obo:IAO_0000115>A surgery that has an outcome of the removal of part or all of the stomach.</obo:IAO_0000115>
+        <obo:IAO_0000117>YH, SS</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001388 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001388">
+        <rdfs:label>sequestrectomy</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000067"/>
+        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10053437</obo:OAE_0004334>
+        <obo:IAO_0000115>a surgery that leads to the excision of a sequestrum, or a piece of dead bone that has become separated during the process of necrosis</obo:IAO_0000115>
+        <obo:IAO_0000119>WEB: http://medical-dictionary.thefreedictionary.com/sequestrectomy</obo:IAO_0000119>
+        <obo:IAO_0000117>SZ, SS, YH</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001406 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001406">
+        <rdfs:label>small intestinal resection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000067"/>
+        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10041105</obo:OAE_0004334>
+        <obo:IAO_0000119>WEB: http://www.nlm.nih.gov/medlineplus/ency/article/002943.htm</obo:IAO_0000119>
+        <obo:IAO_0000115>a surgery that is characterized by all of or part of the small intestine needing to be removed</obo:IAO_0000115>
+        <obo:IAO_0000117>SZ, SS, YH</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001475 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001475">
+        <rdfs:label>tumour excision</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000067"/>
+        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10061392</obo:OAE_0004334>
+        <obo:IAO_0000117>SZ, SS, YH</obo:IAO_0000117>
+        <obo:IAO_0000115>a surgery that removes a tumour</obo:IAO_0000115>
+        <obo:IAO_0000119>WEB: http://medical-dictionary.thefreedictionary.com/Tumor+Removal</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001523 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001523">
+        <rdfs:label>jaw operation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000067"/>
+        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10059242</obo:OAE_0004334>
+        <obo:IAO_0000117>YH, SS</obo:IAO_0000117>
+        <obo:IAO_0000115>A surgery that is a procedure performed on the jaw</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001525 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001525">
+        <rdfs:label>mechanical ventilation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000002"/>
+        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10067221</obo:OAE_0004334>
+        <obo:IAO_0000115>A medical intervention that is a life-support system designed to replace or support normal ventilatory lung function</obo:IAO_0000115>
+        <obo:IAO_0000117>YH, SS</obo:IAO_0000117>
+        <obo:IAO_0000119>WEB: www.medscape.com/resource/mechanical-ventilation</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001532 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001532">
+        <rdfs:label>stem cell transplant</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000002"/>
+        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10063581</obo:OAE_0004334>
+        <obo:IAO_0000117>YH, SS</obo:IAO_0000117>
+        <obo:IAO_0000115>A medical intervention that has an outcome of the transplant of stem cells into the body</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001534 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001534">
+        <rdfs:label>stent placement</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000002"/>
+        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10048561</obo:OAE_0004334>
+        <obo:IAO_0000117>YH, SS</obo:IAO_0000117>
+        <obo:IAO_0000115>A medical intervention that has an outcome of an intersion of a tube into the body</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001536 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001536">
+        <rdfs:label>tooth extraction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000002"/>
+        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10062132</obo:OAE_0004334>
+        <obo:IAO_0000117>YH, SS</obo:IAO_0000117>
+        <obo:IAO_0000115>A medical intervention that has an outcome of an extraction of the tooth</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001540 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001540">
+        <rdfs:label>wound debridement</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000002"/>
+        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10048030</obo:OAE_0004334>
+        <obo:IAO_0000117>YH, SS</obo:IAO_0000117>
+        <obo:IAO_0000118>surgical debridement, enzymatic debridement, autolytic debridement, mechanical debridement</obo:IAO_0000118>
+        <obo:IAO_0000115>A medical intervention that has an outcome of the removal of dead, damaged, dying or infected tissue. The human body is capable of (autolytic) debridement for small wounds, but for large wounds, medical procedures are necessary.</obo:IAO_0000115>
+        <obo:IAO_0000119>WEB: http://surgery.about.com/od/glossaryofsurgicalterms/g/Debridement.htm</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001846 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001846">
+        <rdfs:label xml:lang="en">fluid replacement</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000002"/>
+        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10061858</obo:OAE_0004334>
+        <obo:IAO_0000119>WEB: http://www.mayoclinic.org/diseases-conditions/dehydration/basics/treatment/con-20030056</obo:IAO_0000119>
+        <obo:IAO_0000118>fluid resuscitation</obo:IAO_0000118>
+        <obo:IAO_0000115>A medical intervention that involves the replacement of bodily fluids excessively lost.  Fluids may be replaced orally or intravenously.</obo:IAO_0000115>
+        <obo:IAO_0000117>RR, YH</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002379 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002379">
+        <rdfs:label xml:lang="en">bone graft procedure</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000067"/>
+        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10005971</obo:OAE_0004334>
+        <obo:IAO_0000117>YH, SJ</obo:IAO_0000117>
+        <obo:IAO_0000115>a surgical procedure that replaces missing bone in order to repair bone fractures that are extremely complex, pose a significant health risk to the patient, or fail to heal properly</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002430 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002430">
+        <rdfs:label>acupuncture</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000002"/>
+        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10000646</obo:OAE_0004334>
+        <obo:IAO_0000115>Acupuncture is the stimulation of specific acupuncture points along the skin of the body using thin needles. It can be associated with the application of heat, pressure, or laser light to these same points.</obo:IAO_0000115>
+        <obo:IAO_0000117>JX, LW</obo:IAO_0000117>
+        <obo:IAO_0000119>WEB: http://en.wikipedia.org/wiki/Acupuncture</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002435 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002435">
+        <rdfs:label>bed rest</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000002"/>
+        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10050118</obo:OAE_0004334>
+        <obo:IAO_0000115>Bed rest is a medical treatment in which a person lies in bed for most of some period of time to gain health benefits.</obo:IAO_0000115>
+        <obo:IAO_0000117>JX, LW</obo:IAO_0000117>
+        <obo:IAO_0000119>WEB: http://en.wikipedia.org/wiki/Bed_rest</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002442 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002442">
+        <rdfs:label>off label drug use</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000011"/>
+        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10053762</obo:OAE_0004334>
+        <obo:IAO_0000117>JX, LW</obo:IAO_0000117>
+        <obo:IAO_0000119>WEB: http://en.wikipedia.org/wiki/Off-label_use</obo:IAO_0000119>
+        <obo:IAO_0000118>off label use</obo:IAO_0000118>
+        <obo:IAO_0000115>Off label use is the use of pharmaceutical drugs for an unapproved indication or in an unapproved age group, unapproved dosage, or unapproved form of administration.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002458 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002458">
+        <rdfs:label xml:lang="en">cardiac massage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000002"/>
+        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10059163</obo:OAE_0004334>
+        <obo:IAO_0000119>WEB: http://www.thefreedictionary.com/cardiac+massage</obo:IAO_0000119>
+        <obo:IAO_0000115>Cardiac massage is a resuscitative procedure that employs the rhythmic compression of the chest and heart in an effort to restore and maintain the circulation after cardiac arrest or ventricular fibrillation
+</obo:IAO_0000115>
+        <obo:IAO_0000117>SJ, YH</obo:IAO_0000117>
+        <obo:IAO_0000118>Heart Massage</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002476 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002476">
+        <rdfs:label xml:lang="en">physiotherapy</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000094"/>
+        <obo:IAO_0000115>a therapeutic intervention that remediates impairments and promotes mobility, function, and quality of life through examination, diagnosis, and physical intervention</obo:IAO_0000115>
+        <obo:IAO_0000118>physical therapy</obo:IAO_0000118>
+        <obo:IAO_0000119>WEB: http://en.wikipedia.org/wiki/Physical_therapy</obo:IAO_0000119>
+        <obo:IAO_0000117>YH, JX</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002479 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002479">
+        <rdfs:label xml:lang="en">continuous venovenous hemodiafiltration</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000094"/>
+        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10066348</obo:OAE_0004334>
+        <obo:IAO_0000117>YH, SJ</obo:IAO_0000117>
+        <obo:IAO_0000115>a therapeutic intervention that is used in critically ill patients who have experienced multisystem organ failure and in whom acute renal failure has developed.</obo:IAO_0000115>
+        <obo:IAO_0000119>WEB: http://www.medilexicon.com/medicaldictionary.php?t=40071</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002495 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002495">
+        <rdfs:label xml:lang="en">dialysis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000002"/>
+        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10061105</obo:OAE_0004334>
+        <obo:IAO_0000119>WEB: http://www.medicinenet.com/script/main/art.asp?articlekey=2980</obo:IAO_0000119>
+        <obo:IAO_0000115>Dialysis is the process of removing waste products and excess fluid from the body when the kidneys are not able to adequately filter the blood. </obo:IAO_0000115>
+        <obo:IAO_0000117>YH, SJ </obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002532 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002532">
+        <rdfs:label xml:lang="en">plasmapheresis AE</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000002"/>
+        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10035486</obo:OAE_0004334>
+        <obo:IAO_0000115>A medical intervention that collects plasma from the peripheral blood while returning the rest to the donor.</obo:IAO_0000115>
+        <obo:IAO_0000118>plasma exchange</obo:IAO_0000118>
+        <obo:IAO_0000119>WEB: http://en.wikipedia.org/wiki/Plasmapheresis</obo:IAO_0000119>
+        <obo:IAO_0000117>KM, YH</obo:IAO_0000117>
+        <rdfs:seeAlso>NCIT: C15304</rdfs:seeAlso>
+        <obo:IAO_0000118>therapeutic plasma exchange</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002807 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002807">
+        <rdfs:label xml:lang="en">medical procedure</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000002"/>
+        <obo:IAO_0000117>YH, SS</obo:IAO_0000117>
+        <obo:IAO_0000115>a medical intervention that refers to any series of pre-defined steps that should be followed to achieve a desired result.</obo:IAO_0000115>
+        <obo:IAO_0000119>WEB: http://www.wisegeekhealth.com/what-is-the-difference-between-a-surgery-and-a-procedure.htm</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0004232 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0004232">
+        <rdfs:label xml:lang="en">physical examination</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0002807"/>
+        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10071941</obo:OAE_0004334>
+        <obo:IAO_0000115>a medical procedure by which a medical professional investigates the body of a patient for signs of disease.</obo:IAO_0000115>
+        <obo:IAO_0000117>QL, YH</obo:IAO_0000117>
+        <obo:IAO_0000119>WEB: http://www.webmd.com/a-to-z-guides/annual-physical-examinations</obo:IAO_0000119>
+        <obo:IAO_0000119>WEB: https://en.wikipedia.org/wiki/Physical_examination</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0004233 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0004233">
+        <rdfs:label xml:lang="en">percussion procedure</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0004232"/>
+        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10051720</obo:OAE_0004334>
+        <obo:IAO_0000115>a physical test by which a surface is tapped to determine the underlying structure, and is used in clinical examinations to assess the condition of the thorax or abdomen.</obo:IAO_0000115>
+        <obo:IAO_0000118>percussion test</obo:IAO_0000118>
+        <obo:IAO_0000117>QL, YH</obo:IAO_0000117>
+        <obo:IAO_0000119>WEB: https://en.wikipedia.org/wiki/Percussion_(medicine)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000002">
+        <rdfs:label>vaccination</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000002"/>
+        <obo:IAO_0000115>a medical intervention that involves in adding vaccine into a host (e.g., human, mouse) in vivo with the intent to invoke an adaptive immune response.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 1.3.5.1016) http://owlapi.sourceforge.net -->
+

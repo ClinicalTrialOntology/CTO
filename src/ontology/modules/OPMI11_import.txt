@@ -1,0 +1,22 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/OPMI_import11.owl
+
+[Source ontology]
+OPMI
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/NCIT_C25150 # Age
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/IAO_0000030
+# http://purl.obolibrary.org/obo/NCIT_C19332 # Personal Attribute
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAxioms
+# includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]
+

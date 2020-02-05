@@ -1,0 +1,20 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/OMRSE_import.owl
+
+[Source ontology]
+OMRSE
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/OMRSE_00000038 # legal person role
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BFO_0000023 # role
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+# includeAllAxioms
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]

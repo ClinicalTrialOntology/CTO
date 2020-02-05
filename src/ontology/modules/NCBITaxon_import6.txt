@@ -1,0 +1,24 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/NCBITaxon_import6.owl
+
+[Source ontology]
+NCBITaxon
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/NCBITaxon_9606 # Homo Sapiens
+http://purl.obolibrary.org/obo/NCBITaxon_40674 # Mammalia
+http://purl.obolibrary.org/obo/NCBITaxon_7742 # Vertebrata <vertebrates>
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/NCBITaxon_2759 # Eukaryota 
+
+# http://purl.obolibrary.org/obo/NCBITaxon_40674 # Mammalia
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]
+

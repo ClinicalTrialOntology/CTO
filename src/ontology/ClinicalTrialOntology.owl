@@ -1,0 +1,480 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="https://bio.scai.fraunhofer.de/ontology/CTO"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="https://bio.scai.fraunhofer.de/ontology/CTO">
+    <Prefix name="" IRI="https://bio.scai.fraunhofer.de/ontology/CTO"/>
+    <Prefix name="dc" IRI="http://purl.org/dc/elements/1.1/"/>
+    <Prefix name="obo" IRI="http://purl.obolibrary.org/obo/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="foaf" IRI="http://xmlns.com/foaf/0.1/"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="terms" IRI="http://purl.org/dc/terms/"/>
+    <Prefix name="protege" IRI="http://protege.stanford.edu/plugins/owl/protege#"/>
+    <Prefix name="oboInOwl" IRI="http://www.geneontology.org/formats/oboInOwl#"/>
+    <Prefix name="statistics" IRI="http://purl.org/net/OCRe/statistics.owl#"/>
+    <Prefix name="study_protocol" IRI="http://purl.org/net/OCRe/study_protocol.owl#"/>
+    <Import>http://purl.obolibrary.org/obo/IAO_import.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/IAO_import2.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/IAO_import3.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/NCBITaxon_import2.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/NCBITaxon_import6.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/NCIT_import10.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/NCIT_import11.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/NCIT_import12.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/NCIT_import15.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/NCIT_import16.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/NCIT_import17.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/NCIT_import18.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/NCIT_import19.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/NCIT_import2.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/NCIT_import20.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/NCIT_import21.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/NCIT_import22.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/NCIT_import23.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/NCIT_import24.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/NCIT_import25.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/NCIT_import3.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/NCIT_import4.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/NCIT_import5.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/NCIT_import6.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/NCIT_import7.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/NCIT_import8.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/NCIT_import9.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/OAE_import.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/OAE_import2.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/OBI_import.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/OBI_import10.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/OBI_import2.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/OBI_import3.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/OBI_import4.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/OBI_import5.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/OBI_import6.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/OBI_import7.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/OBI_import8.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/OBI_import9.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/OGMS_import.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/OMPI2_import.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/OMRSE_import.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/OPMI_import.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/OPMI_import10.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/OPMI_import11.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/OPMI_import2.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/OPMI_import3.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/OPMI_import4.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/OPMI_import5.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/OPMI_import6.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/OPMI_import7.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/OPMI_import8.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/OPMI_import9.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/PATO_import.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/PDRO_import.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/human_study_import.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl</Import>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal>Asiyah Yu Lin (CDRH, Food and Drug Administration)</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal>Astghik Sargsyan (Fraunhofer SCAI)</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal>Leon Li (NIH)</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal>Oliver He (University of Michigan)</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <Literal xml:lang="en">The core Ontology of Clinical Trials (CTO) will serve as a structured resource integrating basic terms and concepts in the context of clinical trials. Thereby covering clinicaltrails.gov. CoreCTO will serve as a basic ontology to generate extended versions for specific applications such as annotation of variables in study documents from clinical trials.</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="terms:creator"/>
+        <Literal>Alpha Tom Kodamullil (Fraunhofer SCAI)</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="terms:creator"/>
+        <Literal>Johannes Darms (Fraunhofer SCAI)</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="terms:creator"/>
+        <Literal>Stephan Gebel (Fraunhofer SCAI)</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="terms:creator"/>
+        <Literal>Sumit Madan (Fraunhofer SCAI)</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="terms:license"/>
+        <Literal>http://creativecommons.org/licenses/by/4.0</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="terms:title"/>
+        <Literal>CTO: Core Ontology of Clinical Trials</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
+        <Literal>Version Release: 1.0.0</Literal>
+    </Annotation>
+    <Declaration>
+        <Class abbreviatedIRI="obo:ERO_0000016"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:IAO_0000030"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:IAO_0000300"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:NCBITaxon_1"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:NCBITaxon_7742"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:NCBITaxon_9606"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:NCIT_C129000"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:NCIT_C15238"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:NCIT_C15600"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:NCIT_C15601"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:NCIT_C15602"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:NCIT_C15603"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:NCIT_C25150"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:NCIT_C25320"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:NCIT_C48355"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:NCIT_C52580"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:NCIT_C54721"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:NCIT_C60776"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:NCIT_C70793"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:NCIT_C70817"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:NCIT_C70840"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:NCIT_C82638"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:NCIT_C84336"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:NCIT_C90467"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:NCIT_C90468"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:NCIT_C90469"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:NCIT_C93360"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:NCIT_C98722"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:NCIT_C98747"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:NCIT_C98772"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:NCIT_C98781"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:OAE_0000002"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:OBI_0000011"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:OBI_0000115"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:OBI_0000272"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:OBI_0500027"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:OPMI_0000223"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PATO_0001241"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PDRO_0000129"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/net/OCRe/research.owl#Interventional_study"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/net/OCRe/research.owl#Observational_study"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/net/OCRe/research.owl#Quantitative_human_study"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#age_between_18_and_64"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#age_between_birth_and_17_years"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#age_older_than_64"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#maximum_age"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#minimum_age"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#phase_not_applicable"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="terms:creator"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="terms:title"/>
+    </Declaration>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:IAO_0000300"/>
+        <Class abbreviatedIRI="obo:IAO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:NCBITaxon_1"/>
+        <Class abbreviatedIRI="obo:BFO_0000040"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:NCBITaxon_40674"/>
+        <Class abbreviatedIRI="obo:NCBITaxon_7742"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:NCBITaxon_7742"/>
+        <Class abbreviatedIRI="obo:NCBITaxon_2759"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:NCBITaxon_9606"/>
+        <Class abbreviatedIRI="obo:NCBITaxon_40674"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:NCIT_C129000"/>
+        <Class IRI="http://purl.org/net/OCRe/research.owl#Observational_study"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:NCIT_C15238"/>
+        <Class abbreviatedIRI="obo:OAE_0000002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:NCIT_C15600"/>
+        <Class abbreviatedIRI="obo:ERO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:NCIT_C15601"/>
+        <Class abbreviatedIRI="obo:ERO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:NCIT_C15602"/>
+        <Class abbreviatedIRI="obo:ERO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:NCIT_C15603"/>
+        <Class abbreviatedIRI="obo:ERO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:NCIT_C48355"/>
+        <Class abbreviatedIRI="obo:NCBITaxon_9606"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:NCIT_C52580"/>
+        <Class abbreviatedIRI="obo:OBI_0000115"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:NCIT_C54721"/>
+        <Class abbreviatedIRI="obo:ERO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:NCIT_C60776"/>
+        <Class abbreviatedIRI="obo:IAO_0000300"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:NCIT_C70793"/>
+        <Class abbreviatedIRI="obo:NCIT_C48355"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:NCIT_C70817"/>
+        <Class abbreviatedIRI="obo:OBI_0000272"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:NCIT_C70840"/>
+        <Class IRI="http://purl.org/net/OCRe/research.owl#Interventional_study"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:NCIT_C82638"/>
+        <Class IRI="http://purl.org/net/OCRe/research.owl#Interventional_study"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:NCIT_C84336"/>
+        <Class abbreviatedIRI="obo:NCBITaxon_9606"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:NCIT_C90467"/>
+        <Class abbreviatedIRI="obo:NCIT_C60776"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:NCIT_C90468"/>
+        <Class abbreviatedIRI="obo:NCIT_C60776"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:NCIT_C90469"/>
+        <Class abbreviatedIRI="obo:NCIT_C60776"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:NCIT_C93360"/>
+        <Class abbreviatedIRI="obo:PDRO_0000129"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:NCIT_C98722"/>
+        <Class IRI="http://purl.org/net/OCRe/research.owl#Quantitative_human_study"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:NCIT_C98747"/>
+        <Class abbreviatedIRI="obo:OBI_0000011"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:NCIT_C98772"/>
+        <Class abbreviatedIRI="obo:NCIT_C25320"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:NCIT_C98781"/>
+        <Class abbreviatedIRI="obo:NCIT_C25320"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OPMI_0000223"/>
+        <Class abbreviatedIRI="obo:NCIT_C60776"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PATO_0001241"/>
+        <Class abbreviatedIRI="obo:BFO_0000019"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#age_between_18_and_64"/>
+        <Class abbreviatedIRI="obo:NCIT_C25150"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#age_between_birth_and_17_years"/>
+        <Class abbreviatedIRI="obo:NCIT_C25150"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#age_older_than_64"/>
+        <Class abbreviatedIRI="obo:NCIT_C25150"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#maximum_age"/>
+        <Class abbreviatedIRI="obo:OBI_0500027"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#minimum_age"/>
+        <Class abbreviatedIRI="obo:OBI_0500027"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#phase_not_applicable"/>
+        <Class abbreviatedIRI="obo:ERO_0000016"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <IRI>#age_between_18_and_64</IRI>
+        <Literal>adult (18-64)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#age_between_18_and_64</IRI>
+        <Literal>age_between_18_and_64</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <IRI>#age_between_birth_and_17_years</IRI>
+        <Literal>child (birth-17)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#age_between_birth_and_17_years</IRI>
+        <Literal>age_between_birth_and_17_years</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <IRI>#age_older_than_64</IRI>
+        <Literal>older adult (65+)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#age_older_than_64</IRI>
+        <Literal>age_older_than_64</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#maximum_age</IRI>
+        <Literal>maximum age</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#minimum_age</IRI>
+        <Literal>minimum age</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <IRI>#phase_not_applicable</IRI>
+        <Literal>N/A</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#phase_not_applicable</IRI>
+        <Literal>phase not applicable</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
