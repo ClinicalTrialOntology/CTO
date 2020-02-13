@@ -5,11 +5,14 @@ http://purl.obolibrary.org/obo/OAE_import.owl
 OAE
 
 [Low level source term URIs]
-http://purl.obolibrary.org/obo/OAE_0000002 
-includeAllChildren
+http://purl.obolibrary.org/obo/OAE_0000011 #drug administration
+http://purl.obolibrary.org/obo/OAE_0002807 #medical procedure
+http://purl.obolibrary.org/obo/OAE_0000094 #therapeutic intervention
+http://purl.obolibrary.org/obo/VO_0000002 #vaccination
+
 
 [Top level source term URIs and target direct superclass URIs]
-
+http://purl.obolibrary.org/obo/OAE_0000002 #medical intervention
 
 [Source term retrieval setting]
 includeAllIntermediates
@@ -19,4 +22,3 @@ includeAllIntermediates
 includeAllAnnotationProperties
 
 [Source annotation URIs to be excluded]
-
