@@ -339,6 +339,14 @@
         <Class abbreviatedIRI="obo:ERO_0000016"/>
     </SubClassOf>
     <SubClassOf>
+        <Class abbreviatedIRI="obo:NCIT_C15693"/>
+        <Class abbreviatedIRI="obo:ERO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:NCIT_C15694"/>
+        <Class abbreviatedIRI="obo:ERO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class abbreviatedIRI="obo:NCIT_C15714"/>
         <Class abbreviatedIRI="obo:NCIT_C147141"/>
     </SubClassOf>

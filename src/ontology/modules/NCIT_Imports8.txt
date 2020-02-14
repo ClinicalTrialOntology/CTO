@@ -6,6 +6,8 @@ NCIT
 
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/NCIT_C15602 #Phase III Trial
+http://purl.obolibrary.org/obo/NCIT_C15693 #Phase I/II Trial
+http://purl.obolibrary.org/obo/NCIT_C15694 #Phase II/III Trial
 
 [Top level source term URIs and target direct superclass URIs]
 
@@ -16,4 +18,3 @@ includeAllIntermediates
 includeAllAxioms
 
 [Source annotation URIs to be excluded]
-
