@@ -18,8 +18,10 @@
     <owl:Ontology rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO">
         <dc:contributor>Asiyah Yu Lin (CDRH, Food and Drug Administration)</dc:contributor>
         <dc:contributor>Astghik Sargsyan (Fraunhofer SCAI)</dc:contributor>
+        <dc:contributor>Geena Mariya Jose (Causality Biomodels)</dc:contributor>
         <dc:contributor>Leon Li (NIH)</dc:contributor>
         <dc:contributor>Oliver He (University of Michigan)</dc:contributor>
+        <dc:contributor>Shounak Baksi (Causality Biomodels)</dc:contributor>
         <dc:description xml:lang="en">The core Ontology of Clinical Trials (CTO) will serve as a structured resource integrating basic terms and concepts in the context of clinical trials. Thereby covering clinicaltrails.gov. CoreCTO will serve as a basic ontology to generate extended versions for specific applications such as annotation of variables in study documents from clinical trials.</dc:description>
         <terms:creator>Alpha Tom Kodamullil (Fraunhofer SCAI)</terms:creator>
         <terms:creator>Johannes Darms (Fraunhofer SCAI)</terms:creator>
@@ -550,14 +552,6 @@ We also have the outstanding issue of how to aim different definitions to differ
         <oboInOwl:hasExactSynonym>DesignNote</oboInOwl:hasExactSynonym>
         <rdfs:label>DesignNote</rdfs:label>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0004334 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OAE_0004334">
-        <rdfs:label xml:lang="en">has_MedDRA_id</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -2933,6 +2927,36 @@ Request that IAO either clarify these or change definitions not to use them</rdf
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C147141 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C147141">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000115"/>
+        <obo:IAO_0000115>The main objective of the intervention(s) being evaluated by the clinical trial.</obo:IAO_0000115>
+        <obo:IAO_0000115>The principal reason or intention for the execution of an interventional or non-interventional clinical study.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C147141</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Idea or Concept</obo:NCIT_P106>
+        <obo:NCIT_P108>Study Primary Purpose</obo:NCIT_P108>
+        <obo:NCIT_P208>CL545057</obo:NCIT_P208>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P325>The principal reason or intention for the execution of an interventional or non-interventional clinical study. (NCI)</obo:NCIT_P325>
+        <oboInOwl:hasExactSynonym>Study Primary Purpose</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C132298"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C147066"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <rdfs:label>Study Primary Purpose</rdfs:label>
+        <rdfs:seeAlso>http://www.icmje.org/recommendations/ 
+http://www.who.int/ictrp/network/trds/en/index.html</rdfs:seeAlso>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C147141"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The main objective of the intervention(s) being evaluated by the clinical trial.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C15238 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C15238">
@@ -2965,6 +2989,31 @@ Request that IAO either clarify these or change definitions not to use them</rdf
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66830"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C99078"/>
         <rdfs:label>Gene Therapy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C15245 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C15245">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C147141"/>
+        <obo:IAO_0000115>A multidisciplinary field of inquiry that examines the costs, quality, accessibility, delivery, organization, financing, and outcomes of health care services.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C15245</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Research Activity</obo:NCIT_P106>
+        <obo:NCIT_P108>Health Services Research</obo:NCIT_P108>
+        <obo:NCIT_P207>C0018757</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P325>A type of study designed to evaluate the delivery, processes, management, organization or financing of health care. (ClinicalTrials.gov)</obo:NCIT_P325>
+        <obo:NCIT_P366>Health_Services_Research</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>HEALTH SERVICES RESEARCH</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Health Services Research</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C132298"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C147067"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66736"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66830"/>
+        <rdfs:label>Health Services Research</rdfs:label>
     </owl:Class>
     
 
@@ -3118,6 +3167,33 @@ Request that IAO either clarify these or change definitions not to use them</rdf
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C15714 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C15714">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C147141"/>
+        <obo:IAO_0000115>Fundamental research designed to obtain or increase general scientific knowledge.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C15714</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Research Activity</obo:NCIT_P106>
+        <obo:NCIT_P108>Basic Research</obo:NCIT_P108>
+        <obo:NCIT_P207>C0681833</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P325>A type of study designed to examine the basic mechanism of action (e.g., physiology, biomechanics) of an intervention. (ClinicalTrials.gov)</obo:NCIT_P325>
+        <obo:NCIT_P366>Basic_Science</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>BASIC SCIENCE</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Basic Research</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Basic Science</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Basic Science Research</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C132298"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C147067"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66736"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66830"/>
+        <rdfs:label>Basic Research</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C161319 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C161319">
@@ -3251,6 +3327,85 @@ Request that IAO either clarify these or change definitions not to use them</rdf
         <oboInOwl:hasExactSynonym>Applicant</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Sponsor</oboInOwl:hasExactSynonym>
         <rdfs:label>Sponsor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C49653 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C49653">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C147141"/>
+        <obo:IAO_0000115>A type of study designed to evaluate method(s) aimed at identifying a disease or condition.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C49653</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Research Activity</obo:NCIT_P106>
+        <obo:NCIT_P108>Diagnosis Study</obo:NCIT_P108>
+        <obo:NCIT_P207>C1704656</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P325>A type of study designed to evaluate intervention(s) aimed at identifying a disease or condition.</obo:NCIT_P325>
+        <obo:NCIT_P366>Diagnosis_Study</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>DIAGNOSIS</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Diagnosis Study</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Diagnostic Study</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C132298"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66736"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66739"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66830"/>
+        <rdfs:label>Diagnosis Study</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C49656 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C49656">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C147141"/>
+        <obo:IAO_0000115>A type of study protocol designed to evaluate intervention(s) for disease treatment.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C49656</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Research Activity</obo:NCIT_P106>
+        <obo:NCIT_P108>Treatment Study</obo:NCIT_P108>
+        <obo:NCIT_P207>C3161471</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P325>A type of study designed to evaluate intervention(s) for treatment of disease, syndrome or condition.</obo:NCIT_P325>
+        <obo:NCIT_P366>Treatment_Study</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>TREATMENT</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Therapy Trial</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Treatment Study</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C132298"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66736"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66739"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66830"/>
+        <rdfs:label>Treatment Study</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C49657 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C49657">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C147141"/>
+        <obo:IAO_0000115>A type of study protocol designed to evaluate intervention(s) for disease prevention.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C49657</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Research Activity</obo:NCIT_P106>
+        <obo:NCIT_P108>Prevention Study</obo:NCIT_P108>
+        <obo:NCIT_P207>C1706420</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P325>A type of study designed to identify actions necessary to permanently eliminate or reduce the long-term risk to human life as a result of a particular medication or treatment regimen.</obo:NCIT_P325>
+        <obo:NCIT_P366>Prevention_Study</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>PREVENTION</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Prevention Study</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Preventive Clinical Trial</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Prophylaxis Study</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C132298"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66736"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66739"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66830"/>
+        <rdfs:label>Prevention Study</rdfs:label>
     </owl:Class>
     
 
@@ -3413,6 +3568,60 @@ Request that IAO either clarify these or change definitions not to use them</rdf
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C67497"/>
         <rdfs:label>Blinded Clinical Study</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C71485 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C71485">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C147141"/>
+        <obo:IAO_0000115>Clinical studies testing the efficacy of devices, techniques, procedures, or tests for the purpose of detecting the presence of disease, usually before there are any symptoms.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C71485</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Research Activity</obo:NCIT_P106>
+        <obo:NCIT_P108>Screening Study</obo:NCIT_P108>
+        <obo:NCIT_P207>C2348164</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P322>CDISC-GLOSS</obo:NCIT_P322>
+        <obo:NCIT_P325>A type of study designed to assess or examine methods of identifying a condition (or risk factors for a condition) in people who are not yet known to have the condition (or risk factor). (Clinicaltrials.gov)</obo:NCIT_P325>
+        <obo:NCIT_P325>Trials conducted to detect persons with early, mild, and asymptomatic disease.</obo:NCIT_P325>
+        <obo:NCIT_P366>Screening_Study</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>SCREENING</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Screening Study</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Screening Trial</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>screening trials</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C132298"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66736"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66830"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C67497"/>
+        <rdfs:label>Screening Study</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C71486 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C71486">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C147141"/>
+        <obo:IAO_0000115>Clinical studies intended to improve the comfort and quality of life for the patient using drugs, nutritional, dietary, behavioral or other interventions.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C71486</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Research Activity</obo:NCIT_P106>
+        <obo:NCIT_P108>Supportive Care Study</obo:NCIT_P108>
+        <obo:NCIT_P207>C2348611</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P325>A type of study designed to evaluate one or more interventions where the primary intent is to maximize comfort, minimize side effects or mitigate against a decline in the subject&apos;s health or function. In general, supportive care interventions are not intended to cure a disease. (ClinicalTrials.gov)</obo:NCIT_P325>
+        <obo:NCIT_P366>Supportive_Care_Study</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>SUPPORTIVE CARE</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Supportive Care Study</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Supportive Care Trial</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C132298"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66736"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66830"/>
+        <rdfs:label>Supportive Care Study</rdfs:label>
     </owl:Class>
     
 
@@ -3711,95 +3920,6 @@ http://www.medterms.com/script/main/art.asp?articlekey=34214 . Some intervention
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OAE_0000012 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000012">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000002"/>
-        <obo:IAO_0000115>a medical intervention that uses a medical device</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
-        <rdfs:label>medical device usage for medical intervention</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0000013 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000013">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000002"/>
-        <obo:IAO_0000115>a medical intervention that uses a nutritional product</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
-        <obo:IAO_0000118>consumption of nutritional product</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
-        <rdfs:label>nutritional product usage</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0000014 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000014">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000013"/>
-        <obo:IAO_0000115>a nutritional product usage that consumes a dietary supplement</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
-        <rdfs:label>dietary supplement consumption</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0000015 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000015">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000013"/>
-        <obo:IAO_0000115>a nutritional product usage that consumes infant formula</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
-        <rdfs:label>consumption of infant formula</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0000016 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000016">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000013"/>
-        <obo:IAO_0000115>a nutritional product usage that consumes medial food</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
-        <rdfs:label>consumption of medical food</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0000056 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000056">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000234"/>
-        <obo:IAO_0000115>a drug administration that uses incorrect drug dose</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
-        <rdfs:label>incorrect drug dose administration</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0000067 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000067">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0002807"/>
-        <obo:IAO_0000115>Surgery is a medical procedure that uses operative manual and instrumental techniques on a patient to investigate and/or treat a pathological condition such as disease or injury, to help improve bodily function or appearance. The key difference between a surgery and a general procedure is the need for an incision. Making an incision, or cutting into the skin to gain access to the body’s deeper tissues or organs, is a defining characteristic of surgery.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, SS</obo:IAO_0000117>
-        <obo:IAO_0000118>surgical procedure</obo:IAO_0000118>
-        <obo:IAO_0000119>WEB: http://en.wikipedia.org/wiki/Surgery</obo:IAO_0000119>
-        <obo:IAO_0000119>WEB: http://www.wisegeekhealth.com/what-is-the-difference-between-a-surgery-and-a-procedure.htm</obo:IAO_0000119>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
-        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10042609</obo:OAE_0004334>
-        <rdfs:label>surgery</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OAE_0000094 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000094">
@@ -3808,696 +3928,6 @@ http://www.medterms.com/script/main/art.asp?articlekey=34214 . Some intervention
         <obo:IAO_0000117>YH</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
         <rdfs:label>therapeutic intervention</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0000220 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000220">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000234"/>
-        <obo:IAO_0000115>an errored drug administration where a patient is administered with an ineffective drug</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
-        <rdfs:label xml:lang="en">administration of ineffective drug</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0000221 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000221">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000234"/>
-        <obo:IAO_0000115>an errored drug administration where a patient is administered with an ctive drug with decreased effectiveness</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
-        <rdfs:label xml:lang="en">administration of drug with decreased effectiveness</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0000223 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000223">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000234"/>
-        <obo:IAO_0000115>an errored drug administration where a patient is administered with a drug above the therapeutic level</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
-        <rdfs:label xml:lang="en">drug overdose administration</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0000224 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000224">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000234"/>
-        <obo:IAO_0000115>an errored drug administration where a patient is administered with an drug without knowing the dose used. </obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
-        <rdfs:label xml:lang="en">administration of drug with omitted dose</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0000228 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000228">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000234"/>
-        <obo:IAO_0000115>an errored drug administration where a patient is administered with an drug stored in capsule with physical defect</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
-        <rdfs:label xml:lang="en">administration of drug stored in capsule with physical defect</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0000229 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000229">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000234"/>
-        <obo:IAO_0000115>an errored drug administration where a patient is administered with an drug with wrong technique</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
-        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10064353</obo:OAE_0004334>
-        <rdfs:label xml:lang="en">administration of drug with wrong technique</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0000230 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000230">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000229"/>
-        <obo:IAO_0000115>a drug administration where a patient is administered with an drug with incorrect route</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
-        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10064304</obo:OAE_0004334>
-        <rdfs:label xml:lang="en">administration of drug with incorrect route</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0000233 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000233">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000002"/>
-        <obo:IAO_0000115>a medical intervention that has an errored medication </obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
-        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10027091</obo:OAE_0004334>
-        <rdfs:label xml:lang="en">errored medication</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0000234 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000234">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000233"/>
-        <obo:IAO_0000115>a medical intervention that has errored drug medication</obo:IAO_0000115>
-        <obo:IAO_0000117>SS, YH</obo:IAO_0000117>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
-        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10064355</obo:OAE_0004334>
-        <rdfs:label xml:lang="en">errored drug administration</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0000235 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000235">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000094"/>
-        <obo:IAO_0000115>a therapeutic intervention that uses radiation</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
-        <rdfs:label xml:lang="en">radiotherapy</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0000657 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000657">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000673"/>
-        <obo:IAO_0000115>an incorrect dose administration that accidentally uses overdose</obo:IAO_0000115>
-        <obo:IAO_0000117>SS, YH</obo:IAO_0000117>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
-        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10000381</obo:OAE_0004334>
-        <rdfs:label>accidental overdose in medical intervention</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0000673 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000673">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000233"/>
-        <obo:IAO_0000115>a medical intervention that uses incorrect dose</obo:IAO_0000115>
-        <obo:IAO_0000117>SS, YH</obo:IAO_0000117>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
-        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10064355</obo:OAE_0004334>
-        <rdfs:label>incorrect dose administration</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0000692 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000692">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000673"/>
-        <obo:IAO_0000115>an incorrect dose administration that uses underdose</obo:IAO_0000115>
-        <obo:IAO_0000117>SS, YH</obo:IAO_0000117>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
-        <rdfs:label>underdose adminstration in medical intervention</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0000781 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000781">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000067"/>
-        <obo:IAO_0000115>a surgery that implants a cardiac pacemaker, a device that supplies electrical impulses to the heart to maintain the heartbeat at a regular rate</obo:IAO_0000115>
-        <obo:IAO_0000117>DJ, SS, YH</obo:IAO_0000117>
-        <obo:IAO_0000119>WEB: http://www.mdguidelines.com/cardiac-pacemaker-insertion</obo:IAO_0000119>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
-        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10007598</obo:OAE_0004334>
-        <rdfs:label>cardiac pacemaker insertion</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0000843 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000843">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000002"/>
-        <obo:IAO_0000115>a cardiac disorder AE that has an outcome of treatment involving the stenotic coronary arteries in the heart</obo:IAO_0000115>
-        <obo:IAO_0000117>DJ, SS, YH</obo:IAO_0000117>
-        <obo:IAO_0000119>WEB: http://medical-dictionary.thefreedictionary.com/coronary+angioplasty</obo:IAO_0000119>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
-        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10050329</obo:OAE_0004334>
-        <rdfs:label>coronary angioplasty AE</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0000859 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000859">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000067"/>
-        <obo:IAO_0000115>a surgery that performs a medical removal of dead, damaged, or infected tissue to improve the healing potential of the remaining healthy tissue</obo:IAO_0000115>
-        <obo:IAO_0000117>DJ, SS, YH, SJ</obo:IAO_0000117>
-        <obo:IAO_0000119>WEB: http://medical-dictionary.thefreedictionary.com/Debridement</obo:IAO_0000119>
-        <obo:IAO_0000119>WEB: http://www.surgeryencyclopedia.com/Ce-Fi/Debridement.html</obo:IAO_0000119>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
-        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10057612</obo:OAE_0004334>
-        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10067806</obo:OAE_0004334>
-        <rdfs:label>debridement</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0001010 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001010">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000002"/>
-        <obo:IAO_0000115>a vaccination that uses an influenza vaccine</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
-        <rdfs:label>influenza vaccine administration</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0001016 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001016">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000067"/>
-        <obo:IAO_0000115>a surgery that removes hemorroids</obo:IAO_0000115>
-        <obo:IAO_0000117>DJ, SS, YH</obo:IAO_0000117>
-        <obo:IAO_0000119>WEB: http://medical-dictionary.thefreedictionary.com/hemorrhoid</obo:IAO_0000119>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
-        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10059624</obo:OAE_0004334>
-        <rdfs:label>haemorrhoid operation</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0001037 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001037">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001010"/>
-        <obo:IAO_0000115>an influenza vaccine administration that uses Afluria</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
-        <rdfs:label>Afluria administration</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0001041 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001041">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000067"/>
-        <obo:IAO_0000115>A surgery where incisions are made through a woman&apos;s abdomen and uterus to deliver her baby.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, SS</obo:IAO_0000117>
-        <obo:IAO_0000118>cesarean section</obo:IAO_0000118>
-        <obo:IAO_0000119>WEB: http://medical-dictionary.thefreedictionary.com/cesarean+section</obo:IAO_0000119>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
-        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10006924</obo:OAE_0004334>
-        <rdfs:label>caesarean section</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0001065 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001065">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0001010"/>
-        <obo:IAO_0000115>an influenza vaccine administration that uses Flumist</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
-        <rdfs:label>Flumist administration</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0001080 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001080">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000002"/>
-        <obo:IAO_0000115>a medical intervention that is used for preventive purpose</obo:IAO_0000115>
-        <obo:IAO_0000117>YH</obo:IAO_0000117>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
-        <rdfs:label>preventive intervention</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0001089 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001089">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000067"/>
-        <obo:IAO_0000115>A surgery that is a procedure to remove the lens of your eye and, in most cases, replace it with an artificial lens. Cataract surgery is used to treat a cataract</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, SS</obo:IAO_0000117>
-        <obo:IAO_0000118>cataract surgery</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
-        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10063797</obo:OAE_0004334>
-        <rdfs:label>cataract operation</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0001094 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001094">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000056"/>
-        <obo:IAO_0000115>an incorrect dose administration AE that results in overdosing on the drug on purpose</obo:IAO_0000115>
-        <obo:IAO_0000117>SZ, DJ, SS, YH</obo:IAO_0000117>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
-        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10022523</obo:OAE_0004334>
-        <rdfs:label>intentional overdose AE</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0001134 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001134">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000002"/>
-        <obo:IAO_0000115>A medical intervention that is a tube going into a vein in your chest. It will help carry nutrients and medicine into your body. It will also be used to take blood when you need to have blood tests.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, SS</obo:IAO_0000117>
-        <obo:IAO_0000119>WEB: http://www.nlm.nih.gov/medlineplus/ency/patientinstructions/000157.htm</obo:IAO_0000119>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
-        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10053377</obo:OAE_0004334>
-        <rdfs:label>central venous catheterisation</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0001159 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001159">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000067"/>
-        <obo:IAO_0000115>A surgery that is a surgical procedure to remove all or part of your colon.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, SS</obo:IAO_0000117>
-        <obo:IAO_0000119>WEB: http://www.mayoclinic.com/health/colectomy/MY00141/METHOD=print</obo:IAO_0000119>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
-        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10061778</obo:OAE_0004334>
-        <rdfs:label>colectomy</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0001160 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001160">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000067"/>
-        <obo:IAO_0000115>a surgery that is performed to change the size of breasts</obo:IAO_0000115>
-        <obo:IAO_0000117>SZ, SS, YH</obo:IAO_0000117>
-        <obo:IAO_0000119>WEB: http://medical-dictionary.thefreedictionary.com/mammoplasty</obo:IAO_0000119>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
-        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10068647</obo:OAE_0004334>
-        <rdfs:label>mammoplasty</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0001228 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001228">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000067"/>
-        <obo:IAO_0000115>a surgery that aims to control obesity</obo:IAO_0000115>
-        <obo:IAO_0000117>SZ, SS, YH</obo:IAO_0000117>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
-        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10059610</obo:OAE_0004334>
-        <rdfs:label>obesity surgery</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0001251 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001251">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000067"/>
-        <obo:IAO_0000115>a surgery that treats injuries and defects involving both the functional and esthetic aspects of the hard/soft tissue of the head, mouth, teeth, gums, jaws, and neck</obo:IAO_0000115>
-        <obo:IAO_0000117>SZ, SS, YH</obo:IAO_0000117>
-        <obo:IAO_0000119>WEB: Primary Source: http://medical-dictionary.thefreedictionary.com/oral+surgery Secondary Source: http://www.ncbi.nlm.nih.gov/pubmed/22530364</obo:IAO_0000119>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
-        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10051059</obo:OAE_0004334>
-        <rdfs:label>oral surgery</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0001266 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001266">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000673"/>
-        <obo:IAO_0000115>Incorrect dose administration AE that results in the ingestion or application of a drug in greater quantities than recommended</obo:IAO_0000115>
-        <obo:IAO_0000117>SZ, SS, YH</obo:IAO_0000117>
-        <obo:IAO_0000119>WEB: http://www.nlm.nih.gov/medlineplus/ency/article/007287.htm</obo:IAO_0000119>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
-        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10033295</obo:OAE_0004334>
-        <rdfs:label>overdose AE</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0001324 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001324">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000002"/>
-        <obo:IAO_0000115>A medical intervention that creates a passage of a tube through the nose or mouth into the trachea for maintenance of the airway, as during the administration of anesthesia.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, SS</obo:IAO_0000117>
-        <obo:IAO_0000119>WEB: http://medical-dictionary.thefreedictionary.com/Endotracheal+intubation</obo:IAO_0000119>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
-        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10067450</obo:OAE_0004334>
-        <rdfs:label>endotracheal intubation</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0001325 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001325">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000067"/>
-        <obo:IAO_0000115>A surgery that has an outcome of the removal of part or all of the stomach.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, SS</obo:IAO_0000117>
-        <obo:IAO_0000119>WEB: http://www.nlm.nih.gov/medlineplus/ency/article/002945.htm</obo:IAO_0000119>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
-        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10061965</obo:OAE_0004334>
-        <rdfs:label>gastrectomy</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0001388 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001388">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000067"/>
-        <obo:IAO_0000115>a surgery that leads to the excision of a sequestrum, or a piece of dead bone that has become separated during the process of necrosis</obo:IAO_0000115>
-        <obo:IAO_0000117>SZ, SS, YH</obo:IAO_0000117>
-        <obo:IAO_0000119>WEB: http://medical-dictionary.thefreedictionary.com/sequestrectomy</obo:IAO_0000119>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
-        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10053437</obo:OAE_0004334>
-        <rdfs:label>sequestrectomy</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0001406 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001406">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000067"/>
-        <obo:IAO_0000115>a surgery that is characterized by all of or part of the small intestine needing to be removed</obo:IAO_0000115>
-        <obo:IAO_0000117>SZ, SS, YH</obo:IAO_0000117>
-        <obo:IAO_0000119>WEB: http://www.nlm.nih.gov/medlineplus/ency/article/002943.htm</obo:IAO_0000119>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
-        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10041105</obo:OAE_0004334>
-        <rdfs:label>small intestinal resection</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0001475 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001475">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000067"/>
-        <obo:IAO_0000115>a surgery that removes a tumour</obo:IAO_0000115>
-        <obo:IAO_0000117>SZ, SS, YH</obo:IAO_0000117>
-        <obo:IAO_0000119>WEB: http://medical-dictionary.thefreedictionary.com/Tumor+Removal</obo:IAO_0000119>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
-        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10061392</obo:OAE_0004334>
-        <rdfs:label>tumour excision</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0001523 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001523">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000067"/>
-        <obo:IAO_0000115>A surgery that is a procedure performed on the jaw</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, SS</obo:IAO_0000117>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
-        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10059242</obo:OAE_0004334>
-        <rdfs:label>jaw operation</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0001525 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001525">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000002"/>
-        <obo:IAO_0000115>A medical intervention that is a life-support system designed to replace or support normal ventilatory lung function</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, SS</obo:IAO_0000117>
-        <obo:IAO_0000119>WEB: www.medscape.com/resource/mechanical-ventilation</obo:IAO_0000119>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
-        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10067221</obo:OAE_0004334>
-        <rdfs:label>mechanical ventilation</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0001532 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001532">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000002"/>
-        <obo:IAO_0000115>A medical intervention that has an outcome of the transplant of stem cells into the body</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, SS</obo:IAO_0000117>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
-        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10063581</obo:OAE_0004334>
-        <rdfs:label>stem cell transplant</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0001534 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001534">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000002"/>
-        <obo:IAO_0000115>A medical intervention that has an outcome of an intersion of a tube into the body</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, SS</obo:IAO_0000117>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
-        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10048561</obo:OAE_0004334>
-        <rdfs:label>stent placement</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0001536 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001536">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000002"/>
-        <obo:IAO_0000115>A medical intervention that has an outcome of an extraction of the tooth</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, SS</obo:IAO_0000117>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
-        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10062132</obo:OAE_0004334>
-        <rdfs:label>tooth extraction</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0001540 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001540">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000002"/>
-        <obo:IAO_0000115>A medical intervention that has an outcome of the removal of dead, damaged, dying or infected tissue. The human body is capable of (autolytic) debridement for small wounds, but for large wounds, medical procedures are necessary.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, SS</obo:IAO_0000117>
-        <obo:IAO_0000118>surgical debridement, enzymatic debridement, autolytic debridement, mechanical debridement</obo:IAO_0000118>
-        <obo:IAO_0000119>WEB: http://surgery.about.com/od/glossaryofsurgicalterms/g/Debridement.htm</obo:IAO_0000119>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
-        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10048030</obo:OAE_0004334>
-        <rdfs:label>wound debridement</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0001846 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0001846">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000002"/>
-        <obo:IAO_0000115>A medical intervention that involves the replacement of bodily fluids excessively lost.  Fluids may be replaced orally or intravenously.</obo:IAO_0000115>
-        <obo:IAO_0000117>RR, YH</obo:IAO_0000117>
-        <obo:IAO_0000118>fluid resuscitation</obo:IAO_0000118>
-        <obo:IAO_0000119>WEB: http://www.mayoclinic.org/diseases-conditions/dehydration/basics/treatment/con-20030056</obo:IAO_0000119>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
-        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10061858</obo:OAE_0004334>
-        <rdfs:label xml:lang="en">fluid replacement</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0002379 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002379">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000067"/>
-        <obo:IAO_0000115>a surgical procedure that replaces missing bone in order to repair bone fractures that are extremely complex, pose a significant health risk to the patient, or fail to heal properly</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, SJ</obo:IAO_0000117>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
-        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10005971</obo:OAE_0004334>
-        <rdfs:label xml:lang="en">bone graft procedure</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0002430 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002430">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000002"/>
-        <obo:IAO_0000115>Acupuncture is the stimulation of specific acupuncture points along the skin of the body using thin needles. It can be associated with the application of heat, pressure, or laser light to these same points.</obo:IAO_0000115>
-        <obo:IAO_0000117>JX, LW</obo:IAO_0000117>
-        <obo:IAO_0000119>WEB: http://en.wikipedia.org/wiki/Acupuncture</obo:IAO_0000119>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
-        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10000646</obo:OAE_0004334>
-        <rdfs:label>acupuncture</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0002435 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002435">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000002"/>
-        <obo:IAO_0000115>Bed rest is a medical treatment in which a person lies in bed for most of some period of time to gain health benefits.</obo:IAO_0000115>
-        <obo:IAO_0000117>JX, LW</obo:IAO_0000117>
-        <obo:IAO_0000119>WEB: http://en.wikipedia.org/wiki/Bed_rest</obo:IAO_0000119>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
-        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10050118</obo:OAE_0004334>
-        <rdfs:label>bed rest</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0002442 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002442">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000011"/>
-        <obo:IAO_0000115>Off label use is the use of pharmaceutical drugs for an unapproved indication or in an unapproved age group, unapproved dosage, or unapproved form of administration.</obo:IAO_0000115>
-        <obo:IAO_0000117>JX, LW</obo:IAO_0000117>
-        <obo:IAO_0000118>off label use</obo:IAO_0000118>
-        <obo:IAO_0000119>WEB: http://en.wikipedia.org/wiki/Off-label_use</obo:IAO_0000119>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
-        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10053762</obo:OAE_0004334>
-        <rdfs:label>off label drug use</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0002458 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002458">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000002"/>
-        <obo:IAO_0000115>Cardiac massage is a resuscitative procedure that employs the rhythmic compression of the chest and heart in an effort to restore and maintain the circulation after cardiac arrest or ventricular fibrillation
-</obo:IAO_0000115>
-        <obo:IAO_0000117>SJ, YH</obo:IAO_0000117>
-        <obo:IAO_0000118>Heart Massage</obo:IAO_0000118>
-        <obo:IAO_0000119>WEB: http://www.thefreedictionary.com/cardiac+massage</obo:IAO_0000119>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
-        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10059163</obo:OAE_0004334>
-        <rdfs:label xml:lang="en">cardiac massage</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0002476 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002476">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000094"/>
-        <obo:IAO_0000115>a therapeutic intervention that remediates impairments and promotes mobility, function, and quality of life through examination, diagnosis, and physical intervention</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, JX</obo:IAO_0000117>
-        <obo:IAO_0000118>physical therapy</obo:IAO_0000118>
-        <obo:IAO_0000119>WEB: http://en.wikipedia.org/wiki/Physical_therapy</obo:IAO_0000119>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
-        <rdfs:label xml:lang="en">physiotherapy</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0002479 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002479">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000094"/>
-        <obo:IAO_0000115>a therapeutic intervention that is used in critically ill patients who have experienced multisystem organ failure and in whom acute renal failure has developed.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, SJ</obo:IAO_0000117>
-        <obo:IAO_0000119>WEB: http://www.medilexicon.com/medicaldictionary.php?t=40071</obo:IAO_0000119>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
-        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10066348</obo:OAE_0004334>
-        <rdfs:label xml:lang="en">continuous venovenous hemodiafiltration</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0002495 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002495">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000002"/>
-        <obo:IAO_0000115>Dialysis is the process of removing waste products and excess fluid from the body when the kidneys are not able to adequately filter the blood. </obo:IAO_0000115>
-        <obo:IAO_0000117>YH, SJ </obo:IAO_0000117>
-        <obo:IAO_0000119>WEB: http://www.medicinenet.com/script/main/art.asp?articlekey=2980</obo:IAO_0000119>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
-        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10061105</obo:OAE_0004334>
-        <rdfs:label xml:lang="en">dialysis</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0002532 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0002532">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000002"/>
-        <obo:IAO_0000115>A medical intervention that collects plasma from the peripheral blood while returning the rest to the donor.</obo:IAO_0000115>
-        <obo:IAO_0000117>KM, YH</obo:IAO_0000117>
-        <obo:IAO_0000118>plasma exchange</obo:IAO_0000118>
-        <obo:IAO_0000118>therapeutic plasma exchange</obo:IAO_0000118>
-        <obo:IAO_0000119>WEB: http://en.wikipedia.org/wiki/Plasmapheresis</obo:IAO_0000119>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
-        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10035486</obo:OAE_0004334>
-        <rdfs:label xml:lang="en">plasmapheresis AE</rdfs:label>
-        <rdfs:seeAlso>NCIT: C15304</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -4511,36 +3941,6 @@ http://www.medterms.com/script/main/art.asp?articlekey=34214 . Some intervention
         <obo:IAO_0000119>WEB: http://www.wisegeekhealth.com/what-is-the-difference-between-a-surgery-and-a-procedure.htm</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
         <rdfs:label xml:lang="en">medical procedure</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0004232 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0004232">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0002807"/>
-        <obo:IAO_0000115>a medical procedure by which a medical professional investigates the body of a patient for signs of disease.</obo:IAO_0000115>
-        <obo:IAO_0000117>QL, YH</obo:IAO_0000117>
-        <obo:IAO_0000119>WEB: http://www.webmd.com/a-to-z-guides/annual-physical-examinations</obo:IAO_0000119>
-        <obo:IAO_0000119>WEB: https://en.wikipedia.org/wiki/Physical_examination</obo:IAO_0000119>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
-        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10071941</obo:OAE_0004334>
-        <rdfs:label xml:lang="en">physical examination</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OAE_0004233 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0004233">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0004232"/>
-        <obo:IAO_0000115>a physical test by which a surface is tapped to determine the underlying structure, and is used in clinical examinations to assess the condition of the thorax or abdomen.</obo:IAO_0000115>
-        <obo:IAO_0000117>QL, YH</obo:IAO_0000117>
-        <obo:IAO_0000118>percussion test</obo:IAO_0000118>
-        <obo:IAO_0000119>WEB: https://en.wikipedia.org/wiki/Percussion_(medicine)</obo:IAO_0000119>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
-        <obo:OAE_0004334 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10051720</obo:OAE_0004334>
-        <rdfs:label xml:lang="en">percussion procedure</rdfs:label>
     </owl:Class>
     
 
@@ -4811,6 +4211,22 @@ objectives is a planned process.</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0300311 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0300311">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0500000"/>
+        <obo:IAO_0000111 xml:lang="en">observation design</obo:IAO_0000111>
+        <obo:IAO_0000112 xml:lang="en">PMID: 12387964.Lancet. 2002 Oct 12;360(9340):1144-9.Deficiency of antibacterial peptides in patients with morbus Kostmann: an observation study.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000115 xml:lang="en">observation design is a study design in which subjects are monitored in the absence of any active intervention by experimentalists.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Philippe Rocca-Serra</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">OBI branch derived</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <rdfs:label xml:lang="en">observation design</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0500000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0500000">
@@ -4825,6 +4241,39 @@ objectives is a planned process.</obo:IAO_0000116>
         <obo:IAO_0000232 xml:lang="en">rediscussed at length (MC/JF/BP). 12/9/08). The definition was clarified to differentiate it from protocol.</obo:IAO_0000232>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <rdfs:label xml:lang="en">study design</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0500006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0500006">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0500000"/>
+        <obo:IAO_0000111 xml:lang="en">parallel group design</obo:IAO_0000111>
+        <obo:IAO_0000112 xml:lang="en">PMID: 17408389-Purpose: Proliferative vitreoretinopathy (PVR) is the most important reason for blindness following retinal detachment. Presently, vitreous tamponades such as gas or silicone oil cannot contact the lower part of the retina. A heavier-than-water tamponade displaces the inflammatory and PVR-stimulating environment from the inferior area of the retina. The Heavy Silicone Oil versus Standard Silicone Oil Study (HSO Study) is designed to answer the question of whether a heavier-than-water tamponade improves the prognosis of eyes with PVR of the lower retina. Methods: The HSO Study is a multicentre, randomized, prospective controlled clinical trial comparing two endotamponades within a two-arm parallel group design. Patients with inferiorly and posteriorly located PVR are randomized to either heavy silicone oil or standard silicone oil as a tamponading agent. Three hundred and fifty consecutive patients are recruited per group. After intraoperative re-attachment, patients are randomized to either standard silicone oil (1000 cSt or 5000 cSt) or Densiron((R)) as a tamponading agent. The main endpoint criteria are complete retinal attachment at 12 months and change of visual acuity (VA) 12 months postoperatively compared with the preoperative VA. Secondary endpoints include complete retinal attachment before endotamponade removal, quality of life analysis and the number of retina affecting re-operation within 1 year of follow-up. Results: The design and early recruitment phase of the study are described. Conclusions: The results of this study will uncover whether or not heavy silicone oil improves the prognosis of eyes with PVR.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000115 xml:lang="en">A parallel group design or independent measure design is a study design which uses unique experimental unit each experimental group, in other word no two individuals are shared between experimental groups, hence also known as parallel group design. Subjects of a treatment group receive a unique combination of independent variable values making up a treatment</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Philippe Rocca-Serra</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">independent measure design</obo:IAO_0000118>
+        <obo:IAO_0000119 xml:lang="en">http://www.holah.karoo.net/experimentaldesigns.htm</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <rdfs:label xml:lang="en">parallel group design</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0500014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0500014">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0500000"/>
+        <obo:IAO_0000111 xml:lang="en">factorial design</obo:IAO_0000111>
+        <obo:IAO_0000112 xml:lang="en">PMID: 17582121-Our objective was to examine the effects of dietary cation-anion difference (DCAD) with different concentrations of dietary crude protein (CP) on performance and acid-base status in early lactation cows. Six lactating Holstein cows averaging 44 d in milk were used in a 6 x 6 Latin square design with a 2 x 3 factorial arrangement of treatments: DCAD of -3, 22, or 47 milliequivalents (Na + K - Cl - S)/100 g of dry matter (DM), and 16 or 19% CP on a DM basis. Linear increases with DCAD occurred in DM intake, milk fat percentage, 4% fat-corrected milk production, milk true protein, milk lactose, and milk solids-not-fat. Milk production itself was unaffected by DCAD. Jugular venous blood pH, base excess and HCO3(-) concentration, and urine pH increased, but jugular venous blood Cl- concentration, urine titratable acidity, and net acid excretion decreased linearly with increasing DCAD. An elevated ratio of coccygeal venous plasma essential AA to nonessential AA with increasing DCAD indicated that N metabolism in the rumen was affected, probably resulting in more microbial protein flowing to the small intestine. Cows fed 16% CP had lower urea N in milk than cows fed 19% CP; the same was true for urea N in coccygeal venous plasma and urine. Dry matter intake, milk production, milk composition, and acid-base status did not differ between the 16 and 19% CP treatments. It was concluded that DCAD affected DM intake and performance of dairy cows in early lactation. Feeding 16% dietary CP to cows in early lactation, compared with 19% CP, maintained lactation performance while reducing urea N excretion in milk and urine.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000115 xml:lang="en">factorial design is_a study design which is used to evaluate two or more factors simultaneously. The treatments are combinations of levels of the factors. The advantages of factorial designs over one-factor-at-a-time experiments is that they are more efficient and they allow interactions to be detected. In statistics, a factorial design experiment is an experiment whose design consists of two or more factors, each with discrete possible values or levels, and whose experimental units take on all possible combinations of these levels across all such factors. Such an experiment allows studying the effect of each factor on the response variable, as well as the effects of interactions between factors on the response variable.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Philippe Rocca-Serra</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">http://www.stats.gla.ac.uk/steps/glossary/anova.html#facdes And from wikipedia (01/03/2007): http://en.wikipedia.org/wiki/Factorial_experiment)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <rdfs:label xml:lang="en">factorial design</rdfs:label>
     </owl:Class>
     
 
