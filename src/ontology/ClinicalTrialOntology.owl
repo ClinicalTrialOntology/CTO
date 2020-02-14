@@ -311,8 +311,16 @@
         <Class IRI="http://purl.org/net/OCRe/research.owl#Observational_study"/>
     </SubClassOf>
     <SubClassOf>
+        <Class abbreviatedIRI="obo:NCIT_C147141"/>
+        <Class abbreviatedIRI="obo:OBI_0000115"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class abbreviatedIRI="obo:NCIT_C15238"/>
         <Class abbreviatedIRI="obo:OAE_0000002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:NCIT_C15245"/>
+        <Class abbreviatedIRI="obo:NCIT_C147141"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:NCIT_C15600"/>
@@ -331,8 +339,24 @@
         <Class abbreviatedIRI="obo:ERO_0000016"/>
     </SubClassOf>
     <SubClassOf>
+        <Class abbreviatedIRI="obo:NCIT_C15714"/>
+        <Class abbreviatedIRI="obo:NCIT_C147141"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class abbreviatedIRI="obo:NCIT_C48355"/>
         <Class abbreviatedIRI="obo:NCBITaxon_9606"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:NCIT_C49653"/>
+        <Class abbreviatedIRI="obo:NCIT_C147141"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:NCIT_C49656"/>
+        <Class abbreviatedIRI="obo:NCIT_C147141"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:NCIT_C49657"/>
+        <Class abbreviatedIRI="obo:NCIT_C147141"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:NCIT_C52580"/>
@@ -357,6 +381,14 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:NCIT_C70840"/>
         <Class IRI="http://purl.org/net/OCRe/research.owl#Interventional_study"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:NCIT_C71485"/>
+        <Class abbreviatedIRI="obo:NCIT_C147141"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:NCIT_C71486"/>
+        <Class abbreviatedIRI="obo:NCIT_C147141"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:NCIT_C82638"/>
@@ -430,6 +462,21 @@
         <Class IRI="#phase_not_applicable"/>
         <Class abbreviatedIRI="obo:ERO_0000016"/>
     </SubClassOf>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+            <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:NCIT_C147141</AbbreviatedIRI>
+        <Literal>The main objective of the intervention(s) being evaluated by the clinical trial.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <AbbreviatedIRI>obo:NCIT_C147141</AbbreviatedIRI>
+        <Literal>http://www.icmje.org/recommendations/ 
+http://www.who.int/ictrp/network/trds/en/index.html</Literal>
+    </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
         <IRI>#age_between_18_and_64</IRI>

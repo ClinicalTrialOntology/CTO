@@ -5,7 +5,16 @@ http://purl.obolibrary.org/obo/NCIT_import20.owl
 NCIT
 
 [Low level source term URIs]
-http://purl.obolibrary.org/obo/NCIT_C15238
+http://purl.obolibrary.org/obo/NCIT_C15238 #'Gene Therapy'
+http://purl.obolibrary.org/obo/NCIT_C147141 #'Study Primary Purpose'
+http://purl.obolibrary.org/obo/NCIT_C15714 #Basic Research
+http://purl.obolibrary.org/obo/NCIT_C49653 #Diagnosis Study
+http://purl.obolibrary.org/obo/NCIT_C49657 #Prevention Study
+http://purl.obolibrary.org/obo/NCIT_C71485 #Screening Study
+http://purl.obolibrary.org/obo/NCIT_C49656 #Treatment Study
+http://purl.obolibrary.org/obo/NCIT_C71486 #Supportive Care Study
+http://purl.obolibrary.org/obo/NCIT_C15245 #Health Services Research
+
 [Top level source term URIs and target direct superclass URIs]
 
 [Source term retrieval setting]
@@ -15,4 +24,3 @@ includeAllIntermediates
 includeAllAxioms
 
 [Source annotation URIs to be excluded]
-
