@@ -102,6 +102,16 @@
         <protege:readOnly>true</protege:readOnly>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P208">
+        <rdfs:label>NCI_META_CUI</rdfs:label>
+        <oboInOwl:hasExactSynonym>NCI_META_CUI</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:IAO_0000115>A property representing the concept unique identifier (CUI) for those concepts that appear in NCI Metathesaurus but not in the National Library of Medicine Unified Medical Language System (NLM UMLS).</obo:IAO_0000115>
+        <obo:NCIT_P108>NCI_META_CUI</obo:NCIT_P108>
+        <obo:NCIT_P107>NCI Metathesaurus CUI</obo:NCIT_P107>
+        <obo:NCIT_NHC0>P208</obo:NCIT_NHC0>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P107">
         <rdfs:label>Display_Name</rdfs:label>
         <oboInOwl:hasExactSynonym>Display Name</oboInOwl:hasExactSynonym>
@@ -181,6 +191,26 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C147141 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C147141">
+        <rdfs:label>Study Primary Purpose</rdfs:label>
+        <oboInOwl:hasExactSynonym>Study Primary Purpose</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>The principal reason or intention for the execution of an interventional or non-interventional clinical study.</obo:IAO_0000115>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P325>The principal reason or intention for the execution of an interventional or non-interventional clinical study. (NCI)</obo:NCIT_P325>
+        <obo:NCIT_P106>Idea or Concept</obo:NCIT_P106>
+        <obo:NCIT_NHC0>C147141</obo:NCIT_NHC0>
+        <obo:NCIT_P208>CL545057</obo:NCIT_P208>
+        <obo:NCIT_P108>Study Primary Purpose</obo:NCIT_P108>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C132298"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C147066"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C15238 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C15238">
@@ -211,6 +241,184 @@
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66830"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C99078"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C15245 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C15245">
+        <rdfs:label>Health Services Research</rdfs:label>
+        <obo:NCIT_P207>C0018757</obo:NCIT_P207>
+        <obo:NCIT_P108>Health Services Research</obo:NCIT_P108>
+        <obo:NCIT_NHC0>C15245</obo:NCIT_NHC0>
+        <obo:NCIT_P366>Health_Services_Research</obo:NCIT_P366>
+        <obo:NCIT_P106>Research Activity</obo:NCIT_P106>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P325>A type of study designed to evaluate the delivery, processes, management, organization or financing of health care. (ClinicalTrials.gov)</obo:NCIT_P325>
+        <oboInOwl:hasExactSynonym>HEALTH SERVICES RESEARCH</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>A multidisciplinary field of inquiry that examines the costs, quality, accessibility, delivery, organization, financing, and outcomes of health care services.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Health Services Research</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C132298"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C147067"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66736"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66830"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C15714 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C15714">
+        <rdfs:label>Basic Research</rdfs:label>
+        <obo:NCIT_P106>Research Activity</obo:NCIT_P106>
+        <obo:NCIT_NHC0>C15714</obo:NCIT_NHC0>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P366>Basic_Science</obo:NCIT_P366>
+        <obo:NCIT_P325>A type of study designed to examine the basic mechanism of action (e.g., physiology, biomechanics) of an intervention. (ClinicalTrials.gov)</obo:NCIT_P325>
+        <obo:IAO_0000115>Fundamental research designed to obtain or increase general scientific knowledge.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>BASIC SCIENCE</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P207>C0681833</obo:NCIT_P207>
+        <obo:NCIT_P108>Basic Research</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>Basic Science Research</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Basic Research</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Basic Science</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C132298"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C147067"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66736"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66830"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C49653 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C49653">
+        <rdfs:label>Diagnosis Study</rdfs:label>
+        <obo:NCIT_P366>Diagnosis_Study</obo:NCIT_P366>
+        <obo:IAO_0000115>A type of study designed to evaluate method(s) aimed at identifying a disease or condition.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Diagnosis Study</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P207>C1704656</obo:NCIT_P207>
+        <obo:NCIT_P108>Diagnosis Study</obo:NCIT_P108>
+        <obo:NCIT_P325>A type of study designed to evaluate intervention(s) aimed at identifying a disease or condition.</obo:NCIT_P325>
+        <oboInOwl:hasExactSynonym>Diagnostic Study</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106>Research Activity</obo:NCIT_P106>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_NHC0>C49653</obo:NCIT_NHC0>
+        <oboInOwl:hasExactSynonym>DIAGNOSIS</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C132298"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66736"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66739"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66830"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C49656 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C49656">
+        <rdfs:label>Treatment Study</rdfs:label>
+        <obo:NCIT_P325>A type of study designed to evaluate intervention(s) for treatment of disease, syndrome or condition.</obo:NCIT_P325>
+        <obo:NCIT_NHC0>C49656</obo:NCIT_NHC0>
+        <oboInOwl:hasExactSynonym>TREATMENT</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Treatment Study</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>A type of study protocol designed to evaluate intervention(s) for disease treatment.</obo:IAO_0000115>
+        <obo:NCIT_P207>C3161471</obo:NCIT_P207>
+        <obo:NCIT_P106>Research Activity</obo:NCIT_P106>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P108>Treatment Study</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>Therapy Trial</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P366>Treatment_Study</obo:NCIT_P366>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C132298"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66736"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66739"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66830"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C49657 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C49657">
+        <rdfs:label>Prevention Study</rdfs:label>
+        <oboInOwl:hasExactSynonym>Prophylaxis Study</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P325>A type of study designed to identify actions necessary to permanently eliminate or reduce the long-term risk to human life as a result of a particular medication or treatment regimen.</obo:NCIT_P325>
+        <obo:NCIT_NHC0>C49657</obo:NCIT_NHC0>
+        <oboInOwl:hasExactSynonym>Preventive Clinical Trial</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108>Prevention Study</obo:NCIT_P108>
+        <obo:IAO_0000115>A type of study protocol designed to evaluate intervention(s) for disease prevention.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>PREVENTION</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P366>Prevention_Study</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Prevention Study</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106>Research Activity</obo:NCIT_P106>
+        <obo:NCIT_P207>C1706420</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C132298"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66736"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66739"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66830"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C71485 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C71485">
+        <rdfs:label>Screening Study</rdfs:label>
+        <oboInOwl:hasExactSynonym>Screening Study</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P366>Screening_Study</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Screening Trial</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_NHC0>C71485</obo:NCIT_NHC0>
+        <obo:NCIT_P325>A type of study designed to assess or examine methods of identifying a condition (or risk factors for a condition) in people who are not yet known to have the condition (or risk factor). (Clinicaltrials.gov)</obo:NCIT_P325>
+        <oboInOwl:hasExactSynonym>screening trials</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P322>CDISC-GLOSS</obo:NCIT_P322>
+        <obo:NCIT_P325>Trials conducted to detect persons with early, mild, and asymptomatic disease.</obo:NCIT_P325>
+        <obo:IAO_0000115>Clinical studies testing the efficacy of devices, techniques, procedures, or tests for the purpose of detecting the presence of disease, usually before there are any symptoms.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>SCREENING</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106>Research Activity</obo:NCIT_P106>
+        <obo:NCIT_P108>Screening Study</obo:NCIT_P108>
+        <obo:NCIT_P207>C2348164</obo:NCIT_P207>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C132298"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66736"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66830"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C67497"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C71486 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C71486">
+        <rdfs:label>Supportive Care Study</rdfs:label>
+        <oboInOwl:hasExactSynonym>SUPPORTIVE CARE</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_NHC0>C71486</obo:NCIT_NHC0>
+        <obo:NCIT_P325>A type of study designed to evaluate one or more interventions where the primary intent is to maximize comfort, minimize side effects or mitigate against a decline in the subject&#39;s health or function. In general, supportive care interventions are not intended to cure a disease. (ClinicalTrials.gov)</obo:NCIT_P325>
+        <obo:IAO_0000115>Clinical studies intended to improve the comfort and quality of life for the patient using drugs, nutritional, dietary, behavioral or other interventions.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Supportive Care Trial</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Supportive Care Study</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108>Supportive Care Study</obo:NCIT_P108>
+        <obo:NCIT_P207>C2348611</obo:NCIT_P207>
+        <obo:NCIT_P106>Research Activity</obo:NCIT_P106>
+        <obo:NCIT_P366>Supportive_Care_Study</obo:NCIT_P366>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C132298"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66736"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66830"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
     </owl:Class>
 </rdf:RDF>

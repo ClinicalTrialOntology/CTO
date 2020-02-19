@@ -253,6 +253,22 @@ Request that IAO either clarify these or change definitions not to use them</rdf
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0300311 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0300311">
+        <rdfs:label xml:lang="en">observation design</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0500000"/>
+        <obo:IAO_0000119 xml:lang="en">OBI branch derived</obo:IAO_0000119>
+        <obo:IAO_0000112 xml:lang="en">PMID: 12387964.Lancet. 2002 Oct 12;360(9340):1144-9.Deficiency of antibacterial peptides in patients with morbus Kostmann: an observation study.</obo:IAO_0000112>
+        <obo:IAO_0000117 xml:lang="en">Philippe Rocca-Serra</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">observation design</obo:IAO_0000111>
+        <obo:IAO_0000115 xml:lang="en">observation design is a study design in which subjects are monitored in the absence of any active intervention by experimentalists.</obo:IAO_0000115>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0500000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0500000">
@@ -266,6 +282,39 @@ Request that IAO either clarify these or change definitions not to use them</rdf
         <obo:IAO_0000232 xml:lang="en">rediscussed at length (MC/JF/BP). 12/9/08). The definition was clarified to differentiate it from protocol.</obo:IAO_0000232>
         <obo:IAO_0000111 xml:lang="en">study design</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0500006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0500006">
+        <rdfs:label xml:lang="en">parallel group design</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0500000"/>
+        <obo:IAO_0000115 xml:lang="en">A parallel group design or independent measure design is a study design which uses unique experimental unit each experimental group, in other word no two individuals are shared between experimental groups, hence also known as parallel group design. Subjects of a treatment group receive a unique combination of independent variable values making up a treatment</obo:IAO_0000115>
+        <obo:IAO_0000112 xml:lang="en">PMID: 17408389-Purpose: Proliferative vitreoretinopathy (PVR) is the most important reason for blindness following retinal detachment. Presently, vitreous tamponades such as gas or silicone oil cannot contact the lower part of the retina. A heavier-than-water tamponade displaces the inflammatory and PVR-stimulating environment from the inferior area of the retina. The Heavy Silicone Oil versus Standard Silicone Oil Study (HSO Study) is designed to answer the question of whether a heavier-than-water tamponade improves the prognosis of eyes with PVR of the lower retina. Methods: The HSO Study is a multicentre, randomized, prospective controlled clinical trial comparing two endotamponades within a two-arm parallel group design. Patients with inferiorly and posteriorly located PVR are randomized to either heavy silicone oil or standard silicone oil as a tamponading agent. Three hundred and fifty consecutive patients are recruited per group. After intraoperative re-attachment, patients are randomized to either standard silicone oil (1000 cSt or 5000 cSt) or Densiron((R)) as a tamponading agent. The main endpoint criteria are complete retinal attachment at 12 months and change of visual acuity (VA) 12 months postoperatively compared with the preoperative VA. Secondary endpoints include complete retinal attachment before endotamponade removal, quality of life analysis and the number of retina affecting re-operation within 1 year of follow-up. Results: The design and early recruitment phase of the study are described. Conclusions: The results of this study will uncover whether or not heavy silicone oil improves the prognosis of eyes with PVR.</obo:IAO_0000112>
+        <obo:IAO_0000117 xml:lang="en">Philippe Rocca-Serra</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">http://www.holah.karoo.net/experimentaldesigns.htm</obo:IAO_0000119>
+        <obo:IAO_0000118 xml:lang="en">independent measure design</obo:IAO_0000118>
+        <obo:IAO_0000111 xml:lang="en">parallel group design</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0500014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0500014">
+        <rdfs:label xml:lang="en">factorial design</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0500000"/>
+        <obo:IAO_0000112 xml:lang="en">PMID: 17582121-Our objective was to examine the effects of dietary cation-anion difference (DCAD) with different concentrations of dietary crude protein (CP) on performance and acid-base status in early lactation cows. Six lactating Holstein cows averaging 44 d in milk were used in a 6 x 6 Latin square design with a 2 x 3 factorial arrangement of treatments: DCAD of -3, 22, or 47 milliequivalents (Na + K - Cl - S)/100 g of dry matter (DM), and 16 or 19% CP on a DM basis. Linear increases with DCAD occurred in DM intake, milk fat percentage, 4% fat-corrected milk production, milk true protein, milk lactose, and milk solids-not-fat. Milk production itself was unaffected by DCAD. Jugular venous blood pH, base excess and HCO3(-) concentration, and urine pH increased, but jugular venous blood Cl- concentration, urine titratable acidity, and net acid excretion decreased linearly with increasing DCAD. An elevated ratio of coccygeal venous plasma essential AA to nonessential AA with increasing DCAD indicated that N metabolism in the rumen was affected, probably resulting in more microbial protein flowing to the small intestine. Cows fed 16% CP had lower urea N in milk than cows fed 19% CP; the same was true for urea N in coccygeal venous plasma and urine. Dry matter intake, milk production, milk composition, and acid-base status did not differ between the 16 and 19% CP treatments. It was concluded that DCAD affected DM intake and performance of dairy cows in early lactation. Feeding 16% dietary CP to cows in early lactation, compared with 19% CP, maintained lactation performance while reducing urea N excretion in milk and urine.</obo:IAO_0000112>
+        <obo:IAO_0000117 xml:lang="en">Philippe Rocca-Serra</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">factorial design</obo:IAO_0000111>
+        <obo:IAO_0000115 xml:lang="en">factorial design is_a study design which is used to evaluate two or more factors simultaneously. The treatments are combinations of levels of the factors. The advantages of factorial designs over one-factor-at-a-time experiments is that they are more efficient and they allow interactions to be detected. In statistics, a factorial design experiment is an experiment whose design consists of two or more factors, each with discrete possible values or levels, and whose experimental units take on all possible combinations of these levels across all such factors. Such an experiment allows studying the effect of each factor on the response variable, as well as the effects of interactions between factors on the response variable.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">http://www.stats.gla.ac.uk/steps/glossary/anova.html#facdes And from wikipedia (01/03/2007): http://en.wikipedia.org/wiki/Factorial_experiment)</obo:IAO_0000119>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
     </owl:Class>
 </rdf:RDF>

@@ -215,6 +215,62 @@
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C67497"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C15693 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C15693">
+        <rdfs:label>Phase I/II Trial</rdfs:label>
+        <obo:NCIT_P108>Phase I/II Trial</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>PHASE I/II TRIAL</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Trial Phase 1/2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Trial Phase 1-2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>1-2</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P207>C1519043</obo:NCIT_P207>
+        <obo:NCIT_P325>A trial to study the safety, dosage levels, and response to a new treatment.</obo:NCIT_P325>
+        <obo:NCIT_NHC0>C15693</obo:NCIT_NHC0>
+        <obo:IAO_0000115>A clinical research protocol designed to study the safety, dosage levels and response to new treatment. Phase I/II trials combine a Phase I and a Phase II trial of the same treatment into a single protocol.</obo:IAO_0000115>
+        <obo:NCIT_P366>Phase_I_II_Trial</obo:NCIT_P366>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P106>Research Activity</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym>Phase I/II trial</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Phase I/II Trial</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P325>A class of clinical study that combines elements characteristic of traditional Phase I and Phase II trials. See also Phase I, Phase II.</obo:NCIT_P325>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C132298"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66737"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66830"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C15694 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C15694">
+        <rdfs:label>Phase II/III Trial</rdfs:label>
+        <oboInOwl:hasExactSynonym>Trial Phase 2-3</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P325>A class of clinical study that combines elements characteristic of traditional Phase II and Phase III trials.</obo:NCIT_P325>
+        <obo:NCIT_P207>C1519042</obo:NCIT_P207>
+        <oboInOwl:hasExactSynonym>phase II/III trial</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P366>Phase_II_III_Trial</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Phase II/III Trial</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P106>Research Activity</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym>Trial Phase 2/3</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>2-3</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108>Phase II/III Trial</obo:NCIT_P108>
+        <obo:NCIT_P325>A trial to study response to a new treatment and the effectiveness of the treatment compared with the standard treatment regimen.</obo:NCIT_P325>
+        <obo:IAO_0000115>A type of clinical study that combines elements characteristic of traditional Phase II and Phase III trials.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>PHASE II/III TRIAL</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0>C15694</obo:NCIT_NHC0>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C132298"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66737"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66830"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
 </rdf:RDF>
 
 
