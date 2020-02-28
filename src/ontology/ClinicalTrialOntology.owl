@@ -21,6 +21,8 @@
     <Prefix name="statistics" IRI="http://purl.org/net/OCRe/statistics.owl#"/>
     <Prefix name="study_protocol" IRI="http://purl.org/net/OCRe/study_protocol.owl#"/>
     <Import>http://ontofox.hegroup.org/OGMS_import2.owl</Import>
+    <Import>http://ontofox.hegroup.org/OPMI12_import.owl</Import>
+    <Import>http://ontofox.hegroup.org/OPMI13_imports.owl</Import>
     <Import>http://purl.obolibrary.org/obo/IAO_import.owl</Import>
     <Import>http://purl.obolibrary.org/obo/IAO_import2.owl</Import>
     <Import>http://purl.obolibrary.org/obo/IAO_import3.owl</Import>
@@ -442,6 +444,10 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:OPMI_0000223"/>
         <Class abbreviatedIRI="obo:NCIT_C60776"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:OPMI_0004508"/>
+        <Class abbreviatedIRI="obo:ERO_0000016"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:PATO_0001241"/>
