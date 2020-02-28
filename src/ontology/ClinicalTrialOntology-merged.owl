@@ -138,7 +138,7 @@
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
         <obo:IAO_0000111 xml:lang="en">definition</obo:IAO_0000111>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</obo:IAO_0000111>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">textual definition</obo:IAO_0000111>
+        <obo:IAO_0000111>textual definition</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115>A property representing the English language definitions of what NCI means by the concept. They may also include information about the definition&apos;s source and attribution in a form that can easily be interpreted by software.</obo:IAO_0000115>
         <obo:IAO_0000115>English language definitions of what NCI means by the concept. These are limited to 1024 characters. They may also include information about the definition&apos;s source and attribution in a form that can easily be interpreted by software.</obo:IAO_0000115>
@@ -188,9 +188,9 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
         <oboInOwl:hasExactSynonym>DEFINITION</oboInOwl:hasExactSynonym>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
-        <rdfs:label xml:lang="en">definition</rdfs:label>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">textual definition</rdfs:label>
+        <rdfs:label xml:lang="en">definition</rdfs:label>
+        <rdfs:label>textual definition</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -2588,6 +2588,7 @@ JAR: A data item is an approximately justified approximately true approximate be
         <obo:IAO_0000117 xml:lang="en">PERSON: Jonathan Rees</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">data</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
         <rdfs:label xml:lang="en">data item</rdfs:label>
     </owl:Class>
     
@@ -3163,6 +3164,64 @@ http://www.who.int/ictrp/network/trds/en/index.html</rdfs:seeAlso>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66830"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C67497"/>
         <rdfs:label>Phase IV Trial</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C15693 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C15693">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0000016"/>
+        <obo:IAO_0000115>A clinical research protocol designed to study the safety, dosage levels and response to new treatment. Phase I/II trials combine a Phase I and a Phase II trial of the same treatment into a single protocol.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C15693</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Research Activity</obo:NCIT_P106>
+        <obo:NCIT_P108>Phase I/II Trial</obo:NCIT_P108>
+        <obo:NCIT_P207>C1519043</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P325>A class of clinical study that combines elements characteristic of traditional Phase I and Phase II trials. See also Phase I, Phase II.</obo:NCIT_P325>
+        <obo:NCIT_P325>A trial to study the safety, dosage levels, and response to a new treatment.</obo:NCIT_P325>
+        <obo:NCIT_P366>Phase_I_II_Trial</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>1-2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>PHASE I/II TRIAL</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Phase I/II Trial</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Phase I/II trial</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Trial Phase 1-2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Trial Phase 1/2</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C132298"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66737"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66830"/>
+        <rdfs:label>Phase I/II Trial</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C15694 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C15694">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0000016"/>
+        <obo:IAO_0000115>A type of clinical study that combines elements characteristic of traditional Phase II and Phase III trials.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C15694</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Research Activity</obo:NCIT_P106>
+        <obo:NCIT_P108>Phase II/III Trial</obo:NCIT_P108>
+        <obo:NCIT_P207>C1519042</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P325>A class of clinical study that combines elements characteristic of traditional Phase II and Phase III trials.</obo:NCIT_P325>
+        <obo:NCIT_P325>A trial to study response to a new treatment and the effectiveness of the treatment compared with the standard treatment regimen.</obo:NCIT_P325>
+        <obo:NCIT_P366>Phase_II_III_Trial</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>2-3</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>PHASE II/III TRIAL</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Phase II/III Trial</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Trial Phase 2-3</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Trial Phase 2/3</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>phase II/III trial</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C132298"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66737"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66830"/>
+        <rdfs:label>Phase II/III Trial</rdfs:label>
     </owl:Class>
     
 
@@ -3897,12 +3956,17 @@ The &apos;adverse event&apos; defined in the above paper has now been changed to
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OAE_0000002">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <obo:IAO_0000115>medical intervention is a planned process that has the goal of diagnosing, preventing or relieving illness or injury. </obo:IAO_0000115>
+        <obo:IAO_0000116>The act of intervening, interfering or interceding with the intent of modifying the outcome. In medicine, an intervention is usually undertaken to help treat or cure a condition. For example, &quot;Acupuncture as a therapeutic intervention is widely practiced in the United States,&quot;
+Reference:
+http://www.medterms.com/script/main/art.asp?articlekey=34214 . Some interventions can be used for diagnosis. </obo:IAO_0000116>
         <obo:IAO_0000116>The act of intervening, interfering or interceding with the intent of modifying the outcome. In medicine, an intervention is usually undertaken to help treat or cure a condition. For example, &quot;Acupuncture as a therapeutic intervention is widely practiced in the United States,&quot; 
 Reference:
 http://www.medterms.com/script/main/art.asp?articlekey=34214 . Some interventions can be used for diagnosis. </obo:IAO_0000116>
         <obo:IAO_0000117>YH</obo:IAO_0000117>
         <obo:IAO_0000119>WEB: http://wiki.answers.com/Q/What_is_medical_intervention</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
         <rdfs:label>medical intervention</rdfs:label>
     </owl:Class>
     
@@ -4349,6 +4413,48 @@ defines and states the requirements (positive or negative) for an entity to be c
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000014">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000115 xml:lang="en">A representation that is either the output of a clinical history taking or a physical examination or an image finding, or some combination thereof.</obo:IAO_0000115>
+        <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000119>http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf</obo:IAO_0000119>
+        <obo:IAO_0000232>creation date: 2010-07-19T10:18:02Z</obo:IAO_0000232>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
+        <rdfs:label>clinical finding</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000015">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000115 xml:lang="en">A series of statements representing health-relevant qualities of a patient and of a patient&apos;s family.</obo:IAO_0000115>
+        <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000119>http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf</obo:IAO_0000119>
+        <obo:IAO_0000232>creation date: 2010-07-19T10:18:59Z</obo:IAO_0000232>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
+        <rdfs:label>clinical history</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000019">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000115 xml:lang="en">A representation of a quality of a patient that is (1) recorded by a clinician because the quality is hypothesized to be of clinical significance and (2) refers to qualities obtaining in the patient prior to their becoming detectable in a clinical history taking or physical examination.</obo:IAO_0000115>
+        <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000119>http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf</obo:IAO_0000119>
+        <obo:IAO_0000232>creation date: 2009-06-23T10:22:44Z</obo:IAO_0000232>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
+        <rdfs:label>preclinical finding</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OGMS_0000031 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000031">
@@ -4387,6 +4493,20 @@ defines and states the requirements (positive or negative) for an entity to be c
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
         <rdfs:label>pathological bodily process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000073 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000073">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000115 xml:lang="en">The representation of a conclusion of a diagnostic process.</obo:IAO_0000115>
+        <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000119>http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf</obo:IAO_0000119>
+        <obo:IAO_0000232>creation date: 2009-06-23T12:42:23Z</obo:IAO_0000232>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
+        <rdfs:label>diagnosis</rdfs:label>
     </owl:Class>
     
 
@@ -4690,6 +4810,48 @@ However, Shaw explicates:
         <obo:IAO_0000119>https://www.clinicaltrialsregister.eu/ctr-search/search?query=eudract</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
         <rdfs:label xml:lang="en">European clinical trial registry identifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000365 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000365">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000002"/>
+        <obo:IAO_0000117>Leon Li, Asiyah Lin, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+        <rdfs:label xml:lang="en">combinational intervention</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000376 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000376">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000002"/>
+        <obo:IAO_0000115>A medical intervention that involves a behavioral process to control, prevent, or treat a behavior problem.</obo:IAO_0000115>
+        <obo:IAO_0000117>Leon Li, Asiyah Lin, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.understood.org/en/learning-attention-issues/treatments-approaches/educational-strategies/behavior-intervention-plans-what-you-need-to-know</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+        <rdfs:label xml:lang="en">behavioral intervention</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0004508 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0004508">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0000016"/>
+        <obo:IAO_0000115>A clinical trial that is at Early Phase 1 or Phase 0</obo:IAO_0000115>
+        <obo:IAO_0000115>A clinical trial that is at an Early Phase i or Phase 0, which is designed to use an investigational agent that is available only in very limited quantities and which has never previously given to humans or for which there is extremely limited human experience. Phase 0 clinical trials are intended to enable researchers to understand the path of the drug in the body and its efficacy. Adverse event reporting in Phase 0 trials is expedited. [def-source: NCI]</obo:IAO_0000115>
+        <obo:IAO_0000117>Leon Li, Asiyah Lin, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118>Phase 0 clinical trial</obo:IAO_0000118>
+        <obo:IAO_0000118>Phase 0 trial</obo:IAO_0000118>
+        <obo:IAO_0000118>Pre-Clinical Trial</obo:IAO_0000118>
+        <obo:IAO_0000119>http://purl.obolibrary.org/obo/NCIT_C54721</obo:IAO_0000119>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Clinical_trial</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+        <rdfs:label xml:lang="en">Early Phase 1 clinical trial</rdfs:label>
     </owl:Class>
     
 
