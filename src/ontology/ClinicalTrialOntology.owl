@@ -272,10 +272,16 @@
         <Class IRI="#age_older_than_64"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#masking_design"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#maximum_age"/>
     </Declaration>
     <Declaration>
         <Class IRI="#minimum_age"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#number_of_participants"/>
     </Declaration>
     <Declaration>
         <Class IRI="#phase_not_applicable"/>
@@ -466,12 +472,20 @@
         <Class abbreviatedIRI="obo:NCIT_C25150"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#masking_design"/>
+        <Class abbreviatedIRI="obo:OBI_0500000"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#maximum_age"/>
         <Class abbreviatedIRI="obo:OBI_0500027"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#minimum_age"/>
         <Class abbreviatedIRI="obo:OBI_0500027"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#number_of_participants"/>
+        <Class abbreviatedIRI="obo:IAO_0000027"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#phase_not_applicable"/>
@@ -523,6 +537,36 @@ http://www.who.int/ictrp/network/trds/en/index.html</Literal>
         <Literal>age_older_than_64</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#masking_design</IRI>
+        <Literal>The party or parties involved in the clinical trial who are prevented from having knowledge of the interventions assigned to individual participants.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <IRI>#masking_design</IRI>
+        <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
+        <IRI>#masking_design</IRI>
+        <Literal>masking</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#masking_design</IRI>
+        <Literal>masking design</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#masking_design</IRI>
+        <Literal>http://www.icmje.org/recommendations/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#masking_design</IRI>
+        <Literal>http://www.who.int/ictrp/network/trds/en/index.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#maximum_age</IRI>
         <Literal>maximum age</Literal>
@@ -531,6 +575,41 @@ http://www.who.int/ictrp/network/trds/en/index.html</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#minimum_age</IRI>
         <Literal>minimum age</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#number_of_participants</IRI>
+        <Literal>The actual total number of participants that are enrolled in a clinical study</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <IRI>#number_of_participants</IRI>
+        <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
+        <IRI>#number_of_participants</IRI>
+        <Literal>enrollment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
+        <IRI>#number_of_participants</IRI>
+        <Literal>sample size</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#number_of_participants</IRI>
+        <Literal>number of participants</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#number_of_participants</IRI>
+        <Literal>http://www.icmje.org/recommendations/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#number_of_participants</IRI>
+        <Literal>http://www.who.int/ictrp/network/trds/en/index.html</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
