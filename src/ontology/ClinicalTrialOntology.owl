@@ -280,6 +280,12 @@
         <Class IRI="#number_of_participants"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#other_outcome_measure_information"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#outcome_measure_data"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#phase_not_applicable"/>
     </Declaration>
     <Declaration>
@@ -503,6 +509,14 @@
         <Class abbreviatedIRI="obo:IAO_0000027"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#other_outcome_measure_information"/>
+        <Class abbreviatedIRI="obo:IAO_0000300"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#outcome_measure_data"/>
+        <Class IRI="#study_result"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#phase_not_applicable"/>
         <Class abbreviatedIRI="obo:ERO_0000016"/>
     </SubClassOf>
@@ -614,11 +628,19 @@ http://www.who.int/ictrp/network/trds/en/index.html</Literal>
         <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+            <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
+        </Annotation>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
         <IRI>#number_of_participants</IRI>
         <Literal>enrollment</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+            <Literal>http://www.who.int/ictrp/network/trds/en/index.html</Literal>
+        </Annotation>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
         <IRI>#number_of_participants</IRI>
         <Literal>sample size</Literal>
@@ -634,9 +656,35 @@ http://www.who.int/ictrp/network/trds/en/index.html</Literal>
         <Literal>http://www.icmje.org/recommendations/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>#number_of_participants</IRI>
-        <Literal>http://www.who.int/ictrp/network/trds/en/index.html</Literal>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#other_outcome_measure_information</IRI>
+        <Literal>Any other measurements, excluding post-hoc measures, that will be used to evaluate the intervention(s) or, for observational studies, that are a focus of the study.
+Each primary outcome measure information includes title, description and time frame.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <IRI>#other_outcome_measure_information</IRI>
+        <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <IRI>#other_outcome_measure_information</IRI>
+        <Literal>other pre-specified outcome measures</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#other_outcome_measure_information</IRI>
+        <Literal>other outcome measure information</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#outcome_measure_data</IRI>
+        <Literal>Data generated from measurement of experimental variables in a study, or for observational studies, from descriptions of patterns of diseases or traits or associations with exposures, risk factors or treatment.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#outcome_measure_data</IRI>
+        <Literal>outcome measure data</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
@@ -660,6 +708,15 @@ Each primary outcome measure information includes title, description and time fr
         <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+            <Literal>https://www.who.int/ictrp/network/trds/en/</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
+        <IRI>#primary_outcome_measure_information</IRI>
+        <Literal>primary outcome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#primary_outcome_measure_information</IRI>
         <Literal>primary outcome measure information</Literal>
@@ -668,11 +725,6 @@ Each primary outcome measure information includes title, description and time fr
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
         <IRI>#primary_outcome_measure_information</IRI>
         <Literal>https://clinicaltrials.gov/ct2/about-studies/glossary</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>#primary_outcome_measure_information</IRI>
-        <Literal>https://www.who.int/ictrp/network/trds/en/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -686,6 +738,15 @@ Each secondary outcome measure information includes title, description and time 
         <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+            <Literal>https://www.who.int/ictrp/network/trds/en/</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
+        <IRI>#secondary_outcome_measure_information</IRI>
+        <Literal>key secondary outcome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#secondary_outcome_measure_information</IRI>
         <Literal>secondary outcome measure information</Literal>
@@ -694,11 +755,6 @@ Each secondary outcome measure information includes title, description and time 
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
         <IRI>#secondary_outcome_measure_information</IRI>
         <Literal>https://clinicaltrials.gov/ct2/about-studies/glossary</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>#secondary_outcome_measure_information</IRI>
-        <Literal>https://www.who.int/ictrp/network/trds/en/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
