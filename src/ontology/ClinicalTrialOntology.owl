@@ -46,7 +46,6 @@
     <Import>http://purl.obolibrary.org/obo/NCIT_import3.owl</Import>
     <Import>http://purl.obolibrary.org/obo/NCIT_import4.owl</Import>
     <Import>http://purl.obolibrary.org/obo/NCIT_import5.owl</Import>
-    <Import>http://purl.obolibrary.org/obo/NCIT_import6.owl</Import>
     <Import>http://purl.obolibrary.org/obo/NCIT_import7.owl</Import>
     <Import>http://purl.obolibrary.org/obo/NCIT_import8.owl</Import>
     <Import>http://purl.obolibrary.org/obo/NCIT_import9.owl</Import>
@@ -183,9 +182,6 @@
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:NCIT_C52580"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:NCIT_C54721"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:NCIT_C60776"/>
@@ -369,6 +365,20 @@
         <Class abbreviatedIRI="obo:NCIT_C147141"/>
     </SubClassOf>
     <SubClassOf>
+        <Class abbreviatedIRI="obo:NCIT_C25320"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:BFO_0000051"/>
+            <Class IRI="#primary_outcome_measure_information"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:NCIT_C25320"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="obo:BFO_0000051"/>
+            <Class IRI="#secondary_outcome_measure_information"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class abbreviatedIRI="obo:NCIT_C48355"/>
         <Class abbreviatedIRI="obo:NCBITaxon_9606"/>
     </SubClassOf>
@@ -387,10 +397,6 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:NCIT_C52580"/>
         <Class abbreviatedIRI="obo:OBI_0000115"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:NCIT_C54721"/>
-        <Class abbreviatedIRI="obo:ERO_0000016"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:NCIT_C60776"/>
@@ -502,11 +508,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#primary_outcome_measure_information"/>
-        <Class abbreviatedIRI="obo:NCIT_C25320"/>
+        <Class abbreviatedIRI="obo:IAO_0000300"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#secondary_outcome_measure_information"/>
-        <Class abbreviatedIRI="obo:NCIT_C25320"/>
+        <Class abbreviatedIRI="obo:IAO_0000300"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#study_result"/>
