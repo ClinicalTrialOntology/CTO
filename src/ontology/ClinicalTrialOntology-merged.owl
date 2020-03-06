@@ -3337,6 +3337,18 @@ http://www.who.int/ictrp/network/trds/en/index.html</rdfs:seeAlso>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C25320">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C70817"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO#primary_outcome_measure_information"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO#secondary_outcome_measure_information"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A formal document that describes a complete plan of research activity in the framework of a clinical study; specifically, the study objective(s), design, methodology, eligibility requests for prospective subjects and controls; intervention regimen(s), proposed methods of analysis of data; statistical considerations, and organization of the study. The protocol usually also provides the background and rationale for the trial, but these could be represented in other protocol referenced documents.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:NCIT_NHC0>C25320</obo:NCIT_NHC0>
@@ -3488,39 +3500,6 @@ http://www.who.int/ictrp/network/trds/en/index.html</rdfs:seeAlso>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C147066"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
         <rdfs:label>Allocation</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCIT_C54721 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C54721">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0000016"/>
-        <obo:IAO_0000115>A clinical trial that uses an investigational agent that is available only in very limited quantities and which has never previously given to humans or for which there is extremely limited human experience. Phase 0 clinical trials are intended to enable researchers to understand the path of the drug in the body and its efficacy. Adverse event reporting in Phase 0 trials is expedited.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
-        <obo:NCIT_NHC0>C54721</obo:NCIT_NHC0>
-        <obo:NCIT_P106>Research Activity</obo:NCIT_P106>
-        <obo:NCIT_P108>Phase 0 Trial</obo:NCIT_P108>
-        <obo:NCIT_P207>C1882358</obo:NCIT_P207>
-        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
-        <obo:NCIT_P322>CDISC-GLOSS</obo:NCIT_P322>
-        <obo:NCIT_P325>First-in-human trials, in a small number of subjects, that are conducted before Phase 1 trials and are intended to assess new candidate therapeutic and imaging agents. The study agent is administered at a low dose for a limited time, and there is no therapeutic or diagnostic intent. NOTE: FDA Guidance for Industry, Investigators, and Reviewers: Exploratory IND Studies, January 2006 classifies such studies as Phase 1. NOTE: A Phase 0 study might not include any drug delivery but may be an exploration of human material from a study (e.g., tissue samples or biomarker determinations). [Improving the Quality of Cancer Clinical Trials: Workshop summary-Proceedings of the National Cancer Policy Forum Workshop, improving the Quality of Cancer Clinical Trials (Washington, DC, Oct 2007)]</obo:NCIT_P325>
-        <obo:NCIT_P325>First-in-human trials, in a small number of subjects, that are conducted before Phase 1 trials and are intended to assess new candidate therapeutic and imaging agents. The study agent is administered at a low dose for a limited time, and there is no therapeutic or diagnostic intent. NOTE: FDA Guidance for Industry, Investigators, and Reviewers: Exploratory IND Studies, January 2006 classifies such studies as Phase 1. NOTE: A Phase 0 study might not include any drug delivery but may be an exploration of human material from a study (e.g., tissue samples or biomarker determinations). [Improving the Quality of Cancer Clinical Trials: Workshop summary-Proceedings of the National Cancer Policy Forum Workshop, improving the Quality of Cancer Clinical Trials (Washington, DC, Oct 2007)] (CDISC glossary)</obo:NCIT_P325>
-        <obo:NCIT_P366>Phase_0_Trial</obo:NCIT_P366>
-        <oboInOwl:hasExactSynonym>0</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>PHASE 0 TRIAL</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Phase 0</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Phase 0 Trial</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Pre-Clinical Trial</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Pre-clinical Trial</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Trial Phase 0</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>phase 0</oboInOwl:hasExactSynonym>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C132298"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66737"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66830"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C67497"/>
-        <rdfs:label>Phase 0 Trial</rdfs:label>
     </owl:Class>
     
 
@@ -3866,7 +3845,7 @@ http://www.who.int/ictrp/network/trds/en/index.html</rdfs:seeAlso>
     <!-- http://purl.obolibrary.org/obo/NCIT_C98772 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C98772">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25320"/>
+        <rdfs:subClassOf rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO#study_result"/>
         <obo:IAO_0000115>The primary measurement(s) or observation(s) used to measure the effect of experimental variables in a study, or for observational studies, to describe patterns of diseases or traits or associations with exposures, risk factors or treatment. These are the outcome measures used to assess the primary objective(s).</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:NCIT_NHC0>C98772</obo:NCIT_NHC0>
@@ -3892,7 +3871,7 @@ http://www.who.int/ictrp/network/trds/en/index.html</rdfs:seeAlso>
     <!-- http://purl.obolibrary.org/obo/NCIT_C98781 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C98781">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25320"/>
+        <rdfs:subClassOf rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO#study_result"/>
         <obo:IAO_0000115>Other key measures that will be used to evaluate the intervention(s) or, for observational studies, that are a focus of the study. These are the outcome measures used to assess the secondary objective(s).</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:NCIT_NHC0>C98781</obo:NCIT_NHC0>
@@ -5171,6 +5150,21 @@ A study in which an individual acts has his/her own comparison does not fall int
     
 
 
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#masking_design -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#masking_design">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0500000"/>
+        <obo:IAO_0000115>The party or parties involved in the clinical trial who are prevented from having knowledge of the interventions assigned to individual participants.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
+        <oboInOwl:hasRelatedSynonym>blinding</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>masking</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>masking design</rdfs:label>
+        <rdfs:seeAlso>http://www.icmje.org/recommendations/</rdfs:seeAlso>
+        <rdfs:seeAlso>http://www.who.int/ictrp/network/trds/en/index.html</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
     <!-- https://bio.scai.fraunhofer.de/ontology/CTO#maximum_age -->
 
     <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#maximum_age">
@@ -5189,12 +5183,112 @@ A study in which an individual acts has his/her own comparison does not fall int
     
 
 
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#number_of_participants -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#number_of_participants">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000115>The actual total number of participants that are enrolled in a clinical study</obo:IAO_0000115>
+        <obo:IAO_0000119>https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
+        <oboInOwl:hasRelatedSynonym>enrollment</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>sample size</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>number of participants</rdfs:label>
+        <rdfs:seeAlso>http://www.icmje.org/recommendations/</rdfs:seeAlso>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO#number_of_participants"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>enrollment</owl:annotatedTarget>
+        <rdfs:isDefinedBy>https://prsinfo.clinicaltrials.gov/definitions.html</rdfs:isDefinedBy>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO#number_of_participants"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>sample size</owl:annotatedTarget>
+        <rdfs:isDefinedBy>http://www.who.int/ictrp/network/trds/en/index.html</rdfs:isDefinedBy>
+    </owl:Axiom>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#other_outcome_measure_information -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#other_outcome_measure_information">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000300"/>
+        <obo:IAO_0000115>Any other measurements, excluding post-hoc measures, that will be used to evaluate the intervention(s) or, for observational studies, that are a focus of the study.
+Each primary outcome measure information includes title, description and time frame.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
+        <oboInOwl:hasExactSynonym>other pre-specified outcome measures</oboInOwl:hasExactSynonym>
+        <rdfs:label>other outcome measure information</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#outcome_measure_data -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#outcome_measure_data">
+        <rdfs:subClassOf rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO#study_result"/>
+        <obo:IAO_0000115>Data generated from measurement of experimental variables in a study, or for observational studies, from descriptions of patterns of diseases or traits or associations with exposures, risk factors or treatment.</obo:IAO_0000115>
+        <rdfs:label>outcome measure data</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://bio.scai.fraunhofer.de/ontology/CTO#phase_not_applicable -->
 
     <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#phase_not_applicable">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0000016"/>
         <oboInOwl:hasExactSynonym>N/A</oboInOwl:hasExactSynonym>
         <rdfs:label>phase not applicable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#primary_outcome_measure_information -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#primary_outcome_measure_information">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000300"/>
+        <obo:IAO_0000115>A description of each primary outcome measure (or for observational studies, specific key measurement[s] or observation[s] used to describe patterns of diseases or traits or associations with exposures, risk factors or treatment).
+Each primary outcome measure information includes title, description and time frame.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
+        <oboInOwl:hasRelatedSynonym>primary outcome</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>primary outcome measure information</rdfs:label>
+        <rdfs:seeAlso>https://clinicaltrials.gov/ct2/about-studies/glossary</rdfs:seeAlso>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO#primary_outcome_measure_information"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>primary outcome</owl:annotatedTarget>
+        <rdfs:isDefinedBy>https://www.who.int/ictrp/network/trds/en/</rdfs:isDefinedBy>
+    </owl:Axiom>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#secondary_outcome_measure_information -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#secondary_outcome_measure_information">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000300"/>
+        <obo:IAO_0000115>A description of each secondary outcome measure (or for observational studies, specific secondary measurement[s] or observation[s] used to describe patterns of diseases or traits or associations with exposures, risk factors or treatment).
+Each secondary outcome measure information includes title, description and time frame.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
+        <oboInOwl:hasRelatedSynonym>key secondary outcome</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>secondary outcome measure information</rdfs:label>
+        <rdfs:seeAlso>https://clinicaltrials.gov/ct2/about-studies/glossary</rdfs:seeAlso>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO#secondary_outcome_measure_information"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>key secondary outcome</owl:annotatedTarget>
+        <rdfs:isDefinedBy>https://www.who.int/ictrp/network/trds/en/</rdfs:isDefinedBy>
+    </owl:Axiom>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#study_result -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#study_result">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000115>A study record that includes the summary results posted in the ClinicalTrials.gov results database. Summary results information includes participant flow, baseline characteristics, outcome measures, and adverse events (including serious adverse events).</obo:IAO_0000115>
+        <obo:IAO_0000119>https://clinicaltrials.gov/ct2/about-studies/glossary</obo:IAO_0000119>
+        <rdfs:label>study result</rdfs:label>
     </owl:Class>
     
 
