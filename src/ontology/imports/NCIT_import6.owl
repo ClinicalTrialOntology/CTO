@@ -1,13 +1,14 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/NCIT_import6.owl#"
      xml:base="http://purl.obolibrary.org/obo/NCIT_import6.owl"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
-     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:obo="http://purl.obolibrary.org/obo/">
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/NCIT_import6.owl"/>
     
 
@@ -20,124 +21,199 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P98">
-        <rdfs:label>DesignNote</rdfs:label>
-        <oboInOwl:hasExactSynonym>DesignNote</oboInOwl:hasExactSynonym>
-        <obo:NCIT_P107>DesignNote</obo:NCIT_P107>
-        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
-        <obo:NCIT_NHC0>P98</obo:NCIT_NHC0>
-        <obo:IAO_0000115>A property representing notations made by NCI vocabulary curators. They are intended to provide supplemental, unstructured information to the user or additional insight about the concept.</obo:IAO_0000115>
-        <obo:NCIT_P108>DesignNote</obo:NCIT_P108>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P322">
-        <rdfs:label>Contributing_Source</rdfs:label>
-        <obo:NCIT_P107>Contributing Source</obo:NCIT_P107>
-        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
-        <obo:IAO_0000115>A property is used to indicate when a non-EVS entity has contributed to, and has a stake in, a concept. This is used where such entities, within or outside NCI, have indicated the need to be able to track their own concepts. A single concept can have multiple instances of this property if multiple entities have such a defined stake.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>Contributing_Source</oboInOwl:hasExactSynonym>
-        <obo:NCIT_NHC0>P322</obo:NCIT_NHC0>
-        <obo:NCIT_P108>Contributing_Source</obo:NCIT_P108>
-        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/NCIT_Contributing_Source-enum"/>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P366">
-        <rdfs:label>Legacy_Concept_Name</rdfs:label>
-        <oboInOwl:hasExactSynonym>Legacy Concept Name</oboInOwl:hasExactSynonym>
-        <obo:IAO_0000115>A property representing a retired unique concept identifier created and stored as Concept Name by legacy EVS software. Use of these values was long discouraged, but continued as late as 2009 when creation of new values ceased and Concept Name was retired. Legacy values are intended solely to help resolve and update earlier coding.</obo:IAO_0000115>
-        <obo:NCIT_P108>Legacy Concept Name</obo:NCIT_P108>
-        <protege:readOnly>true</protege:readOnly>
-        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
-        <obo:NCIT_NHC0>P366</obo:NCIT_NHC0>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
-        <rdfs:label xml:lang="en">imported from</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
-        <oboInOwl:hasExactSynonym>DEFINITION</oboInOwl:hasExactSynonym>
-        <obo:IAO_0000115>A property representing the English language definitions of what NCI means by the concept. They may also include information about the definition&#39;s source and attribution in a form that can easily be interpreted by software.</obo:IAO_0000115>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has exact synonym</rdfs:label>
-        <obo:IAO_0000115>A property representing a fully qualified synonym, contains the string, term type, source, and an optional source code if appropriate. Each subfield is deliniated to facilitate interpretation by software.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>Synonym with Source Data</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>FULL_SYN</oboInOwl:hasExactSynonym>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P325">
-        <rdfs:label>ALT_DEFINITION</rdfs:label>
-        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
-        <oboInOwl:hasExactSynonym>ALT_DEFINITION</oboInOwl:hasExactSynonym>
-        <obo:NCIT_P107>[source] Definition</obo:NCIT_P107>
-        <obo:NCIT_P108>ALT_DEFINITION</obo:NCIT_P108>
-        <obo:IAO_0000115>A property representing the English language definition of a concept from a source other than NCI.</obo:IAO_0000115>
-        <obo:NCIT_NHC0>P325</obo:NCIT_NHC0>
-        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/NCIT_textArea"/>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P106">
-        <rdfs:label>Semantic_Type</rdfs:label>
-        <oboInOwl:hasExactSynonym>Semantic_Type</oboInOwl:hasExactSynonym>
-        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
-        <obo:IAO_0000115>A property that represents a description of the sort of thing or category to which a concept belongs in the context of the UMLS semantic network.</obo:IAO_0000115>
-        <obo:NCIT_P107>Semantic Type</obo:NCIT_P107>
-        <obo:NCIT_P108>Semantic_Type</obo:NCIT_P108>
-        <obo:NCIT_NHC0>P106</obo:NCIT_NHC0>
-        <obo:NCIT_P98>In general, applying semantic types aids in allowing users (or computer programs) to draw conclusions about concepts by virtue of the categories to which they have been assigned.  We use a set of semantic types developed for the UMLS Metathesaurus. There are currently 134 semantic types in the UMLS.</obo:NCIT_P98>
-        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/NCIT_Semantic_Type-enum"/>
-    </owl:AnnotationProperty>
-    <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
-        <rdfs:label>label</rdfs:label>
-    </rdf:Description>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">in subset</rdfs:label>
-        <oboInOwl:hasExactSynonym>Concept_In_Subset</oboInOwl:hasExactSynonym>
-        <obo:IAO_0000115>An association that connects the concept defining a particular terminology subset with concepts that belong to this subset.</obo:IAO_0000115>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_NHC0">
-        <rdfs:label>code</rdfs:label>
-        <oboInOwl:hasExactSynonym>code</oboInOwl:hasExactSynonym>
-        <obo:IAO_0000115>A property representing a concept unique identifier within the NCI Enterprise Vocabulary Service&#39;s NCI Thesaurus.</obo:IAO_0000115>
-        <obo:NCIT_P108>code</obo:NCIT_P108>
-        <obo:NCIT_NHC0>NHC0</obo:NCIT_NHC0>
-        <protege:readOnly>true</protege:readOnly>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://protege.stanford.edu/plugins/owl/protege#readOnly -->
+
     <owl:AnnotationProperty rdf:about="http://protege.stanford.edu/plugins/owl/protege#readOnly">
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
     </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <obo:IAO_0000115>A property representing the English language definitions of what NCI means by the concept. They may also include information about the definition&apos;s source and attribution in a form that can easily be interpreted by software.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>DEFINITION</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_NHC0 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_NHC0">
+        <protege:readOnly>true</protege:readOnly>
+        <obo:IAO_0000115>A property representing a concept unique identifier within the NCI Enterprise Vocabulary Service&apos;s NCI Thesaurus.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>NHC0</obo:NCIT_NHC0>
+        <obo:NCIT_P108>code</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>code</oboInOwl:hasExactSynonym>
+        <rdfs:label>code</rdfs:label>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P106 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P106">
+        <obo:IAO_0000115>A property that represents a description of the sort of thing or category to which a concept belongs in the context of the UMLS semantic network.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P106</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>Semantic Type</obo:NCIT_P107>
+        <obo:NCIT_P108>Semantic_Type</obo:NCIT_P108>
+        <obo:NCIT_P98>In general, applying semantic types aids in allowing users (or computer programs) to draw conclusions about concepts by virtue of the categories to which they have been assigned.  We use a set of semantic types developed for the UMLS Metathesaurus. There are currently 134 semantic types in the UMLS.</obo:NCIT_P98>
+        <oboInOwl:hasExactSynonym>Semantic_Type</oboInOwl:hasExactSynonym>
+        <rdfs:label>Semantic_Type</rdfs:label>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/NCIT_Semantic_Type-enum"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P107 -->
+
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P107">
-        <rdfs:label>Display_Name</rdfs:label>
-        <oboInOwl:hasExactSynonym>Display Name</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>A property representing an alternative Preferred Name for use in some NCI systems.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P107</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
         <obo:NCIT_P107>Display Name</obo:NCIT_P107>
         <obo:NCIT_P108>Display_Name</obo:NCIT_P108>
-        <obo:IAO_0000115>A property representing an alternative Preferred Name for use in some NCI systems.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Display Name</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Display_Name</oboInOwl:hasExactSynonym>
-        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
-        <obo:NCIT_NHC0>P107</obo:NCIT_NHC0>
+        <rdfs:label>Display_Name</rdfs:label>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P108 -->
+
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P108">
-        <rdfs:label>Preferred_Name</rdfs:label>
-        <oboInOwl:hasExactSynonym>Preferred Term</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>A property representing the word or phrase that NCI uses by preference to refer to the concept.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P108</obo:NCIT_NHC0>
         <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
         <obo:NCIT_P107>Preferred Name</obo:NCIT_P107>
-        <oboInOwl:hasExactSynonym>Preferred Name</oboInOwl:hasExactSynonym>
-        <obo:NCIT_NHC0>P108</obo:NCIT_NHC0>
         <obo:NCIT_P108>Preferred_Name</obo:NCIT_P108>
-        <obo:IAO_0000115>A property representing the word or phrase that NCI uses by preference to refer to the concept.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Preferred Name</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Preferred Term</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Preferred_Name</oboInOwl:hasExactSynonym>
+        <rdfs:label>Preferred_Name</rdfs:label>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P207 -->
+
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P207">
-        <rdfs:label>UMLS_CUI</rdfs:label>
+        <obo:IAO_0000115>A property representing the concept unique identifier (CUI) assigned by the National Library of Medicine (NLM). If a concept in any NCI-maintained knowledgebase exists in the NLM Unified Medical Language System (UMLS), NCI includes the NLM CUI among the information we provide about the concept.</obo:IAO_0000115>
         <obo:NCIT_NHC0>P207</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>UMLS CUI</obo:NCIT_P107>
         <obo:NCIT_P108>UMLS_CUI</obo:NCIT_P108>
         <oboInOwl:hasExactSynonym>UMLS_CUI</oboInOwl:hasExactSynonym>
-        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
-        <obo:IAO_0000115>A property representing the concept unique identifier (CUI) assigned by the National Library of Medicine (NLM). If a concept in any NCI-maintained knowledgebase exists in the NLM Unified Medical Language System (UMLS), NCI includes the NLM CUI among the information we provide about the concept.</obo:IAO_0000115>
-        <obo:NCIT_P107>UMLS CUI</obo:NCIT_P107>
+        <rdfs:label>UMLS_CUI</rdfs:label>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P322 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P322">
+        <obo:IAO_0000115>A property is used to indicate when a non-EVS entity has contributed to, and has a stake in, a concept. This is used where such entities, within or outside NCI, have indicated the need to be able to track their own concepts. A single concept can have multiple instances of this property if multiple entities have such a defined stake.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P322</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>Contributing Source</obo:NCIT_P107>
+        <obo:NCIT_P108>Contributing_Source</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>Contributing_Source</oboInOwl:hasExactSynonym>
+        <rdfs:label>Contributing_Source</rdfs:label>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/NCIT_Contributing_Source-enum"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P325 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P325">
+        <obo:IAO_0000115>A property representing the English language definition of a concept from a source other than NCI.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P325</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>[source] Definition</obo:NCIT_P107>
+        <obo:NCIT_P108>ALT_DEFINITION</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>ALT_DEFINITION</oboInOwl:hasExactSynonym>
+        <rdfs:label>ALT_DEFINITION</rdfs:label>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/NCIT_textArea"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P366 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P366">
+        <protege:readOnly>true</protege:readOnly>
+        <obo:IAO_0000115>A property representing a retired unique concept identifier created and stored as Concept Name by legacy EVS software. Use of these values was long discouraged, but continued as late as 2009 when creation of new values ceased and Concept Name was retired. Legacy values are intended solely to help resolve and update earlier coding.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P366</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P108>Legacy Concept Name</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>Legacy Concept Name</oboInOwl:hasExactSynonym>
+        <rdfs:label>Legacy_Concept_Name</rdfs:label>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P98 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P98">
+        <obo:IAO_0000115>A property representing notations made by NCI vocabulary curators. They are intended to provide supplemental, unstructured information to the user or additional insight about the concept.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P98</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>DesignNote</obo:NCIT_P107>
+        <obo:NCIT_P108>DesignNote</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>DesignNote</oboInOwl:hasExactSynonym>
+        <rdfs:label>DesignNote</rdfs:label>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <obo:IAO_0000115>A property representing a fully qualified synonym, contains the string, term type, source, and an optional source code if appropriate. Each subfield is deliniated to facilitate interpretation by software.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>FULL_SYN</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Synonym with Source Data</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has exact synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
+        <obo:IAO_0000115>An association that connects the concept defining a particular terminology subset with concepts that belong to this subset.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Concept_In_Subset</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">in subset</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+        <rdfs:label>label</rdfs:label>
+    </rdf:Description>
     
 
 
@@ -167,52 +243,9 @@
     <!-- http://purl.obolibrary.org/obo/NCIT_textArea -->
 
     <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/NCIT_textArea"/>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Classes
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCIT_C54721 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C54721">
-        <rdfs:label>Phase 0 Trial</rdfs:label>
-        <oboInOwl:hasExactSynonym>PHASE 0 TRIAL</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>0</oboInOwl:hasExactSynonym>
-        <obo:NCIT_P207>C1882358</obo:NCIT_P207>
-        <oboInOwl:hasExactSynonym>Trial Phase 0</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Pre-clinical Trial</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Phase 0</oboInOwl:hasExactSynonym>
-        <obo:NCIT_NHC0>C54721</obo:NCIT_NHC0>
-        <obo:NCIT_P106>Research Activity</obo:NCIT_P106>
-        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
-        <obo:IAO_0000115>A clinical trial that uses an investigational agent that is available only in very limited quantities and which has never previously given to humans or for which there is extremely limited human experience. Phase 0 clinical trials are intended to enable researchers to understand the path of the drug in the body and its efficacy. Adverse event reporting in Phase 0 trials is expedited.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>Phase 0 Trial</oboInOwl:hasExactSynonym>
-        <obo:NCIT_P366>Phase_0_Trial</obo:NCIT_P366>
-        <oboInOwl:hasExactSynonym>phase 0</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Pre-Clinical Trial</oboInOwl:hasExactSynonym>
-        <obo:NCIT_P322>CDISC-GLOSS</obo:NCIT_P322>
-        <obo:NCIT_P325>First-in-human trials, in a small number of subjects, that are conducted before Phase 1 trials and are intended to assess new candidate therapeutic and imaging agents. The study agent is administered at a low dose for a limited time, and there is no therapeutic or diagnostic intent. NOTE: FDA Guidance for Industry, Investigators, and Reviewers: Exploratory IND Studies, January 2006 classifies such studies as Phase 1. NOTE: A Phase 0 study might not include any drug delivery but may be an exploration of human material from a study (e.g., tissue samples or biomarker determinations). [Improving the Quality of Cancer Clinical Trials: Workshop summary-Proceedings of the National Cancer Policy Forum Workshop, improving the Quality of Cancer Clinical Trials (Washington, DC, Oct 2007)] (CDISC glossary)</obo:NCIT_P325>
-        <obo:NCIT_P325>First-in-human trials, in a small number of subjects, that are conducted before Phase 1 trials and are intended to assess new candidate therapeutic and imaging agents. The study agent is administered at a low dose for a limited time, and there is no therapeutic or diagnostic intent. NOTE: FDA Guidance for Industry, Investigators, and Reviewers: Exploratory IND Studies, January 2006 classifies such studies as Phase 1. NOTE: A Phase 0 study might not include any drug delivery but may be an exploration of human material from a study (e.g., tissue samples or biomarker determinations). [Improving the Quality of Cancer Clinical Trials: Workshop summary-Proceedings of the National Cancer Policy Forum Workshop, improving the Quality of Cancer Clinical Trials (Washington, DC, Oct 2007)]</obo:NCIT_P325>
-        <obo:NCIT_P108>Phase 0 Trial</obo:NCIT_P108>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C132298"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66737"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66830"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C67497"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
-    </owl:Class>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 1.3.5.1016) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
 
