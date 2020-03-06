@@ -590,6 +590,11 @@ http://www.who.int/ictrp/network/trds/en/index.html</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
         <IRI>#masking_design</IRI>
+        <Literal>blinding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
+        <IRI>#masking_design</IRI>
         <Literal>masking</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
