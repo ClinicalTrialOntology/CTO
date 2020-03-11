@@ -274,12 +274,6 @@
         <Class IRI="#masking_design"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#maximum_age"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#minimum_age"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#number_of_participants"/>
     </Declaration>
     <Declaration>
@@ -502,14 +496,6 @@
     <SubClassOf>
         <Class IRI="#masking_design"/>
         <Class abbreviatedIRI="obo:OBI_0500000"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#maximum_age"/>
-        <Class abbreviatedIRI="obo:OBI_0500027"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#minimum_age"/>
-        <Class abbreviatedIRI="obo:OBI_0500027"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#number_of_participants"/>
@@ -772,16 +758,6 @@ http://www.who.int/ictrp/network/trds/en/index.html</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
         <IRI>#masking_design</IRI>
         <Literal>http://www.who.int/ictrp/network/trds/en/index.html</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#maximum_age</IRI>
-        <Literal>maximum age</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#minimum_age</IRI>
-        <Literal>minimum age</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
