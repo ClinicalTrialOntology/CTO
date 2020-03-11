@@ -6,6 +6,7 @@ OBI
 
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/OBI_0002555 #age group inclusion criterion
+http://purl.obolibrary.org/obo/OBI_0002561 #sex inclusion criterion
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/IAO_0000033

@@ -268,6 +268,9 @@
         <Class IRI="#age_older_than_64"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#healthy_volunteer_criterion"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#human_subjects_protection_review_board_status"/>
     </Declaration>
     <Declaration>
@@ -490,6 +493,10 @@
         <Class abbreviatedIRI="obo:NCIT_C25150"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#healthy_volunteer_criterion"/>
+        <Class abbreviatedIRI="obo:OBI_0500027"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#human_subjects_protection_review_board_status"/>
         <Class abbreviatedIRI="obo:OPMI_0000326"/>
     </SubClassOf>
@@ -597,6 +604,62 @@ http://www.who.int/ictrp/network/trds/en/index.html</Literal>
     <AnnotationAssertion>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+            <Literal>https://clinicaltrials.gov/ct2/about-studies/glossary</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OBI_0002555</AbbreviatedIRI>
+        <Literal>A type of eligibility criteria that indicates the age a person must be to participate in a clinical study. This may be indicated by a specific age or the following age groups. The age groups are: Child (birth-17), Adult (18-64), Older Adult (65+).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:OBI_0002555</AbbreviatedIRI>
+        <Literal>ages eligible for study</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+            <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OBI_0002556</AbbreviatedIRI>
+        <Literal>The numerical value, if any, for the minimum age a potential participant must meet to be eligible for the clinical study.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:OBI_0002556</AbbreviatedIRI>
+        <Literal>minimum age</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+            <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OBI_0002557</AbbreviatedIRI>
+        <Literal>The numerical value, if any, for the maximum age a potential participant can be to be eligible for the clinical study.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:OBI_0002557</AbbreviatedIRI>
+        <Literal>maximum age</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+            <Literal>https://clinicaltrials.gov/ct2/about-studies/glossary</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OBI_0002561</AbbreviatedIRI>
+        <Literal>A type of eligibility criteria that indicates the sex of people who may participate in a clinical study (all, female, male). Sex is a person&apos;s classification as female or male based on biological distinctions. Sex is distinct from gender-based eligibility.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:OBI_0002561</AbbreviatedIRI>
+        <Literal>sexes eligible for study</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
             <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
         </Annotation>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -624,11 +687,31 @@ http://www.who.int/ictrp/network/trds/en/index.html</Literal>
     <AnnotationAssertion>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+            <Literal>http://www.icmje.org/recommendations/ 
+https://www.who.int/ictrp/network/trds/en/</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:OBI_0500027</AbbreviatedIRI>
+        <Literal>key inclusion criteria</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
             <Literal>https://clinicaltrials.gov/ct2/about-studies/glossary</Literal>
         </Annotation>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:OBI_0500028</AbbreviatedIRI>
         <Literal>A type of eligibility criteria. These are reasons that a person is not allowed to participate in a clinical study.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+            <Literal>http://www.icmje.org/recommendations/ 
+https://www.who.int/ictrp/network/trds/en/</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:OBI_0500028</AbbreviatedIRI>
+        <Literal>key exclusion criteria</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
@@ -710,6 +793,34 @@ http://www.who.int/ictrp/network/trds/en/index.html</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#age_older_than_64</IRI>
         <Literal>age_older_than_64</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+            <Literal>https://clinicaltrials.gov/ct2/about-studies/glossary</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#healthy_volunteer_criterion</IRI>
+        <Literal>A type of eligibility criteria that indicates whether people who do not have the condition/disease being studied can participate in that clinical study.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+            <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#healthy_volunteer_criterion</IRI>
+        <Literal>Indication that participants who do not have a disease or condition, or related conditions or symptoms, under study in the clinical study are permitted to participate in the clinical study.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <IRI>#healthy_volunteer_criterion</IRI>
+        <Literal>accepts healthy volunteers</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#healthy_volunteer_criterion</IRI>
+        <Literal>healthy volunteer criterion</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
