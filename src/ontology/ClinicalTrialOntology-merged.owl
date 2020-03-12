@@ -2999,6 +2999,7 @@ http://www.who.int/ictrp/network/trds/en/index.html</rdfs:seeAlso>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C15245">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C147141"/>
         <obo:IAO_0000115>A multidisciplinary field of inquiry that examines the costs, quality, accessibility, delivery, organization, financing, and outcomes of health care services.</obo:IAO_0000115>
+        <obo:IAO_0000115>One or more interventions for evaluating the delivery, processes, management, organization, or financing of healthcare.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:NCIT_NHC0>C15245</obo:NCIT_NHC0>
         <obo:NCIT_P106>Research Activity</obo:NCIT_P106>
@@ -3016,6 +3017,12 @@ http://www.who.int/ictrp/network/trds/en/index.html</rdfs:seeAlso>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66830"/>
         <rdfs:label>Health Services Research</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15245"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>One or more interventions for evaluating the delivery, processes, management, organization, or financing of healthcare.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
@@ -3231,6 +3238,7 @@ http://www.who.int/ictrp/network/trds/en/index.html</rdfs:seeAlso>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C15714">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C147141"/>
         <obo:IAO_0000115>Fundamental research designed to obtain or increase general scientific knowledge.</obo:IAO_0000115>
+        <obo:IAO_0000115>One or more interventions for examining the basic mechanism of action (for example, physiology or biomechanics of an intervention).</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:NCIT_NHC0>C15714</obo:NCIT_NHC0>
         <obo:NCIT_P106>Research Activity</obo:NCIT_P106>
@@ -3250,6 +3258,12 @@ http://www.who.int/ictrp/network/trds/en/index.html</rdfs:seeAlso>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66830"/>
         <rdfs:label>Basic Research</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15714"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>One or more interventions for examining the basic mechanism of action (for example, physiology or biomechanics of an intervention).</owl:annotatedTarget>
+        <obo:IAO_0000119>https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
@@ -3407,6 +3421,7 @@ http://www.who.int/ictrp/network/trds/en/index.html</rdfs:seeAlso>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C49653">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C147141"/>
         <obo:IAO_0000115>A type of study designed to evaluate method(s) aimed at identifying a disease or condition.</obo:IAO_0000115>
+        <obo:IAO_0000115>One or more interventions are being evaluated for identifying a disease or health condition.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:NCIT_NHC0>C49653</obo:NCIT_NHC0>
         <obo:NCIT_P106>Research Activity</obo:NCIT_P106>
@@ -3425,6 +3440,12 @@ http://www.who.int/ictrp/network/trds/en/index.html</rdfs:seeAlso>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66830"/>
         <rdfs:label>Diagnosis Study</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C49653"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>One or more interventions are being evaluated for identifying a disease or health condition.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
@@ -3459,6 +3480,7 @@ http://www.who.int/ictrp/network/trds/en/index.html</rdfs:seeAlso>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C49657">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C147141"/>
         <obo:IAO_0000115>A type of study protocol designed to evaluate intervention(s) for disease prevention.</obo:IAO_0000115>
+        <obo:IAO_0000115>One or more interventions are being assessed for preventing the development of a specific disease or health condition.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:NCIT_NHC0>C49657</obo:NCIT_NHC0>
         <obo:NCIT_P106>Research Activity</obo:NCIT_P106>
@@ -3478,6 +3500,12 @@ http://www.who.int/ictrp/network/trds/en/index.html</rdfs:seeAlso>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66830"/>
         <rdfs:label>Prevention Study</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C49657"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>One or more interventions are being assessed for preventing the development of a specific disease or health condition.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
@@ -3615,6 +3643,7 @@ http://www.who.int/ictrp/network/trds/en/index.html</rdfs:seeAlso>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C71485">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C147141"/>
         <obo:IAO_0000115>Clinical studies testing the efficacy of devices, techniques, procedures, or tests for the purpose of detecting the presence of disease, usually before there are any symptoms.</obo:IAO_0000115>
+        <obo:IAO_0000115>One or more interventions are assessed or examined for identifying a condition, or risk factors for a condition, in people who are not yet known to have the condition or risk factor.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:NCIT_NHC0>C71485</obo:NCIT_NHC0>
         <obo:NCIT_P106>Research Activity</obo:NCIT_P106>
@@ -3636,6 +3665,12 @@ http://www.who.int/ictrp/network/trds/en/index.html</rdfs:seeAlso>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C67497"/>
         <rdfs:label>Screening Study</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C71485"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>One or more interventions are assessed or examined for identifying a condition, or risk factors for a condition, in people who are not yet known to have the condition or risk factor.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
@@ -3669,6 +3704,7 @@ http://www.who.int/ictrp/network/trds/en/index.html</rdfs:seeAlso>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C82638">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/OCRe/research.owl#Interventional_study"/>
         <obo:IAO_0000115>A type of clinical study in which two or more treatments are given alone and in combination, such that all possible combinations are represented across the treatment arms, and are compared in parallel against the study control group.</obo:IAO_0000115>
+        <obo:IAO_0000115>Two or more interventions, each alone and in combination, are evaluated in parallel against a control group</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:NCIT_NHC0>C82638</obo:NCIT_NHC0>
         <obo:NCIT_P106>Research Activity</obo:NCIT_P106>
@@ -3687,6 +3723,12 @@ http://www.who.int/ictrp/network/trds/en/index.html</rdfs:seeAlso>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C99076"/>
         <rdfs:label>Factorial Study</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C82638"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Two or more interventions, each alone and in combination, are evaluated in parallel against a control group</owl:annotatedTarget>
+        <obo:IAO_0000119>https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
@@ -4217,12 +4259,20 @@ objectives is a planned process.</obo:IAO_0000116>
         <obo:IAO_0000111 xml:lang="en">age group inclusion criterion</obo:IAO_0000111>
         <obo:IAO_0000112 xml:lang="en">&quot;18-33 years old&quot;</obo:IAO_0000112>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115>A type of eligibility criteria that indicates the age a person must be to participate in a clinical study. This may be indicated by a specific age or the following age groups. The age groups are: Child (birth-17), Adult (18-64), Older Adult (65+).</obo:IAO_0000115>
         <obo:IAO_0000115>An inclusion criterion that defines and states an age bracket which, if met, makes an entity suitable for a given task or participation in a given process.</obo:IAO_0000115>
         <obo:IAO_0000117>Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000233>#839</obo:IAO_0000233>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <oboInOwl:hasExactSynonym>ages eligible for study</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">age group inclusion criterion</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBI_0002555"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A type of eligibility criteria that indicates the age a person must be to participate in a clinical study. This may be indicated by a specific age or the following age groups. The age groups are: Child (birth-17), Adult (18-64), Older Adult (65+).</owl:annotatedTarget>
+        <obo:IAO_0000119>https://clinicaltrials.gov/ct2/about-studies/glossary</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
@@ -4233,10 +4283,18 @@ objectives is a planned process.</obo:IAO_0000116>
         <obo:IAO_0000111 xml:lang="en">minimum age value specification</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
         <obo:IAO_0000115 xml:lang="en">A value specifcation that specifies the youngest age when specifying an age range.</obo:IAO_0000115>
+        <obo:IAO_0000115>The numerical value, if any, for the minimum age a potential participant must meet to be eligible for the clinical study.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <oboInOwl:hasExactSynonym>minimum age</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">minimum age value specification</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBI_0002556"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The numerical value, if any, for the minimum age a potential participant must meet to be eligible for the clinical study.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
@@ -4247,10 +4305,41 @@ objectives is a planned process.</obo:IAO_0000116>
         <obo:IAO_0000111 xml:lang="en">maximum age value specification</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
         <obo:IAO_0000115 xml:lang="en">A value specifcation that specifies the oldest age when specifying an age range.</obo:IAO_0000115>
+        <obo:IAO_0000115>The numerical value, if any, for the maximum age a potential participant can be to be eligible for the clinical study.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <oboInOwl:hasExactSynonym>maximum age</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">maximum age value specification</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBI_0002557"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The numerical value, if any, for the maximum age a potential participant can be to be eligible for the clinical study.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002561 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002561">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0500027"/>
+        <obo:IAO_0000111 xml:lang="en">sex inclusion criterion</obo:IAO_0000111>
+        <obo:IAO_0000112 xml:lang="en">&quot;included males and females&quot;, &quot;included male patients&quot;</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115>A type of eligibility criteria that indicates the sex of people who may participate in a clinical study (all, female, male). Sex is a person&apos;s classification as female or male based on biological distinctions. Sex is distinct from gender-based eligibility.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An inclusion criterion that defines and states one or more sexes which, if met, makes an entity suitable for a given task or participation in a given process.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <oboInOwl:hasExactSynonym>sexes eligible for study</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">sex inclusion criterion</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBI_0002561"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A type of eligibility criteria that indicates the sex of people who may participate in a clinical study (all, female, male). Sex is a person&apos;s classification as female or male based on biological distinctions. Sex is distinct from gender-based eligibility.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://clinicaltrials.gov/ct2/about-studies/glossary</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
@@ -4328,6 +4417,8 @@ objectives is a planned process.</obo:IAO_0000116>
         <obo:IAO_0000111 xml:lang="en">eligibility criterion</obo:IAO_0000111>
         <obo:IAO_0000112 xml:lang="en">PMID: 17579629 -Eligibility criteria included: untreated ED-SCLC; age &gt;/=70 and performance status 0-2, or age &lt;70 and PS 3.</obo:IAO_0000112>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115>A limited list of criteria for selection of participants in the clinical study, provided in terms of inclusion and exclusion criteria and suitable for assisting potential participants in identifying clinical studies of interest.</obo:IAO_0000115>
+        <obo:IAO_0000115>The key requirements that people who want to participate in a clinical study must meet or the characteristics they must have. Eligibility criteria consist of both inclusion criteria (which are required for a person to participate in the study) and exclusion criteria (which prevent a person from participating). Types of eligibility criteria include whether a study accepts healthy volunteers, has age or age group requirements, or is limited by sex</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">an eligibility criterion (rule) is_a selection criterion which 
 defines and states the requirements (positive or negative) for an entity to be considered as suitable for a given task or participation in a process.
 </obo:IAO_0000115>
@@ -4337,6 +4428,18 @@ defines and states the requirements (positive or negative) for an entity to be c
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <rdfs:label xml:lang="en">eligibility criterion</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBI_0500026"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A limited list of criteria for selection of participants in the clinical study, provided in terms of inclusion and exclusion criteria and suitable for assisting potential participants in identifying clinical studies of interest.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBI_0500026"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The key requirements that people who want to participate in a clinical study must meet or the characteristics they must have. Eligibility criteria consist of both inclusion criteria (which are required for a person to participate in the study) and exclusion criteria (which prevent a person from participating). Types of eligibility criteria include whether a study accepts healthy volunteers, has age or age group requirements, or is limited by sex</owl:annotatedTarget>
+        <obo:IAO_0000119>https://clinicaltrials.gov/ct2/about-studies/glossary</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
@@ -4347,14 +4450,29 @@ defines and states the requirements (positive or negative) for an entity to be c
         <obo:IAO_0000111 xml:lang="en">inclusion criterion</obo:IAO_0000111>
         <obo:IAO_0000112 xml:lang="en">PMID: 23979341-The major inclusion criterion was patients in whom severe cerebral embolism was diagnosed at age 75 or younger (more than 9 in the NIHSS score on day 7 after the onset of stroke) .</obo:IAO_0000112>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000115>A type of eligibility criteria. These are the reasons that a person is allowed to participate in a clinical study.</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">an inclusion criterion (rule) is_a *eligibility criterion*  which defines and states a condition which, if met, makes an entity suitable for a given task or participation in a given process. For instance, in a study protocol, inclusion criteria indicate the conditions that prospective subjects MUST meet to be eligible for participation in a study.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Person: Philippe Rocca-Serra</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">inclusion condition</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">inclusion rule</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">Adapted from Clinical Research Glossary Version 4.0 CDICS glossary group</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <oboInOwl:hasExactSynonym>key inclusion criteria</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">inclusion criterion</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBI_0500027"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A type of eligibility criteria. These are the reasons that a person is allowed to participate in a clinical study.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://clinicaltrials.gov/ct2/about-studies/glossary</obo:IAO_0000119>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBI_0500027"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>key inclusion criteria</owl:annotatedTarget>
+        <obo:IAO_0000119>http://www.icmje.org/recommendations/ 
+https://www.who.int/ictrp/network/trds/en/</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
@@ -4365,12 +4483,27 @@ defines and states the requirements (positive or negative) for an entity to be c
         <obo:IAO_0000111 xml:lang="en">exclusion rule</obo:IAO_0000111>
         <obo:IAO_0000112 xml:lang="en">PMID: 17600285-Exclusion criteria included the use of any topical ophthalmic or topical oral medication and/or history of ocular or oral surgery within the past six months.</obo:IAO_0000112>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000115>A type of eligibility criteria. These are reasons that a person is not allowed to participate in a clinical study.</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">an exclusion criterion (rule) is_a *eligibility criterion*  which defines and states a condition which, if met, makes an entity unsuitable for a given task or participation in a given process. For instance, in a study protocol, exclusion criteria indicate the conditions that prospective subjects SHOULD NOT meet to be eligible for participation in a study</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Person: Philippe Rocca-Serra</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">Adapted from Clinical Research Glossary Version 4.0 CDICS glossary group</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <oboInOwl:hasExactSynonym>key exclusion criteria</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">exclusion criterion</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBI_0500028"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A type of eligibility criteria. These are reasons that a person is not allowed to participate in a clinical study.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://clinicaltrials.gov/ct2/about-studies/glossary</obo:IAO_0000119>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBI_0500028"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>key exclusion criteria</owl:annotatedTarget>
+        <obo:IAO_0000119>http://www.icmje.org/recommendations/ 
+https://www.who.int/ictrp/network/trds/en/</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
@@ -4635,10 +4768,25 @@ However, Shaw explicates:
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000297">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000148"/>
         <obo:IAO_0000115>The date on which a study completes</obo:IAO_0000115>
+        <obo:IAO_0000115>The date the final participant was examined or received an intervention for purposes of final collection of data for the primary and secondary outcome measures and adverse events (for example, last participant’s last visit), whether the clinical study concluded according to the pre-specified protocol or was terminated.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+        <oboInOwl:hasExactSynonym>Completion Date</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">study completion date</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000297"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The date the final participant was examined or received an intervention for purposes of final collection of data for the primary and secondary outcome measures and adverse events (for example, last participant’s last visit), whether the clinical study concluded according to the pre-specified protocol or was terminated.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000297"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Completion Date</owl:annotatedTarget>
+        <rdfs:seeAlso>http://www.icmje.org/recommendations/ 
+http://www.who.int/ictrp/network/trds/en/index.html</rdfs:seeAlso>
+    </owl:Axiom>
     
 
 
@@ -4683,10 +4831,18 @@ However, Shaw explicates:
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000302">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000148"/>
+        <obo:IAO_0000115>The date on which the study sponsor or investigator first submitted a study record to ClinicalTrials.gov. There is typically a delay of a few days between the first submitted date and the record&apos;s availability on ClinicalTrials.gov (the first posted date).</obo:IAO_0000115>
         <obo:IAO_0000115>a date when a registration occurs</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+        <oboInOwl:hasExactSynonym>First submitted</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">date of registration</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000302"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The date on which the study sponsor or investigator first submitted a study record to ClinicalTrials.gov. There is typically a delay of a few days between the first submitted date and the record&apos;s availability on ClinicalTrials.gov (the first posted date).</owl:annotatedTarget>
+        <obo:IAO_0000119>https://www.clinicaltrials.gov/ct2/about-studies/glossary</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
@@ -5024,10 +5180,17 @@ The simplest case-crossover design is closely analogous to a traditional matched
     <owl:Class rdf:about="http://purl.org/net/OCRe/research.owl#Observational_study">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/OCRe/research.owl#Quantitative_human_study"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An observational study is a quantitative study in which the investigators do not seek to intervene, and simply observe the course of events. [adapted from: Glossary of Terms in The Cochrane Collaboration]</obo:IAO_0000115>
+        <obo:IAO_0000115>Studies in human beings in which biomedical and/or health outcomes are assessed in pre-defined groups of individuals. Participants in the study may receive diagnostic, therapeutic, or other interventions, but the investigator does not assign specific interventions to the study participants. This includes when participants receive interventions as part of routine medical care, and a researcher studies the effect of the intervention.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ero.owl"/>
         <statistics:curator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Simona</statistics:curator>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Observational study</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.org/net/OCRe/research.owl#Observational_study"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Studies in human beings in which biomedical and/or health outcomes are assessed in pre-defined groups of individuals. Participants in the study may receive diagnostic, therapeutic, or other interventions, but the investigator does not assign specific interventions to the study participants. This includes when participants receive interventions as part of routine medical care, and a researcher studies the effect of the intervention.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
@@ -5074,11 +5237,18 @@ The simplest case-crossover design is closely analogous to a traditional matched
         <rdfs:subClassOf rdf:resource="http://purl.org/net/OCRe/research.owl#Interventional_study"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A crossover study is an interventional study where the population is a more than a single human subject, in which at least two regimens of interventions are given alternatingly. Upon completion of one regimen, participants are switched to the other. For example, for a comparison of regimens A and B, the participants are randomly allocated to receive them in either the order A, B or the order B, A. 
 Regimens are assigned to and data are analyzed within more than one participant at a time.</obo:IAO_0000115>
+        <obo:IAO_0000115>Participants receive one of two (or more) alternative interventions during the initial phase of the study and receive the other intervention during the second phase of the study</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ero.owl"/>
         <statistics:curator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Simona</statistics:curator>
         <study_protocol:develop_comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Simona: to be reviewed</study_protocol:develop_comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crossover study</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.org/net/OCRe/study_design.owl#Crossover_study"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Participants receive one of two (or more) alternative interventions during the initial phase of the study and receive the other intervention during the second phase of the study</owl:annotatedTarget>
+        <obo:IAO_0000119>https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
@@ -5150,36 +5320,63 @@ A study in which an individual acts has his/her own comparison does not fall int
     
 
 
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#healthy_volunteer_criterion -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#healthy_volunteer_criterion">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0500027"/>
+        <obo:IAO_0000115>A type of eligibility criteria that indicates whether people who do not have the condition/disease being studied can participate in that clinical study.</obo:IAO_0000115>
+        <obo:IAO_0000115>Indication that participants who do not have a disease or condition, or related conditions or symptoms, under study in the clinical study are permitted to participate in the clinical study.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>accepts healthy volunteers</oboInOwl:hasExactSynonym>
+        <rdfs:label>healthy volunteer criterion</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO#healthy_volunteer_criterion"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A type of eligibility criteria that indicates whether people who do not have the condition/disease being studied can participate in that clinical study.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://clinicaltrials.gov/ct2/about-studies/glossary</obo:IAO_0000119>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO#healthy_volunteer_criterion"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Indication that participants who do not have a disease or condition, or related conditions or symptoms, under study in the clinical study are permitted to participate in the clinical study.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#human_subjects_protection_review_board_status -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#human_subjects_protection_review_board_status">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000326"/>
+        <obo:IAO_0000115>Indicate whether a clinical study has been reviewed and approved by at least one human subjects protection review board or such review is not required per applicable law (for example, 21 CFR Part 56, 45 CFR Part 46, or other applicable regulation).</obo:IAO_0000115>
+        <rdfs:label>human subjects protection review board status</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO#human_subjects_protection_review_board_status"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Indicate whether a clinical study has been reviewed and approved by at least one human subjects protection review board or such review is not required per applicable law (for example, 21 CFR Part 56, 45 CFR Part 46, or other applicable regulation).</owl:annotatedTarget>
+        <obo:IAO_0000119>https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
     <!-- https://bio.scai.fraunhofer.de/ontology/CTO#masking_design -->
 
     <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#masking_design">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0500000"/>
         <obo:IAO_0000115>The party or parties involved in the clinical trial who are prevented from having knowledge of the interventions assigned to individual participants.</obo:IAO_0000115>
-        <obo:IAO_0000119>https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
         <oboInOwl:hasRelatedSynonym>blinding</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>masking</oboInOwl:hasRelatedSynonym>
         <rdfs:label>masking design</rdfs:label>
         <rdfs:seeAlso>http://www.icmje.org/recommendations/</rdfs:seeAlso>
         <rdfs:seeAlso>http://www.who.int/ictrp/network/trds/en/index.html</rdfs:seeAlso>
     </owl:Class>
-    
-
-
-    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#maximum_age -->
-
-    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#maximum_age">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0500027"/>
-        <rdfs:label>maximum age</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#minimum_age -->
-
-    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#minimum_age">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0500027"/>
-        <rdfs:label>minimum age</rdfs:label>
-    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO#masking_design"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The party or parties involved in the clinical trial who are prevented from having knowledge of the interventions assigned to individual participants.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
