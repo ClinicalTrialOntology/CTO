@@ -268,13 +268,13 @@
         <Class IRI="#age_older_than_64"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#healthy_volunteer_criterion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#human_subjects_protection_review_board_status"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#masking_design"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#maximum_age"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#minimum_age"/>
     </Declaration>
     <Declaration>
         <Class IRI="#number_of_participants"/>
@@ -493,16 +493,16 @@
         <Class abbreviatedIRI="obo:NCIT_C25150"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#healthy_volunteer_criterion"/>
+        <Class abbreviatedIRI="obo:OBI_0500027"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#human_subjects_protection_review_board_status"/>
+        <Class abbreviatedIRI="obo:OPMI_0000326"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#masking_design"/>
         <Class abbreviatedIRI="obo:OBI_0500000"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#maximum_age"/>
-        <Class abbreviatedIRI="obo:OBI_0500027"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#minimum_age"/>
-        <Class abbreviatedIRI="obo:OBI_0500027"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#number_of_participants"/>
@@ -548,6 +548,223 @@
 http://www.who.int/ictrp/network/trds/en/index.html</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+            <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:NCIT_C15245</AbbreviatedIRI>
+        <Literal>One or more interventions for evaluating the delivery, processes, management, organization, or financing of healthcare.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+            <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:NCIT_C15714</AbbreviatedIRI>
+        <Literal>One or more interventions for examining the basic mechanism of action (for example, physiology or biomechanics of an intervention).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+            <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:NCIT_C49653</AbbreviatedIRI>
+        <Literal>One or more interventions are being evaluated for identifying a disease or health condition.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+            <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:NCIT_C49657</AbbreviatedIRI>
+        <Literal>One or more interventions are being assessed for preventing the development of a specific disease or health condition.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+            <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:NCIT_C71485</AbbreviatedIRI>
+        <Literal>One or more interventions are assessed or examined for identifying a condition, or risk factors for a condition, in people who are not yet known to have the condition or risk factor.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+            <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:NCIT_C82638</AbbreviatedIRI>
+        <Literal>Two or more interventions, each alone and in combination, are evaluated in parallel against a control group</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+            <Literal>https://clinicaltrials.gov/ct2/about-studies/glossary</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OBI_0002555</AbbreviatedIRI>
+        <Literal>A type of eligibility criteria that indicates the age a person must be to participate in a clinical study. This may be indicated by a specific age or the following age groups. The age groups are: Child (birth-17), Adult (18-64), Older Adult (65+).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:OBI_0002555</AbbreviatedIRI>
+        <Literal>ages eligible for study</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+            <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OBI_0002556</AbbreviatedIRI>
+        <Literal>The numerical value, if any, for the minimum age a potential participant must meet to be eligible for the clinical study.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:OBI_0002556</AbbreviatedIRI>
+        <Literal>minimum age</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+            <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OBI_0002557</AbbreviatedIRI>
+        <Literal>The numerical value, if any, for the maximum age a potential participant can be to be eligible for the clinical study.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:OBI_0002557</AbbreviatedIRI>
+        <Literal>maximum age</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+            <Literal>https://clinicaltrials.gov/ct2/about-studies/glossary</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OBI_0002561</AbbreviatedIRI>
+        <Literal>A type of eligibility criteria that indicates the sex of people who may participate in a clinical study (all, female, male). Sex is a person&apos;s classification as female or male based on biological distinctions. Sex is distinct from gender-based eligibility.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:OBI_0002561</AbbreviatedIRI>
+        <Literal>sexes eligible for study</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+            <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OBI_0500026</AbbreviatedIRI>
+        <Literal>A limited list of criteria for selection of participants in the clinical study, provided in terms of inclusion and exclusion criteria and suitable for assisting potential participants in identifying clinical studies of interest.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+            <Literal>https://clinicaltrials.gov/ct2/about-studies/glossary</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OBI_0500026</AbbreviatedIRI>
+        <Literal>The key requirements that people who want to participate in a clinical study must meet or the characteristics they must have. Eligibility criteria consist of both inclusion criteria (which are required for a person to participate in the study) and exclusion criteria (which prevent a person from participating). Types of eligibility criteria include whether a study accepts healthy volunteers, has age or age group requirements, or is limited by sex</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+            <Literal>https://clinicaltrials.gov/ct2/about-studies/glossary</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OBI_0500027</AbbreviatedIRI>
+        <Literal>A type of eligibility criteria. These are the reasons that a person is allowed to participate in a clinical study.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+            <Literal>http://www.icmje.org/recommendations/ 
+https://www.who.int/ictrp/network/trds/en/</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:OBI_0500027</AbbreviatedIRI>
+        <Literal>key inclusion criteria</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+            <Literal>https://clinicaltrials.gov/ct2/about-studies/glossary</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OBI_0500028</AbbreviatedIRI>
+        <Literal>A type of eligibility criteria. These are reasons that a person is not allowed to participate in a clinical study.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+            <Literal>http://www.icmje.org/recommendations/ 
+https://www.who.int/ictrp/network/trds/en/</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:OBI_0500028</AbbreviatedIRI>
+        <Literal>key exclusion criteria</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+            <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OPMI_0000297</AbbreviatedIRI>
+        <Literal>The date the final participant was examined or received an intervention for purposes of final collection of data for the primary and secondary outcome measures and adverse events (for example, last participant’s last visit), whether the clinical study concluded according to the pre-specified protocol or was terminated.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+            <Literal>http://www.icmje.org/recommendations/ 
+http://www.who.int/ictrp/network/trds/en/index.html</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:OPMI_0000297</AbbreviatedIRI>
+        <Literal>Completion Date</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+            <Literal>https://www.clinicaltrials.gov/ct2/about-studies/glossary</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OPMI_0000302</AbbreviatedIRI>
+        <Literal>The date on which the study sponsor or investigator first submitted a study record to ClinicalTrials.gov. There is typically a delay of a few days between the first submitted date and the record&apos;s availability on ClinicalTrials.gov (the first posted date).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:OPMI_0000302</AbbreviatedIRI>
+        <Literal>First submitted</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+            <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>http://purl.org/net/OCRe/research.owl#Observational_study</IRI>
+        <Literal>Studies in human beings in which biomedical and/or health outcomes are assessed in pre-defined groups of individuals. Participants in the study may receive diagnostic, therapeutic, or other interventions, but the investigator does not assign specific interventions to the study participants. This includes when participants receive interventions as part of routine medical care, and a researcher studies the effect of the intervention.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+            <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>http://purl.org/net/OCRe/study_design.owl#Crossover_study</IRI>
+        <Literal>Participants receive one of two (or more) alternative interventions during the initial phase of the study and receive the other intervention during the second phase of the study</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
         <IRI>#age_between_18_and_64</IRI>
         <Literal>adult (18-64)</Literal>
@@ -578,14 +795,55 @@ http://www.who.int/ictrp/network/trds/en/index.html</Literal>
         <Literal>age_older_than_64</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+            <Literal>https://clinicaltrials.gov/ct2/about-studies/glossary</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#healthy_volunteer_criterion</IRI>
+        <Literal>A type of eligibility criteria that indicates whether people who do not have the condition/disease being studied can participate in that clinical study.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+            <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#healthy_volunteer_criterion</IRI>
+        <Literal>Indication that participants who do not have a disease or condition, or related conditions or symptoms, under study in the clinical study are permitted to participate in the clinical study.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <IRI>#healthy_volunteer_criterion</IRI>
+        <Literal>accepts healthy volunteers</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#healthy_volunteer_criterion</IRI>
+        <Literal>healthy volunteer criterion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+            <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#human_subjects_protection_review_board_status</IRI>
+        <Literal>Indicate whether a clinical study has been reviewed and approved by at least one human subjects protection review board or such review is not required per applicable law (for example, 21 CFR Part 56, 45 CFR Part 46, or other applicable regulation).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#human_subjects_protection_review_board_status</IRI>
+        <Literal>human subjects protection review board status</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+            <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
+        </Annotation>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <IRI>#masking_design</IRI>
         <Literal>The party or parties involved in the clinical trial who are prevented from having knowledge of the interventions assigned to individual participants.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
-        <IRI>#masking_design</IRI>
-        <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
@@ -611,16 +869,6 @@ http://www.who.int/ictrp/network/trds/en/index.html</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
         <IRI>#masking_design</IRI>
         <Literal>http://www.who.int/ictrp/network/trds/en/index.html</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#maximum_age</IRI>
-        <Literal>maximum age</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#minimum_age</IRI>
-        <Literal>minimum age</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
