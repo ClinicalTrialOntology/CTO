@@ -714,6 +714,31 @@ https://www.who.int/ictrp/network/trds/en/</Literal>
         <Literal>key exclusion criteria</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:OPMI_0000291</AbbreviatedIRI>
+        <Literal>full title</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:OPMI_0000291</AbbreviatedIRI>
+        <Literal>scientific title</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:OPMI_0000292</AbbreviatedIRI>
+        <Literal>brief title</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:OPMI_0000292</AbbreviatedIRI>
+        <Literal>lay title</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:OPMI_0000292</AbbreviatedIRI>
+        <Literal>public title</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
             <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
@@ -745,6 +770,21 @@ http://www.who.int/ictrp/network/trds/en/index.html</Literal>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
         <AbbreviatedIRI>obo:OPMI_0000302</AbbreviatedIRI>
         <Literal>First submitted</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+            <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OPMI_0000304</AbbreviatedIRI>
+        <Literal>The recruitment status for the clinical study as a whole, based upon the status of the individual sites. If at least one facility in a multi-site clinical study has an Individual Site Status of &quot;Recruiting,&quot; then the Overall Recruitment Status for the study must be &quot;Recruiting.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <AbbreviatedIRI>obo:OPMI_0000304</AbbreviatedIRI>
+        <Literal>http://www.icmje.org/recommendations/ 
+http://www.who.int/ictrp/network/trds/en/index.html</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
