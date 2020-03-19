@@ -23,6 +23,7 @@
     <Import>http://ontofox.hegroup.org/OGMS_import2.owl</Import>
     <Import>http://ontofox.hegroup.org/OPMI12_import.owl</Import>
     <Import>http://ontofox.hegroup.org/OPMI13_imports.owl</Import>
+    <Import>http://ontofox.hegroup.org/VO_import1.owl</Import>
     <Import>http://purl.obolibrary.org/obo/IAO_import.owl</Import>
     <Import>http://purl.obolibrary.org/obo/IAO_import2.owl</Import>
     <Import>http://purl.obolibrary.org/obo/IAO_import3.owl</Import>
@@ -481,6 +482,10 @@
         <Class abbreviatedIRI="obo:BFO_0000019"/>
     </SubClassOf>
     <SubClassOf>
+        <Class abbreviatedIRI="obo:VO_0000596"/>
+        <Class abbreviatedIRI="obo:ERO_0000015"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#age_between_18_and_64"/>
         <Class abbreviatedIRI="obo:NCIT_C25150"/>
     </SubClassOf>
@@ -600,6 +605,30 @@ http://www.who.int/ictrp/network/trds/en/index.html</Literal>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:NCIT_C82638</AbbreviatedIRI>
         <Literal>Two or more interventions, each alone and in combination, are evaluated in parallel against a control group</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+            <Literal>https://www.clinicaltrials.gov/ct2/about-studies/glossary</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OAE_0000002</AbbreviatedIRI>
+        <Literal>A process or action that is the focus of a clinical study. Interventions include drugs, medical devices, procedures, vaccines, and other products that are either investigational or already available. Interventions can also include noninvasive approaches, such as education or modifying diet and exercise.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+            <Literal>http://www.icmje.org/recommendations/ 
+http://www.who.int/ictrp/network/trds/en/index.html</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:OAE_0000002</AbbreviatedIRI>
+        <Literal>Intervention(s)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <AbbreviatedIRI>obo:OAE_0000002</AbbreviatedIRI>
+        <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
