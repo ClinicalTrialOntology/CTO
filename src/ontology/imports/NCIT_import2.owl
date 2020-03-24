@@ -1,18 +1,10 @@
-<?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/NCIT_import2.owl#"
-     xml:base="http://purl.obolibrary.org/obo/NCIT_import2.owl"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
-     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:obo="http://purl.obolibrary.org/obo/">
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/NCIT_import2.owl#" xml:base="http://purl.obolibrary.org/obo/NCIT_import2.owl" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#" xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:obo="http://purl.obolibrary.org/obo/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/NCIT_import2.owl"/>
-    
 
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Annotation properties
@@ -20,6 +12,16 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P371">
+        <rdfs:label>NICHD_Hierarchy_Term</rdfs:label>
+        <obo:NCIT_NHC0>P371</obo:NCIT_NHC0>
+        <obo:NCIT_P322>NICHD</obo:NCIT_P322>
+        <obo:IAO_0000115>A property representing a term chosen by NICHD to be used in the representation of the NICHD hierarchy.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>NICHD_Hierarchy_Term</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108>NICHD_Hierarchy_Term</obo:NCIT_P108>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P98">
         <rdfs:label>DesignNote</rdfs:label>
         <oboInOwl:hasExactSynonym>DesignNote</oboInOwl:hasExactSynonym>
@@ -40,13 +42,41 @@
         <obo:NCIT_P108>Contributing_Source</obo:NCIT_P108>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/NCIT_Contributing_Source-enum"/>
     </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P366">
+        <rdfs:label>Legacy_Concept_Name</rdfs:label>
+        <oboInOwl:hasExactSynonym>Legacy Concept Name</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>A property representing a retired unique concept identifier created and stored as Concept Name by legacy EVS software. Use of these values was long discouraged, but continued as late as 2009 when creation of new values ceased and Concept Name was retired. Legacy values are intended solely to help resolve and update earlier coding.</obo:IAO_0000115>
+        <obo:NCIT_P108>Legacy Concept Name</obo:NCIT_P108>
+        <protege:readOnly>true</protege:readOnly>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_NHC0>P366</obo:NCIT_NHC0>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
         <rdfs:label xml:lang="en">imported from</rdfs:label>
     </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
         <oboInOwl:hasExactSynonym>DEFINITION</oboInOwl:hasExactSynonym>
-        <obo:IAO_0000115>A property representing the English language definitions of what NCI means by the concept. They may also include information about the definition&#39;s source and attribution in a form that can easily be interpreted by software.</obo:IAO_0000115>
+        <obo:IAO_0000115>A property representing the English language definitions of what NCI means by the concept. They may also include information about the definition's source and attribution in a form that can easily be interpreted by software.</obo:IAO_0000115>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P375">
+        <rdfs:label>Maps_To</rdfs:label>
+        <obo:IAO_0000115>A property representing that a term in another terminology has been mapped to a term in NCIt and describes the relationship between the mapped terms.</obo:IAO_0000115>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_NHC0>P375</obo:NCIT_NHC0>
+        <obo:NCIT_P108>Maps_To</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>Maps_To</oboInOwl:hasExactSynonym>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/NCIT_textArea"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_A11">
+        <rdfs:label>Has_NICHD_Parent</rdfs:label>
+        <obo:NCIT_P108>Has_NICHD_Parent</obo:NCIT_P108>
+        <obo:IAO_0000115>An association created to allow the source NICHD to assign a parent to each concept with the intent of creating a hierarchy that includes only terms in which they are a contributing source.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>A11</obo:NCIT_NHC0>
+        <oboInOwl:hasExactSynonym>Has_NICHD_Parent</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
     </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has exact synonym</rdfs:label>
@@ -86,14 +116,11 @@
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_NHC0">
         <rdfs:label>code</rdfs:label>
         <oboInOwl:hasExactSynonym>code</oboInOwl:hasExactSynonym>
-        <obo:IAO_0000115>A property representing a concept unique identifier within the NCI Enterprise Vocabulary Service&#39;s NCI Thesaurus.</obo:IAO_0000115>
+        <obo:IAO_0000115>A property representing a concept unique identifier within the NCI Enterprise Vocabulary Service's NCI Thesaurus.</obo:IAO_0000115>
         <obo:NCIT_P108>code</obo:NCIT_P108>
         <obo:NCIT_NHC0>NHC0</obo:NCIT_NHC0>
         <protege:readOnly>true</protege:readOnly>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://protege.stanford.edu/plugins/owl/protege#readOnly">
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
     </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P107">
         <rdfs:label>Display_Name</rdfs:label>
@@ -105,6 +132,9 @@
         <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
         <obo:NCIT_NHC0>P107</obo:NCIT_NHC0>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://protege.stanford.edu/plugins/owl/protege#readOnly">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
     </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P108">
         <rdfs:label>Preferred_Name</rdfs:label>
@@ -128,10 +158,10 @@
         <obo:NCIT_P107>UMLS CUI</obo:NCIT_P107>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:AnnotationProperty>
-    
 
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Datatypes
@@ -139,28 +169,28 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/NCIT_Contributing_Source-enum -->
 
     <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/NCIT_Contributing_Source-enum"/>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/NCIT_Semantic_Type-enum -->
 
     <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/NCIT_Semantic_Type-enum"/>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/NCIT_textArea -->
 
     <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/NCIT_textArea"/>
-    
 
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Classes
@@ -168,7 +198,64 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
+
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C15329 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C15329">
+        <rdfs:label>Surgical Procedure</rdfs:label>
+        <obo:NCIT_P108>Surgical Procedure</obo:NCIT_P108>
+        <obo:NCIT_P375>Surgery</obo:NCIT_P375>
+        <obo:NCIT_P207>C0543467</obo:NCIT_P207>
+        <obo:NCIT_P106>Health Care Activity</obo:NCIT_P106>
+        <obo:NCIT_P322>NICHD</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym>Surgical Procedure</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>surgery</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P366>Surgical_Procedure</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Surgical Procedures</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P375>Surgically Treated</obo:NCIT_P375>
+        <oboInOwl:hasExactSynonym>Surgery</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Operation</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P107>Surgical Procedure</obo:NCIT_P107>
+        <oboInOwl:hasExactSynonym>Surgical</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Surgically</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Surgical Interventions</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P371>Surgical Procedure</obo:NCIT_P371>
+        <obo:NCIT_P325>A procedure to remove or repair a part of the body or to find out whether disease is present. An operation.</obo:NCIT_P325>
+        <obo:NCIT_P322>CTRP</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym>Type of Surgery</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0>C15329</obo:NCIT_NHC0>
+        <obo:IAO_0000115>A diagnostic or treatment procedure performed by manual and/or instrumental means, often involving an incision and the removal or replacement of a diseased organ or tissue; of or relating to or involving or used in surgery or requiring or amenable to treatment by surgery.</obo:IAO_0000115>
+        <obo:NCIT_P322>CPTAC</obo:NCIT_P322>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116977"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C118169"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C156952"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C156953"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C156954"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C157524"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C157526"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C157527"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C157528"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C157529"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C157530"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C157532"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C157533"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C157534"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C159412"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C90259"/>
+        <obo:NCIT_A11 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25218"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C25218 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C25218">
+        <rdfs:label>Intervention or Procedure</rdfs:label>
+    </owl:Class>
+
 
 
     <!-- http://purl.obolibrary.org/obo/NCIT_C98747 -->
@@ -191,8 +278,4 @@
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
     </owl:Class>
 </rdf:RDF>
-
-
-
 <!-- Generated by the OWL API (version 1.3.5.1016) http://owlapi.sourceforge.net -->
-
