@@ -250,14 +250,6 @@
 
 
 
-    <!-- http://purl.obolibrary.org/obo/NCIT_C25218 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C25218">
-        <rdfs:label>Intervention or Procedure</rdfs:label>
-    </owl:Class>
-
-
-
     <!-- http://purl.obolibrary.org/obo/NCIT_C98747 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C98747">

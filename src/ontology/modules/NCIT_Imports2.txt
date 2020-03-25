@@ -12,7 +12,7 @@ http://purl.obolibrary.org/obo/NCIT_C15329 #Surgical Procedure
 
 
 [Source term retrieval setting]
-includeAllIntermediates
+includeNoIntermediates
 
 [Source annotation URIs]
 includeAllAxioms
