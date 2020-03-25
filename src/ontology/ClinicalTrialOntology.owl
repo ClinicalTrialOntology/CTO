@@ -284,6 +284,9 @@
         <Class IRI="#other_outcome_measure_information"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#outcome_measure"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#outcome_measure_data"/>
     </Declaration>
     <Declaration>
@@ -522,6 +525,10 @@
         <Class abbreviatedIRI="obo:IAO_0000300"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#outcome_measure"/>
+        <Class abbreviatedIRI="obo:OBI_0000011"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#outcome_measure_data"/>
         <Class IRI="#study_result"/>
     </SubClassOf>
@@ -659,6 +666,29 @@ http://www.who.int/ictrp/network/trds/en/index.html</Literal>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:NCIT_C15714</AbbreviatedIRI>
         <Literal>One or more interventions for examining the basic mechanism of action (for example, physiology or biomechanics of an intervention).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+            <Literal>https://clinicaltrials.gov/ct2/about-studies/glossary</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:NCIT_C161319</AbbreviatedIRI>
+        <Literal>The disease, disorder, syndrome, illness, or injury that is being studied. On ClinicalTrials.gov, conditions may also include other health-related issues, such as lifespan, quality of life, and health risks.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+            <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:NCIT_C161319</AbbreviatedIRI>
+        <Literal>The name(s) of the disease(s) or condition(s) studied in the clinical study, or the focus of the clinical study. Use, if available, appropriate descriptors from NLM&apos;s Medical Subject Headings (MeSH)-controlled vocabulary thesaurus or terms from another vocabulary, such as the Systematized Nomenclature of Medicine—Clinical Terms (SNOMED CT), that has been mapped to MeSH within the Unified Medical Language System (UMLS) Metathesaurus.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:NCIT_C161319</AbbreviatedIRI>
+        <Literal>Primary Disease or Condition Being Studied in the Trial, or the Focus of the Study</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
@@ -873,6 +903,16 @@ https://www.who.int/ictrp/network/trds/en/</Literal>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
         <AbbreviatedIRI>obo:OBI_0500028</AbbreviatedIRI>
         <Literal>key exclusion criteria</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+            <Literal>https://www.clinicaltrialsregister.eu/doc/EU_Clinical_Trials_Register_Glossary.pdf</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OGMS_0000073</AbbreviatedIRI>
+        <Literal>1. the determination of the nature of a case of disease.
+2. the art of distinguishing one disease from another.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
@@ -1261,6 +1301,20 @@ Each primary outcome measure information includes title, description and time fr
         <Literal>other outcome measure information</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+            <Literal>https://clinicaltrials.gov/ct2/about-studies/glossary</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#outcome_measure</IRI>
+        <Literal>For clinical trials, a planned measurement described in the protocol that is used to determine the effect of an intervention/treatment on participants. For observational studies, a measurement or observation that is used to describe patterns of diseases or traits, or associations with exposures, risk factors, or treatment. Types of outcome measures include primary outcome measure and secondary outcome measure.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#outcome_measure</IRI>
+        <Literal>outcome measure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <IRI>#outcome_measure_data</IRI>
         <Literal>Data generated from measurement of experimental variables in a study, or for observational studies, from descriptions of patterns of diseases or traits or associations with exposures, risk factors or treatment.</Literal>
@@ -1350,14 +1404,13 @@ Each secondary outcome measure information includes title, description and time 
         <Literal>https://clinicaltrials.gov/ct2/about-studies/glossary</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+            <Literal>https://clinicaltrials.gov/ct2/about-studies/glossary</Literal>
+        </Annotation>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <IRI>#study_result</IRI>
         <Literal>A study record that includes the summary results posted in the ClinicalTrials.gov results database. Summary results information includes participant flow, baseline characteristics, outcome measures, and adverse events (including serious adverse events).</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
-        <IRI>#study_result</IRI>
-        <Literal>https://clinicaltrials.gov/ct2/about-studies/glossary</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
