@@ -572,6 +572,20 @@
             <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
         </Annotation>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:NCIT_C142660</AbbreviatedIRI>
+        <Literal>Participants are assigned to intervention groups by chance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:NCIT_C142660</AbbreviatedIRI>
+        <Literal>randomized</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+            <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:NCIT_C147141</AbbreviatedIRI>
         <Literal>The main objective of the intervention(s) being evaluated by the clinical trial.</Literal>
     </AnnotationAssertion>
@@ -705,8 +719,31 @@ http://www.who.int/ictrp/network/trds/en/index.html</Literal>
             <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
         </Annotation>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:NCIT_C49656</AbbreviatedIRI>
+        <Literal>One or more interventions are being evaluated for treating a disease, syndrome, or condition.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+            <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:NCIT_C49657</AbbreviatedIRI>
         <Literal>One or more interventions are being assessed for preventing the development of a specific disease or health condition.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+            <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:NCIT_C52580</AbbreviatedIRI>
+        <Literal>The method by which participants are assigned to arms in a clinical trial.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <AbbreviatedIRI>obo:NCIT_C52580</AbbreviatedIRI>
+        <Literal>https://www.clinicaltrials.gov/ct2/about-studies/glossary</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
@@ -730,6 +767,15 @@ http://www.who.int/ictrp/network/trds/en/index.html</Literal>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:NCIT_C71485</AbbreviatedIRI>
         <Literal>One or more interventions are assessed or examined for identifying a condition, or risk factors for a condition, in people who are not yet known to have the condition or risk factor.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+            <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:NCIT_C71486</AbbreviatedIRI>
+        <Literal>One or more interventions are evaluated for maximizing comfort, minimizing side effects, or mitigating against a decline in the participant&apos;s health or function.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
@@ -809,6 +855,20 @@ http://www.who.int/ictrp/network/trds/en/index.html</Literal>
     <AnnotationAssertion>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+            <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OBI_0000115</AbbreviatedIRI>
+        <Literal>A description of the manner in which the clinical trial will be conducted.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:OBI_0000115</AbbreviatedIRI>
+        <Literal>Interventional Study Design</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
             <Literal>https://clinicaltrials.gov/ct2/about-studies/glossary</Literal>
         </Annotation>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -864,8 +924,22 @@ http://www.who.int/ictrp/network/trds/en/index.html</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <AbbreviatedIRI>obo:OBI_0300311</AbbreviatedIRI>
+        <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
         <AbbreviatedIRI>obo:OBI_0500000</AbbreviatedIRI>
         <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+            <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OBI_0500006</AbbreviatedIRI>
+        <Literal>Participants are assigned to one of two or more groups in parallel for the duration of the study</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
