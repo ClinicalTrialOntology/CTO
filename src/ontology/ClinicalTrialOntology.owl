@@ -24,6 +24,8 @@
     <Import>http://ontofox.hegroup.org/OGMS_import2.owl</Import>
     <Import>http://ontofox.hegroup.org/OPMI12_import.owl</Import>
     <Import>http://ontofox.hegroup.org/OPMI13_imports.owl</Import>
+    <Import>http://ontofox.hegroup.org/OPMI14_imports.owl</Import>
+    <Import>http://ontofox.hegroup.org/OPMI15_imports.owl</Import>
     <Import>http://ontofox.hegroup.org/VO_import1.owl</Import>
     <Import>http://purl.obolibrary.org/obo/IAO_import.owl</Import>
     <Import>http://purl.obolibrary.org/obo/IAO_import2.owl</Import>
@@ -557,6 +559,16 @@
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:ERO_0000348</AbbreviatedIRI>
         <Literal>single group of individuals with specific characteristics.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+            <Literal>http://www.icmje.org/recommendations/ 
+http://www.who.int/ictrp/network/trds/en/index.html</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasNarrowSynonym"/>
+        <AbbreviatedIRI>obo:IAO_0000578</AbbreviatedIRI>
+        <Literal>Primary Registry and Trial Identifying Number</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
