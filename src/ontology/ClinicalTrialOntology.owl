@@ -290,7 +290,10 @@
         <Class IRI="#outcome_measure"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#outcome_measure_data"/>
+        <Class IRI="#outcome_measure_result"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#outcome_specification"/>
     </Declaration>
     <Declaration>
         <Class IRI="#phase_not_applicable"/>
@@ -525,15 +528,19 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#other_outcome_measure_information"/>
-        <Class abbreviatedIRI="obo:IAO_0000300"/>
+        <Class IRI="#outcome_specification"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#outcome_measure"/>
-        <Class abbreviatedIRI="obo:OBI_0000011"/>
+        <Class abbreviatedIRI="obo:BFO_0000015"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#outcome_measure_data"/>
+        <Class IRI="#outcome_measure_result"/>
         <Class IRI="#study_result"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#outcome_specification"/>
+        <Class abbreviatedIRI="obo:IAO_0000033"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#phase_not_applicable"/>
@@ -541,11 +548,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#primary_outcome_measure_information"/>
-        <Class abbreviatedIRI="obo:IAO_0000300"/>
+        <Class IRI="#outcome_specification"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#secondary_outcome_measure_information"/>
-        <Class abbreviatedIRI="obo:IAO_0000300"/>
+        <Class IRI="#outcome_specification"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#study_result"/>
@@ -1455,13 +1462,28 @@ Each primary outcome measure information includes title, description and time fr
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>#outcome_measure_data</IRI>
+        <IRI>#outcome_measure_result</IRI>
         <Literal>Data generated from measurement of experimental variables in a study, or for observational studies, from descriptions of patterns of diseases or traits or associations with exposures, risk factors or treatment.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#outcome_measure_data</IRI>
-        <Literal>outcome measure data</Literal>
+        <IRI>#outcome_measure_result</IRI>
+        <Literal>outcome measure result</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#outcome_specification</IRI>
+        <Literal>A description of the outcome measure in an interventional study or for observational studies, specific key measurement[s] or observation[s] used to describe patterns of diseases or traits or associations with exposures, risk factors or treatment.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#outcome_specification</IRI>
+        <Literal>outcome specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#outcome_specification</IRI>
+        <Literal>https://clinicaltrials.gov/ct2/about-studies/glossary</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
