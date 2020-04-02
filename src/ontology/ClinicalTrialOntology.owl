@@ -20,7 +20,10 @@
     <Prefix name="oboInOwl" IRI="http://www.geneontology.org/formats/oboInOwl#"/>
     <Prefix name="statistics" IRI="http://purl.org/net/OCRe/statistics.owl#"/>
     <Prefix name="study_protocol" IRI="http://purl.org/net/OCRe/study_protocol.owl#"/>
+    <Import>http://ontofox.hegroup.org/DRON_import.owl</Import>
+    <Import>http://ontofox.hegroup.org/ERO_import.owl</Import>
     <Import>http://ontofox.hegroup.org/OBI_import11.owl</Import>
+    <Import>http://ontofox.hegroup.org/OBI_import12.owl</Import>
     <Import>http://ontofox.hegroup.org/OGMS_import2.owl</Import>
     <Import>http://ontofox.hegroup.org/OPMI12_import.owl</Import>
     <Import>http://ontofox.hegroup.org/OPMI13_imports.owl</Import>
