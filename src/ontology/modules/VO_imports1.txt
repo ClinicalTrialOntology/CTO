@@ -1,0 +1,22 @@
+[URI of the OWL(RDF/XML) output file]
+
+
+[Source ontology]
+VO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/VO_0000427 #phase 1 vaccine trial
+http://purl.obolibrary.org/obo/VO_0000428 #phase 2 vaccine trial
+http://purl.obolibrary.org/obo/VO_0000429 #phase 3 vaccine trial
+http://purl.obolibrary.org/obo/VO_0000430 #phase 4 vaccine trial
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/VO_0000596 #vaccine clinical trial
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]
