@@ -266,6 +266,9 @@
         <Class IRI="http://purl.org/net/OCRe/research.owl#Quantitative_human_study"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Chinese_clinical_trial_registry_identifier"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#age_between_18_and_64"/>
     </Declaration>
     <Declaration>
@@ -303,6 +306,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#primary_outcome_measure_information"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#secondary_identifier"/>
     </Declaration>
     <Declaration>
         <Class IRI="#secondary_outcome_measure_information"/>
@@ -502,6 +508,10 @@
         <Class abbreviatedIRI="obo:ERO_0000015"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Chinese_clinical_trial_registry_identifier"/>
+        <Class abbreviatedIRI="obo:IAO_0000578"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#age_between_18_and_64"/>
         <Class abbreviatedIRI="obo:NCIT_C25150"/>
     </SubClassOf>
@@ -552,6 +562,10 @@
     <SubClassOf>
         <Class IRI="#primary_outcome_measure_information"/>
         <Class IRI="#outcome_specification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#secondary_identifier"/>
+        <Class abbreviatedIRI="obo:IAO_0000030"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#secondary_outcome_measure_information"/>
@@ -726,6 +740,20 @@ http://www.who.int/ictrp/network/trds/en/index.html</Literal>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
         <AbbreviatedIRI>obo:NCIT_C161319</AbbreviatedIRI>
         <Literal>Primary Disease or Condition Being Studied in the Trial, or the Focus of the Study</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+            <Literal>https://www.who.int/ictrp/network/trds/en/</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:NCIT_C161319</AbbreviatedIRI>
+        <Literal>health condition(s) or problem(s) studied</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:NCIT_C161319</AbbreviatedIRI>
+        <Literal>target disease</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
@@ -1143,6 +1171,15 @@ http://www.who.int/ictrp/network/trds/en/index.html</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+            <Literal>https://www.who.int/ictrp/network/trds/en/</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:OPMI_0000302</AbbreviatedIRI>
+        <Literal>date of registration in primary registry</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
             <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
             <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
         </Annotation>
@@ -1155,6 +1192,31 @@ http://www.who.int/ictrp/network/trds/en/index.html</Literal>
         <AbbreviatedIRI>obo:OPMI_0000304</AbbreviatedIRI>
         <Literal>http://www.icmje.org/recommendations/ 
 http://www.who.int/ictrp/network/trds/en/index.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <AbbreviatedIRI>obo:OPMI_0000356</AbbreviatedIRI>
+        <Literal>https://www.who.int/ictrp/network/jprn2/en/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AbbreviatedIRI>obo:OPMI_0000357</AbbreviatedIRI>
+        <Literal>UMIN</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AbbreviatedIRI>obo:OPMI_0000358</AbbreviatedIRI>
+        <Literal>JapicCTI</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OPMI_0000359</AbbreviatedIRI>
+        <Literal>A centrally registered identifier that is assigned for a specific clinical trial registered in JMACCT. The format for the JMACCT registry number is “jRCTs” followed by an 9-digit number, e.g., jRCTs031190269.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AbbreviatedIRI>obo:OPMI_0000359</AbbreviatedIRI>
+        <Literal>jRCTs</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
@@ -1268,6 +1330,26 @@ http://www.who.int/ictrp/network/trds/en/index.html</Literal>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <IRI>http://purl.org/net/OCRe/study_design.owl#Single_group_study</IRI>
         <Literal>Clinical trials with a single arm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <IRI>#Chinese_clinical_trial_registry_identifier</IRI>
+        <Literal>ChiCTR</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <IRI>#Chinese_clinical_trial_registry_identifier</IRI>
+        <Literal>Chinese Clinical Trial Register number</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Chinese_clinical_trial_registry_identifier</IRI>
+        <Literal>Chinese clinical trail registry identifier</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#Chinese_clinical_trial_registry_identifier</IRI>
+        <Literal>http://www.chictr.org.cn/enIndex.aspx</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
@@ -1520,6 +1602,15 @@ Each primary outcome measure information includes title, description and time fr
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+            <Literal>https://www.clinicaltrialsregister.eu/doc/EU_Clinical_Trials_Register_Glossary.pdf</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
+        <IRI>#primary_outcome_measure_information</IRI>
+        <Literal>primary end pont</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
             <Literal>https://www.who.int/ictrp/network/trds/en/</Literal>
         </Annotation>
@@ -1536,6 +1627,29 @@ Each primary outcome measure information includes title, description and time fr
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
         <IRI>#primary_outcome_measure_information</IRI>
         <Literal>https://clinicaltrials.gov/ct2/about-studies/glossary</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+            <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#secondary_identifier</IRI>
+        <Literal>An identifier(s) (ID), if any, other than the organization&apos;s Unique Protocol Identification Number or the NCT number that is assigned to the clinical study. This includes any unique clinical study identifiers assigned by other publicly available clinical trial registries. If the clinical study is funded in whole or in part by a U.S. Federal Government agency, the complete grant or contract number must be submitted as a Secondary ID.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+            <Literal>https://www.who.int/ictrp/network/trds/en/</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#secondary_identifier</IRI>
+        <Literal>Other identifiers besides the Trial Identifying Number allocated by the Primary Registry, if any.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#secondary_identifier</IRI>
+        <Literal>secondary identifier</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
