@@ -308,6 +308,12 @@
         <Class IRI="#primary_outcome_measure_information"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#prospective_study_design"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#retrospective_study_design"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#secondary_identifier"/>
     </Declaration>
     <Declaration>
@@ -562,6 +568,14 @@
     <SubClassOf>
         <Class IRI="#primary_outcome_measure_information"/>
         <Class IRI="#outcome_specification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#prospective_study_design"/>
+        <Class abbreviatedIRI="obo:OBI_0500000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#retrospective_study_design"/>
+        <Class abbreviatedIRI="obo:OBI_0500000"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#secondary_identifier"/>
@@ -1627,6 +1641,34 @@ Each primary outcome measure information includes title, description and time fr
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
         <IRI>#primary_outcome_measure_information</IRI>
         <Literal>https://clinicaltrials.gov/ct2/about-studies/glossary</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+            <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#prospective_study_design</IRI>
+        <Literal>Look forward using periodic observations collected predominantly following subject enrollment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#prospective_study_design</IRI>
+        <Literal>prospective study design</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+            <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#retrospective_study_design</IRI>
+        <Literal>Look back using observations collected predominantly prior to subject selection and enrollment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#retrospective_study_design</IRI>
+        <Literal>retrospective study design</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
