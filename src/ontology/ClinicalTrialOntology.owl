@@ -1454,14 +1454,14 @@ http://www.who.int/ictrp/network/trds/en/index.html</Literal>
         <Literal>A centrally registered identifier that is assigned for a specific clinical trial registered in the Australian New Zealand clinical trials registry (ANZCTR). The format for the registry number is “ACTRN” followed by a 14-digit number, e.g., ACTRN12620000457943.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>#Australian_New_Zealand_clinical_trials_registry_identifier</IRI>
-        <Literal>Australian New Zealand clinical trials registry identifier</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
         <IRI>#Australian_New_Zealand_clinical_trials_registry_identifier</IRI>
         <Literal>ANZCTR identifier</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Australian_New_Zealand_clinical_trials_registry_identifier</IRI>
+        <Literal>Australian New Zealand clinical trials registry identifier</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
@@ -1651,7 +1651,7 @@ http://www.who.int/ictrp/network/trds/en/index.html</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Iranian_registry_of_clinical_trials_identifier</IRI>
-        <Literal>Iranian_registry_of_clinical_trials_identifier</Literal>
+        <Literal>Iranian registry of clinical trials identifier</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
@@ -1822,6 +1822,11 @@ http://www.who.int/ictrp/network/trds/en/index.html</Literal>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
         <IRI>#The_Netherlands_national_trial_register_identifier</IRI>
         <Literal>NTR identifier</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#The_Netherlands_national_trial_register_identifier</IRI>
+        <Literal>The Netherlands national trial register identifier</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
