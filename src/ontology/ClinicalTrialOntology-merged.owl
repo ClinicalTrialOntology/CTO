@@ -3469,6 +3469,8 @@ http://www.who.int/ictrp/network/trds/en/index.html</rdfs:seeAlso>
         <obo:NCIT_P325>Primary disease(s) or condition(s) being studied in the trial, or the focus of the study. (clinicaltrials.gov)</obo:NCIT_P325>
         <oboInOwl:hasExactSynonym>Condition or Disease under Study</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Primary Disease or Condition Being Studied in the Trial, or the Focus of the Study</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>health condition(s) or problem(s) studied</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>target disease</oboInOwl:hasExactSynonym>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C132298"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C160921"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
@@ -3485,6 +3487,12 @@ http://www.who.int/ictrp/network/trds/en/index.html</rdfs:seeAlso>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>The name(s) of the disease(s) or condition(s) studied in the clinical study, or the focus of the clinical study. Use, if available, appropriate descriptors from NLM&apos;s Medical Subject Headings (MeSH)-controlled vocabulary thesaurus or terms from another vocabulary, such as the Systematized Nomenclature of Medicine—Clinical Terms (SNOMED CT), that has been mapped to MeSH within the Unified Medical Language System (UMLS) Metathesaurus.</owl:annotatedTarget>
         <obo:IAO_0000119>https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C161319"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>health condition(s) or problem(s) studied</owl:annotatedTarget>
+        <rdfs:seeAlso>https://www.who.int/ictrp/network/trds/en/</rdfs:seeAlso>
     </owl:Axiom>
     
 
@@ -5208,6 +5216,7 @@ http://www.who.int/ictrp/network/trds/en/index.html</rdfs:seeAlso>
         <obo:IAO_0000115>a date when a registration occurs</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
         <oboInOwl:hasExactSynonym>First submitted</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>date of registration in primary registry</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">date of registration</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -5215,6 +5224,12 @@ http://www.who.int/ictrp/network/trds/en/index.html</rdfs:seeAlso>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>The date on which the study sponsor or investigator first submitted a study record to ClinicalTrials.gov. There is typically a delay of a few days between the first submitted date and the record&apos;s availability on ClinicalTrials.gov (the first posted date).</owl:annotatedTarget>
         <obo:IAO_0000119>https://www.clinicaltrials.gov/ct2/about-studies/glossary</obo:IAO_0000119>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000302"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>date of registration in primary registry</owl:annotatedTarget>
+        <rdfs:seeAlso>https://www.who.int/ictrp/network/trds/en/</rdfs:seeAlso>
     </owl:Axiom>
     
 
@@ -5274,6 +5289,7 @@ http://www.who.int/ictrp/network/trds/en/index.html</rdfs:seeAlso>
         <obo:IAO_0000119>https://rctportal.niph.go.jp/en/</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
         <rdfs:label xml:lang="en">Japan clinical trial identifier</rdfs:label>
+        <rdfs:seeAlso>https://www.who.int/ictrp/network/jprn2/en/</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -5284,6 +5300,7 @@ http://www.who.int/ictrp/network/trds/en/index.html</rdfs:seeAlso>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000356"/>
         <obo:IAO_0000115>A Japan clinical trial identifier provided by the University Hospital Medical Information Network Center (UMIN-CTR)</obo:IAO_0000115>
         <obo:IAO_0000117>Qingliang Leon Li, Asiyah Yu Lin, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118>UMIN</obo:IAO_0000118>
         <obo:IAO_0000119>https://rctportal.niph.go.jp/en/</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
         <rdfs:label xml:lang="en">UMIN-CTR clinical trial identifier</rdfs:label>
@@ -5296,6 +5313,7 @@ http://www.who.int/ictrp/network/trds/en/index.html</rdfs:seeAlso>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000358">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000356"/>
         <obo:IAO_0000117>Qingliang Leon Li, Asiyah Yu Lin, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118>JapicCTI</obo:IAO_0000118>
         <obo:IAO_0000119>https://rctportal.niph.go.jp/en/</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
         <rdfs:label xml:lang="en">JAPIC clinical trial identifier</rdfs:label>
@@ -5307,7 +5325,9 @@ http://www.who.int/ictrp/network/trds/en/index.html</rdfs:seeAlso>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000359">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000356"/>
+        <obo:IAO_0000115>A centrally registered identifier that is assigned for a specific clinical trial registered in JMACCT. The format for the JMACCT registry number is “jRCTs” followed by a 9-digit number, e.g., jRCTs031190269.</obo:IAO_0000115>
         <obo:IAO_0000117>Qingliang Leon Li, Asiyah Yu Lin, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118>jRCTs</obo:IAO_0000118>
         <obo:IAO_0000119>https://rctportal.niph.go.jp/en/</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
         <rdfs:label xml:lang="en">JMACCT clinical trial identifier</rdfs:label>
@@ -5327,6 +5347,7 @@ http://www.who.int/ictrp/network/trds/en/index.html</rdfs:seeAlso>
         <obo:IAO_0000119>https://www.clinicaltrialsregister.eu/ctr-search/search?query=eudract</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
         <rdfs:label xml:lang="en">European clinical trial registry identifier</rdfs:label>
+        <rdfs:seeAlso>https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -5877,6 +5898,204 @@ A study in which an individual acts has his/her own comparison does not fall int
     
 
 
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#Australian_New_Zealand_clinical_trials_registry_identifier -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#Australian_New_Zealand_clinical_trials_registry_identifier">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000578"/>
+        <obo:IAO_0000115>A centrally registered identifier that is assigned for a specific clinical trial registered in the Australian New Zealand clinical trials registry (ANZCTR). The format for the registry number is “ACTRN” followed by a 14-digit number, e.g., ACTRN12620000457943.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>ANZCTR identifier</oboInOwl:hasExactSynonym>
+        <rdfs:label>Australian New Zealand clinical trials registry identifier</rdfs:label>
+        <rdfs:seeAlso>http://www.anzctr.org.au/</rdfs:seeAlso>
+        <rdfs:seeAlso>https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#Brazilian_clinical_trial_registry_identifier -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#Brazilian_clinical_trial_registry_identifier">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000578"/>
+        <obo:IAO_0000115>A centrally registered identifier that is assigned for a specific clinical trial registered in  Brazilian Registry of Clinical Trials (ReBEC). The format for the ReBEC registry number is “RBR-” followed by  6 characters, e.g., RBR-4hb9qs.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Brazilian Registry of Clinical Trials identifier</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>ReBEC identifier</oboInOwl:hasExactSynonym>
+        <rdfs:label>Brazilian clinical trial registry identifier</rdfs:label>
+        <rdfs:seeAlso>http://www.ensaiosclinicos.gov.br/</rdfs:seeAlso>
+        <rdfs:seeAlso>https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#Chinese_clinical_trial_registry_identifier -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#Chinese_clinical_trial_registry_identifier">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000578"/>
+        <obo:IAO_0000118>ChiCTR identifier</obo:IAO_0000118>
+        <oboInOwl:hasExactSynonym>Chinese Clinical Trial Register number</oboInOwl:hasExactSynonym>
+        <rdfs:label>Chinese clinical trail registry identifier</rdfs:label>
+        <rdfs:seeAlso>http://www.chictr.org.cn/enIndex.aspx</rdfs:seeAlso>
+        <rdfs:seeAlso>https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#Cuban_public_registry_of_clinical_trials_identifier -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#Cuban_public_registry_of_clinical_trials_identifier">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000578"/>
+        <obo:IAO_0000115>A centrally registered identifier that is assigned for a specific clinical trial registered in the Cuban public registry of clinical trials (RPCEC). The format for the registry number is “RPCEC” followed by a 8-digit number, e.g., RPCEC00000306.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>RPCEC identifier</oboInOwl:hasExactSynonym>
+        <rdfs:label>Cuban public registry of clinical trials identifier</rdfs:label>
+        <rdfs:seeAlso>http://registroclinico.sld.cu/en/home</rdfs:seeAlso>
+        <rdfs:seeAlso>https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#German_clinical_trials_register_identifier -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#German_clinical_trials_register_identifier">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000578"/>
+        <obo:IAO_0000115>A centrally registered identifier that is assigned for a specific clinical trial registered in the German clinical trials register (DRKS). The format for the registry number is “DRKS” followed by a 8-digit number, e.g., DRKS00000494.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>DRKS identifier</oboInOwl:hasExactSynonym>
+        <rdfs:label>German clinical trials register identifier</rdfs:label>
+        <rdfs:seeAlso>https://www.drks.de/drks_web/</rdfs:seeAlso>
+        <rdfs:seeAlso>https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#Indian_clinical_trial_registry_identifier -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#Indian_clinical_trial_registry_identifier">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000578"/>
+        <obo:IAO_0000115>A centrally registered identifier that is assigned for a specific clinical trial registered in the Indian clinical trial register. The format for the registry number is “CRTI/” followed  by a 4-digit number, followed by a slash, followed a 2-digit number, followed by a slash, followed a 6-digit number, e.g., CTRI/2020/03/024402.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>CRTI identifier</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Clinical Trials Registry - India identifier</oboInOwl:hasExactSynonym>
+        <rdfs:label>Indian clinical trial registry identifier</rdfs:label>
+        <rdfs:seeAlso>http://ctri.nic.in/Clinicaltrials/login.php</rdfs:seeAlso>
+        <rdfs:seeAlso>https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#International_standard_randomised_controlled_trial_register_identifier -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#International_standard_randomised_controlled_trial_register_identifier">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000578"/>
+        <obo:IAO_0000115>A centrally registered identifier that is assigned for a specific clinical trial registered in the international standard randomised controlled trial register  (ISRCT). The format for the registry number is “ISRCTN” followed by a 10-digit number, e.g., ISRCTN14966673.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>ISRCTN</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>International Standard Randomised Controlled Trial Number</oboInOwl:hasExactSynonym>
+        <rdfs:label>International standard randomised controlled trial register identifier</rdfs:label>
+        <rdfs:seeAlso>http://www.isrctn.com/</rdfs:seeAlso>
+        <rdfs:seeAlso>https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#Iranian_registry_of_clinical_trials_identifier -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#Iranian_registry_of_clinical_trials_identifier">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000578"/>
+        <obo:IAO_0000115>A centrally registered identifier that is assigned for a specific clinical trial registered in the Iranian registry of clinical trials (IRCT). The format for the registry number is “IRCT” followed by a 14-digit number, one letter and again one or  two numbers, e.g., IRCT20100228003449N29.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>IRCT identifier</oboInOwl:hasExactSynonym>
+        <rdfs:label>Iranian registry of clinical trials identifier</rdfs:label>
+        <rdfs:seeAlso>http://www.irct.ir/</rdfs:seeAlso>
+        <rdfs:seeAlso>https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#Korean_clinical_trial_registry_identifier -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#Korean_clinical_trial_registry_identifier">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000578"/>
+        <obo:IAO_0000115>A centrally registered identifier that is assigned for a specific clinical trial registered in the Korean Clinical Research Information Service (CRIS). The format for the registry number is “KCT” followed by a 7-digit number, e.g., KCT0004537.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>CRIS identifier</oboInOwl:hasExactSynonym>
+        <rdfs:label>Korean clinical trial registry identifier</rdfs:label>
+        <rdfs:seeAlso>http://cris.nih.go.kr/cris/en/use_guide/cris_introduce.jsp</rdfs:seeAlso>
+        <rdfs:seeAlso>https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#Lebanese_clinical_trials_registry_identifier -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#Lebanese_clinical_trials_registry_identifier">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000578"/>
+        <obo:IAO_0000115>A centrally registered identifier that is assigned for a specific clinical trial registered in the Lebanese clinical trials registry  (LBCTR). The format for the registry number is “LBCTR” followed by a 10-digit number, e.g., LBCTR2020043459.</obo:IAO_0000115>
+        <rdfs:label>Lebanese clinical trials registry identifier</rdfs:label>
+        <rdfs:seeAlso>LBCTR identifier</rdfs:seeAlso>
+        <rdfs:seeAlso>http://lbctr.emro.who.int/</rdfs:seeAlso>
+        <rdfs:seeAlso>https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#Pan_African_clinical_trial_registry_identifier -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#Pan_African_clinical_trial_registry_identifier">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000578"/>
+        <obo:IAO_0000115>A centrally registered identifier that is assigned for a specific clinical trial registered in the Pan African clinical trial register. The format for the registry number is “KCT” followed by a 15-digit number, e.g., PACTR202004893013257.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>PACTR identifier</oboInOwl:hasExactSynonym>
+        <rdfs:label>Pan African clinical trial registry identifier</rdfs:label>
+        <rdfs:seeAlso>https://pactr.samrc.ac.za/</rdfs:seeAlso>
+        <rdfs:seeAlso>https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#Peruvian_clinical_trial_registry_identifier -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#Peruvian_clinical_trial_registry_identifier">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000578"/>
+        <obo:IAO_0000115>A centrally registered identifier that is assigned for a specific clinical trial registered in the Peruvian clinical trial registry  (REPEC). The format for the registry number is “PER-” followed by a 3-digit number, folowed by a hyphen, followed by a 2-digit number e.g., PER-010-20.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>REPEC identifier</oboInOwl:hasExactSynonym>
+        <rdfs:label>Peruvian clinical trial registry identifier</rdfs:label>
+        <rdfs:seeAlso>https://ensayosclinicos-repec.ins.gob.pe/en/</rdfs:seeAlso>
+        <rdfs:seeAlso>https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#Sri_Lanka_clinical_trials_registry_identifier -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#Sri_Lanka_clinical_trials_registry_identifier">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000578"/>
+        <obo:IAO_0000115>A centrally registered identifier that is assigned for a specific clinical trial registered in the Sri Lanka clinical trials registry (SLCTR ). The format for the registry number is “SLCTR /” followed  by a 4-digit number, followed by a slash, followed a 3-digit number, e.g., SLCTR/2020/010</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>SLCTR identifier</oboInOwl:hasExactSynonym>
+        <rdfs:label>Sri Lanka clinical trials registry identifier</rdfs:label>
+        <rdfs:seeAlso>https://slctr.lk/</rdfs:seeAlso>
+        <rdfs:seeAlso>https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#Thai_clinical_trials_registry_identifier -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#Thai_clinical_trials_registry_identifier">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000578"/>
+        <obo:IAO_0000115>A centrally registered identifier that is assigned for a specific clinical trial registered in the Thai clinical trials registry  (TCTR). The format for the registry number is “TCTR” followed by a 11-digit number, e.g., TCTR20200405001</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>TCTR identifier</oboInOwl:hasExactSynonym>
+        <rdfs:label>Thai clinical trials registry identifier</rdfs:label>
+        <rdfs:seeAlso>http://www.clinicaltrials.in.th/</rdfs:seeAlso>
+        <rdfs:seeAlso>https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#The_Netherlands_national_trial_register_identifier -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#The_Netherlands_national_trial_register_identifier">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000578"/>
+        <obo:IAO_0000115>A centrally registered identifier that is assigned for a specific clinical trial registered in the The Netherlands national trial register (NTR). The format for the registry number is “NTR” followed by a 4-digit number, e.g., NL8498.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>NTR identifier</oboInOwl:hasExactSynonym>
+        <rdfs:label>The Netherlands national trial register identifier</rdfs:label>
+        <rdfs:seeAlso>https://www.trialregister.nl/</rdfs:seeAlso>
+        <rdfs:seeAlso>https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
     <!-- https://bio.scai.fraunhofer.de/ontology/CTO#age_between_18_and_64 -->
 
     <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#age_between_18_and_64">
@@ -6070,6 +6289,7 @@ Each primary outcome measure information includes title, description and time fr
         <obo:IAO_0000115>A description of each primary outcome measure (or for observational studies, specific key measurement[s] or observation[s] used to describe patterns of diseases or traits or associations with exposures, risk factors or treatment).
 Each primary outcome measure information includes title, description and time frame.</obo:IAO_0000115>
         <obo:IAO_0000119>https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
+        <oboInOwl:hasRelatedSynonym>primary end pont</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>primary outcome</oboInOwl:hasRelatedSynonym>
         <rdfs:label>primary outcome measure information</rdfs:label>
         <rdfs:seeAlso>https://clinicaltrials.gov/ct2/about-studies/glossary</rdfs:seeAlso>
@@ -6077,8 +6297,69 @@ Each primary outcome measure information includes title, description and time fr
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO#primary_outcome_measure_information"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>primary end pont</owl:annotatedTarget>
+        <rdfs:seeAlso>https://www.clinicaltrialsregister.eu/doc/EU_Clinical_Trials_Register_Glossary.pdf</rdfs:seeAlso>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO#primary_outcome_measure_information"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget>primary outcome</owl:annotatedTarget>
         <rdfs:isDefinedBy>https://www.who.int/ictrp/network/trds/en/</rdfs:isDefinedBy>
+    </owl:Axiom>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#prospective_study_design -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#prospective_study_design">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0500000"/>
+        <obo:IAO_0000115>Look forward using periodic observations collected predominantly following subject enrollment</obo:IAO_0000115>
+        <rdfs:label>prospective study design</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO#prospective_study_design"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Look forward using periodic observations collected predominantly following subject enrollment</owl:annotatedTarget>
+        <obo:IAO_0000119>https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#retrospective_study_design -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#retrospective_study_design">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0500000"/>
+        <obo:IAO_0000115>Look back using observations collected predominantly prior to subject selection and enrollment</obo:IAO_0000115>
+        <rdfs:label>retrospective study design</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO#retrospective_study_design"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Look back using observations collected predominantly prior to subject selection and enrollment</owl:annotatedTarget>
+        <obo:IAO_0000119>https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#secondary_identifier -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#secondary_identifier">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115>An identifier(s) (ID), if any, other than the organization&apos;s Unique Protocol Identification Number or the NCT number that is assigned to the clinical study. This includes any unique clinical study identifiers assigned by other publicly available clinical trial registries. If the clinical study is funded in whole or in part by a U.S. Federal Government agency, the complete grant or contract number must be submitted as a Secondary ID.</obo:IAO_0000115>
+        <obo:IAO_0000115>Other identifiers besides the Trial Identifying Number allocated by the Primary Registry, if any.</obo:IAO_0000115>
+        <rdfs:label>secondary identifier</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO#secondary_identifier"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An identifier(s) (ID), if any, other than the organization&apos;s Unique Protocol Identification Number or the NCT number that is assigned to the clinical study. This includes any unique clinical study identifiers assigned by other publicly available clinical trial registries. If the clinical study is funded in whole or in part by a U.S. Federal Government agency, the complete grant or contract number must be submitted as a Secondary ID.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO#secondary_identifier"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Other identifiers besides the Trial Identifying Number allocated by the Primary Registry, if any.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://www.who.int/ictrp/network/trds/en/</obo:IAO_0000119>
     </owl:Axiom>
     
 
