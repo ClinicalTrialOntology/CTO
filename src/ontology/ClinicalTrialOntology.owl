@@ -24,6 +24,7 @@
     <Import>http://ontofox.hegroup.org/ERO_import.owl</Import>
     <Import>http://ontofox.hegroup.org/OBI_import11.owl</Import>
     <Import>http://ontofox.hegroup.org/OBI_import12.owl</Import>
+    <Import>http://ontofox.hegroup.org/OBI_import13.owl</Import>
     <Import>http://ontofox.hegroup.org/OGMS_import2.owl</Import>
     <Import>http://ontofox.hegroup.org/OPMI12_import.owl</Import>
     <Import>http://ontofox.hegroup.org/OPMI13_imports.owl</Import>
@@ -276,6 +277,12 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Cuban_public_registry_of_clinical_trials_identifier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EU_clinical_trials_register"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#German_clinical_trials_register"/>
     </Declaration>
     <Declaration>
         <Class IRI="#German_clinical_trials_register_identifier"/>
@@ -570,6 +577,14 @@
     <SubClassOf>
         <Class IRI="#Cuban_public_registry_of_clinical_trials_identifier"/>
         <Class abbreviatedIRI="obo:IAO_0000578"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EU_clinical_trials_register"/>
+        <Class abbreviatedIRI="obo:OBI_0000245"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#German_clinical_trials_register"/>
+        <Class abbreviatedIRI="obo:OBI_0000245"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#German_clinical_trials_register_identifier"/>
@@ -1551,6 +1566,61 @@ http://www.who.int/ictrp/network/trds/en/index.html</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
         <IRI>#Cuban_public_registry_of_clinical_trials_identifier</IRI>
+        <Literal>https://www.who.int/ictrp/network/primary/en/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#EU_clinical_trials_register</IRI>
+        <Literal>The EU clinical trials register has been a primary registry in the World Health Organization (WHO&apos;s) Registry</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <IRI>#EU_clinical_trials_register</IRI>
+        <Literal>EU-CTR</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EU_clinical_trials_register</IRI>
+        <Literal>EU clinical trials register</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#EU_clinical_trials_register</IRI>
+        <Literal>https://eudract.ema.europa.eu/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#EU_clinical_trials_register</IRI>
+        <Literal>https://www.clinicaltrialsregister.eu</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#EU_clinical_trials_register</IRI>
+        <Literal>https://www.who.int/ictrp/network/primary/en/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#German_clinical_trials_register</IRI>
+        <Literal>German clinical trials register is an organization to ....</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <IRI>#German_clinical_trials_register</IRI>
+        <Literal>DRKS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#German_clinical_trials_register</IRI>
+        <Literal>German clinical trials register</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#German_clinical_trials_register</IRI>
+        <Literal>https://www.drks.de/drks_web/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#German_clinical_trials_register</IRI>
         <Literal>https://www.who.int/ictrp/network/primary/en/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
