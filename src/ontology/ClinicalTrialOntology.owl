@@ -22,6 +22,7 @@
     <Prefix name="study_protocol" IRI="http://purl.org/net/OCRe/study_protocol.owl#"/>
     <Import>http://ontofox.hegroup.org/DRON_import.owl</Import>
     <Import>http://ontofox.hegroup.org/ERO_import.owl</Import>
+    <Import>http://ontofox.hegroup.org/IAO4_imports.owl</Import>
     <Import>http://ontofox.hegroup.org/OBI_import11.owl</Import>
     <Import>http://ontofox.hegroup.org/OBI_import12.owl</Import>
     <Import>http://ontofox.hegroup.org/OBI_import13.owl</Import>
@@ -30,6 +31,7 @@
     <Import>http://ontofox.hegroup.org/OPMI13_imports.owl</Import>
     <Import>http://ontofox.hegroup.org/OPMI14_imports.owl</Import>
     <Import>http://ontofox.hegroup.org/OPMI15_imports.owl</Import>
+    <Import>http://ontofox.hegroup.org/OPMI16_imports.owl</Import>
     <Import>http://ontofox.hegroup.org/VO_import1.owl</Import>
     <Import>http://purl.obolibrary.org/obo/IAO_import.owl</Import>
     <Import>http://purl.obolibrary.org/obo/IAO_import2.owl</Import>
