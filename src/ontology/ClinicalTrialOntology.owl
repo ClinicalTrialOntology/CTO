@@ -23,6 +23,7 @@
     <Import>http://ontofox.hegroup.org/DRON_import.owl</Import>
     <Import>http://ontofox.hegroup.org/ERO_import.owl</Import>
     <Import>http://ontofox.hegroup.org/IAO4_imports.owl</Import>
+    <Import>http://ontofox.hegroup.org/MS_Imports1.owl</Import>
     <Import>http://ontofox.hegroup.org/OBI_import11.owl</Import>
     <Import>http://ontofox.hegroup.org/OBI_import12.owl</Import>
     <Import>http://ontofox.hegroup.org/OBI_import13.owl</Import>
@@ -386,6 +387,10 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:IAO_0000300"/>
         <Class abbreviatedIRI="obo:IAO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:MS_1000590"/>
+        <Class abbreviatedIRI="obo:IAO_0000300"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:NCBITaxon_1"/>
