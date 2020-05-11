@@ -25,6 +25,7 @@
     <Import>http://ontofox.hegroup.org/ERO_import.owl</Import>
     <Import>http://ontofox.hegroup.org/IAO4_imports.owl</Import>
     <Import>http://ontofox.hegroup.org/MS_Imports1.owl</Import>
+    <Import>http://ontofox.hegroup.org/NCIT_Imports26.owl</Import>
     <Import>http://ontofox.hegroup.org/OBI_import11.owl</Import>
     <Import>http://ontofox.hegroup.org/OBI_import12.owl</Import>
     <Import>http://ontofox.hegroup.org/OBI_import13.owl</Import>
@@ -419,6 +420,10 @@
         <Class IRI="http://purl.org/net/OCRe/research.owl#Observational_study"/>
     </SubClassOf>
     <SubClassOf>
+        <Class abbreviatedIRI="obo:NCIT_C142175"/>
+        <Class abbreviatedIRI="obo:ERO_0000015"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class abbreviatedIRI="obo:NCIT_C147141"/>
         <Class abbreviatedIRI="obo:OBI_0000115"/>
     </SubClassOf>
@@ -546,7 +551,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:NCIT_C98722"/>
-        <Class IRI="http://purl.org/net/OCRe/research.owl#Quantitative_human_study"/>
+        <Class abbreviatedIRI="obo:ERO_0000015"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:NCIT_C98747"/>
@@ -1585,7 +1590,7 @@ http://www.who.int/ictrp/network/trds/en/index.html</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <IRI>#EU_clinical_trials_register</IRI>
-        <Literal>The EU clinical trials register has been a primary registry in the World Health Organization (WHO&apos;s) Registry</Literal>
+        <Literal>The EU clinical trials register is a primary registry in the World Health Organization (WHO&apos;s)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
@@ -1615,7 +1620,7 @@ http://www.who.int/ictrp/network/trds/en/index.html</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <IRI>#German_clinical_trials_register</IRI>
-        <Literal>German clinical trials register is an organization to ....</Literal>
+        <Literal>German clinical trials register is a primary registry</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
