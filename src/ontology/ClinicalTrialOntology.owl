@@ -32,6 +32,7 @@
     <Import>http://ontofox.hegroup.org/OPMI14_imports.owl</Import>
     <Import>http://ontofox.hegroup.org/OPMI15_imports.owl</Import>
     <Import>http://ontofox.hegroup.org/OPMI16_imports.owl</Import>
+    <Import>http://ontofox.hegroup.org/OPMI17_imports.owl</Import>
     <Import>http://ontofox.hegroup.org/VO_import1.owl</Import>
     <Import>http://purl.obolibrary.org/obo/IAO_import.owl</Import>
     <Import>http://purl.obolibrary.org/obo/IAO_import2.owl</Import>
