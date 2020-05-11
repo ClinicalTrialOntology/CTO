@@ -21,6 +21,7 @@
     <Prefix name="statistics" IRI="http://purl.org/net/OCRe/statistics.owl#"/>
     <Prefix name="study_protocol" IRI="http://purl.org/net/OCRe/study_protocol.owl#"/>
     <Import>http://ontofox.hegroup.org/DRON_import.owl</Import>
+    <Import>http://ontofox.hegroup.org/ERO_Imports2.owl</Import>
     <Import>http://ontofox.hegroup.org/ERO_import.owl</Import>
     <Import>http://ontofox.hegroup.org/IAO4_imports.owl</Import>
     <Import>http://ontofox.hegroup.org/MS_Imports1.owl</Import>
@@ -386,6 +387,10 @@
         <AnnotationProperty abbreviatedIRI="terms:title"/>
     </Declaration>
     <SubClassOf>
+        <Class abbreviatedIRI="obo:ERO_0001843"/>
+        <Class abbreviatedIRI="obo:OBI_0000245"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class abbreviatedIRI="obo:IAO_0000300"/>
         <Class abbreviatedIRI="obo:IAO_0000030"/>
     </SubClassOf>
@@ -589,11 +594,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#EU_clinical_trials_register"/>
-        <Class abbreviatedIRI="obo:OBI_0000245"/>
+        <Class abbreviatedIRI="obo:ERO_0001843"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#German_clinical_trials_register"/>
-        <Class abbreviatedIRI="obo:OBI_0000245"/>
+        <Class abbreviatedIRI="obo:ERO_0001843"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#German_clinical_trials_register_identifier"/>
