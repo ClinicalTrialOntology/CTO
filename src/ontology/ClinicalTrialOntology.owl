@@ -30,6 +30,7 @@
     <Import>http://ontofox.hegroup.org/OBI_import12.owl</Import>
     <Import>http://ontofox.hegroup.org/OBI_import13.owl</Import>
     <Import>http://ontofox.hegroup.org/OBI_import14.owl</Import>
+    <Import>http://ontofox.hegroup.org/OBI_imports15.owl</Import>
     <Import>http://ontofox.hegroup.org/OGMS_import2.owl</Import>
     <Import>http://ontofox.hegroup.org/OPMI12_import.owl</Import>
     <Import>http://ontofox.hegroup.org/OPMI13_imports.owl</Import>
@@ -343,6 +344,9 @@
         <Class IRI="#masking_design"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#non-random_allocation"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#number_of_participants"/>
     </Declaration>
     <Declaration>
@@ -425,7 +429,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:NCIT_C147141"/>
-        <Class abbreviatedIRI="obo:OBI_0000115"/>
+        <Class abbreviatedIRI="obo:IAO_0000104"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:NCIT_C15238"/>
@@ -672,6 +676,10 @@
     <SubClassOf>
         <Class IRI="#masking_design"/>
         <Class abbreviatedIRI="obo:OBI_0500000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#non-random_allocation"/>
+        <Class abbreviatedIRI="obo:NCIT_C52580"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#number_of_participants"/>
@@ -1071,6 +1079,11 @@ http://www.who.int/ictrp/network/trds/en/index.html</Literal>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
         <AbbreviatedIRI>obo:OBI_0000115</AbbreviatedIRI>
         <Literal>Interventional Study Design</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:OBI_0000115</AbbreviatedIRI>
+        <Literal>intervention model</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
@@ -2047,6 +2060,30 @@ http://www.who.int/ictrp/network/trds/en/index.html</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
         <IRI>#masking_design</IRI>
         <Literal>http://www.who.int/ictrp/network/trds/en/index.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+            <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#non-random_allocation</IRI>
+        <Literal>Participants are expressly assigned to intervention groups through a non-random method, such as physician choice</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <IRI>#non-random_allocation</IRI>
+        <Literal>non-randomized</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <IRI>#non-random_allocation</IRI>
+        <Literal>nonrandomized</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#non-random_allocation</IRI>
+        <Literal>non-random allocation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
