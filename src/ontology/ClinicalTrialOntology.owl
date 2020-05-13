@@ -612,19 +612,19 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Australian_New_Zealand_clinical_trials_registry_identifier"/>
-        <Class abbreviatedIRI="obo:IAO_0000578"/>
+        <Class abbreviatedIRI="obo:NCIT_C98714"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Brazilian_clinical_trial_registry_identifier"/>
-        <Class abbreviatedIRI="obo:IAO_0000578"/>
+        <Class abbreviatedIRI="obo:NCIT_C98714"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Chinese_clinical_trial_registry_identifier"/>
-        <Class abbreviatedIRI="obo:IAO_0000578"/>
+        <Class abbreviatedIRI="obo:NCIT_C98714"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Cuban_public_registry_of_clinical_trials_identifier"/>
-        <Class abbreviatedIRI="obo:IAO_0000578"/>
+        <Class abbreviatedIRI="obo:NCIT_C98714"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#EU_clinical_trials_register"/>
@@ -636,47 +636,47 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#German_clinical_trials_register_identifier"/>
-        <Class abbreviatedIRI="obo:IAO_0000578"/>
+        <Class abbreviatedIRI="obo:NCIT_C98714"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Indian_clinical_trial_registry_identifier"/>
-        <Class abbreviatedIRI="obo:IAO_0000578"/>
+        <Class abbreviatedIRI="obo:NCIT_C98714"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#International_standard_randomised_controlled_trial_register_identifier"/>
-        <Class abbreviatedIRI="obo:IAO_0000578"/>
+        <Class abbreviatedIRI="obo:NCIT_C98714"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Iranian_registry_of_clinical_trials_identifier"/>
-        <Class abbreviatedIRI="obo:IAO_0000578"/>
+        <Class abbreviatedIRI="obo:NCIT_C98714"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Korean_clinical_trial_registry_identifier"/>
-        <Class abbreviatedIRI="obo:IAO_0000578"/>
+        <Class abbreviatedIRI="obo:NCIT_C98714"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Lebanese_clinical_trials_registry_identifier"/>
-        <Class abbreviatedIRI="obo:IAO_0000578"/>
+        <Class abbreviatedIRI="obo:NCIT_C98714"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Pan_African_clinical_trial_registry_identifier"/>
-        <Class abbreviatedIRI="obo:IAO_0000578"/>
+        <Class abbreviatedIRI="obo:NCIT_C98714"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Peruvian_clinical_trial_registry_identifier"/>
-        <Class abbreviatedIRI="obo:IAO_0000578"/>
+        <Class abbreviatedIRI="obo:NCIT_C98714"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Sri_Lanka_clinical_trials_registry_identifier"/>
-        <Class abbreviatedIRI="obo:IAO_0000578"/>
+        <Class abbreviatedIRI="obo:NCIT_C98714"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Thai_clinical_trials_registry_identifier"/>
-        <Class abbreviatedIRI="obo:IAO_0000578"/>
+        <Class abbreviatedIRI="obo:NCIT_C98714"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#The_Netherlands_national_trial_register_identifier"/>
-        <Class abbreviatedIRI="obo:IAO_0000578"/>
+        <Class abbreviatedIRI="obo:NCIT_C98714"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#age_between_18_and_64"/>
