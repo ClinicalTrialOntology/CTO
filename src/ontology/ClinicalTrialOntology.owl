@@ -28,6 +28,7 @@
     <Import>http://ontofox.hegroup.org/MS_Imports1.owl</Import>
     <Import>http://ontofox.hegroup.org/NCIT_Imports26.owl</Import>
     <Import>http://ontofox.hegroup.org/NCIT_Imports27.owl</Import>
+    <Import>http://ontofox.hegroup.org/NCIT_Imports28.owl</Import>
     <Import>http://ontofox.hegroup.org/OBI_import11.owl</Import>
     <Import>http://ontofox.hegroup.org/OBI_import12.owl</Import>
     <Import>http://ontofox.hegroup.org/OBI_import13.owl</Import>
@@ -423,6 +424,10 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:NCBITaxon_9606"/>
         <Class abbreviatedIRI="obo:NCBITaxon_40674"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:NCIT_C115575"/>
+        <Class abbreviatedIRI="obo:IAO_0000088"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:NCIT_C129000"/>
@@ -2361,13 +2366,9 @@ Each secondary outcome measure information includes title, description and time 
         <Literal>https://clinicaltrials.gov/ct2/about-studies/glossary</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <Annotation>
-            <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
-            <Literal>https://clinicaltrials.gov/ct2/about-studies/glossary</Literal>
-        </Annotation>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <IRI>#study_result</IRI>
-        <Literal>A study record that includes the summary results posted in the ClinicalTrials.gov results database. Summary results information includes participant flow, baseline characteristics, outcome measures, and adverse events (including serious adverse events).</Literal>
+        <Literal>data item ....</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -2382,6 +2383,11 @@ Each secondary outcome measure information includes title, description and time 
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <IRI>#study_summary_result</IRI>
         <Literal>A study record that includes the summary results posted in the ClinicalTrials.gov results database. Summary results information includes participant flow, baseline characteristics, outcome measures, and adverse events (including serious adverse events).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <IRI>#study_summary_result</IRI>
+        <Literal>summary results</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
