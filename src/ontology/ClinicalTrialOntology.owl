@@ -2419,6 +2419,11 @@ Each secondary outcome measure information includes title, description and time 
         <Literal>study summary result</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#study_summary_result</IRI>
+        <Literal>https://www.who.int/ictrp/network/trds/en/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <IRI>#clinical_trial_phase_1/2</IRI>
         <Literal>Clinical trial phase that is a combination of phases 1 and 2.</Literal>
