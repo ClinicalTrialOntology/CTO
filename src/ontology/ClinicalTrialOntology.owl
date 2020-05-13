@@ -24,8 +24,10 @@
     <Import>http://ontofox.hegroup.org/ERO_Imports2.owl</Import>
     <Import>http://ontofox.hegroup.org/ERO_import.owl</Import>
     <Import>http://ontofox.hegroup.org/IAO4_imports.owl</Import>
+    <Import>http://ontofox.hegroup.org/IAO5_imports.owl</Import>
     <Import>http://ontofox.hegroup.org/MS_Imports1.owl</Import>
     <Import>http://ontofox.hegroup.org/NCIT_Imports26.owl</Import>
+    <Import>http://ontofox.hegroup.org/NCIT_Imports27.owl</Import>
     <Import>http://ontofox.hegroup.org/OBI_import11.owl</Import>
     <Import>http://ontofox.hegroup.org/OBI_import12.owl</Import>
     <Import>http://ontofox.hegroup.org/OBI_import13.owl</Import>
@@ -383,6 +385,9 @@
         <Class IRI="#study_result"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#study_summary_result"/>
+    </Declaration>
+    <Declaration>
         <AnnotationProperty abbreviatedIRI="dc:description"/>
     </Declaration>
     <Declaration>
@@ -502,6 +507,10 @@
         <Class abbreviatedIRI="obo:NCIT_C147141"/>
     </SubClassOf>
     <SubClassOf>
+        <Class abbreviatedIRI="obo:NCIT_C49692"/>
+        <Class abbreviatedIRI="obo:IAO_0000027"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class abbreviatedIRI="obo:NCIT_C52580"/>
         <Class abbreviatedIRI="obo:OBI_0000115"/>
     </SubClassOf>
@@ -563,11 +572,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:NCIT_C98772"/>
-        <Class IRI="#study_result"/>
+        <Class abbreviatedIRI="obo:IAO_0000027"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:NCIT_C98781"/>
-        <Class IRI="#study_result"/>
+        <Class abbreviatedIRI="obo:IAO_0000027"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:OPMI_0000223"/>
@@ -695,7 +704,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#outcome_measure_result"/>
-        <Class IRI="#study_result"/>
+        <Class abbreviatedIRI="obo:IAO_0000088"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#outcome_specification"/>
@@ -728,6 +737,10 @@
     <SubClassOf>
         <Class IRI="#study_result"/>
         <Class abbreviatedIRI="obo:IAO_0000027"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#study_summary_result"/>
+        <Class abbreviatedIRI="obo:IAO_0000088"/>
     </SubClassOf>
     <AnnotationAssertion>
         <Annotation>
@@ -910,6 +923,11 @@ http://www.who.int/ictrp/network/trds/en/index.html</Literal>
         <Literal>target disease</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasNarrowSynonym"/>
+        <AbbreviatedIRI>obo:NCIT_C161319</AbbreviatedIRI>
+        <Literal>condition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
             <Literal>https://clinicaltrials.gov/ct2/about-studies/glossary</Literal>
@@ -944,6 +962,26 @@ http://www.who.int/ictrp/network/trds/en/index.html</Literal>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:NCIT_C49657</AbbreviatedIRI>
         <Literal>One or more interventions are being assessed for preventing the development of a specific disease or health condition.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:NCIT_C49692</AbbreviatedIRI>
+        <Literal>target number</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:NCIT_C49692</AbbreviatedIRI>
+        <Literal>target size</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <AbbreviatedIRI>obo:NCIT_C49692</AbbreviatedIRI>
+        <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <AbbreviatedIRI>obo:NCIT_C49692</AbbreviatedIRI>
+        <Literal>https://www.who.int/ictrp/network/trds/en/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
@@ -2335,6 +2373,20 @@ Each secondary outcome measure information includes title, description and time 
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#study_result</IRI>
         <Literal>study result</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+            <Literal>https://clinicaltrials.gov/ct2/about-studies/glossary</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#study_summary_result</IRI>
+        <Literal>A study record that includes the summary results posted in the ClinicalTrials.gov results database. Summary results information includes participant flow, baseline characteristics, outcome measures, and adverse events (including serious adverse events).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#study_summary_result</IRI>
+        <Literal>study summary result</Literal>
     </AnnotationAssertion>
 </Ontology>
 
