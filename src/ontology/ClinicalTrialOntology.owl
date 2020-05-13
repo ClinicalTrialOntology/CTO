@@ -29,6 +29,7 @@
     <Import>http://ontofox.hegroup.org/NCIT_Imports26.owl</Import>
     <Import>http://ontofox.hegroup.org/NCIT_Imports27.owl</Import>
     <Import>http://ontofox.hegroup.org/NCIT_Imports28.owl</Import>
+    <Import>http://ontofox.hegroup.org/NCIT_Imports29.owl</Import>
     <Import>http://ontofox.hegroup.org/OBI_import11.owl</Import>
     <Import>http://ontofox.hegroup.org/OBI_import12.owl</Import>
     <Import>http://ontofox.hegroup.org/OBI_import13.owl</Import>
@@ -389,6 +390,12 @@
         <Class IRI="#study_summary_result"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#clinical_trial_phase_1/2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#clinical_trial_phase_2/3"/>
+    </Declaration>
+    <Declaration>
         <AnnotationProperty abbreviatedIRI="dc:description"/>
     </Declaration>
     <Declaration>
@@ -568,6 +575,10 @@
         <Class abbreviatedIRI="obo:PDRO_0000129"/>
     </SubClassOf>
     <SubClassOf>
+        <Class abbreviatedIRI="obo:NCIT_C98714"/>
+        <Class abbreviatedIRI="obo:IAO_0000578"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class abbreviatedIRI="obo:NCIT_C98722"/>
         <Class abbreviatedIRI="obo:ERO_0000015"/>
     </SubClassOf>
@@ -717,7 +728,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#phase_not_applicable"/>
-        <Class abbreviatedIRI="obo:ERO_0000016"/>
+        <Class abbreviatedIRI="obo:OPMI_0000367"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#primary_outcome_measure_information"/>
@@ -746,6 +757,14 @@
     <SubClassOf>
         <Class IRI="#study_summary_result"/>
         <Class abbreviatedIRI="obo:IAO_0000088"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#clinical_trial_phase_1/2"/>
+        <Class abbreviatedIRI="obo:OPMI_0000367"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#clinical_trial_phase_2/3"/>
+        <Class abbreviatedIRI="obo:OPMI_0000367"/>
     </SubClassOf>
     <AnnotationAssertion>
         <Annotation>
@@ -1042,6 +1061,11 @@ http://www.who.int/ictrp/network/trds/en/index.html</Literal>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:NCIT_C82638</AbbreviatedIRI>
         <Literal>Two or more interventions, each alone and in combination, are evaluated in parallel against a control group</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:NCIT_C98714</AbbreviatedIRI>
+        <Literal>Trial Identifying Number</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
@@ -2393,6 +2417,66 @@ Each secondary outcome measure information includes title, description and time 
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#study_summary_result</IRI>
         <Literal>study summary result</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#clinical_trial_phase_1/2</IRI>
+        <Literal>Clinical trial phase that is a combination of phases 1 and 2.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <IRI>#clinical_trial_phase_1/2</IRI>
+        <Literal>Phase 1/2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <IRI>#clinical_trial_phase_1/2</IRI>
+        <Literal>Phase 1/Phase 2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <IRI>#clinical_trial_phase_1/2</IRI>
+        <Literal>Phase I/II</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#clinical_trial_phase_1/2</IRI>
+        <Literal>clinical trial phase 1/2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#clinical_trial_phase_1/2</IRI>
+        <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#clinical_trial_phase_2/3</IRI>
+        <Literal>Clinical trial phase that is a combination of phases 2 and 3.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <IRI>#clinical_trial_phase_2/3</IRI>
+        <Literal>Phase 2/3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <IRI>#clinical_trial_phase_2/3</IRI>
+        <Literal>Phase 2/Phase 3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <IRI>#clinical_trial_phase_2/3</IRI>
+        <Literal>Phase I/II</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#clinical_trial_phase_2/3</IRI>
+        <Literal>clinical trial phase 2/3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#clinical_trial_phase_2/3</IRI>
+        <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
     </AnnotationAssertion>
 </Ontology>
 
