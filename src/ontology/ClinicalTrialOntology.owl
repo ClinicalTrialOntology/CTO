@@ -21,14 +21,27 @@
     <Prefix name="statistics" IRI="http://purl.org/net/OCRe/statistics.owl#"/>
     <Prefix name="study_protocol" IRI="http://purl.org/net/OCRe/study_protocol.owl#"/>
     <Import>http://ontofox.hegroup.org/DRON_import.owl</Import>
+    <Import>http://ontofox.hegroup.org/ERO_Imports2.owl</Import>
     <Import>http://ontofox.hegroup.org/ERO_import.owl</Import>
+    <Import>http://ontofox.hegroup.org/IAO4_imports.owl</Import>
+    <Import>http://ontofox.hegroup.org/IAO5_imports.owl</Import>
+    <Import>http://ontofox.hegroup.org/MS_Imports1.owl</Import>
+    <Import>http://ontofox.hegroup.org/NCIT_Imports26.owl</Import>
+    <Import>http://ontofox.hegroup.org/NCIT_Imports27.owl</Import>
+    <Import>http://ontofox.hegroup.org/NCIT_Imports28.owl</Import>
+    <Import>http://ontofox.hegroup.org/NCIT_Imports29.owl</Import>
     <Import>http://ontofox.hegroup.org/OBI_import11.owl</Import>
     <Import>http://ontofox.hegroup.org/OBI_import12.owl</Import>
+    <Import>http://ontofox.hegroup.org/OBI_import13.owl</Import>
+    <Import>http://ontofox.hegroup.org/OBI_import14.owl</Import>
+    <Import>http://ontofox.hegroup.org/OBI_imports15.owl</Import>
     <Import>http://ontofox.hegroup.org/OGMS_import2.owl</Import>
     <Import>http://ontofox.hegroup.org/OPMI12_import.owl</Import>
     <Import>http://ontofox.hegroup.org/OPMI13_imports.owl</Import>
     <Import>http://ontofox.hegroup.org/OPMI14_imports.owl</Import>
     <Import>http://ontofox.hegroup.org/OPMI15_imports.owl</Import>
+    <Import>http://ontofox.hegroup.org/OPMI16_imports.owl</Import>
+    <Import>http://ontofox.hegroup.org/OPMI17_imports.owl</Import>
     <Import>http://ontofox.hegroup.org/VO_import1.owl</Import>
     <Import>http://purl.obolibrary.org/obo/IAO_import.owl</Import>
     <Import>http://purl.obolibrary.org/obo/IAO_import2.owl</Import>
@@ -278,6 +291,12 @@
         <Class IRI="#Cuban_public_registry_of_clinical_trials_identifier"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#EU_clinical_trials_register"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#German_clinical_trials_register"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#German_clinical_trials_register_identifier"/>
     </Declaration>
     <Declaration>
@@ -329,6 +348,9 @@
         <Class IRI="#masking_design"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#non-random_allocation"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#number_of_participants"/>
     </Declaration>
     <Declaration>
@@ -365,6 +387,15 @@
         <Class IRI="#study_result"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#study_summary_result"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#clinical_trial_phase_1/2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#clinical_trial_phase_2/3"/>
+    </Declaration>
+    <Declaration>
         <AnnotationProperty abbreviatedIRI="dc:description"/>
     </Declaration>
     <Declaration>
@@ -374,8 +405,16 @@
         <AnnotationProperty abbreviatedIRI="terms:title"/>
     </Declaration>
     <SubClassOf>
+        <Class abbreviatedIRI="obo:ERO_0001843"/>
+        <Class abbreviatedIRI="obo:OBI_0000245"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class abbreviatedIRI="obo:IAO_0000300"/>
         <Class abbreviatedIRI="obo:IAO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:MS_1000590"/>
+        <Class abbreviatedIRI="obo:IAO_0000300"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:NCBITaxon_1"/>
@@ -394,12 +433,20 @@
         <Class abbreviatedIRI="obo:NCBITaxon_40674"/>
     </SubClassOf>
     <SubClassOf>
+        <Class abbreviatedIRI="obo:NCIT_C115575"/>
+        <Class abbreviatedIRI="obo:IAO_0000088"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class abbreviatedIRI="obo:NCIT_C129000"/>
         <Class IRI="http://purl.org/net/OCRe/research.owl#Observational_study"/>
     </SubClassOf>
     <SubClassOf>
+        <Class abbreviatedIRI="obo:NCIT_C142175"/>
+        <Class abbreviatedIRI="obo:ERO_0000015"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class abbreviatedIRI="obo:NCIT_C147141"/>
-        <Class abbreviatedIRI="obo:OBI_0000115"/>
+        <Class abbreviatedIRI="obo:IAO_0000104"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:NCIT_C15238"/>
@@ -472,6 +519,10 @@
         <Class abbreviatedIRI="obo:NCIT_C147141"/>
     </SubClassOf>
     <SubClassOf>
+        <Class abbreviatedIRI="obo:NCIT_C49692"/>
+        <Class abbreviatedIRI="obo:IAO_0000027"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class abbreviatedIRI="obo:NCIT_C52580"/>
         <Class abbreviatedIRI="obo:OBI_0000115"/>
     </SubClassOf>
@@ -524,8 +575,12 @@
         <Class abbreviatedIRI="obo:PDRO_0000129"/>
     </SubClassOf>
     <SubClassOf>
+        <Class abbreviatedIRI="obo:NCIT_C98714"/>
+        <Class abbreviatedIRI="obo:IAO_0000578"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class abbreviatedIRI="obo:NCIT_C98722"/>
-        <Class IRI="http://purl.org/net/OCRe/research.owl#Quantitative_human_study"/>
+        <Class abbreviatedIRI="obo:ERO_0000015"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:NCIT_C98747"/>
@@ -533,11 +588,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:NCIT_C98772"/>
-        <Class IRI="#study_result"/>
+        <Class abbreviatedIRI="obo:IAO_0000027"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:NCIT_C98781"/>
-        <Class IRI="#study_result"/>
+        <Class abbreviatedIRI="obo:IAO_0000027"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:OPMI_0000223"/>
@@ -557,63 +612,71 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Australian_New_Zealand_clinical_trials_registry_identifier"/>
-        <Class abbreviatedIRI="obo:IAO_0000578"/>
+        <Class abbreviatedIRI="obo:NCIT_C98714"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Brazilian_clinical_trial_registry_identifier"/>
-        <Class abbreviatedIRI="obo:IAO_0000578"/>
+        <Class abbreviatedIRI="obo:NCIT_C98714"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Chinese_clinical_trial_registry_identifier"/>
-        <Class abbreviatedIRI="obo:IAO_0000578"/>
+        <Class abbreviatedIRI="obo:NCIT_C98714"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Cuban_public_registry_of_clinical_trials_identifier"/>
-        <Class abbreviatedIRI="obo:IAO_0000578"/>
+        <Class abbreviatedIRI="obo:NCIT_C98714"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EU_clinical_trials_register"/>
+        <Class abbreviatedIRI="obo:ERO_0001843"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#German_clinical_trials_register"/>
+        <Class abbreviatedIRI="obo:ERO_0001843"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#German_clinical_trials_register_identifier"/>
-        <Class abbreviatedIRI="obo:IAO_0000578"/>
+        <Class abbreviatedIRI="obo:NCIT_C98714"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Indian_clinical_trial_registry_identifier"/>
-        <Class abbreviatedIRI="obo:IAO_0000578"/>
+        <Class abbreviatedIRI="obo:NCIT_C98714"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#International_standard_randomised_controlled_trial_register_identifier"/>
-        <Class abbreviatedIRI="obo:IAO_0000578"/>
+        <Class abbreviatedIRI="obo:NCIT_C98714"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Iranian_registry_of_clinical_trials_identifier"/>
-        <Class abbreviatedIRI="obo:IAO_0000578"/>
+        <Class abbreviatedIRI="obo:NCIT_C98714"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Korean_clinical_trial_registry_identifier"/>
-        <Class abbreviatedIRI="obo:IAO_0000578"/>
+        <Class abbreviatedIRI="obo:NCIT_C98714"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Lebanese_clinical_trials_registry_identifier"/>
-        <Class abbreviatedIRI="obo:IAO_0000578"/>
+        <Class abbreviatedIRI="obo:NCIT_C98714"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Pan_African_clinical_trial_registry_identifier"/>
-        <Class abbreviatedIRI="obo:IAO_0000578"/>
+        <Class abbreviatedIRI="obo:NCIT_C98714"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Peruvian_clinical_trial_registry_identifier"/>
-        <Class abbreviatedIRI="obo:IAO_0000578"/>
+        <Class abbreviatedIRI="obo:NCIT_C98714"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Sri_Lanka_clinical_trials_registry_identifier"/>
-        <Class abbreviatedIRI="obo:IAO_0000578"/>
+        <Class abbreviatedIRI="obo:NCIT_C98714"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Thai_clinical_trials_registry_identifier"/>
-        <Class abbreviatedIRI="obo:IAO_0000578"/>
+        <Class abbreviatedIRI="obo:NCIT_C98714"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#The_Netherlands_national_trial_register_identifier"/>
-        <Class abbreviatedIRI="obo:IAO_0000578"/>
+        <Class abbreviatedIRI="obo:NCIT_C98714"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#age_between_18_and_64"/>
@@ -640,6 +703,10 @@
         <Class abbreviatedIRI="obo:OBI_0500000"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#non-random_allocation"/>
+        <Class abbreviatedIRI="obo:NCIT_C52580"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#number_of_participants"/>
         <Class abbreviatedIRI="obo:IAO_0000027"/>
     </SubClassOf>
@@ -653,7 +720,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#outcome_measure_result"/>
-        <Class IRI="#study_result"/>
+        <Class abbreviatedIRI="obo:IAO_0000088"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#outcome_specification"/>
@@ -661,7 +728,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#phase_not_applicable"/>
-        <Class abbreviatedIRI="obo:ERO_0000016"/>
+        <Class abbreviatedIRI="obo:OPMI_0000367"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#primary_outcome_measure_information"/>
@@ -686,6 +753,18 @@
     <SubClassOf>
         <Class IRI="#study_result"/>
         <Class abbreviatedIRI="obo:IAO_0000027"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#study_summary_result"/>
+        <Class abbreviatedIRI="obo:IAO_0000088"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#clinical_trial_phase_1/2"/>
+        <Class abbreviatedIRI="obo:OPMI_0000367"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#clinical_trial_phase_2/3"/>
+        <Class abbreviatedIRI="obo:OPMI_0000367"/>
     </SubClassOf>
     <AnnotationAssertion>
         <Annotation>
@@ -868,6 +947,11 @@ http://www.who.int/ictrp/network/trds/en/index.html</Literal>
         <Literal>target disease</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasNarrowSynonym"/>
+        <AbbreviatedIRI>obo:NCIT_C161319</AbbreviatedIRI>
+        <Literal>condition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
             <Literal>https://clinicaltrials.gov/ct2/about-studies/glossary</Literal>
@@ -902,6 +986,26 @@ http://www.who.int/ictrp/network/trds/en/index.html</Literal>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:NCIT_C49657</AbbreviatedIRI>
         <Literal>One or more interventions are being assessed for preventing the development of a specific disease or health condition.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:NCIT_C49692</AbbreviatedIRI>
+        <Literal>target number</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:NCIT_C49692</AbbreviatedIRI>
+        <Literal>target size</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <AbbreviatedIRI>obo:NCIT_C49692</AbbreviatedIRI>
+        <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <AbbreviatedIRI>obo:NCIT_C49692</AbbreviatedIRI>
+        <Literal>https://www.who.int/ictrp/network/trds/en/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
@@ -957,6 +1061,11 @@ http://www.who.int/ictrp/network/trds/en/index.html</Literal>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:NCIT_C82638</AbbreviatedIRI>
         <Literal>Two or more interventions, each alone and in combination, are evaluated in parallel against a control group</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:NCIT_C98714</AbbreviatedIRI>
+        <Literal>Trial Identifying Number</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
@@ -1037,6 +1146,11 @@ http://www.who.int/ictrp/network/trds/en/index.html</Literal>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
         <AbbreviatedIRI>obo:OBI_0000115</AbbreviatedIRI>
         <Literal>Interventional Study Design</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:OBI_0000115</AbbreviatedIRI>
+        <Literal>intervention model</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
@@ -1555,6 +1669,61 @@ http://www.who.int/ictrp/network/trds/en/index.html</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#EU_clinical_trials_register</IRI>
+        <Literal>The EU clinical trials register is a primary registry in the World Health Organization (WHO&apos;s)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <IRI>#EU_clinical_trials_register</IRI>
+        <Literal>EU-CTR</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EU_clinical_trials_register</IRI>
+        <Literal>EU clinical trials register</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#EU_clinical_trials_register</IRI>
+        <Literal>https://eudract.ema.europa.eu/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#EU_clinical_trials_register</IRI>
+        <Literal>https://www.clinicaltrialsregister.eu</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#EU_clinical_trials_register</IRI>
+        <Literal>https://www.who.int/ictrp/network/primary/en/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#German_clinical_trials_register</IRI>
+        <Literal>German clinical trials register is a primary registry</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <IRI>#German_clinical_trials_register</IRI>
+        <Literal>DRKS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#German_clinical_trials_register</IRI>
+        <Literal>German clinical trials register</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#German_clinical_trials_register</IRI>
+        <Literal>https://www.drks.de/drks_web/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#German_clinical_trials_register</IRI>
+        <Literal>https://www.who.int/ictrp/network/primary/en/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <IRI>#German_clinical_trials_register_identifier</IRI>
         <Literal>A centrally registered identifier that is assigned for a specific clinical trial registered in the German clinical trials register (DRKS). The format for the registry number is “DRKS” followed by a 8-digit number, e.g., DRKS00000494.</Literal>
     </AnnotationAssertion>
@@ -1960,6 +2129,30 @@ http://www.who.int/ictrp/network/trds/en/index.html</Literal>
         <Literal>http://www.who.int/ictrp/network/trds/en/index.html</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+            <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#non-random_allocation</IRI>
+        <Literal>Participants are expressly assigned to intervention groups through a non-random method, such as physician choice</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <IRI>#non-random_allocation</IRI>
+        <Literal>non-randomized</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <IRI>#non-random_allocation</IRI>
+        <Literal>nonrandomized</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#non-random_allocation</IRI>
+        <Literal>non-random allocation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <IRI>#number_of_participants</IRI>
         <Literal>The actual total number of participants that are enrolled in a clinical study</Literal>
@@ -2197,18 +2390,98 @@ Each secondary outcome measure information includes title, description and time 
         <Literal>https://clinicaltrials.gov/ct2/about-studies/glossary</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <Annotation>
-            <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
-            <Literal>https://clinicaltrials.gov/ct2/about-studies/glossary</Literal>
-        </Annotation>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <IRI>#study_result</IRI>
-        <Literal>A study record that includes the summary results posted in the ClinicalTrials.gov results database. Summary results information includes participant flow, baseline characteristics, outcome measures, and adverse events (including serious adverse events).</Literal>
+        <Literal>data item ....</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#study_result</IRI>
         <Literal>study result</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+            <Literal>https://clinicaltrials.gov/ct2/about-studies/glossary</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#study_summary_result</IRI>
+        <Literal>A study record that includes the summary results posted in the ClinicalTrials.gov results database. Summary results information includes participant flow, baseline characteristics, outcome measures, and adverse events (including serious adverse events).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <IRI>#study_summary_result</IRI>
+        <Literal>summary results</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#study_summary_result</IRI>
+        <Literal>study summary result</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#study_summary_result</IRI>
+        <Literal>https://www.who.int/ictrp/network/trds/en/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#clinical_trial_phase_1/2</IRI>
+        <Literal>Clinical trial phase that is a combination of phases 1 and 2.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <IRI>#clinical_trial_phase_1/2</IRI>
+        <Literal>Phase 1/2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <IRI>#clinical_trial_phase_1/2</IRI>
+        <Literal>Phase 1/Phase 2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <IRI>#clinical_trial_phase_1/2</IRI>
+        <Literal>Phase I/II</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#clinical_trial_phase_1/2</IRI>
+        <Literal>clinical trial phase 1/2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#clinical_trial_phase_1/2</IRI>
+        <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>#clinical_trial_phase_2/3</IRI>
+        <Literal>Clinical trial phase that is a combination of phases 2 and 3.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <IRI>#clinical_trial_phase_2/3</IRI>
+        <Literal>Phase 2/3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <IRI>#clinical_trial_phase_2/3</IRI>
+        <Literal>Phase 2/Phase 3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <IRI>#clinical_trial_phase_2/3</IRI>
+        <Literal>Phase I/II</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#clinical_trial_phase_2/3</IRI>
+        <Literal>clinical trial phase 2/3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#clinical_trial_phase_2/3</IRI>
+        <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
     </AnnotationAssertion>
 </Ontology>
 

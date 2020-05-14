@@ -138,7 +138,7 @@
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
         <obo:IAO_0000111 xml:lang="en">definition</obo:IAO_0000111>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</obo:IAO_0000111>
-        <obo:IAO_0000111>textual definition</obo:IAO_0000111>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">textual definition</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115>A property representing the English language definitions of what NCI means by the concept. They may also include information about the definition&apos;s source and attribution in a form that can easily be interpreted by software.</obo:IAO_0000115>
         <obo:IAO_0000115>English language definitions of what NCI means by the concept. These are limited to 1024 characters. They may also include information about the definition&apos;s source and attribution in a form that can easily be interpreted by software.</obo:IAO_0000115>
@@ -190,7 +190,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
         <rdfs:label xml:lang="en">definition</rdfs:label>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
-        <rdfs:label>textual definition</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">textual definition</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -591,6 +591,29 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0001886 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0001886">
+        <obo:IAO_0000111 xml:lang="en">NIAID GSCID-BRC alternative term</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115>An alternative term used by the National Institute of Allergy and Infectious Diseases (NIAID) Genomic Sequencing Centers for Infectious Diseases (GSCID) and Bioinformatics Resource Centers (BRC).</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON: Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119>NIAID GSCID-BRC metadata working group</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">NIAID GSCID-BRC alternative term</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000364 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OPMI_0000364">
+        <obo:IAO_0000115>An annotation property that refers to a code defined by NCIT</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">NCIT code</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ncbitaxon#has_rank -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ncbitaxon#has_rank">
@@ -615,13 +638,37 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
 
     <!-- http://purl.org/dc/elements/1.1/description -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description">
+        <dc:description xml:lang="en-us">Description may include but is not limited to: an abstract,
+         table of contents, reference to a graphical representation
+         of content or a free-text account of the content.</dc:description>
+        <rdfs:comment xml:lang="en-us">An account of the content of the resource.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
+        <rdfs:label>Description</rdfs:label>
+        <rdfs:label xml:lang="en-us">Description</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
     <!-- http://purl.org/dc/elements/1.1/member -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/member"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/source -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/source">
+        <dc:description xml:lang="en-us">The present resource may be derived from the Source resource
+         in whole or in part.  Recommended best practice is to reference
+         the resource by means of a string or number conforming to a
+         formal identification system.</dc:description>
+        <rdfs:comment xml:lang="en-us">A reference to a resource from which the present resource
+         is derived.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/elements/1.1/"/>
+        <rdfs:label>Source</rdfs:label>
+        <rdfs:label xml:lang="en-us">Source</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
@@ -1587,6 +1634,12 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
         <obo:IAO_0000112 xml:lang="en">the mass of this piece of gold.</obo:IAO_0000112>
         <obo:IAO_0000112 xml:lang="en">the shape of your nose</obo:IAO_0000112>
         <obo:IAO_0000112 xml:lang="en">the shape of your nostril</obo:IAO_0000112>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
         <obo:IAO_0000600 xml:lang="en">a quality is a specifically dependent continuant that, in contrast to roles and dispositions, does not require any further process in order to be realized. (axiom label in BFO2 Reference: [055-001])</obo:IAO_0000600>
         <obo:IAO_0000601 xml:lang="en">If an entity is a quality at any time that it exists, then it is a quality at every time that it exists. (axiom label in BFO2 Reference: [105-001])</obo:IAO_0000601>
         <obo:IAO_0000602>(forall (x) (if (Quality x) (SpecificallyDependentContinuant x))) // axiom label in BFO2 CLIF: [055-001] </obo:IAO_0000602>
@@ -2588,6 +2641,20 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ERO_0001843 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ERO_0001843">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organization dedicated to the collection, storage and dissemination of a set of scientific or clinical data.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Nicole Vasilevsky</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Scott Hoffmann</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ero.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">registry</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000005">
@@ -2738,6 +2805,35 @@ Previous. An information content entity is a non-realizable information entity t
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000088 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000088">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000310"/>
+        <obo:IAO_0000111 xml:lang="en">report</obo:IAO_0000111>
+        <obo:IAO_0000112 xml:lang="en">Examples of reports are gene lists and investigation reports. These are not published (journal) articles but may be included in a journal article.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000115 xml:lang="en">a document assembled by an author for the purpose of providing information for the audience. A report is the output of a documenting process and has the objective to be consumed by a specific audience. Topic of the report is on something that has completed. A report is not a single figure. Examples of reports are journal article, patent application, grant progress report, case report (not patient record)</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">2009-03-16: comment from Darren Natale: I am slightly uneasy with the sentence &quot;Topic of the report is on
+something that has completed.&quot;  Should it be restricted to those things
+that are completed?  For example, a progress report is (usually) about
+something that definitely has *not* been completed, or may include
+(only) projections.  I think the definition would not suffer if the
+whole sentence is deleted.</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">2009-03-16: this was report of results with definition: A report is a narrative object that is a formal statement of the results of an investigation, or of any matter on which definite information is required, made by some person or body instructed or required to do so.</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">2009-03-16: work has been done on this term during during the OBI workshop winter 2009 and the current definition was considered acceptable for use in OBI. If there is a need to modify this definition please notify OBI.</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">2009-08-10 Alan Ruttenberg: Larry Hunter suggests that this be obsoleted and replaced by &apos;document&apos;. Alan restored as there are OBI dependencies and this merits further discussion</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">disagreement about where reports go. alan: only some gene lists are reports. Is a report all the content of some document? The example of usage suggests that a report may be part of  some article. Term needs clarification</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">PERSON: Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON: Melanie Courtot</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">GROUP: OBI</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">OBI_0000099</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+        <rdfs:label xml:lang="en">report</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000102 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000102">
@@ -2797,6 +2893,49 @@ Request that IAO either clarify these or change definitions not to use them</rdf
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000310 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000310">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000111 xml:lang="en">document</obo:IAO_0000111>
+        <obo:IAO_0000112 xml:lang="en">A journal article, patent application, laboratory notebook, or a book</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">A collection of information content entities intended to be understood together as a whole</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">PERSON: Lawrence Hunter</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+        <rdfs:label xml:lang="en">document</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000422 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000422">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000300"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115>A textual entity that is used as directive to deliver something to a person, or organization</obo:IAO_0000115>
+        <obo:IAO_0000116>2010-05-24 Alan Ruttenberg. Use label for the string representation. See issue https://github.com/information-artifact-ontology/IAO/issues/59</obo:IAO_0000116>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <rdfs:label xml:lang="en">postal address</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000429 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000429">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000111 xml:lang="en">email address</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000116 xml:lang="en">Alan Ruttenberg 1/3/2012 - Provisional id, see issue at https://github.com/information-artifact-ontology/IAO/issues/130&amp;thanks=130&amp;ts=1325636583</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">Person:Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Person:Chris Stoeckart</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <rdfs:label xml:lang="en">email address</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000578 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000578">
@@ -2835,6 +2974,20 @@ Request that IAO either clarify these or change definitions not to use them</rdf
         <rdfs:seeAlso>http://www.icmje.org/recommendations/ 
 http://www.who.int/ictrp/network/trds/en/index.html</rdfs:seeAlso>
     </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MS_1000590 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MS_1000590">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000300"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Home institution of the contact person.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ms.owl"/>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">value-type:xsd:string</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MS</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MS:1000590</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">contact affiliation</rdfs:label>
+    </owl:Class>
     
 
 
@@ -2956,6 +3109,33 @@ http://www.who.int/ictrp/network/trds/en/index.html</rdfs:seeAlso>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C115575 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C115575">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000088"/>
+        <obo:IAO_0000115>Records containing any interim or final results, as well as clinical and statistical descriptions, presentations, analyses and interpretations of any therapeutic, prophylactic, or diagnostic agent used in human subjects in a clinical trial.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C115575</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Intellectual Product</obo:NCIT_P106>
+        <obo:NCIT_P108>Clinical Trial Final Report</obo:NCIT_P108>
+        <obo:NCIT_P207>C3889645</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC-GLOSS</obo:NCIT_P322>
+        <obo:NCIT_P322>CareLex</obo:NCIT_P322>
+        <obo:NCIT_P325>A written description of a trial/study of any therapeutic, prophylactic, or diagnostic agent conducted in human subjects, in which the clinical and statistical description, presentations, and analyses are fully integrated into a single report. [ICH E3]</obo:NCIT_P325>
+        <obo:NCIT_P325>Subcategory name for the eTMF domain used to classify clinical study report documents.</obo:NCIT_P325>
+        <oboInOwl:hasExactSynonym>CTrial Fin Rept Subcat</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Central Trial Final Reports Subcategory</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Clinical Trial Final Report</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Reports</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>final report</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C114548"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C67497"/>
+        <rdfs:label>Clinical Trial Final Report</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C129000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C129000">
@@ -2983,6 +3163,31 @@ http://www.who.int/ictrp/network/trds/en/index.html</rdfs:seeAlso>
         <owl:annotatedTarget>An observational study that is also considered to be a Patient Registry. This type of study should only be registered once in the Protocol Registration and Results System (PRS), by the sponsor responsible for the primary data collection and analysis.</owl:annotatedTarget>
         <obo:IAO_0000119>https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
     </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C142175 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C142175">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0000015"/>
+        <obo:IAO_0000115>The nature of the investigation or the investigational use for which clinical study is being done.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C142175</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Research Activity</obo:NCIT_P106>
+        <obo:NCIT_P108>Study Type</obo:NCIT_P108>
+        <obo:NCIT_P208>CL540168</obo:NCIT_P208>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P325>Describes the role the study plays in determining the interventions a subject receives.</obo:NCIT_P325>
+        <oboInOwl:hasExactSynonym>STYPE</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Study Type</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C132298"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C142191"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66738"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66830"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C67152"/>
+        <rdfs:label>Study Type</rdfs:label>
+    </owl:Class>
     
 
 
@@ -3018,7 +3223,7 @@ http://www.who.int/ictrp/network/trds/en/index.html</rdfs:seeAlso>
     <!-- http://purl.obolibrary.org/obo/NCIT_C147141 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C147141">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000115"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000104"/>
         <obo:IAO_0000115>The main objective of the intervention(s) being evaluated by the clinical trial.</obo:IAO_0000115>
         <obo:IAO_0000115>The principal reason or intention for the execution of an interventional or non-interventional clinical study.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
@@ -3471,6 +3676,7 @@ http://www.who.int/ictrp/network/trds/en/index.html</rdfs:seeAlso>
         <oboInOwl:hasExactSynonym>Primary Disease or Condition Being Studied in the Trial, or the Focus of the Study</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>health condition(s) or problem(s) studied</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>target disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>condition</oboInOwl:hasNarrowSynonym>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C132298"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C160921"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
@@ -3730,6 +3936,44 @@ http://www.who.int/ictrp/network/trds/en/index.html</rdfs:seeAlso>
         <owl:annotatedTarget>One or more interventions are being assessed for preventing the development of a specific disease or health condition.</owl:annotatedTarget>
         <obo:IAO_0000119>https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
     </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C49692 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C49692">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000115>The number of subjects entered in a clinical trial.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C49692</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Group Attribute</obo:NCIT_P106>
+        <obo:NCIT_P108>Planned Subject Number</obo:NCIT_P108>
+        <obo:NCIT_P207>C1709561</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P322>CDISC-GLOSS</obo:NCIT_P322>
+        <obo:NCIT_P325>The number of subjects in a class or group (including the total for the entire trial) intended to be enrolled in a trial to reach the planned sample size. Target enrollments are set so that statistical and scientific objectives of a trial will have a likelihood of being met as determined by agreement, algorithm, or other specified process.</obo:NCIT_P325>
+        <obo:NCIT_P325>The planned number of subjects to be entered in a clinical trial. (NCI)</obo:NCIT_P325>
+        <obo:NCIT_P366>Planned_Subject_Number</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Anticipated Enrollment</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>PLANSUB</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Planned Enrollment</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Planned Number of Subjects</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Planned Subject Number</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Target Enrollment</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>target enrollment</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>target number</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>target size</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C132298"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C147066"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66738"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66830"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C67152"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C67497"/>
+        <rdfs:label>Planned Subject Number</rdfs:label>
+        <rdfs:seeAlso>https://prsinfo.clinicaltrials.gov/definitions.html</rdfs:seeAlso>
+        <rdfs:seeAlso>https://www.who.int/ictrp/network/trds/en/</rdfs:seeAlso>
+    </owl:Class>
     
 
 
@@ -4085,10 +4329,35 @@ http://www.who.int/ictrp/network/trds/en/index.html</rdfs:seeAlso>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C98714 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C98714">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000578"/>
+        <obo:IAO_0000115>A sequence of letters, numbers, or other characters that uniquely identifies a clinical trial within a clinical trial registry.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C98714</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Intellectual Product</obo:NCIT_P106>
+        <obo:NCIT_P108>Clinical Trial Registry Identifier</obo:NCIT_P108>
+        <obo:NCIT_P207>C3274381</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P325>Identification numbers assigned to the protocol by clinicaltrials.gov, EudraCT, or other registries.</obo:NCIT_P325>
+        <oboInOwl:hasExactSynonym>Clinical Trial Registry Identifier</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>REGID</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Registry Identifier</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Trial Identifying Number</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66738"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66830"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C67152"/>
+        <rdfs:label>Clinical Trial Registry Identifier</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C98722 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C98722">
-        <rdfs:subClassOf rdf:resource="http://purl.org/net/OCRe/research.owl#Quantitative_human_study"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0000015"/>
         <obo:IAO_0000115>An investigational drug product (including biological product) available through expanded access for patients who do not qualify for enrollment in a clinical trial. Expanded Access includes all expanded access types under section 561 of the Federal Food, Drug, and Cosmetic Act: (1) for individual patients, including emergency use; (2) for intermediate-size patient populations; and (3) under a treatment IND or treatment protocol.</obo:IAO_0000115>
         <obo:IAO_0000115>Studies that provide a means for obtaining an experimental drug or device for patients who are not adequately treated by existing therapy, who do not meet the eligibility criteria for enrollment, or who are otherwise unable to participate in another clinical study. Expanded Access studies include individual-patient IND, treatment IND, compassionate use, emergency use or continued access.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
@@ -4157,7 +4426,7 @@ http://www.who.int/ictrp/network/trds/en/index.html</rdfs:seeAlso>
     <!-- http://purl.obolibrary.org/obo/NCIT_C98772 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C98772">
-        <rdfs:subClassOf rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO#study_result"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
         <obo:IAO_0000115>The primary measurement(s) or observation(s) used to measure the effect of experimental variables in a study, or for observational studies, to describe patterns of diseases or traits or associations with exposures, risk factors or treatment. These are the outcome measures used to assess the primary objective(s).</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:NCIT_NHC0>C98772</obo:NCIT_NHC0>
@@ -4183,7 +4452,7 @@ http://www.who.int/ictrp/network/trds/en/index.html</rdfs:seeAlso>
     <!-- http://purl.obolibrary.org/obo/NCIT_C98781 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C98781">
-        <rdfs:subClassOf rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO#study_result"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
         <obo:IAO_0000115>Other key measures that will be used to evaluate the intervention(s) or, for observational studies, that are a focus of the study. These are the outcome measures used to assess the secondary objective(s).</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:NCIT_NHC0>C98781</obo:NCIT_NHC0>
@@ -4380,15 +4649,22 @@ objectives is a planned process.</obo:IAO_0000116>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000115">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0500000"/>
         <obo:IAO_0000111 xml:lang="en">intervention design</obo:IAO_0000111>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intervention design</obo:IAO_0000111>
         <obo:IAO_0000112 xml:lang="en">PMID: 18208636.Br J Nutr. 2008 Jan 22;:1-11.Effect of vitamin D supplementation on bone and vitamin D status among Pakistani immigrants in Denmark: a randomised double-blinded placebo-controlled intervention study.</obo:IAO_0000112>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID: 18208636.Br J Nutr. 2008 Jan 22;:1-11.Effect of vitamin D supplementation on bone and vitamin D status among Pakistani immigrants in Denmark: a randomised double-blinded placebo-controlled intervention study.</obo:IAO_0000112>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
         <obo:IAO_0000115>A description of the manner in which the clinical trial will be conducted.</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">An intervention design is a study design in which a controlled process applied to the subjects (the intervention) serves as the independent variable manipulated by the experimentalist. The treatment (perturbation or intervention) defined can be defined as a combination of values taken by independent variable manipulated by the experimentalists are applied to the recruited subjects assigned (possibly by applying specific methods) to treatment groups. The specificity of intervention design is the fact that independent variables are being manipulated and a response of the biological system is evaluated via response variables as monitored by possibly a series of assays.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An intervention design is a study design in which a controlled process applied to the subjects (the intervention) serves as the independent variable manipulated by the experimentalist. The treatment (perturbation or intervention) defined can be defined as a combination of values taken by independent variable manipulated by the experimentalists are applied to the recruited subjects assigned (possibly by applying specific methods) to treatment groups. The specificity of intervention design is the fact that independent variables are being manipulated and a response of the biological system is evaluated via response variables as monitored by possibly a series of assays.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Philppe Rocca-Serra</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philppe Rocca-Serra</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">OBI branch derived</obo:IAO_0000119>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBI branch derived</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <oboInOwl:hasExactSynonym>Interventional Study Design</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>intervention model</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">intervention design</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intervention design</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBI_0000115"/>
@@ -4435,6 +4711,52 @@ objectives is a planned process.</obo:IAO_0000116>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
         <rdfs:label xml:lang="en">sponsor role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000245 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000245">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000111 xml:lang="en">organization</obo:IAO_0000111>
+        <obo:IAO_0000112 xml:lang="en">PMID: 16353909.AAPS J. 2005 Sep 22;7(2):E274-80. Review. The joint food and agriculture organization of the United Nations/World Health Organization Expert Committee on Food Additives and its role in the evaluation of the safety of veterinary drug residues in foods.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">An entity that can bear roles, has members, and has a set of organization rules. Members of organizations are either organizations themselves or individual people. Members can bear specific organization member roles that are determined in the organization rules. The organization rules also determine how decisions are made on behalf of the organization by the organization members.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">BP: The definition summarizes long email discussions on the OBI developer, roles, biomaterial and denrie branches. It leaves open if an organization is a material entity or a dependent continuant, as no consensus was reached on that.  The current placement as material is therefore temporary, in order to move forward with development. Here is the entire email summary, on which the definition is based:
+
+1) there are organization_member_roles (president, treasurer, branch
+editor), with individual persons as bearers
+
+2) there are organization_roles (employer, owner, vendor, patent holder)
+
+3) an organization has a charter / rules / bylaws, which specify what roles
+there are, how they should be realized, and how to modify the
+charter/rules/bylaws themselves.
+
+It is debatable what the organization itself is (some kind of dependent
+continuant or an aggregate of people). This also determines who/what the
+bearer of organization_roles&apos; are. My personal favorite is still to define
+organization as a kind of &apos;legal entity&apos;, but thinking it through leads to
+all kinds of questions that are clearly outside the scope of OBI.
+
+Interestingly enough, it does not seem to matter much where we place
+organization itself, as long as we can subclass it (University, Corporation,
+Government Agency, Hospital), instantiate it (Affymetrix, NCBI, NIH, ISO,
+W3C, University of Oklahoma), and have it play roles.
+
+This leads to my proposal: We define organization through the statements 1 -
+3 above, but without an &apos;is a&apos; statement for now. We can leave it in its
+current place in the is_a hierarchy (material entity) or move it up to
+&apos;continuant&apos;. We leave further clarifications to BFO, and close this issue
+for now.</obo:IAO_0000116>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Bjoern Peters</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Philippe Rocca-Serra</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Susanna Sansone</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GROUP: OBI</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <rdfs:label xml:lang="en">organization</rdfs:label>
     </owl:Class>
     
 
@@ -4515,6 +4837,24 @@ In the examples above, a reagent is an operational component of a device, but th
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBI development call 2012-12-17.</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">device</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001627 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001627">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000300"/>
+        <obo:IAO_0000111 xml:lang="en">country name</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">A textual entity that denotes a geographic location that is a site or part of a site that is identified as a country in the political geography.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person: Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">NIAID GSCID-BRC metadata working group</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">Website: http://en.wikipedia.org/wiki/Country</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <obo:OBI_0001886>Specimen Collection Location - Country</obo:OBI_0001886>
+        <dc:source>NIAID GSCID-BRC</dc:source>
+        <rdfs:label xml:lang="en">country name</rdfs:label>
     </owl:Class>
     
 
@@ -4707,6 +5047,53 @@ In the examples above, a reagent is an operational component of a device, but th
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <rdfs:label xml:lang="en">study design</rdfs:label>
         <rdfs:seeAlso>https://prsinfo.clinicaltrials.gov/definitions.html</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0500002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0500002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000115"/>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">repeated measure design</obo:IAO_0000111>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID: 10959922.J Biopharm Stat. 2000 Aug;10(3):433-45.Equivalence in test assay method comparisons for the repeated-measure, matched-pair design in medical device studies: statistical considerations.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a study design which use the same individuals and exposure them to a set of conditions. The effect of order and practice can be confounding factor in such designs</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PlanAndPlannedProcess Branch</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.holah.karoo.net/experimentaldesigns.htm</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">repeated measure design</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0500003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0500003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0500002"/>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cross over design</obo:IAO_0000111>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID: 17601993-Objective: HIV-infected patients with lipodystrophy (HIV-lipodystrophy) are insulin resistant and have elevated plasma free fatty acid (FFA) concentrations. We aimed to explore the mechanisms underlying FFA-induced insulin resistance in patients with HIV-lipodystrophy. Research Design and Methods: Using a randomized placebo-controlled cross-over design, we studied the effects of an overnight acipimox-induced suppression of FFA on glucose and FFA metabolism by using stable isotope labelled tracer techniques during basal conditions and a two-stage euglycemic, hyperinsulinemic clamp (20 mU insulin/m(2)/min; 50 mU insulin/m(2)/min) in nine patients with nondiabetic HIV-lipodystrophy. All patients received antiretroviral therapy. Biopsies from the vastus lateralis muscle were obtained during each stage of the clamp. Results: Acipimox treatment reduced basal FFA rate of appearance by 68.9% (52.6%-79.5%) and decreased plasma FFA concentration by 51.6 % (42.0%-58.9%), (both, P &lt; 0.0001). Endogenous glucose production was not influenced by acipimox. During the clamp the increase in glucose-uptake was significantly greater after acipimox treatment compared to placebo (acipimox: 26.85 (18.09-39.86) vs placebo: 20.30 (13.67-30.13) mumol/kg/min; P &lt; 0.01). Insulin increased phosphorylation of Akt (Thr(308)) and GSK-3beta (Ser(9)), decreased phosphorylation of glycogen synthase (GS) site 3a+b and increased GS-activity (I-form) in skeletal muscle (P &lt; 0.01). Acipimox decreased phosphorylation of GS (site 3a+b) (P &lt; 0.02) and increased GS-activity (P &lt; 0.01) in muscle. Conclusion: The present study provides direct evidence that suppression of lipolysis in patients with HIV-lipodystrophy improves insulin-stimulated peripheral glucose-uptake. The increased glucose-uptake may in part be explained by increased dephosphorylation of GS (site 3a+b) resulting in increased GS activity.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a repeated measure design which ensures that experimental units receive, in sequence, the treatment (or the control), and then, after a specified time interval (aka *wash-out periods*), switch to the control (or treatment). In this design, subjects (patients in human context) serve as their own controls, and randomization may be used to determine the ordering which a subject receives the treatment and control</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippe Rocca-Serra</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(source: http://www.sbu.se/Filer/Content0/publikationer/1/literaturesearching_1993/glossary.html)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cross over design</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0500004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0500004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0500003"/>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n-to-1 design</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N-of-1 design is a cross-over design in which the same patient is repeatedly randomised to receive either the experimental treatment or its control (Senn, 1993).</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippe Rocca-Serra</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adapted from  http://www.childrens-mercy.org/stats/definitions/crossover.htm and source:http://symptomresearch.nih.gov/chapter_6/sec1/csss1pg1.htm)</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n-to-1 design</rdfs:label>
     </owl:Class>
     
 
@@ -5009,6 +5396,20 @@ However, Shaw explicates:
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000112 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000112">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115>A telephone number is a sequence of digits assigned to a fixed-line telephone subscriber station connected to a telephone line or to a wireless electronic telephony device, such as a radio telephone or a mobile telephone, or to other devices for data transmission via the public switched telephone network (PSTN) or other public and private networks.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118>phone number</obo:IAO_0000118>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Telephone_number</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+        <rdfs:label xml:lang="en">telephone number</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OPMI_0000223 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000223">
@@ -5023,7 +5424,7 @@ However, Shaw explicates:
     <!-- http://purl.obolibrary.org/obo/OPMI_0000289 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000289">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000578"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C98714"/>
         <obo:IAO_0000115>A centrally registered identifier that is assigned for a specific clinical trial registered in  the ClinicalTrials.gov. The format for the ClinicalTrials.gov registry number is “NCT” followed by an 8-digit number, e.g.: NCT00000419.</obo:IAO_0000115>
         <obo:IAO_0000117>Qingliang Leon Li, Asiyah Yu Lin, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000118>NCT identifier</obo:IAO_0000118>
@@ -5283,7 +5684,7 @@ http://www.who.int/ictrp/network/trds/en/index.html</rdfs:seeAlso>
     <!-- http://purl.obolibrary.org/obo/OPMI_0000356 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000356">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000578"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C98714"/>
         <obo:IAO_0000117>Qingliang Leon Li, Asiyah Yu Lin, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>https://pubchem.ncbi.nlm.nih.gov/source/NIPH%20Clinical%20Trials%20Search%20of%20Japan</obo:IAO_0000119>
         <obo:IAO_0000119>https://rctportal.niph.go.jp/en/</obo:IAO_0000119>
@@ -5338,7 +5739,7 @@ http://www.who.int/ictrp/network/trds/en/index.html</rdfs:seeAlso>
     <!-- http://purl.obolibrary.org/obo/OPMI_0000360 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000360">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000578"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C98714"/>
         <obo:IAO_0000112>EudraCT Number: 2007-002422-29</obo:IAO_0000112>
         <obo:IAO_0000117>Qingliang Leon Li, Asiyah Yu Lin, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000118>EudraCT identifier</obo:IAO_0000118>
@@ -5367,6 +5768,108 @@ http://www.who.int/ictrp/network/trds/en/index.html</rdfs:seeAlso>
         <owl:annotatedTarget>Combining a drug and device, a biological product and device; a drug and biological product; or a drug, biological product, and device</owl:annotatedTarget>
         <obo:IAO_0000119>https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
     </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000367 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000367">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001236"/>
+        <obo:IAO_0000115>The quality of a clinical trial that studies a drug or biological product. The phase is based on the study&apos;s objective, the number of participants, and other characteristics. According to USA FDA, there are five phases: Early Phase 1 (formerly listed as Phase 0), Phase 1, Phase 2, Phase 3, and Phase 4.</obo:IAO_0000115>
+        <obo:IAO_0000117>Leon Li, Asiyah Lin, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118>clinical trial stage</obo:IAO_0000118>
+        <obo:IAO_0000119>https://www.clinicaltrials.gov/ct2/help/glossary/phase</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+        <rdfs:label xml:lang="en">clinical trial phase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000368 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000368">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000367"/>
+        <obo:IAO_0000115>A clinical trial phase that represents the first-in-man trial, which tests within a small group of people (typically 20-80) to evaluate safety, determine safe dosage ranges, and begin to identify side effects. A drug&apos;s side effects could be subtle or long term, or may only happen with a few people, so phase 1 trials are not expected to identify all side effects.</obo:IAO_0000115>
+        <obo:IAO_0000117>Leon Li, Asiyah Lin, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118>Phase 1</obo:IAO_0000118>
+        <obo:IAO_0000118>Phase I</obo:IAO_0000118>
+        <obo:IAO_0000119>http://purl.obolibrary.org/obo/NCIT_C15600</obo:IAO_0000119>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Clinical_trial</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+        <obo:NCIT_P207>C0920321</obo:NCIT_P207>
+        <obo:OPMI_0000364>C15600</obo:OPMI_0000364>
+        <rdfs:label xml:lang="en">clinical trial phase 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000369 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000369">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000367"/>
+        <obo:IAO_0000115>A clinical trial phase that is designed to study a biomedical or behavioral intervention in a larger group of people (several hundred), to evaluate the drug&apos;s effectiveness for a particular indication in patients with the disease or condition under study, and to determine the common short-term side effects and risks associated with the intervention. [def-source: NCI]</obo:IAO_0000115>
+        <obo:IAO_0000117>Leon Li, Asiyah Lin, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118>Phase II</obo:IAO_0000118>
+        <obo:IAO_0000119>http://purl.obolibrary.org/obo/NCIT_C15601</obo:IAO_0000119>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Clinical_trial</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+        <obo:NCIT_P207>C0282460</obo:NCIT_P207>
+        <obo:OPMI_0000364>C15601</obo:OPMI_0000364>
+        <rdfs:label xml:lang="en">clinical trial phase 2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000370 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000370">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000367"/>
+        <obo:IAO_0000115>A clinical trial phase that is designed to investigate the efficacy of the biomedical or behavioral intervention in large groups of human subjects (from several hundred to several thousand), to confirm efficacy, to monitor adverse reactions to the new medication or treatment regimen with respect to long-term use and by comparing the intervention to other standard or experimental interventions as well as to a placebo. [def-source: NCI]</obo:IAO_0000115>
+        <obo:IAO_0000117>Leon Li, Asiyah Lin, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118>Phase III</obo:IAO_0000118>
+        <obo:IAO_0000119>http://purl.obolibrary.org/obo/NCIT_C15602</obo:IAO_0000119>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Clinical_trial</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+        <obo:NCIT_P207>C0282461</obo:NCIT_P207>
+        <obo:OPMI_0000364>C15602</obo:OPMI_0000364>
+        <rdfs:label xml:lang="en">clinical trial phase 3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000371 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000371">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000367"/>
+        <obo:IAO_0000115>A clinical trial phase that is designed for a randomized, controlled trial to evaluate the long-term safety and efficacy of a drug for a given indication. Often they are designed to study side effects that may have become apparent after the phase III study was completed. [def-source: NCI]</obo:IAO_0000115>
+        <obo:IAO_0000117>Leon Li, Asiyah Lin, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118>Phase IV</obo:IAO_0000118>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Clinical_trial</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+        <obo:NCIT_P207>C0282462</obo:NCIT_P207>
+        <obo:OPMI_0000364>C15603</obo:OPMI_0000364>
+        <rdfs:label xml:lang="en">clinical trial phase 4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000372 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000372">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000367"/>
+        <obo:IAO_0000115>A clinical trial phase that is designed to use an investigational agent that is available only in very limited quantities and which has never previously given to humans or for which there is extremely limited human experience. Phase 0 clinical trials are intended to enable researchers to understand the path of the drug in the body and its efficacy. Adverse event reporting in Phase 0 trials is expedited. [def-source: NCI]</obo:IAO_0000115>
+        <obo:IAO_0000117>Leon Li, Asiyah Lin, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118></obo:IAO_0000118>
+        <obo:IAO_0000118>Early Phase 1</obo:IAO_0000118>
+        <obo:IAO_0000118>Pre-Clinical Phase</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">clinical trial phase 0</obo:IAO_0000118>
+        <obo:IAO_0000119>http://purl.obolibrary.org/obo/NCIT_C54721</obo:IAO_0000119>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Clinical_trial</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+        <obo:NCIT_P207>C1882358</obo:NCIT_P207>
+        <obo:OPMI_0000364>C54721</obo:OPMI_0000364>
+        <rdfs:label>clinical trial early phase 1</rdfs:label>
+    </owl:Class>
     
 
 
@@ -5527,6 +6030,28 @@ by WHO (https://www.who.int/ictrp/network/trds/en/)</rdfs:comment>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/pato#mpath_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/pato#value_slim"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001236 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001236">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A quality which inheres in an process.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATO:0001239</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATO:0001240</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quality of a process</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quality of occurrent</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quality of process</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">relational quality of occurrent</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quality</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATO:0001236</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">See comments of relational quality of a physical entity.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">process quality</rdfs:label>
     </owl:Class>
     
 
@@ -5901,7 +6426,7 @@ A study in which an individual acts has his/her own comparison does not fall int
     <!-- https://bio.scai.fraunhofer.de/ontology/CTO#Australian_New_Zealand_clinical_trials_registry_identifier -->
 
     <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#Australian_New_Zealand_clinical_trials_registry_identifier">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000578"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C98714"/>
         <obo:IAO_0000115>A centrally registered identifier that is assigned for a specific clinical trial registered in the Australian New Zealand clinical trials registry (ANZCTR). The format for the registry number is “ACTRN” followed by a 14-digit number, e.g., ACTRN12620000457943.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>ANZCTR identifier</oboInOwl:hasExactSynonym>
         <rdfs:label>Australian New Zealand clinical trials registry identifier</rdfs:label>
@@ -5914,7 +6439,7 @@ A study in which an individual acts has his/her own comparison does not fall int
     <!-- https://bio.scai.fraunhofer.de/ontology/CTO#Brazilian_clinical_trial_registry_identifier -->
 
     <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#Brazilian_clinical_trial_registry_identifier">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000578"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C98714"/>
         <obo:IAO_0000115>A centrally registered identifier that is assigned for a specific clinical trial registered in  Brazilian Registry of Clinical Trials (ReBEC). The format for the ReBEC registry number is “RBR-” followed by  6 characters, e.g., RBR-4hb9qs.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>Brazilian Registry of Clinical Trials identifier</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>ReBEC identifier</oboInOwl:hasExactSynonym>
@@ -5928,7 +6453,7 @@ A study in which an individual acts has his/her own comparison does not fall int
     <!-- https://bio.scai.fraunhofer.de/ontology/CTO#Chinese_clinical_trial_registry_identifier -->
 
     <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#Chinese_clinical_trial_registry_identifier">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000578"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C98714"/>
         <obo:IAO_0000118>ChiCTR identifier</obo:IAO_0000118>
         <oboInOwl:hasExactSynonym>Chinese Clinical Trial Register number</oboInOwl:hasExactSynonym>
         <rdfs:label>Chinese clinical trail registry identifier</rdfs:label>
@@ -5941,7 +6466,7 @@ A study in which an individual acts has his/her own comparison does not fall int
     <!-- https://bio.scai.fraunhofer.de/ontology/CTO#Cuban_public_registry_of_clinical_trials_identifier -->
 
     <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#Cuban_public_registry_of_clinical_trials_identifier">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000578"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C98714"/>
         <obo:IAO_0000115>A centrally registered identifier that is assigned for a specific clinical trial registered in the Cuban public registry of clinical trials (RPCEC). The format for the registry number is “RPCEC” followed by a 8-digit number, e.g., RPCEC00000306.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>RPCEC identifier</oboInOwl:hasExactSynonym>
         <rdfs:label>Cuban public registry of clinical trials identifier</rdfs:label>
@@ -5951,10 +6476,37 @@ A study in which an individual acts has his/her own comparison does not fall int
     
 
 
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#EU_clinical_trials_register -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#EU_clinical_trials_register">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001843"/>
+        <obo:IAO_0000115>The EU clinical trials register is a primary registry in the World Health Organization (WHO&apos;s)</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>EU-CTR</oboInOwl:hasExactSynonym>
+        <rdfs:label>EU clinical trials register</rdfs:label>
+        <rdfs:seeAlso>https://eudract.ema.europa.eu/</rdfs:seeAlso>
+        <rdfs:seeAlso>https://www.clinicaltrialsregister.eu</rdfs:seeAlso>
+        <rdfs:seeAlso>https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#German_clinical_trials_register -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#German_clinical_trials_register">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001843"/>
+        <obo:IAO_0000115>German clinical trials register is a primary registry</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>DRKS</oboInOwl:hasExactSynonym>
+        <rdfs:label>German clinical trials register</rdfs:label>
+        <rdfs:seeAlso>https://www.drks.de/drks_web/</rdfs:seeAlso>
+        <rdfs:seeAlso>https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
     <!-- https://bio.scai.fraunhofer.de/ontology/CTO#German_clinical_trials_register_identifier -->
 
     <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#German_clinical_trials_register_identifier">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000578"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C98714"/>
         <obo:IAO_0000115>A centrally registered identifier that is assigned for a specific clinical trial registered in the German clinical trials register (DRKS). The format for the registry number is “DRKS” followed by a 8-digit number, e.g., DRKS00000494.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>DRKS identifier</oboInOwl:hasExactSynonym>
         <rdfs:label>German clinical trials register identifier</rdfs:label>
@@ -5967,7 +6519,7 @@ A study in which an individual acts has his/her own comparison does not fall int
     <!-- https://bio.scai.fraunhofer.de/ontology/CTO#Indian_clinical_trial_registry_identifier -->
 
     <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#Indian_clinical_trial_registry_identifier">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000578"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C98714"/>
         <obo:IAO_0000115>A centrally registered identifier that is assigned for a specific clinical trial registered in the Indian clinical trial register. The format for the registry number is “CRTI/” followed  by a 4-digit number, followed by a slash, followed a 2-digit number, followed by a slash, followed a 6-digit number, e.g., CTRI/2020/03/024402.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>CRTI identifier</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Clinical Trials Registry - India identifier</oboInOwl:hasExactSynonym>
@@ -5981,7 +6533,7 @@ A study in which an individual acts has his/her own comparison does not fall int
     <!-- https://bio.scai.fraunhofer.de/ontology/CTO#International_standard_randomised_controlled_trial_register_identifier -->
 
     <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#International_standard_randomised_controlled_trial_register_identifier">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000578"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C98714"/>
         <obo:IAO_0000115>A centrally registered identifier that is assigned for a specific clinical trial registered in the international standard randomised controlled trial register  (ISRCT). The format for the registry number is “ISRCTN” followed by a 10-digit number, e.g., ISRCTN14966673.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>ISRCTN</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>International Standard Randomised Controlled Trial Number</oboInOwl:hasExactSynonym>
@@ -5995,7 +6547,7 @@ A study in which an individual acts has his/her own comparison does not fall int
     <!-- https://bio.scai.fraunhofer.de/ontology/CTO#Iranian_registry_of_clinical_trials_identifier -->
 
     <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#Iranian_registry_of_clinical_trials_identifier">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000578"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C98714"/>
         <obo:IAO_0000115>A centrally registered identifier that is assigned for a specific clinical trial registered in the Iranian registry of clinical trials (IRCT). The format for the registry number is “IRCT” followed by a 14-digit number, one letter and again one or  two numbers, e.g., IRCT20100228003449N29.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>IRCT identifier</oboInOwl:hasExactSynonym>
         <rdfs:label>Iranian registry of clinical trials identifier</rdfs:label>
@@ -6008,7 +6560,7 @@ A study in which an individual acts has his/her own comparison does not fall int
     <!-- https://bio.scai.fraunhofer.de/ontology/CTO#Korean_clinical_trial_registry_identifier -->
 
     <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#Korean_clinical_trial_registry_identifier">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000578"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C98714"/>
         <obo:IAO_0000115>A centrally registered identifier that is assigned for a specific clinical trial registered in the Korean Clinical Research Information Service (CRIS). The format for the registry number is “KCT” followed by a 7-digit number, e.g., KCT0004537.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>CRIS identifier</oboInOwl:hasExactSynonym>
         <rdfs:label>Korean clinical trial registry identifier</rdfs:label>
@@ -6021,7 +6573,7 @@ A study in which an individual acts has his/her own comparison does not fall int
     <!-- https://bio.scai.fraunhofer.de/ontology/CTO#Lebanese_clinical_trials_registry_identifier -->
 
     <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#Lebanese_clinical_trials_registry_identifier">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000578"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C98714"/>
         <obo:IAO_0000115>A centrally registered identifier that is assigned for a specific clinical trial registered in the Lebanese clinical trials registry  (LBCTR). The format for the registry number is “LBCTR” followed by a 10-digit number, e.g., LBCTR2020043459.</obo:IAO_0000115>
         <rdfs:label>Lebanese clinical trials registry identifier</rdfs:label>
         <rdfs:seeAlso>LBCTR identifier</rdfs:seeAlso>
@@ -6034,7 +6586,7 @@ A study in which an individual acts has his/her own comparison does not fall int
     <!-- https://bio.scai.fraunhofer.de/ontology/CTO#Pan_African_clinical_trial_registry_identifier -->
 
     <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#Pan_African_clinical_trial_registry_identifier">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000578"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C98714"/>
         <obo:IAO_0000115>A centrally registered identifier that is assigned for a specific clinical trial registered in the Pan African clinical trial register. The format for the registry number is “KCT” followed by a 15-digit number, e.g., PACTR202004893013257.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>PACTR identifier</oboInOwl:hasExactSynonym>
         <rdfs:label>Pan African clinical trial registry identifier</rdfs:label>
@@ -6047,7 +6599,7 @@ A study in which an individual acts has his/her own comparison does not fall int
     <!-- https://bio.scai.fraunhofer.de/ontology/CTO#Peruvian_clinical_trial_registry_identifier -->
 
     <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#Peruvian_clinical_trial_registry_identifier">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000578"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C98714"/>
         <obo:IAO_0000115>A centrally registered identifier that is assigned for a specific clinical trial registered in the Peruvian clinical trial registry  (REPEC). The format for the registry number is “PER-” followed by a 3-digit number, folowed by a hyphen, followed by a 2-digit number e.g., PER-010-20.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>REPEC identifier</oboInOwl:hasExactSynonym>
         <rdfs:label>Peruvian clinical trial registry identifier</rdfs:label>
@@ -6060,7 +6612,7 @@ A study in which an individual acts has his/her own comparison does not fall int
     <!-- https://bio.scai.fraunhofer.de/ontology/CTO#Sri_Lanka_clinical_trials_registry_identifier -->
 
     <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#Sri_Lanka_clinical_trials_registry_identifier">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000578"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C98714"/>
         <obo:IAO_0000115>A centrally registered identifier that is assigned for a specific clinical trial registered in the Sri Lanka clinical trials registry (SLCTR ). The format for the registry number is “SLCTR /” followed  by a 4-digit number, followed by a slash, followed a 3-digit number, e.g., SLCTR/2020/010</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>SLCTR identifier</oboInOwl:hasExactSynonym>
         <rdfs:label>Sri Lanka clinical trials registry identifier</rdfs:label>
@@ -6073,7 +6625,7 @@ A study in which an individual acts has his/her own comparison does not fall int
     <!-- https://bio.scai.fraunhofer.de/ontology/CTO#Thai_clinical_trials_registry_identifier -->
 
     <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#Thai_clinical_trials_registry_identifier">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000578"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C98714"/>
         <obo:IAO_0000115>A centrally registered identifier that is assigned for a specific clinical trial registered in the Thai clinical trials registry  (TCTR). The format for the registry number is “TCTR” followed by a 11-digit number, e.g., TCTR20200405001</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>TCTR identifier</oboInOwl:hasExactSynonym>
         <rdfs:label>Thai clinical trials registry identifier</rdfs:label>
@@ -6086,7 +6638,7 @@ A study in which an individual acts has his/her own comparison does not fall int
     <!-- https://bio.scai.fraunhofer.de/ontology/CTO#The_Netherlands_national_trial_register_identifier -->
 
     <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#The_Netherlands_national_trial_register_identifier">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000578"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C98714"/>
         <obo:IAO_0000115>A centrally registered identifier that is assigned for a specific clinical trial registered in the The Netherlands national trial register (NTR). The format for the registry number is “NTR” followed by a 4-digit number, e.g., NL8498.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>NTR identifier</oboInOwl:hasExactSynonym>
         <rdfs:label>The Netherlands national trial register identifier</rdfs:label>
@@ -6189,6 +6741,24 @@ A study in which an individual acts has his/her own comparison does not fall int
     
 
 
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#non-random_allocation -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#non-random_allocation">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C52580"/>
+        <obo:IAO_0000115>Participants are expressly assigned to intervention groups through a non-random method, such as physician choice</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>non-randomized</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>nonrandomized</oboInOwl:hasExactSynonym>
+        <rdfs:label>non-random allocation</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO#non-random_allocation"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Participants are expressly assigned to intervention groups through a non-random method, such as physician choice</owl:annotatedTarget>
+        <obo:IAO_0000119>https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
     <!-- https://bio.scai.fraunhofer.de/ontology/CTO#number_of_participants -->
 
     <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#number_of_participants">
@@ -6247,7 +6817,7 @@ Each primary outcome measure information includes title, description and time fr
     <!-- https://bio.scai.fraunhofer.de/ontology/CTO#outcome_measure_result -->
 
     <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#outcome_measure_result">
-        <rdfs:subClassOf rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO#study_result"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000088"/>
         <obo:IAO_0000115>Data generated from measurement of experimental variables in a study, or for observational studies, from descriptions of patterns of diseases or traits or associations with exposures, risk factors or treatment.</obo:IAO_0000115>
         <rdfs:label>outcome measure result</rdfs:label>
     </owl:Class>
@@ -6268,7 +6838,7 @@ Each primary outcome measure information includes title, description and time fr
     <!-- https://bio.scai.fraunhofer.de/ontology/CTO#phase_not_applicable -->
 
     <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#phase_not_applicable">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0000016"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000367"/>
         <obo:IAO_0000115>Trials without phases (for example, studies of devices or behavioral interventions).</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>N/A</oboInOwl:hasExactSynonym>
         <rdfs:label>phase not applicable</rdfs:label>
@@ -6388,15 +6958,55 @@ Each secondary outcome measure information includes title, description and time 
 
     <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#study_result">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
-        <obo:IAO_0000115>A study record that includes the summary results posted in the ClinicalTrials.gov results database. Summary results information includes participant flow, baseline characteristics, outcome measures, and adverse events (including serious adverse events).</obo:IAO_0000115>
+        <obo:IAO_0000115>data item ....</obo:IAO_0000115>
         <rdfs:label>study result</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#study_summary_result -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#study_summary_result">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000088"/>
+        <obo:IAO_0000115>A study record that includes the summary results posted in the ClinicalTrials.gov results database. Summary results information includes participant flow, baseline characteristics, outcome measures, and adverse events (including serious adverse events).</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>summary results</oboInOwl:hasExactSynonym>
+        <rdfs:label>study summary result</rdfs:label>
+        <rdfs:seeAlso>https://www.who.int/ictrp/network/trds/en/</rdfs:seeAlso>
+    </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO#study_result"/>
+        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO#study_summary_result"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A study record that includes the summary results posted in the ClinicalTrials.gov results database. Summary results information includes participant flow, baseline characteristics, outcome measures, and adverse events (including serious adverse events).</owl:annotatedTarget>
         <obo:IAO_0000119>https://clinicaltrials.gov/ct2/about-studies/glossary</obo:IAO_0000119>
     </owl:Axiom>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#clinical_trial_phase_1/2 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#clinical_trial_phase_1/2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000367"/>
+        <obo:IAO_0000115>Clinical trial phase that is a combination of phases 1 and 2.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Phase 1/2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Phase 1/Phase 2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Phase I/II</oboInOwl:hasExactSynonym>
+        <rdfs:label>clinical trial phase 1/2</rdfs:label>
+        <rdfs:seeAlso>https://prsinfo.clinicaltrials.gov/definitions.html</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#clinical_trial_phase_2/3 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#clinical_trial_phase_2/3">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000367"/>
+        <obo:IAO_0000115>Clinical trial phase that is a combination of phases 2 and 3.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Phase 2/3</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Phase 2/Phase 3</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Phase I/II</oboInOwl:hasExactSynonym>
+        <rdfs:label>clinical trial phase 2/3</rdfs:label>
+        <rdfs:seeAlso>https://prsinfo.clinicaltrials.gov/definitions.html</rdfs:seeAlso>
+    </owl:Class>
     
 
 
