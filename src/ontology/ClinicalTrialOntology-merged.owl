@@ -2651,6 +2651,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Scott Hoffmann</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ero.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">registry</rdfs:label>
+        <rdfs:seeAlso>https://www.who.int/ictrp/network/trds/en/</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -3187,6 +3188,8 @@ http://www.who.int/ictrp/network/trds/en/index.html</rdfs:seeAlso>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66830"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C67152"/>
         <rdfs:label>Study Type</rdfs:label>
+        <rdfs:seeAlso>https://prsinfo.clinicaltrials.gov/definitions.html</rdfs:seeAlso>
+        <rdfs:seeAlso>https://www.who.int/ictrp/network/trds/en/</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -4350,6 +4353,7 @@ http://www.who.int/ictrp/network/trds/en/index.html</rdfs:seeAlso>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66830"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C67152"/>
         <rdfs:label>Clinical Trial Registry Identifier</rdfs:label>
+        <rdfs:seeAlso>https://www.who.int/ictrp/network/trds/en/</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -4938,6 +4942,7 @@ In the examples above, a reagent is an operational component of a device, but th
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <oboInOwl:hasExactSynonym>ages eligible for study</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">age group inclusion criterion</rdfs:label>
+        <rdfs:seeAlso>https://www.who.int/ictrp/network/trds/en/</rdfs:seeAlso>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBI_0002555"/>
@@ -5005,6 +5010,7 @@ In the examples above, a reagent is an operational component of a device, but th
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <oboInOwl:hasExactSynonym>sexes eligible for study</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">sex inclusion criterion</rdfs:label>
+        <rdfs:seeAlso>https://www.who.int/ictrp/network/trds/en/</rdfs:seeAlso>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBI_0002561"/>
@@ -5047,6 +5053,7 @@ In the examples above, a reagent is an operational component of a device, but th
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <rdfs:label xml:lang="en">study design</rdfs:label>
         <rdfs:seeAlso>https://prsinfo.clinicaltrials.gov/definitions.html</rdfs:seeAlso>
+        <rdfs:seeAlso>https://www.who.int/ictrp/network/trds/en/</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -5460,6 +5467,7 @@ However, Shaw explicates:
         <oboInOwl:hasExactSynonym>full title</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>scientific title</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">official title of clinical trial</rdfs:label>
+        <rdfs:seeAlso>https://www.who.int/ictrp/network/trds/en/</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -5475,6 +5483,7 @@ However, Shaw explicates:
         <oboInOwl:hasExactSynonym>lay title</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>public title</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">lay title of clinical trial</rdfs:label>
+        <rdfs:seeAlso>https://www.who.int/ictrp/network/trds/en/</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -5726,9 +5735,9 @@ http://www.who.int/ictrp/network/trds/en/index.html</rdfs:seeAlso>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000359">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000356"/>
-        <obo:IAO_0000115>A centrally registered identifier that is assigned for a specific clinical trial registered in JMACCT. The format for the JMACCT registry number is “jRCTs” followed by a 9-digit number, e.g., jRCTs031190269.</obo:IAO_0000115>
+        <obo:IAO_0000115>A centrally registered identifier that is assigned for a specific clinical trial registered in JMACCT. The format for the JMACCT registry number is “JMA-IIA” followed by a 5-digit number, e.g., JMA-IIA00391.</obo:IAO_0000115>
         <obo:IAO_0000117>Qingliang Leon Li, Asiyah Yu Lin, Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000118>jRCTs</obo:IAO_0000118>
+        <obo:IAO_0000118>JMACCT</obo:IAO_0000118>
         <obo:IAO_0000119>https://rctportal.niph.go.jp/en/</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
         <rdfs:label xml:lang="en">JMACCT clinical trial identifier</rdfs:label>
@@ -5780,7 +5789,9 @@ http://www.who.int/ictrp/network/trds/en/index.html</rdfs:seeAlso>
         <obo:IAO_0000118>clinical trial stage</obo:IAO_0000118>
         <obo:IAO_0000119>https://www.clinicaltrials.gov/ct2/help/glossary/phase</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+        <oboInOwl:hasNarrowSynonym>phase</oboInOwl:hasNarrowSynonym>
         <rdfs:label xml:lang="en">clinical trial phase</rdfs:label>
+        <rdfs:seeAlso>https://www.who.int/ictrp/network/trds/en/</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -6423,6 +6434,19 @@ A study in which an individual acts has his/her own comparison does not fall int
     
 
 
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#Australian_New_Zealand_clinical_trials_registry -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#Australian_New_Zealand_clinical_trials_registry">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001843"/>
+        <obo:IAO_0000115>Australian New Zealand Clinical Trials Registry  is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>ANZCTR</oboInOwl:hasExactSynonym>
+        <rdfs:label>Australian New Zealand clinical trials registry</rdfs:label>
+        <rdfs:seeAlso>http://www.anzctr.org.au/</rdfs:seeAlso>
+        <rdfs:seeAlso>https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
     <!-- https://bio.scai.fraunhofer.de/ontology/CTO#Australian_New_Zealand_clinical_trials_registry_identifier -->
 
     <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#Australian_New_Zealand_clinical_trials_registry_identifier">
@@ -6450,6 +6474,32 @@ A study in which an individual acts has his/her own comparison does not fall int
     
 
 
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#Brazilian_clinical_trials_registry -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#Brazilian_clinical_trials_registry">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001843"/>
+        <obo:IAO_0000115>The Brazilian clinical trials registry is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>ReBec</oboInOwl:hasExactSynonym>
+        <rdfs:label>Brazilian clinical trials registry</rdfs:label>
+        <rdfs:seeAlso>http://www.ensaiosclinicos.gov.br/</rdfs:seeAlso>
+        <rdfs:seeAlso>https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#Chinese_clinical_trial_registry -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#Chinese_clinical_trial_registry">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001843"/>
+        <obo:IAO_0000115>The Chinese clinical trial registry is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>ChiCTR</oboInOwl:hasExactSynonym>
+        <rdfs:label>Chinese clinical trial registry</rdfs:label>
+        <rdfs:seeAlso>http://www.chictr.org.cn/</rdfs:seeAlso>
+        <rdfs:seeAlso>https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
     <!-- https://bio.scai.fraunhofer.de/ontology/CTO#Chinese_clinical_trial_registry_identifier -->
 
     <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#Chinese_clinical_trial_registry_identifier">
@@ -6458,6 +6508,19 @@ A study in which an individual acts has his/her own comparison does not fall int
         <oboInOwl:hasExactSynonym>Chinese Clinical Trial Register number</oboInOwl:hasExactSynonym>
         <rdfs:label>Chinese clinical trail registry identifier</rdfs:label>
         <rdfs:seeAlso>http://www.chictr.org.cn/enIndex.aspx</rdfs:seeAlso>
+        <rdfs:seeAlso>https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#Cuban_public_registry_of_clinical_trials -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#Cuban_public_registry_of_clinical_trials">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001843"/>
+        <obo:IAO_0000115>The Cuban public registry of clinical trials is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>RPCEC</oboInOwl:hasExactSynonym>
+        <rdfs:label>Cuban public registry of clinical trials</rdfs:label>
+        <rdfs:seeAlso>http://registroclinico.sld.cu/en/home</rdfs:seeAlso>
         <rdfs:seeAlso>https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
     </owl:Class>
     
@@ -6480,7 +6543,7 @@ A study in which an individual acts has his/her own comparison does not fall int
 
     <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#EU_clinical_trials_register">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001843"/>
-        <obo:IAO_0000115>The EU clinical trials register is a primary registry in the World Health Organization (WHO&apos;s)</obo:IAO_0000115>
+        <obo:IAO_0000115>The EU clinical trials register is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>EU-CTR</oboInOwl:hasExactSynonym>
         <rdfs:label>EU clinical trials register</rdfs:label>
         <rdfs:seeAlso>https://eudract.ema.europa.eu/</rdfs:seeAlso>
@@ -6494,7 +6557,7 @@ A study in which an individual acts has his/her own comparison does not fall int
 
     <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#German_clinical_trials_register">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001843"/>
-        <obo:IAO_0000115>German clinical trials register is a primary registry</obo:IAO_0000115>
+        <obo:IAO_0000115>German clinical trials register is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>DRKS</oboInOwl:hasExactSynonym>
         <rdfs:label>German clinical trials register</rdfs:label>
         <rdfs:seeAlso>https://www.drks.de/drks_web/</rdfs:seeAlso>
@@ -6530,6 +6593,33 @@ A study in which an individual acts has his/her own comparison does not fall int
     
 
 
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#Indian_clinical_trials_registry -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#Indian_clinical_trials_registry">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001843"/>
+        <obo:IAO_0000115>The Indian clinical trials registry is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>CTRI</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>clinical trials registry - India</oboInOwl:hasExactSynonym>
+        <rdfs:label>Indian clinical trials registry</rdfs:label>
+        <rdfs:seeAlso>http://ctri.nic.in/</rdfs:seeAlso>
+        <rdfs:seeAlso>https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#International_standard_randomised_controlled_trial_register -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#International_standard_randomised_controlled_trial_register">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001843"/>
+        <obo:IAO_0000115>The international standard randomised controlled trial register is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>ISRCTN</oboInOwl:hasExactSynonym>
+        <rdfs:label>International standard randomised controlled trial register</rdfs:label>
+        <rdfs:seeAlso>http://www.isrctn.com/</rdfs:seeAlso>
+        <rdfs:seeAlso>https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
     <!-- https://bio.scai.fraunhofer.de/ontology/CTO#International_standard_randomised_controlled_trial_register_identifier -->
 
     <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#International_standard_randomised_controlled_trial_register_identifier">
@@ -6539,6 +6629,19 @@ A study in which an individual acts has his/her own comparison does not fall int
         <oboInOwl:hasExactSynonym>International Standard Randomised Controlled Trial Number</oboInOwl:hasExactSynonym>
         <rdfs:label>International standard randomised controlled trial register identifier</rdfs:label>
         <rdfs:seeAlso>http://www.isrctn.com/</rdfs:seeAlso>
+        <rdfs:seeAlso>https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#Iranian_registry_of_clinical_trials -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#Iranian_registry_of_clinical_trials">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001843"/>
+        <obo:IAO_0000115>The Iranian registry of clinical trials is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>IRCT</oboInOwl:hasExactSynonym>
+        <rdfs:label>Iranian registry of clinical trials</rdfs:label>
+        <rdfs:seeAlso>http://www.irct.ir/</rdfs:seeAlso>
         <rdfs:seeAlso>https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
     </owl:Class>
     
@@ -6557,6 +6660,34 @@ A study in which an individual acts has his/her own comparison does not fall int
     
 
 
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#JAPIC_clinical_trials_registry -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#JAPIC_clinical_trials_registry">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001843"/>
+        <obo:IAO_0000115>The JAPIC (Japan Pharmaceutical Information Center) clinical trials registry is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>JapicCTI</oboInOwl:hasExactSynonym>
+        <rdfs:label>JAPIC clinical trials registry</rdfs:label>
+        <rdfs:seeAlso>https://rctportal.niph.go.jp/en/</rdfs:seeAlso>
+        <rdfs:seeAlso>https://www.japic.or.jp/</rdfs:seeAlso>
+        <rdfs:seeAlso>https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#JMACCT_clinical_trials_registry -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#JMACCT_clinical_trials_registry">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001843"/>
+        <obo:IAO_0000115>The JMACCT (Japan Medical Association, Center for Clinical Trials) clinical trials registry is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>JMACCT</oboInOwl:hasExactSynonym>
+        <rdfs:label>JMACCT clinical trials registry</rdfs:label>
+        <rdfs:seeAlso>https://dbcentre3.jmacct.med.or.jp/jmactr/Default_Eng.aspx</rdfs:seeAlso>
+        <rdfs:seeAlso>https://rctportal.niph.go.jp/en/</rdfs:seeAlso>
+        <rdfs:seeAlso>https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
     <!-- https://bio.scai.fraunhofer.de/ontology/CTO#Korean_clinical_trial_registry_identifier -->
 
     <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#Korean_clinical_trial_registry_identifier">
@@ -6570,6 +6701,33 @@ A study in which an individual acts has his/her own comparison does not fall int
     
 
 
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#Korean_clinical_trials_registry -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#Korean_clinical_trials_registry">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001843"/>
+        <obo:IAO_0000115>The Korean clinical trials registry (Clinical Research Information Service (CRiS), Republic of Korea) is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>CRiS</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Clinical Research Information Service, Republic of Korea</oboInOwl:hasExactSynonym>
+        <rdfs:label>Korean clinical trials registry</rdfs:label>
+        <rdfs:seeAlso>http://cris.nih.go.kr/cris/en/use_guide/cris_introduce.jsp</rdfs:seeAlso>
+        <rdfs:seeAlso>https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#Lebanese_clinical_trials_registry -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#Lebanese_clinical_trials_registry">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001843"/>
+        <obo:IAO_0000115>The Lebanese clinical trials registry  is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>LBCTR</oboInOwl:hasExactSynonym>
+        <rdfs:label>Lebanese clinical trials registry</rdfs:label>
+        <rdfs:seeAlso>http://lbctr.emro.who.int/</rdfs:seeAlso>
+        <rdfs:seeAlso>https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
     <!-- https://bio.scai.fraunhofer.de/ontology/CTO#Lebanese_clinical_trials_registry_identifier -->
 
     <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#Lebanese_clinical_trials_registry_identifier">
@@ -6578,6 +6736,19 @@ A study in which an individual acts has his/her own comparison does not fall int
         <rdfs:label>Lebanese clinical trials registry identifier</rdfs:label>
         <rdfs:seeAlso>LBCTR identifier</rdfs:seeAlso>
         <rdfs:seeAlso>http://lbctr.emro.who.int/</rdfs:seeAlso>
+        <rdfs:seeAlso>https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#Pan_African_clinical_trial_registry -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#Pan_African_clinical_trial_registry">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001843"/>
+        <obo:IAO_0000115>The Pan African clinical trial registry is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>PACTR</oboInOwl:hasExactSynonym>
+        <rdfs:label>Pan African clinical trial registry</rdfs:label>
+        <rdfs:seeAlso>http://www.pactr.org/</rdfs:seeAlso>
         <rdfs:seeAlso>https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
     </owl:Class>
     
@@ -6622,6 +6793,19 @@ A study in which an individual acts has his/her own comparison does not fall int
     
 
 
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#Thai_clinical_trials_registry -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#Thai_clinical_trials_registry">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001843"/>
+        <obo:IAO_0000115>The Thai clinical trials registry  is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>TCTR</oboInOwl:hasExactSynonym>
+        <rdfs:label>Thai clinical trials registry</rdfs:label>
+        <rdfs:seeAlso>http://www.clinicaltrials.in.th/</rdfs:seeAlso>
+        <rdfs:seeAlso>https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
     <!-- https://bio.scai.fraunhofer.de/ontology/CTO#Thai_clinical_trials_registry_identifier -->
 
     <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#Thai_clinical_trials_registry_identifier">
@@ -6635,6 +6819,19 @@ A study in which an individual acts has his/her own comparison does not fall int
     
 
 
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#The_Netherlands_national_trial_register -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#The_Netherlands_national_trial_register">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001843"/>
+        <obo:IAO_0000115>The Netherlands national trial register is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>NTR</oboInOwl:hasExactSynonym>
+        <rdfs:label>The Netherlands national trial register</rdfs:label>
+        <rdfs:seeAlso>http://www.trialregister.nl/</rdfs:seeAlso>
+        <rdfs:seeAlso>https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
     <!-- https://bio.scai.fraunhofer.de/ontology/CTO#The_Netherlands_national_trial_register_identifier -->
 
     <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#The_Netherlands_national_trial_register_identifier">
@@ -6643,6 +6840,20 @@ A study in which an individual acts has his/her own comparison does not fall int
         <oboInOwl:hasExactSynonym>NTR identifier</oboInOwl:hasExactSynonym>
         <rdfs:label>The Netherlands national trial register identifier</rdfs:label>
         <rdfs:seeAlso>https://www.trialregister.nl/</rdfs:seeAlso>
+        <rdfs:seeAlso>https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#UMIN_clinical_trials_registry -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#UMIN_clinical_trials_registry">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001843"/>
+        <obo:IAO_0000115>The UMIN (University Hospital Medical Information Network Center) clinical trials registry is a Japanese primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>UMIN CTR</oboInOwl:hasExactSynonym>
+        <rdfs:label>UMIN clinical trials registry</rdfs:label>
+        <rdfs:seeAlso>https://rctportal.niph.go.jp/en/</rdfs:seeAlso>
+        <rdfs:seeAlso>https://www.umin.ac.jp/ctr/</rdfs:seeAlso>
         <rdfs:seeAlso>https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
     </owl:Class>
     
@@ -6689,6 +6900,7 @@ A study in which an individual acts has his/her own comparison does not fall int
         <obo:IAO_0000115>Indication that participants who do not have a disease or condition, or related conditions or symptoms, under study in the clinical study are permitted to participate in the clinical study.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>accepts healthy volunteers</oboInOwl:hasExactSynonym>
         <rdfs:label>healthy volunteer criterion</rdfs:label>
+        <rdfs:seeAlso>https://www.who.int/ictrp/network/trds/en/</rdfs:seeAlso>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO#healthy_volunteer_criterion"/>
@@ -6718,6 +6930,35 @@ A study in which an individual acts has his/her own comparison does not fall int
         <owl:annotatedTarget>Indicate whether a clinical study has been reviewed and approved by at least one human subjects protection review board or such review is not required per applicable law (for example, 21 CFR Part 56, 45 CFR Part 46, or other applicable regulation).</owl:annotatedTarget>
         <obo:IAO_0000119>https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
     </owl:Axiom>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#jRCT_clinical_trial_identifier -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#jRCT_clinical_trial_identifier">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000356"/>
+        <obo:IAO_0000115>A centrally registered identifier that is assigned for a specific clinical trial registered in the Japan Registry of Clinical Trials (jRCT). The format for the registry number is “jRCTs” followed by a 9-digit number, e.g., JPRN-jRCTs031190227</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Japan registry of clinical trials identifier</oboInOwl:hasExactSynonym>
+        <rdfs:label>jRCT clinical trial identifier</rdfs:label>
+        <rdfs:seeAlso>https://jrct.niph.go.jp/</rdfs:seeAlso>
+        <rdfs:seeAlso>https://rctportal.niph.go.jp/en/</rdfs:seeAlso>
+        <rdfs:seeAlso>https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#jRTC_clinical_trials_register -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#jRTC_clinical_trials_register">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001843"/>
+        <obo:IAO_0000115>The jRTC (Japan Registry of Clinical Trials) clinical trial registry is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Japan Registry of Clinical Trials</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>jRTC</oboInOwl:hasExactSynonym>
+        <rdfs:label>jRTC clinical trials register</rdfs:label>
+        <rdfs:seeAlso>https://jrct.niph.go.jp/</rdfs:seeAlso>
+        <rdfs:seeAlso>https://rctportal.niph.go.jp/en/</rdfs:seeAlso>
+        <rdfs:seeAlso>https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
+    </owl:Class>
     
 
 
@@ -6859,21 +7100,21 @@ Each primary outcome measure information includes title, description and time fr
         <obo:IAO_0000115>A description of each primary outcome measure (or for observational studies, specific key measurement[s] or observation[s] used to describe patterns of diseases or traits or associations with exposures, risk factors or treatment).
 Each primary outcome measure information includes title, description and time frame.</obo:IAO_0000115>
         <obo:IAO_0000119>https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
-        <oboInOwl:hasRelatedSynonym>primary end pont</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>primary outcome</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>primary end point</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>primary outcome(s)</oboInOwl:hasRelatedSynonym>
         <rdfs:label>primary outcome measure information</rdfs:label>
         <rdfs:seeAlso>https://clinicaltrials.gov/ct2/about-studies/glossary</rdfs:seeAlso>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO#primary_outcome_measure_information"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget>primary end pont</owl:annotatedTarget>
+        <owl:annotatedTarget>primary end point</owl:annotatedTarget>
         <rdfs:seeAlso>https://www.clinicaltrialsregister.eu/doc/EU_Clinical_Trials_Register_Glossary.pdf</rdfs:seeAlso>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO#primary_outcome_measure_information"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget>primary outcome</owl:annotatedTarget>
+        <owl:annotatedTarget>primary outcome(s)</owl:annotatedTarget>
         <rdfs:isDefinedBy>https://www.who.int/ictrp/network/trds/en/</rdfs:isDefinedBy>
     </owl:Axiom>
     
