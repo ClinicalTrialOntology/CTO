@@ -3780,13 +3780,13 @@ http://www.who.int/ictrp/network/trds/en/index.html</rdfs:seeAlso>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO#000016"/>
+                <owl:someValuesFrom rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000035"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO#000017"/>
+                <owl:someValuesFrom rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000044"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A formal document that describes a complete plan of research activity in the framework of a clinical study; specifically, the study objective(s), design, methodology, eligibility requests for prospective subjects and controls; intervention regimen(s), proposed methods of analysis of data; statistical considerations, and organization of the study. The protocol usually also provides the background and rationale for the trial, but these could be represented in other protocol referenced documents.</obo:IAO_0000115>
@@ -6434,54 +6434,15 @@ A study in which an individual acts has his/her own comparison does not fall int
     
 
 
-    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#000001 -->
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000001 -->
 
-    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#000001">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C98714"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A centrally registered identifier that is assigned for a specific clinical trial registered in the Lebanese clinical trials registry  (LBCTR). The format for the registry number is “LBCTR” followed by a 10-digit number, e.g., LBCTR2020043459.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lebanese clinical trials registry identifier</rdfs:label>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LBCTR identifier</rdfs:seeAlso>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lbctr.emro.who.int/</rdfs:seeAlso>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
-    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#000002 -->
-
-    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#000002">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The actual total number of participants that are enrolled in a clinical study</obo:IAO_0000115>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">enrollment</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sample size</oboInOwl:hasRelatedSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of participants</rdfs:label>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.icmje.org/recommendations/</rdfs:seeAlso>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO#000002"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">enrollment</owl:annotatedTarget>
-        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://prsinfo.clinicaltrials.gov/definitions.html</rdfs:isDefinedBy>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO#000002"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sample size</owl:annotatedTarget>
-        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.who.int/ictrp/network/trds/en/index.html</rdfs:isDefinedBy>
-    </owl:Axiom>
-    
-
-
-    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#000003 -->
-
-    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#000003">
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000001">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0500000"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Look forward using periodic observations collected predominantly following subject enrollment</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prospective study design</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO#000003"/>
+        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000001"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Look forward using periodic observations collected predominantly following subject enrollment</owl:annotatedTarget>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
@@ -6489,9 +6450,9 @@ A study in which an individual acts has his/her own comparison does not fall int
     
 
 
-    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#000004 -->
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000002 -->
 
-    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#000004">
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000002">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000367"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clinical trial phase that is a combination of phases 2 and 3.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phase 2/3</oboInOwl:hasExactSynonym>
@@ -6503,9 +6464,495 @@ A study in which an individual acts has his/her own comparison does not fall int
     
 
 
-    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#000005 -->
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000003 -->
 
-    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#000005">
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C98714"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A centrally registered identifier that is assigned for a specific clinical trial registered in the Thai clinical trials registry  (TCTR). The format for the registry number is “TCTR” followed by a 11-digit number, e.g., TCTR20200405001</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TCTR identifier</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thai clinical trials registry identifier</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.clinicaltrials.in.th/</rdfs:seeAlso>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000004 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C98714"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChiCTR identifier</obo:IAO_0000118>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chinese Clinical Trial Register number</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chinese clinical trail registry identifier</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.chictr.org.cn/enIndex.aspx</rdfs:seeAlso>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000005 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">data item ....</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">study result</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000006 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000006">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001843"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Chinese clinical trial registry is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChiCTR</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chinese clinical trial registry</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.chictr.org.cn/</rdfs:seeAlso>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000007 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25150"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">child (birth-17)</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">age_between_birth_and_17_years</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://clinicaltrials.gov/ct2/about-studies/glossary</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000008 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001843"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Thai clinical trials registry  is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TCTR</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thai clinical trials registry</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.clinicaltrials.in.th/</rdfs:seeAlso>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000009 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000009">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A description of the outcome measure in an interventional study or for observational studies, specific key measurement[s] or observation[s] used to describe patterns of diseases or traits or associations with exposures, risk factors or treatment.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">outcome specification</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://clinicaltrials.gov/ct2/about-studies/glossary</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000010 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000010">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C98714"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A centrally registered identifier that is assigned for a specific clinical trial registered in the Sri Lanka clinical trials registry (SLCTR ). The format for the registry number is “SLCTR /” followed  by a 4-digit number, followed by a slash, followed a 3-digit number, e.g., SLCTR/2020/010</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLCTR identifier</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sri Lanka clinical trials registry identifier</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://slctr.lk/</rdfs:seeAlso>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000011 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000011">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001843"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Brazilian clinical trials registry is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ReBec</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brazilian clinical trials registry</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ensaiosclinicos.gov.br/</rdfs:seeAlso>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000012 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000012">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000356"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A centrally registered identifier that is assigned for a specific clinical trial registered in the Japan Registry of Clinical Trials (jRCT). The format for the registry number is “jRCTs” followed by a 9-digit number, e.g., JPRN-jRCTs031190227</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Japan registry of clinical trials identifier</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jRCT clinical trial identifier</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://jrct.niph.go.jp/</rdfs:seeAlso>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://rctportal.niph.go.jp/en/</rdfs:seeAlso>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000013 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C98714"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A centrally registered identifier that is assigned for a specific clinical trial registered in the Cuban public registry of clinical trials (RPCEC). The format for the registry number is “RPCEC” followed by a 8-digit number, e.g., RPCEC00000306.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RPCEC identifier</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cuban public registry of clinical trials identifier</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://registroclinico.sld.cu/en/home</rdfs:seeAlso>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000014 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000014">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25150"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adult (18-64)</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">age_between_18_and_64</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://clinicaltrials.gov/ct2/about-studies/glossary</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000015 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000015">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001843"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Australian New Zealand Clinical Trials Registry  is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANZCTR</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Australian New Zealand clinical trials registry</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.anzctr.org.au/</rdfs:seeAlso>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000016 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000016">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An identifier(s) (ID), if any, other than the organization&apos;s Unique Protocol Identification Number or the NCT number that is assigned to the clinical study. This includes any unique clinical study identifiers assigned by other publicly available clinical trial registries. If the clinical study is funded in whole or in part by a U.S. Federal Government agency, the complete grant or contract number must be submitted as a Secondary ID.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Other identifiers besides the Trial Identifying Number allocated by the Primary Registry, if any.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">secondary identifier</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000016"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An identifier(s) (ID), if any, other than the organization&apos;s Unique Protocol Identification Number or the NCT number that is assigned to the clinical study. This includes any unique clinical study identifiers assigned by other publicly available clinical trial registries. If the clinical study is funded in whole or in part by a U.S. Federal Government agency, the complete grant or contract number must be submitted as a Secondary ID.</owl:annotatedTarget>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000016"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Other identifiers besides the Trial Identifying Number allocated by the Primary Registry, if any.</owl:annotatedTarget>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.who.int/ictrp/network/trds/en/</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000017 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000017">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0500000"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The party or parties involved in the clinical trial who are prevented from having knowledge of the interventions assigned to individual participants.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blinding</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">masking</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">masking design</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.icmje.org/recommendations/</rdfs:seeAlso>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.who.int/ictrp/network/trds/en/index.html</rdfs:seeAlso>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000017"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The party or parties involved in the clinical trial who are prevented from having knowledge of the interventions assigned to individual participants.</owl:annotatedTarget>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000018 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000018">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C52580"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Participants are expressly assigned to intervention groups through a non-random method, such as physician choice</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">non-randomized</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nonrandomized</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">non-random allocation</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000018"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Participants are expressly assigned to intervention groups through a non-random method, such as physician choice</owl:annotatedTarget>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000019 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000019">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000088"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A study record that includes the summary results posted in the ClinicalTrials.gov results database. Summary results information includes participant flow, baseline characteristics, outcome measures, and adverse events (including serious adverse events).</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">summary results</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">study summary result</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.who.int/ictrp/network/trds/en/</rdfs:seeAlso>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000019"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A study record that includes the summary results posted in the ClinicalTrials.gov results database. Summary results information includes participant flow, baseline characteristics, outcome measures, and adverse events (including serious adverse events).</owl:annotatedTarget>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://clinicaltrials.gov/ct2/about-studies/glossary</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000020 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000020">
+        <rdfs:subClassOf rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000009"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any other measurements, excluding post-hoc measures, that will be used to evaluate the intervention(s) or, for observational studies, that are a focus of the study.
+Each primary outcome measure information includes title, description and time frame.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other pre-specified outcome measures</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other outcome measure information</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000021 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000021">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C98714"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A centrally registered identifier that is assigned for a specific clinical trial registered in the Iranian registry of clinical trials (IRCT). The format for the registry number is “IRCT” followed by a 14-digit number, one letter and again one or  two numbers, e.g., IRCT20100228003449N29.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IRCT identifier</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iranian registry of clinical trials identifier</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.irct.ir/</rdfs:seeAlso>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000022 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000022">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001843"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Indian clinical trials registry is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTRI</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">clinical trials registry - India</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indian clinical trials registry</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://ctri.nic.in/</rdfs:seeAlso>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000023 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000023">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001843"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Netherlands national trial register is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NTR</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Netherlands national trial register</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.trialregister.nl/</rdfs:seeAlso>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000024 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000024">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001843"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Cuban public registry of clinical trials is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RPCEC</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cuban public registry of clinical trials</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://registroclinico.sld.cu/en/home</rdfs:seeAlso>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000025 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000025">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000367"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clinical trial phase that is a combination of phases 1 and 2.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phase 1/2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phase 1/Phase 2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phase I/II</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">clinical trial phase 1/2</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://prsinfo.clinicaltrials.gov/definitions.html</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000026 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000026">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C98714"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A centrally registered identifier that is assigned for a specific clinical trial registered in the international standard randomised controlled trial register  (ISRCT). The format for the registry number is “ISRCTN” followed by a 10-digit number, e.g., ISRCTN14966673.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISRCTN</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">International Standard Randomised Controlled Trial Number</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">International standard randomised controlled trial register identifier</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.isrctn.com/</rdfs:seeAlso>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000027 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000027">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001843"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Pan African clinical trial registry is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PACTR</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pan African clinical trial registry</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.pactr.org/</rdfs:seeAlso>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000028 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000028">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C98714"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A centrally registered identifier that is assigned for a specific clinical trial registered in the The Netherlands national trial register (NTR). The format for the registry number is “NTR” followed by a 4-digit number, e.g., NL8498.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NTR identifier</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Netherlands national trial register identifier</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.trialregister.nl/</rdfs:seeAlso>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000029 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000029">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C98714"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A centrally registered identifier that is assigned for a specific clinical trial registered in the German clinical trials register (DRKS). The format for the registry number is “DRKS” followed by a 8-digit number, e.g., DRKS00000494.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRKS identifier</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">German clinical trials register identifier</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.drks.de/drks_web/</rdfs:seeAlso>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000030 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000030">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C98714"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A centrally registered identifier that is assigned for a specific clinical trial registered in the Pan African clinical trial register. The format for the registry number is “KCT” followed by a 15-digit number, e.g., PACTR202004893013257.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PACTR identifier</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pan African clinical trial registry identifier</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pactr.samrc.ac.za/</rdfs:seeAlso>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000031 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000031">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C98714"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A centrally registered identifier that is assigned for a specific clinical trial registered in the Korean Clinical Research Information Service (CRIS). The format for the registry number is “KCT” followed by a 7-digit number, e.g., KCT0004537.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CRIS identifier</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Korean clinical trial registry identifier</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://cris.nih.go.kr/cris/en/use_guide/cris_introduce.jsp</rdfs:seeAlso>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000032 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000032">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">For clinical trials, a planned measurement described in the protocol that is used to determine the effect of an intervention/treatment on participants. For observational studies, a measurement or observation that is used to describe patterns of diseases or traits, or associations with exposures, risk factors, or treatment. Types of outcome measures include primary outcome measure and secondary outcome measure.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">outcome measure</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000032"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">For clinical trials, a planned measurement described in the protocol that is used to determine the effect of an intervention/treatment on participants. For observational studies, a measurement or observation that is used to describe patterns of diseases or traits, or associations with exposures, risk factors, or treatment. Types of outcome measures include primary outcome measure and secondary outcome measure.</owl:annotatedTarget>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://clinicaltrials.gov/ct2/about-studies/glossary</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000033 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000033">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25150"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">older adult (65+)</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">age_older_than_64</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://clinicaltrials.gov/ct2/about-studies/glossary</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000034 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000034">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001843"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Iranian registry of clinical trials is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IRCT</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iranian registry of clinical trials</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.irct.ir/</rdfs:seeAlso>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000035 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000035">
+        <rdfs:subClassOf rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000009"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A description of each secondary outcome measure (or for observational studies, specific secondary measurement[s] or observation[s] used to describe patterns of diseases or traits or associations with exposures, risk factors or treatment).
+Each secondary outcome measure information includes title, description and time frame.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">key secondary outcome</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">secondary outcome measure information</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://clinicaltrials.gov/ct2/about-studies/glossary</rdfs:seeAlso>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000035"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">key secondary outcome</owl:annotatedTarget>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.who.int/ictrp/network/trds/en/</rdfs:isDefinedBy>
+    </owl:Axiom>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000036 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000036">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001843"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The international standard randomised controlled trial register is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISRCTN</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">International standard randomised controlled trial register</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.isrctn.com/</rdfs:seeAlso>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000037 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000037">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001843"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The JAPIC (Japan Pharmaceutical Information Center) clinical trials registry is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JapicCTI</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JAPIC clinical trials registry</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://rctportal.niph.go.jp/en/</rdfs:seeAlso>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.japic.or.jp/</rdfs:seeAlso>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000038 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000038">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C98714"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A centrally registered identifier that is assigned for a specific clinical trial registered in the Australian New Zealand clinical trials registry (ANZCTR). The format for the registry number is “ACTRN” followed by a 14-digit number, e.g., ACTRN12620000457943.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANZCTR identifier</oboInOwl:hasExactSynonym>
@@ -6516,9 +6963,9 @@ A study in which an individual acts has his/her own comparison does not fall int
     
 
 
-    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#000006 -->
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000039 -->
 
-    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#000006">
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000039">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001843"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The JMACCT (Japan Medical Association, Center for Clinical Trials) clinical trials registry is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JMACCT</oboInOwl:hasExactSynonym>
@@ -6530,36 +6977,35 @@ A study in which an individual acts has his/her own comparison does not fall int
     
 
 
-    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#000007 -->
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000040 -->
 
-    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#000007">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001843"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">German clinical trials register is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRKS</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">German clinical trials register</rdfs:label>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.drks.de/drks_web/</rdfs:seeAlso>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000040">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The actual total number of participants that are enrolled in a clinical study</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">enrollment</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sample size</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of participants</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.icmje.org/recommendations/</rdfs:seeAlso>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000040"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">enrollment</owl:annotatedTarget>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://prsinfo.clinicaltrials.gov/definitions.html</rdfs:isDefinedBy>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000040"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sample size</owl:annotatedTarget>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.who.int/ictrp/network/trds/en/index.html</rdfs:isDefinedBy>
+    </owl:Axiom>
     
 
 
-    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#000008 -->
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000041 -->
 
-    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#000008">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C98714"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A centrally registered identifier that is assigned for a specific clinical trial registered in  Brazilian Registry of Clinical Trials (ReBEC). The format for the ReBEC registry number is “RBR-” followed by  6 characters, e.g., RBR-4hb9qs.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brazilian Registry of Clinical Trials identifier</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ReBEC identifier</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brazilian clinical trial registry identifier</rdfs:label>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ensaiosclinicos.gov.br/</rdfs:seeAlso>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
-    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#000009 -->
-
-    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#000009">
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000041">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001843"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The jRTC (Japan Registry of Clinical Trials) clinical trial registry is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Japan Registry of Clinical Trials</oboInOwl:hasExactSynonym>
@@ -6572,78 +7018,23 @@ A study in which an individual acts has his/her own comparison does not fall int
     
 
 
-    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#000010 -->
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000042 -->
 
-    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#000010">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001843"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The JAPIC (Japan Pharmaceutical Information Center) clinical trials registry is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JapicCTI</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JAPIC clinical trials registry</rdfs:label>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://rctportal.niph.go.jp/en/</rdfs:seeAlso>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.japic.or.jp/</rdfs:seeAlso>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
-    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#000011 -->
-
-    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#000011">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001843"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Cuban public registry of clinical trials is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RPCEC</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cuban public registry of clinical trials</rdfs:label>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://registroclinico.sld.cu/en/home</rdfs:seeAlso>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
-    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#000012 -->
-
-    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#000012">
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000042">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C98714"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A centrally registered identifier that is assigned for a specific clinical trial registered in the Korean Clinical Research Information Service (CRIS). The format for the registry number is “KCT” followed by a 7-digit number, e.g., KCT0004537.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CRIS identifier</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Korean clinical trial registry identifier</rdfs:label>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://cris.nih.go.kr/cris/en/use_guide/cris_introduce.jsp</rdfs:seeAlso>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A centrally registered identifier that is assigned for a specific clinical trial registered in  Brazilian Registry of Clinical Trials (ReBEC). The format for the ReBEC registry number is “RBR-” followed by  6 characters, e.g., RBR-4hb9qs.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brazilian Registry of Clinical Trials identifier</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ReBEC identifier</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brazilian clinical trial registry identifier</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ensaiosclinicos.gov.br/</rdfs:seeAlso>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
     </owl:Class>
     
 
 
-    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#000013 -->
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000043 -->
 
-    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#000013">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">For clinical trials, a planned measurement described in the protocol that is used to determine the effect of an intervention/treatment on participants. For observational studies, a measurement or observation that is used to describe patterns of diseases or traits, or associations with exposures, risk factors, or treatment. Types of outcome measures include primary outcome measure and secondary outcome measure.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">outcome measure</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO#000013"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">For clinical trials, a planned measurement described in the protocol that is used to determine the effect of an intervention/treatment on participants. For observational studies, a measurement or observation that is used to describe patterns of diseases or traits, or associations with exposures, risk factors, or treatment. Types of outcome measures include primary outcome measure and secondary outcome measure.</owl:annotatedTarget>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://clinicaltrials.gov/ct2/about-studies/glossary</obo:IAO_0000119>
-    </owl:Axiom>
-    
-
-
-    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#000014 -->
-
-    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#000014">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001843"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The international standard randomised controlled trial register is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISRCTN</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">International standard randomised controlled trial register</rdfs:label>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.isrctn.com/</rdfs:seeAlso>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
-    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#000015 -->
-
-    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#000015">
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000043">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C98714"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A centrally registered identifier that is assigned for a specific clinical trial registered in the Indian clinical trial register. The format for the registry number is “CRTI/” followed  by a 4-digit number, followed by a slash, followed a 2-digit number, followed by a slash, followed a 6-digit number, e.g., CTRI/2020/03/024402.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CRTI identifier</oboInOwl:hasExactSynonym>
@@ -6655,10 +7046,10 @@ A study in which an individual acts has his/her own comparison does not fall int
     
 
 
-    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#000016 -->
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000044 -->
 
-    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#000016">
-        <rdfs:subClassOf rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO#000043"/>
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000044">
+        <rdfs:subClassOf rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000009"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A description of each primary outcome measure (or for observational studies, specific key measurement[s] or observation[s] used to describe patterns of diseases or traits or associations with exposures, risk factors or treatment).
 Each primary outcome measure information includes title, description and time frame.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
@@ -6668,13 +7059,13 @@ Each primary outcome measure information includes title, description and time fr
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://clinicaltrials.gov/ct2/about-studies/glossary</rdfs:seeAlso>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO#000016"/>
+        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000044"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">primary end point</owl:annotatedTarget>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.clinicaltrialsregister.eu/doc/EU_Clinical_Trials_Register_Glossary.pdf</rdfs:seeAlso>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO#000016"/>
+        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000044"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">primary outcome(s)</owl:annotatedTarget>
         <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.who.int/ictrp/network/trds/en/</rdfs:isDefinedBy>
@@ -6682,550 +7073,49 @@ Each primary outcome measure information includes title, description and time fr
     
 
 
-    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#000017 -->
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000045 -->
 
-    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#000017">
-        <rdfs:subClassOf rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO#000043"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A description of each secondary outcome measure (or for observational studies, specific secondary measurement[s] or observation[s] used to describe patterns of diseases or traits or associations with exposures, risk factors or treatment).
-Each secondary outcome measure information includes title, description and time frame.</obo:IAO_0000115>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">key secondary outcome</oboInOwl:hasRelatedSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">secondary outcome measure information</rdfs:label>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://clinicaltrials.gov/ct2/about-studies/glossary</rdfs:seeAlso>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO#000017"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">key secondary outcome</owl:annotatedTarget>
-        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.who.int/ictrp/network/trds/en/</rdfs:isDefinedBy>
-    </owl:Axiom>
-    
-
-
-    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#000018 -->
-
-    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#000018">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001843"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Iranian registry of clinical trials is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IRCT</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iranian registry of clinical trials</rdfs:label>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.irct.ir/</rdfs:seeAlso>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
-    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#000019 -->
-
-    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#000019">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25150"/>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">older adult (65+)</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">age_older_than_64</rdfs:label>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://clinicaltrials.gov/ct2/about-studies/glossary</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
-    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#000020 -->
-
-    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#000020">
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000045">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C98714"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A centrally registered identifier that is assigned for a specific clinical trial registered in the Pan African clinical trial register. The format for the registry number is “KCT” followed by a 15-digit number, e.g., PACTR202004893013257.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PACTR identifier</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pan African clinical trial registry identifier</rdfs:label>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://pactr.samrc.ac.za/</rdfs:seeAlso>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
-    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#000021 -->
-
-    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#000021">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C98714"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A centrally registered identifier that is assigned for a specific clinical trial registered in the German clinical trials register (DRKS). The format for the registry number is “DRKS” followed by a 8-digit number, e.g., DRKS00000494.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRKS identifier</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">German clinical trials register identifier</rdfs:label>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.drks.de/drks_web/</rdfs:seeAlso>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
-    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#000022 -->
-
-    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#000022">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001843"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Korean clinical trials registry (Clinical Research Information Service (CRiS), Republic of Korea) is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CRiS</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clinical Research Information Service, Republic of Korea</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Korean clinical trials registry</rdfs:label>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://cris.nih.go.kr/cris/en/use_guide/cris_introduce.jsp</rdfs:seeAlso>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
-    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#000023 -->
-
-    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#000023">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001843"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Lebanese clinical trials registry  is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LBCTR</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lebanese clinical trials registry</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A centrally registered identifier that is assigned for a specific clinical trial registered in the Lebanese clinical trials registry  (LBCTR). The format for the registry number is “LBCTR” followed by a 10-digit number, e.g., LBCTR2020043459.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lebanese clinical trials registry identifier</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LBCTR identifier</rdfs:seeAlso>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lbctr.emro.who.int/</rdfs:seeAlso>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
     </owl:Class>
     
 
 
-    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#000024 -->
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000046 -->
 
-    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#000024">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C98714"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A centrally registered identifier that is assigned for a specific clinical trial registered in the The Netherlands national trial register (NTR). The format for the registry number is “NTR” followed by a 4-digit number, e.g., NL8498.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NTR identifier</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Netherlands national trial register identifier</rdfs:label>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.trialregister.nl/</rdfs:seeAlso>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
-    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#000025 -->
-
-    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#000025">
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000046">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001843"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Pan African clinical trial registry is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PACTR</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pan African clinical trial registry</rdfs:label>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.pactr.org/</rdfs:seeAlso>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">German clinical trials register is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRKS</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">German clinical trials register</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.drks.de/drks_web/</rdfs:seeAlso>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
     </owl:Class>
     
 
 
-    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#000026 -->
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000047 -->
 
-    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#000026">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000367"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trials without phases (for example, studies of devices or behavioral interventions).</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N/A</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phase not applicable</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO#000026"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trials without phases (for example, studies of devices or behavioral interventions).</owl:annotatedTarget>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
-    </owl:Axiom>
-    
-
-
-    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#000027 -->
-
-    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#000027">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C98714"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A centrally registered identifier that is assigned for a specific clinical trial registered in the international standard randomised controlled trial register  (ISRCT). The format for the registry number is “ISRCTN” followed by a 10-digit number, e.g., ISRCTN14966673.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISRCTN</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">International Standard Randomised Controlled Trial Number</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">International standard randomised controlled trial register identifier</rdfs:label>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.isrctn.com/</rdfs:seeAlso>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
-    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#000028 -->
-
-    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#000028">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000367"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clinical trial phase that is a combination of phases 1 and 2.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phase 1/2</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phase 1/Phase 2</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Phase I/II</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">clinical trial phase 1/2</rdfs:label>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://prsinfo.clinicaltrials.gov/definitions.html</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
-    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#000029 -->
-
-    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#000029">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C98714"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A centrally registered identifier that is assigned for a specific clinical trial registered in the Cuban public registry of clinical trials (RPCEC). The format for the registry number is “RPCEC” followed by a 8-digit number, e.g., RPCEC00000306.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RPCEC identifier</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cuban public registry of clinical trials identifier</rdfs:label>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://registroclinico.sld.cu/en/home</rdfs:seeAlso>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
-    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#000030 -->
-
-    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#000030">
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000047">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001843"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Netherlands national trial register is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NTR</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Netherlands national trial register</rdfs:label>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.trialregister.nl/</rdfs:seeAlso>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The EU clinical trials register is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EU-CTR</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EU clinical trials register</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://eudract.ema.europa.eu/</rdfs:seeAlso>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.clinicaltrialsregister.eu</rdfs:seeAlso>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
     </owl:Class>
     
 
 
-    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#000031 -->
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000048 -->
 
-    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#000031">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001843"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Indian clinical trials registry is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTRI</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">clinical trials registry - India</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indian clinical trials registry</rdfs:label>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://ctri.nic.in/</rdfs:seeAlso>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
-    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#000032 -->
-
-    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#000032">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C98714"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A centrally registered identifier that is assigned for a specific clinical trial registered in the Iranian registry of clinical trials (IRCT). The format for the registry number is “IRCT” followed by a 14-digit number, one letter and again one or  two numbers, e.g., IRCT20100228003449N29.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IRCT identifier</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iranian registry of clinical trials identifier</rdfs:label>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.irct.ir/</rdfs:seeAlso>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
-    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#000033 -->
-
-    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#000033">
-        <rdfs:subClassOf rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO#000043"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any other measurements, excluding post-hoc measures, that will be used to evaluate the intervention(s) or, for observational studies, that are a focus of the study.
-Each primary outcome measure information includes title, description and time frame.</obo:IAO_0000115>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other pre-specified outcome measures</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other outcome measure information</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#000034 -->
-
-    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#000034">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25150"/>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adult (18-64)</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">age_between_18_and_64</rdfs:label>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://clinicaltrials.gov/ct2/about-studies/glossary</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
-    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#000035 -->
-
-    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#000035">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000088"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A study record that includes the summary results posted in the ClinicalTrials.gov results database. Summary results information includes participant flow, baseline characteristics, outcome measures, and adverse events (including serious adverse events).</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">summary results</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">study summary result</rdfs:label>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.who.int/ictrp/network/trds/en/</rdfs:seeAlso>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO#000035"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A study record that includes the summary results posted in the ClinicalTrials.gov results database. Summary results information includes participant flow, baseline characteristics, outcome measures, and adverse events (including serious adverse events).</owl:annotatedTarget>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://clinicaltrials.gov/ct2/about-studies/glossary</obo:IAO_0000119>
-    </owl:Axiom>
-    
-
-
-    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#000036 -->
-
-    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#000036">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C52580"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Participants are expressly assigned to intervention groups through a non-random method, such as physician choice</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">non-randomized</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nonrandomized</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">non-random allocation</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO#000036"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Participants are expressly assigned to intervention groups through a non-random method, such as physician choice</owl:annotatedTarget>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
-    </owl:Axiom>
-    
-
-
-    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#000037 -->
-
-    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#000037">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0500000"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The party or parties involved in the clinical trial who are prevented from having knowledge of the interventions assigned to individual participants.</obo:IAO_0000115>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blinding</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">masking</oboInOwl:hasRelatedSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">masking design</rdfs:label>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.icmje.org/recommendations/</rdfs:seeAlso>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.who.int/ictrp/network/trds/en/index.html</rdfs:seeAlso>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO#000037"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The party or parties involved in the clinical trial who are prevented from having knowledge of the interventions assigned to individual participants.</owl:annotatedTarget>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
-    </owl:Axiom>
-    
-
-
-    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#000038 -->
-
-    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#000038">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An identifier(s) (ID), if any, other than the organization&apos;s Unique Protocol Identification Number or the NCT number that is assigned to the clinical study. This includes any unique clinical study identifiers assigned by other publicly available clinical trial registries. If the clinical study is funded in whole or in part by a U.S. Federal Government agency, the complete grant or contract number must be submitted as a Secondary ID.</obo:IAO_0000115>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Other identifiers besides the Trial Identifying Number allocated by the Primary Registry, if any.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">secondary identifier</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO#000038"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An identifier(s) (ID), if any, other than the organization&apos;s Unique Protocol Identification Number or the NCT number that is assigned to the clinical study. This includes any unique clinical study identifiers assigned by other publicly available clinical trial registries. If the clinical study is funded in whole or in part by a U.S. Federal Government agency, the complete grant or contract number must be submitted as a Secondary ID.</owl:annotatedTarget>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO#000038"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Other identifiers besides the Trial Identifying Number allocated by the Primary Registry, if any.</owl:annotatedTarget>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.who.int/ictrp/network/trds/en/</obo:IAO_0000119>
-    </owl:Axiom>
-    
-
-
-    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#000039 -->
-
-    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#000039">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001843"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Australian New Zealand Clinical Trials Registry  is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANZCTR</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Australian New Zealand clinical trials registry</rdfs:label>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.anzctr.org.au/</rdfs:seeAlso>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
-    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#000040 -->
-
-    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#000040">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000356"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A centrally registered identifier that is assigned for a specific clinical trial registered in the Japan Registry of Clinical Trials (jRCT). The format for the registry number is “jRCTs” followed by a 9-digit number, e.g., JPRN-jRCTs031190227</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Japan registry of clinical trials identifier</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jRCT clinical trial identifier</rdfs:label>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://jrct.niph.go.jp/</rdfs:seeAlso>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://rctportal.niph.go.jp/en/</rdfs:seeAlso>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
-    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#000041 -->
-
-    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#000041">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001843"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Brazilian clinical trials registry is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ReBec</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brazilian clinical trials registry</rdfs:label>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ensaiosclinicos.gov.br/</rdfs:seeAlso>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
-    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#000042 -->
-
-    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#000042">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C98714"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A centrally registered identifier that is assigned for a specific clinical trial registered in the Sri Lanka clinical trials registry (SLCTR ). The format for the registry number is “SLCTR /” followed  by a 4-digit number, followed by a slash, followed a 3-digit number, e.g., SLCTR/2020/010</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLCTR identifier</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sri Lanka clinical trials registry identifier</rdfs:label>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://slctr.lk/</rdfs:seeAlso>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
-    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#000043 -->
-
-    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#000043">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A description of the outcome measure in an interventional study or for observational studies, specific key measurement[s] or observation[s] used to describe patterns of diseases or traits or associations with exposures, risk factors or treatment.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">outcome specification</rdfs:label>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://clinicaltrials.gov/ct2/about-studies/glossary</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
-    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#000044 -->
-
-    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#000044">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001843"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Thai clinical trials registry  is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TCTR</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thai clinical trials registry</rdfs:label>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.clinicaltrials.in.th/</rdfs:seeAlso>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
-    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#000045 -->
-
-    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#000045">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25150"/>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">child (birth-17)</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">age_between_birth_and_17_years</rdfs:label>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://clinicaltrials.gov/ct2/about-studies/glossary</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
-    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#000046 -->
-
-    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#000046">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001843"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Chinese clinical trial registry is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChiCTR</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chinese clinical trial registry</rdfs:label>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.chictr.org.cn/</rdfs:seeAlso>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
-    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#000047 -->
-
-    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#000047">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">data item ....</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">study result</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#000048 -->
-
-    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#000048">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C98714"/>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChiCTR identifier</obo:IAO_0000118>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chinese Clinical Trial Register number</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chinese clinical trail registry identifier</rdfs:label>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.chictr.org.cn/enIndex.aspx</rdfs:seeAlso>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
-    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#000049 -->
-
-    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#000049">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C98714"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A centrally registered identifier that is assigned for a specific clinical trial registered in the Thai clinical trials registry  (TCTR). The format for the registry number is “TCTR” followed by a 11-digit number, e.g., TCTR20200405001</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TCTR identifier</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thai clinical trials registry identifier</rdfs:label>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.clinicaltrials.in.th/</rdfs:seeAlso>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
-    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#000050 -->
-
-    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#000050">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000088"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data generated from measurement of experimental variables in a study, or for observational studies, from descriptions of patterns of diseases or traits or associations with exposures, risk factors or treatment.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">outcome measure result</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#000051 -->
-
-    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#000051">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0500000"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Look back using observations collected predominantly prior to subject selection and enrollment</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">retrospective study design</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO#000051"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Look back using observations collected predominantly prior to subject selection and enrollment</owl:annotatedTarget>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
-    </owl:Axiom>
-    
-
-
-    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#000052 -->
-
-    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#000052">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C98714"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A centrally registered identifier that is assigned for a specific clinical trial registered in the Peruvian clinical trial registry  (REPEC). The format for the registry number is “PER-” followed by a 3-digit number, folowed by a hyphen, followed by a 2-digit number e.g., PER-010-20.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REPEC identifier</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peruvian clinical trial registry identifier</rdfs:label>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://ensayosclinicos-repec.ins.gob.pe/en/</rdfs:seeAlso>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
-    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#000053 -->
-
-    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#000053">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000326"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indicate whether a clinical study has been reviewed and approved by at least one human subjects protection review board or such review is not required per applicable law (for example, 21 CFR Part 56, 45 CFR Part 46, or other applicable regulation).</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human subjects protection review board status</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO#000053"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indicate whether a clinical study has been reviewed and approved by at least one human subjects protection review board or such review is not required per applicable law (for example, 21 CFR Part 56, 45 CFR Part 46, or other applicable regulation).</owl:annotatedTarget>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
-    </owl:Axiom>
-    
-
-
-    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#000054 -->
-
-    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#000054">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0500027"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A type of eligibility criteria that indicates whether people who do not have the condition/disease being studied can participate in that clinical study.</obo:IAO_0000115>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indication that participants who do not have a disease or condition, or related conditions or symptoms, under study in the clinical study are permitted to participate in the clinical study.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">accepts healthy volunteers</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">healthy volunteer criterion</rdfs:label>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.who.int/ictrp/network/trds/en/</rdfs:seeAlso>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO#000054"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A type of eligibility criteria that indicates whether people who do not have the condition/disease being studied can participate in that clinical study.</owl:annotatedTarget>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://clinicaltrials.gov/ct2/about-studies/glossary</obo:IAO_0000119>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO#000054"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indication that participants who do not have a disease or condition, or related conditions or symptoms, under study in the clinical study are permitted to participate in the clinical study.</owl:annotatedTarget>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
-    </owl:Axiom>
-    
-
-
-    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#000055 -->
-
-    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#000055">
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000048">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001843"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The UMIN (University Hospital Medical Information Network Center) clinical trials registry is a Japanese primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMIN CTR</oboInOwl:hasExactSynonym>
@@ -7237,17 +7127,127 @@ Each primary outcome measure information includes title, description and time fr
     
 
 
-    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#000056 -->
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000049 -->
 
-    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#000056">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001843"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The EU clinical trials register is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EU-CTR</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EU clinical trials register</rdfs:label>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://eudract.ema.europa.eu/</rdfs:seeAlso>
-        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.clinicaltrialsregister.eu</rdfs:seeAlso>
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000049">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0500027"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A type of eligibility criteria that indicates whether people who do not have the condition/disease being studied can participate in that clinical study.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indication that participants who do not have a disease or condition, or related conditions or symptoms, under study in the clinical study are permitted to participate in the clinical study.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">accepts healthy volunteers</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">healthy volunteer criterion</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.who.int/ictrp/network/trds/en/</rdfs:seeAlso>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000049"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A type of eligibility criteria that indicates whether people who do not have the condition/disease being studied can participate in that clinical study.</owl:annotatedTarget>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://clinicaltrials.gov/ct2/about-studies/glossary</obo:IAO_0000119>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000049"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indication that participants who do not have a disease or condition, or related conditions or symptoms, under study in the clinical study are permitted to participate in the clinical study.</owl:annotatedTarget>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000050 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000050">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000326"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indicate whether a clinical study has been reviewed and approved by at least one human subjects protection review board or such review is not required per applicable law (for example, 21 CFR Part 56, 45 CFR Part 46, or other applicable regulation).</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human subjects protection review board status</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000050"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indicate whether a clinical study has been reviewed and approved by at least one human subjects protection review board or such review is not required per applicable law (for example, 21 CFR Part 56, 45 CFR Part 46, or other applicable regulation).</owl:annotatedTarget>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000051 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000051">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C98714"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A centrally registered identifier that is assigned for a specific clinical trial registered in the Peruvian clinical trial registry  (REPEC). The format for the registry number is “PER-” followed by a 3-digit number, folowed by a hyphen, followed by a 2-digit number e.g., PER-010-20.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REPEC identifier</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peruvian clinical trial registry identifier</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://ensayosclinicos-repec.ins.gob.pe/en/</rdfs:seeAlso>
         <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
     </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000052 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000052">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0500000"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Look back using observations collected predominantly prior to subject selection and enrollment</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">retrospective study design</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000052"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Look back using observations collected predominantly prior to subject selection and enrollment</owl:annotatedTarget>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000053 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000053">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000088"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data generated from measurement of experimental variables in a study, or for observational studies, from descriptions of patterns of diseases or traits or associations with exposures, risk factors or treatment.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">outcome measure result</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000054 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000054">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001843"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Korean clinical trials registry (Clinical Research Information Service (CRiS), Republic of Korea) is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CRiS</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clinical Research Information Service, Republic of Korea</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Korean clinical trials registry</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://cris.nih.go.kr/cris/en/use_guide/cris_introduce.jsp</rdfs:seeAlso>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000055 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000055">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001843"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Lebanese clinical trials registry  is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LBCTR</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lebanese clinical trials registry</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://lbctr.emro.who.int/</rdfs:seeAlso>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000056 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000056">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000367"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trials without phases (for example, studies of devices or behavioral interventions).</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N/A</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phase not applicable</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO#CTO_0000056"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trials without phases (for example, studies of devices or behavioral interventions).</owl:annotatedTarget>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
