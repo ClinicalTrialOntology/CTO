@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="https://bio.scai.fraunhofer.de/ontology/CTO_"
+     xml:base="https://bio.scai.fraunhofer.de/ontology/CTO"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
@@ -387,160 +387,172 @@
         <Class IRI="http://purl.org/net/OCRe/research.owl#Quantitative_human_study"/>
     </Declaration>
     <Declaration>
-        <Class IRI="0000001"/>
+        <Class IRI="_0000001"/>
     </Declaration>
     <Declaration>
-        <Class IRI="0000002"/>
+        <Class IRI="_0000002"/>
     </Declaration>
     <Declaration>
-        <Class IRI="0000003"/>
+        <Class IRI="_0000003"/>
     </Declaration>
     <Declaration>
-        <Class IRI="0000004"/>
+        <Class IRI="_0000004"/>
     </Declaration>
     <Declaration>
-        <Class IRI="0000005"/>
+        <Class IRI="_0000005"/>
     </Declaration>
     <Declaration>
-        <Class IRI="0000006"/>
+        <Class IRI="_0000006"/>
     </Declaration>
     <Declaration>
-        <Class IRI="0000007"/>
+        <Class IRI="_0000007"/>
     </Declaration>
     <Declaration>
-        <Class IRI="0000008"/>
+        <Class IRI="_0000008"/>
     </Declaration>
     <Declaration>
-        <Class IRI="0000009"/>
+        <Class IRI="_0000009"/>
     </Declaration>
     <Declaration>
-        <Class IRI="0000010"/>
+        <Class IRI="_0000010"/>
     </Declaration>
     <Declaration>
-        <Class IRI="0000011"/>
+        <Class IRI="_0000011"/>
     </Declaration>
     <Declaration>
-        <Class IRI="0000012"/>
+        <Class IRI="_0000012"/>
     </Declaration>
     <Declaration>
-        <Class IRI="0000013"/>
+        <Class IRI="_0000013"/>
     </Declaration>
     <Declaration>
-        <Class IRI="0000014"/>
+        <Class IRI="_0000014"/>
     </Declaration>
     <Declaration>
-        <Class IRI="0000015"/>
+        <Class IRI="_0000015"/>
     </Declaration>
     <Declaration>
-        <Class IRI="0000016"/>
+        <Class IRI="_0000016"/>
     </Declaration>
     <Declaration>
-        <Class IRI="0000017"/>
+        <Class IRI="_0000017"/>
     </Declaration>
     <Declaration>
-        <Class IRI="0000018"/>
+        <Class IRI="_0000018"/>
     </Declaration>
     <Declaration>
-        <Class IRI="0000019"/>
+        <Class IRI="_0000019"/>
     </Declaration>
     <Declaration>
-        <Class IRI="0000020"/>
+        <Class IRI="_0000020"/>
     </Declaration>
     <Declaration>
-        <Class IRI="0000022"/>
+        <Class IRI="_0000022"/>
     </Declaration>
     <Declaration>
-        <Class IRI="0000023"/>
+        <Class IRI="_0000023"/>
     </Declaration>
     <Declaration>
-        <Class IRI="0000024"/>
+        <Class IRI="_0000024"/>
     </Declaration>
     <Declaration>
-        <Class IRI="0000025"/>
+        <Class IRI="_0000025"/>
     </Declaration>
     <Declaration>
-        <Class IRI="0000026"/>
+        <Class IRI="_0000026"/>
     </Declaration>
     <Declaration>
-        <Class IRI="0000028"/>
+        <Class IRI="_0000028"/>
     </Declaration>
     <Declaration>
-        <Class IRI="0000030"/>
+        <Class IRI="_0000030"/>
     </Declaration>
     <Declaration>
-        <Class IRI="0000031"/>
+        <Class IRI="_0000031"/>
     </Declaration>
     <Declaration>
-        <Class IRI="0000032"/>
+        <Class IRI="_0000032"/>
     </Declaration>
     <Declaration>
-        <Class IRI="0000033"/>
+        <Class IRI="_0000033"/>
     </Declaration>
     <Declaration>
-        <Class IRI="0000034"/>
+        <Class IRI="_0000034"/>
     </Declaration>
     <Declaration>
-        <Class IRI="0000035"/>
+        <Class IRI="_0000035"/>
     </Declaration>
     <Declaration>
-        <Class IRI="0000036"/>
+        <Class IRI="_0000036"/>
     </Declaration>
     <Declaration>
-        <Class IRI="0000037"/>
+        <Class IRI="_0000037"/>
     </Declaration>
     <Declaration>
-        <Class IRI="0000038"/>
+        <Class IRI="_0000038"/>
     </Declaration>
     <Declaration>
-        <Class IRI="0000039"/>
+        <Class IRI="_0000039"/>
     </Declaration>
     <Declaration>
-        <Class IRI="0000040"/>
+        <Class IRI="_0000040"/>
     </Declaration>
     <Declaration>
-        <Class IRI="0000041"/>
+        <Class IRI="_0000041"/>
     </Declaration>
     <Declaration>
-        <Class IRI="0000043"/>
+        <Class IRI="_0000043"/>
     </Declaration>
     <Declaration>
-        <Class IRI="0000044"/>
+        <Class IRI="_0000044"/>
     </Declaration>
     <Declaration>
-        <Class IRI="0000045"/>
+        <Class IRI="_0000045"/>
     </Declaration>
     <Declaration>
-        <Class IRI="0000046"/>
+        <Class IRI="_0000046"/>
     </Declaration>
     <Declaration>
-        <Class IRI="0000047"/>
+        <Class IRI="_0000047"/>
     </Declaration>
     <Declaration>
-        <Class IRI="0000048"/>
+        <Class IRI="_0000048"/>
     </Declaration>
     <Declaration>
-        <Class IRI="0000049"/>
+        <Class IRI="_0000049"/>
     </Declaration>
     <Declaration>
-        <Class IRI="0000050"/>
+        <Class IRI="_0000050"/>
     </Declaration>
     <Declaration>
-        <Class IRI="0000051"/>
+        <Class IRI="_0000051"/>
     </Declaration>
     <Declaration>
-        <Class IRI="0000052"/>
+        <Class IRI="_0000052"/>
     </Declaration>
     <Declaration>
-        <Class IRI="0000053"/>
+        <Class IRI="_0000053"/>
     </Declaration>
     <Declaration>
-        <Class IRI="0000054"/>
+        <Class IRI="_0000054"/>
     </Declaration>
     <Declaration>
-        <Class IRI="0000055"/>
+        <Class IRI="_0000055"/>
     </Declaration>
     <Declaration>
-        <Class IRI="0000056"/>
+        <Class IRI="_0000056"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_0000073"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_0000074"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_0000075"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_0000076"/>
     </Declaration>
     <Declaration>
         <ObjectProperty abbreviatedIRI="obo:BFO_0000051"/>
@@ -666,14 +678,14 @@
         <Class abbreviatedIRI="obo:NCIT_C25320"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty abbreviatedIRI="obo:BFO_0000051"/>
-            <Class IRI="0000008"/>
+            <Class IRI="_0000008"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:NCIT_C25320"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty abbreviatedIRI="obo:BFO_0000051"/>
-            <Class IRI="0000035"/>
+            <Class IRI="_0000035"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -785,212 +797,228 @@
         <Class abbreviatedIRI="obo:ERO_0000015"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="0000001"/>
+        <Class IRI="_0000001"/>
         <Class abbreviatedIRI="obo:IAO_0000030"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="0000002"/>
+        <Class IRI="_0000002"/>
         <Class abbreviatedIRI="obo:NCIT_C98714"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="0000003"/>
-        <Class abbreviatedIRI="obo:ERO_0001843"/>
+        <Class IRI="_0000003"/>
+        <Class IRI="_0000073"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="0000004"/>
+        <Class IRI="_0000004"/>
         <Class abbreviatedIRI="obo:NCIT_C98714"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="0000005"/>
+        <Class IRI="_0000005"/>
         <Class abbreviatedIRI="obo:OBI_0500000"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="0000006"/>
+        <Class IRI="_0000006"/>
         <Class abbreviatedIRI="obo:NCIT_C52580"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="0000007"/>
+        <Class IRI="_0000007"/>
         <Class abbreviatedIRI="obo:IAO_0000088"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="0000008"/>
-        <Class IRI="0000051"/>
+        <Class IRI="_0000008"/>
+        <Class IRI="_0000051"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="0000009"/>
-        <Class abbreviatedIRI="obo:ERO_0001843"/>
+        <Class IRI="_0000009"/>
+        <Class IRI="_0000073"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="0000010"/>
-        <Class IRI="0000051"/>
+        <Class IRI="_0000010"/>
+        <Class IRI="_0000051"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="0000011"/>
-        <Class abbreviatedIRI="obo:ERO_0001843"/>
+        <Class IRI="_0000011"/>
+        <Class IRI="_0000073"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="0000012"/>
-        <Class abbreviatedIRI="obo:ERO_0001843"/>
+        <Class IRI="_0000012"/>
+        <Class IRI="_0000073"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="0000013"/>
+        <Class IRI="_0000013"/>
         <Class abbreviatedIRI="obo:NCIT_C98714"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="0000014"/>
+        <Class IRI="_0000014"/>
         <Class abbreviatedIRI="obo:NCIT_C98714"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="0000015"/>
-        <Class abbreviatedIRI="obo:ERO_0001843"/>
+        <Class IRI="_0000015"/>
+        <Class IRI="_0000073"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="0000016"/>
+        <Class IRI="_0000016"/>
         <Class abbreviatedIRI="obo:BFO_0000015"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="0000017"/>
-        <Class abbreviatedIRI="obo:ERO_0001843"/>
+        <Class IRI="_0000017"/>
+        <Class IRI="_0000073"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="0000018"/>
+        <Class IRI="_0000018"/>
         <Class abbreviatedIRI="obo:NCIT_C98714"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="0000019"/>
-        <Class abbreviatedIRI="obo:ERO_0001843"/>
+        <Class IRI="_0000019"/>
+        <Class IRI="_0000073"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="0000020"/>
+        <Class IRI="_0000020"/>
         <Class abbreviatedIRI="obo:NCIT_C98714"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="0000022"/>
+        <Class IRI="_0000022"/>
         <Class abbreviatedIRI="obo:NCIT_C98714"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="0000023"/>
-        <Class abbreviatedIRI="obo:ERO_0001843"/>
+        <Class IRI="_0000023"/>
+        <Class IRI="_0000073"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="0000024"/>
-        <Class abbreviatedIRI="obo:ERO_0001843"/>
+        <Class IRI="_0000024"/>
+        <Class IRI="_0000073"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="0000025"/>
-        <Class abbreviatedIRI="obo:ERO_0001843"/>
+        <Class IRI="_0000025"/>
+        <Class IRI="_0000073"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="0000026"/>
+        <Class IRI="_0000026"/>
         <Class abbreviatedIRI="obo:NCIT_C25150"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="0000028"/>
+        <Class IRI="_0000028"/>
         <Class abbreviatedIRI="obo:IAO_0000027"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="0000030"/>
+        <Class IRI="_0000030"/>
         <Class abbreviatedIRI="obo:NCIT_C98714"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="0000031"/>
+        <Class IRI="_0000031"/>
         <Class abbreviatedIRI="obo:OPMI_0000367"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="0000032"/>
+        <Class IRI="_0000032"/>
         <Class abbreviatedIRI="obo:IAO_0000027"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="0000033"/>
+        <Class IRI="_0000033"/>
         <Class abbreviatedIRI="obo:OBI_0500027"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="0000034"/>
+        <Class IRI="_0000034"/>
         <Class abbreviatedIRI="obo:NCIT_C25150"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="0000035"/>
-        <Class IRI="0000051"/>
+        <Class IRI="_0000035"/>
+        <Class IRI="_0000051"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="0000036"/>
-        <Class abbreviatedIRI="obo:ERO_0001843"/>
+        <Class IRI="_0000036"/>
+        <Class IRI="_0000073"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="0000037"/>
-        <Class abbreviatedIRI="obo:ERO_0001843"/>
+        <Class IRI="_0000037"/>
+        <Class IRI="_0000073"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="0000038"/>
+        <Class IRI="_0000038"/>
         <Class abbreviatedIRI="obo:NCIT_C25150"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="0000039"/>
+        <Class IRI="_0000039"/>
         <Class abbreviatedIRI="obo:IAO_0000088"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="0000040"/>
+        <Class IRI="_0000040"/>
         <Class abbreviatedIRI="obo:OPMI_0000326"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="0000041"/>
-        <Class abbreviatedIRI="obo:ERO_0001843"/>
+        <Class IRI="_0000041"/>
+        <Class IRI="_0000073"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="0000043"/>
+        <Class IRI="_0000043"/>
         <Class abbreviatedIRI="obo:OPMI_0000367"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="0000044"/>
+        <Class IRI="_0000044"/>
         <Class abbreviatedIRI="obo:OBI_0500000"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="0000045"/>
+        <Class IRI="_0000045"/>
         <Class abbreviatedIRI="obo:NCIT_C98714"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="0000046"/>
+        <Class IRI="_0000046"/>
         <Class abbreviatedIRI="obo:OPMI_0000367"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="0000047"/>
+        <Class IRI="_0000047"/>
         <Class abbreviatedIRI="obo:OBI_0500000"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="0000048"/>
+        <Class IRI="_0000048"/>
         <Class abbreviatedIRI="obo:NCIT_C98714"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="0000049"/>
-        <Class abbreviatedIRI="obo:ERO_0001843"/>
+        <Class IRI="_0000049"/>
+        <Class IRI="_0000073"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="0000050"/>
-        <Class abbreviatedIRI="obo:ERO_0001843"/>
+        <Class IRI="_0000050"/>
+        <Class IRI="_0000073"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="0000051"/>
+        <Class IRI="_0000051"/>
         <Class abbreviatedIRI="obo:IAO_0000033"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="0000052"/>
+        <Class IRI="_0000052"/>
         <Class abbreviatedIRI="obo:NCIT_C98714"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="0000053"/>
-        <Class abbreviatedIRI="obo:ERO_0001843"/>
+        <Class IRI="_0000053"/>
+        <Class IRI="_0000073"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="0000054"/>
+        <Class IRI="_0000054"/>
         <Class abbreviatedIRI="obo:OPMI_0000356"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="0000055"/>
+        <Class IRI="_0000055"/>
         <Class abbreviatedIRI="obo:NCIT_C98714"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="0000056"/>
+        <Class IRI="_0000056"/>
         <Class abbreviatedIRI="obo:NCIT_C98714"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_0000073"/>
+        <Class abbreviatedIRI="obo:ERO_0001843"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_0000074"/>
+        <Class IRI="_0000073"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_0000075"/>
+        <Class IRI="_0000073"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_0000076"/>
+        <Class abbreviatedIRI="obo:ERO_0001843"/>
     </SubClassOf>
     <AnnotationAssertion>
         <Annotation>
@@ -1849,7 +1877,7 @@ http://www.who.int/ictrp/network/trds/en/index.html</Literal>
             <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
         </Annotation>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>0000001</IRI>
+        <IRI>_0000001</IRI>
         <Literal>An identifier(s) (ID), if any, other than the organization&apos;s Unique Protocol Identification Number or the NCT number that is assigned to the clinical study. This includes any unique clinical study identifiers assigned by other publicly available clinical trial registries. If the clinical study is funded in whole or in part by a U.S. Federal Government agency, the complete grant or contract number must be submitted as a Secondary ID.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -1858,87 +1886,87 @@ http://www.who.int/ictrp/network/trds/en/index.html</Literal>
             <Literal>https://www.who.int/ictrp/network/trds/en/</Literal>
         </Annotation>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>0000001</IRI>
+        <IRI>_0000001</IRI>
         <Literal>Other identifiers besides the Trial Identifying Number allocated by the Primary Registry, if any.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>0000001</IRI>
+        <IRI>_0000001</IRI>
         <Literal>secondary identifier</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>0000002</IRI>
+        <IRI>_0000002</IRI>
         <Literal>A centrally registered identifier that is assigned for a specific clinical trial registered in the Australian New Zealand clinical trials registry (ANZCTR). The format for the registry number is “ACTRN” followed by a 14-digit number, e.g., ACTRN12620000457943.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
-        <IRI>0000002</IRI>
+        <IRI>_0000002</IRI>
         <Literal>ANZCTR identifier</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>0000002</IRI>
+        <IRI>_0000002</IRI>
         <Literal>Australian New Zealand clinical trials registry identifier</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000002</IRI>
+        <IRI>_0000002</IRI>
         <Literal>http://www.anzctr.org.au/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000002</IRI>
+        <IRI>_0000002</IRI>
         <Literal>https://www.who.int/ictrp/network/primary/en/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>0000003</IRI>
+        <IRI>_0000003</IRI>
         <Literal>Australian New Zealand Clinical Trials Registry  is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
-        <IRI>0000003</IRI>
+        <IRI>_0000003</IRI>
         <Literal>ANZCTR</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>0000003</IRI>
+        <IRI>_0000003</IRI>
         <Literal>Australian New Zealand clinical trials registry</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000003</IRI>
+        <IRI>_0000003</IRI>
         <Literal>http://www.anzctr.org.au/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000003</IRI>
+        <IRI>_0000003</IRI>
         <Literal>https://www.who.int/ictrp/network/primary/en/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>0000004</IRI>
-        <Literal>A centrally registered identifier that is assigned for a specific clinical trial registered in the Peruvian clinical trial registry  (REPEC). The format for the registry number is “PER-” followed by a 3-digit number, folowed by a hyphen, followed by a 2-digit number e.g., PER-010-20.</Literal>
+        <IRI>_0000004</IRI>
+        <Literal>A centrally registered identifier that is assigned for a specific clinical trial registered in the Peruvian clinical trial registry  (REPEC). The format for the registry number is “PER-” followed by a 3-digit number, followed by a hyphen, followed by a 2-digit number e.g., PER-010-20.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
-        <IRI>0000004</IRI>
+        <IRI>_0000004</IRI>
         <Literal>REPEC identifier</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>0000004</IRI>
+        <IRI>_0000004</IRI>
         <Literal>Peruvian clinical trial registry identifier</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000004</IRI>
+        <IRI>_0000004</IRI>
         <Literal>https://ensayosclinicos-repec.ins.gob.pe/en/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000004</IRI>
+        <IRI>_0000004</IRI>
         <Literal>https://www.who.int/ictrp/network/primary/en/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -1947,32 +1975,32 @@ http://www.who.int/ictrp/network/trds/en/index.html</Literal>
             <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
         </Annotation>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>0000005</IRI>
+        <IRI>_0000005</IRI>
         <Literal>The party or parties involved in the clinical trial who are prevented from having knowledge of the interventions assigned to individual participants.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
-        <IRI>0000005</IRI>
+        <IRI>_0000005</IRI>
         <Literal>blinding</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
-        <IRI>0000005</IRI>
+        <IRI>_0000005</IRI>
         <Literal>masking</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>0000005</IRI>
+        <IRI>_0000005</IRI>
         <Literal>masking design</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000005</IRI>
+        <IRI>_0000005</IRI>
         <Literal>http://www.icmje.org/recommendations/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000005</IRI>
+        <IRI>_0000005</IRI>
         <Literal>http://www.who.int/ictrp/network/trds/en/index.html</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -1981,22 +2009,22 @@ http://www.who.int/ictrp/network/trds/en/index.html</Literal>
             <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
         </Annotation>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>0000006</IRI>
+        <IRI>_0000006</IRI>
         <Literal>Participants are expressly assigned to intervention groups through a non-random method, such as physician choice</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
-        <IRI>0000006</IRI>
+        <IRI>_0000006</IRI>
         <Literal>non-randomized</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
-        <IRI>0000006</IRI>
+        <IRI>_0000006</IRI>
         <Literal>nonrandomized</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>0000006</IRI>
+        <IRI>_0000006</IRI>
         <Literal>non-random allocation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -2005,33 +2033,33 @@ http://www.who.int/ictrp/network/trds/en/index.html</Literal>
             <Literal>https://clinicaltrials.gov/ct2/about-studies/glossary</Literal>
         </Annotation>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>0000007</IRI>
+        <IRI>_0000007</IRI>
         <Literal>A study record that includes the summary results posted in the ClinicalTrials.gov results database. Summary results information includes participant flow, baseline characteristics, outcome measures, and adverse events (including serious adverse events).</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
-        <IRI>0000007</IRI>
+        <IRI>_0000007</IRI>
         <Literal>summary results</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>0000007</IRI>
+        <IRI>_0000007</IRI>
         <Literal>study summary result</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000007</IRI>
+        <IRI>_0000007</IRI>
         <Literal>https://www.who.int/ictrp/network/trds/en/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>0000008</IRI>
+        <IRI>_0000008</IRI>
         <Literal>A description of each secondary outcome measure (or for observational studies, specific secondary measurement[s] or observation[s] used to describe patterns of diseases or traits or associations with exposures, risk factors or treatment).
 Each secondary outcome measure information includes title, description and time frame.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
-        <IRI>0000008</IRI>
+        <IRI>_0000008</IRI>
         <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -2040,193 +2068,193 @@ Each secondary outcome measure information includes title, description and time 
             <Literal>https://www.who.int/ictrp/network/trds/en/</Literal>
         </Annotation>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
-        <IRI>0000008</IRI>
+        <IRI>_0000008</IRI>
         <Literal>key secondary outcome</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>0000008</IRI>
+        <IRI>_0000008</IRI>
         <Literal>secondary outcome measure information</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000008</IRI>
+        <IRI>_0000008</IRI>
         <Literal>https://clinicaltrials.gov/ct2/about-studies/glossary</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>0000009</IRI>
+        <IRI>_0000009</IRI>
         <Literal>The Iranian registry of clinical trials is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
-        <IRI>0000009</IRI>
+        <IRI>_0000009</IRI>
         <Literal>IRCT</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>0000009</IRI>
+        <IRI>_0000009</IRI>
         <Literal>Iranian registry of clinical trials</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000009</IRI>
+        <IRI>_0000009</IRI>
         <Literal>http://www.irct.ir/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000009</IRI>
+        <IRI>_0000009</IRI>
         <Literal>https://www.who.int/ictrp/network/primary/en/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>0000010</IRI>
+        <IRI>_0000010</IRI>
         <Literal>Any other measurements, excluding post-hoc measures, that will be used to evaluate the intervention(s) or, for observational studies, that are a focus of the study.
 Each primary outcome measure information includes title, description and time frame.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
-        <IRI>0000010</IRI>
+        <IRI>_0000010</IRI>
         <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
-        <IRI>0000010</IRI>
+        <IRI>_0000010</IRI>
         <Literal>other pre-specified outcome measures</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>0000010</IRI>
+        <IRI>_0000010</IRI>
         <Literal>other outcome measure information</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>0000011</IRI>
+        <IRI>_0000011</IRI>
         <Literal>The Indian clinical trials registry is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
-        <IRI>0000011</IRI>
+        <IRI>_0000011</IRI>
         <Literal>CTRI</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
-        <IRI>0000011</IRI>
+        <IRI>_0000011</IRI>
         <Literal>clinical trials registry - India</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>0000011</IRI>
+        <IRI>_0000011</IRI>
         <Literal>Indian clinical trials registry</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000011</IRI>
+        <IRI>_0000011</IRI>
         <Literal>http://ctri.nic.in/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000011</IRI>
+        <IRI>_0000011</IRI>
         <Literal>https://www.who.int/ictrp/network/primary/en/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>0000012</IRI>
+        <IRI>_0000012</IRI>
         <Literal>The Netherlands national trial register is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
-        <IRI>0000012</IRI>
+        <IRI>_0000012</IRI>
         <Literal>NTR</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>0000012</IRI>
+        <IRI>_0000012</IRI>
         <Literal>The Netherlands national trial register</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000012</IRI>
+        <IRI>_0000012</IRI>
         <Literal>http://www.trialregister.nl/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000012</IRI>
+        <IRI>_0000012</IRI>
         <Literal>https://www.who.int/ictrp/network/primary/en/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>0000013</IRI>
+        <IRI>_0000013</IRI>
         <Literal>A centrally registered identifier that is assigned for a specific clinical trial registered in the Iranian registry of clinical trials (IRCT). The format for the registry number is “IRCT” followed by a 14-digit number, one letter and again one or  two numbers, e.g., IRCT20100228003449N29.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
-        <IRI>0000013</IRI>
+        <IRI>_0000013</IRI>
         <Literal>IRCT identifier</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>0000013</IRI>
+        <IRI>_0000013</IRI>
         <Literal>Iranian registry of clinical trials identifier</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000013</IRI>
+        <IRI>_0000013</IRI>
         <Literal>http://www.irct.ir/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000013</IRI>
+        <IRI>_0000013</IRI>
         <Literal>https://www.who.int/ictrp/network/primary/en/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>0000014</IRI>
+        <IRI>_0000014</IRI>
         <Literal>A centrally registered identifier that is assigned for a specific clinical trial registered in the German clinical trials register (DRKS). The format for the registry number is “DRKS” followed by a 8-digit number, e.g., DRKS00000494.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
-        <IRI>0000014</IRI>
+        <IRI>_0000014</IRI>
         <Literal>DRKS identifier</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>0000014</IRI>
+        <IRI>_0000014</IRI>
         <Literal>German clinical trials register identifier</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000014</IRI>
+        <IRI>_0000014</IRI>
         <Literal>https://www.drks.de/drks_web/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000014</IRI>
+        <IRI>_0000014</IRI>
         <Literal>https://www.who.int/ictrp/network/primary/en/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>0000015</IRI>
+        <IRI>_0000015</IRI>
         <Literal>The Cuban public registry of clinical trials is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
-        <IRI>0000015</IRI>
+        <IRI>_0000015</IRI>
         <Literal>RPCEC</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>0000015</IRI>
+        <IRI>_0000015</IRI>
         <Literal>Cuban public registry of clinical trials</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000015</IRI>
+        <IRI>_0000015</IRI>
         <Literal>http://registroclinico.sld.cu/en/home</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000015</IRI>
+        <IRI>_0000015</IRI>
         <Literal>https://www.who.int/ictrp/network/primary/en/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -2235,262 +2263,282 @@ Each primary outcome measure information includes title, description and time fr
             <Literal>https://clinicaltrials.gov/ct2/about-studies/glossary</Literal>
         </Annotation>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>0000016</IRI>
+        <IRI>_0000016</IRI>
         <Literal>For clinical trials, a planned measurement described in the protocol that is used to determine the effect of an intervention/treatment on participants. For observational studies, a measurement or observation that is used to describe patterns of diseases or traits, or associations with exposures, risk factors, or treatment. Types of outcome measures include primary outcome measure and secondary outcome measure.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>0000016</IRI>
+        <IRI>_0000016</IRI>
         <Literal>outcome measure</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>0000017</IRI>
+        <IRI>_0000017</IRI>
         <Literal>The Pan African clinical trial registry is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
-        <IRI>0000017</IRI>
+        <IRI>_0000017</IRI>
         <Literal>PACTR</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>0000017</IRI>
+        <IRI>_0000017</IRI>
         <Literal>Pan African clinical trial registry</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000017</IRI>
+        <IRI>_0000017</IRI>
         <Literal>http://www.pactr.org/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000017</IRI>
+        <IRI>_0000017</IRI>
         <Literal>https://www.who.int/ictrp/network/primary/en/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>0000018</IRI>
-        <Literal>A centrally registered identifier that is assigned for a specific clinical trial registered in the The Netherlands national trial register (NTR). The format for the registry number is “NTR” followed by a 4-digit number, e.g., NL8498.</Literal>
+        <IRI>_0000018</IRI>
+        <Literal>A centrally registered identifier that is assigned for a specific clinical trial registered in the The Netherlands national trial register (NTR). The format for the registry number is “NTR” followed by a 1 to 4-digit number, e.g., NL8498.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
-        <IRI>0000018</IRI>
+        <IRI>_0000018</IRI>
         <Literal>NTR identifier</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>0000018</IRI>
+        <IRI>_0000018</IRI>
         <Literal>The Netherlands national trial register identifier</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000018</IRI>
+        <IRI>_0000018</IRI>
         <Literal>https://www.trialregister.nl/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000018</IRI>
+        <IRI>_0000018</IRI>
         <Literal>https://www.who.int/ictrp/network/primary/en/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>0000019</IRI>
+        <IRI>_0000019</IRI>
         <Literal>The JAPIC (Japan Pharmaceutical Information Center) clinical trials registry is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
-        <IRI>0000019</IRI>
+        <IRI>_0000019</IRI>
         <Literal>JapicCTI</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>0000019</IRI>
+        <IRI>_0000019</IRI>
         <Literal>JAPIC clinical trials registry</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000019</IRI>
+        <IRI>_0000019</IRI>
         <Literal>https://rctportal.niph.go.jp/en/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000019</IRI>
+        <IRI>_0000019</IRI>
         <Literal>https://www.japic.or.jp/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000019</IRI>
+        <IRI>_0000019</IRI>
         <Literal>https://www.who.int/ictrp/network/primary/en/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>0000020</IRI>
+        <IRI>_0000020</IRI>
         <Literal>A centrally registered identifier that is assigned for a specific clinical trial registered in the Pan African clinical trial register. The format for the registry number is “KCT” followed by a 15-digit number, e.g., PACTR202004893013257.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
-        <IRI>0000020</IRI>
+        <IRI>_0000020</IRI>
         <Literal>PACTR identifier</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>0000020</IRI>
+        <IRI>_0000020</IRI>
         <Literal>Pan African clinical trial registry identifier</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000020</IRI>
+        <IRI>_0000020</IRI>
         <Literal>https://pactr.samrc.ac.za/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000020</IRI>
+        <IRI>_0000020</IRI>
         <Literal>https://www.who.int/ictrp/network/primary/en/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>0000021</IRI>
+        <IRI>_0000021</IRI>
         <Literal>A centrally registered identifier that is assigned for a specific clinical trial registered in the Korean Clinical Research Information Service (CRIS). The format for the registry number is “KCT” followed by a 7-digit number, e.g., KCT0004537.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
-        <IRI>0000021</IRI>
+        <IRI>_0000021</IRI>
         <Literal>CRIS identifier</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>0000021</IRI>
+        <IRI>_0000021</IRI>
         <Literal>Korean clinical trial registry identifier</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000021</IRI>
+        <IRI>_0000021</IRI>
         <Literal>http://cris.nih.go.kr/cris/en/use_guide/cris_introduce.jsp</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_0000022</IRI>
+        <Literal>A centrally registered identifier that is assigned for a specific clinical trial registered in the Chinese clinical trials register (ChiCTR). The format for the registry number is “ChiCTR” followed by a 10-digit number, e.g., ChiCTR2000031589.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
-        <IRI>0000022</IRI>
+        <IRI>_0000022</IRI>
         <Literal>ChiCTR identifier</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
-        <IRI>0000022</IRI>
+        <IRI>_0000022</IRI>
         <Literal>Chinese Clinical Trial Register number</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>0000022</IRI>
+        <IRI>_0000022</IRI>
         <Literal>Chinese clinical trail registry identifier</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000022</IRI>
+        <IRI>_0000022</IRI>
         <Literal>http://www.chictr.org.cn/enIndex.aspx</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>0000023</IRI>
+        <IRI>_0000023</IRI>
         <Literal>The Lebanese clinical trials registry  is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
-        <IRI>0000023</IRI>
+        <IRI>_0000023</IRI>
         <Literal>LBCTR</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>0000023</IRI>
+        <IRI>_0000023</IRI>
         <Literal>Lebanese clinical trials registry</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000023</IRI>
+        <IRI>_0000023</IRI>
         <Literal>http://lbctr.emro.who.int/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>_0000023</IRI>
+        <Literal>https://www.who.int/ictrp/network/primary/en/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>0000024</IRI>
+        <IRI>_0000024</IRI>
         <Literal>German clinical trials register is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
-        <IRI>0000024</IRI>
+        <IRI>_0000024</IRI>
         <Literal>DRKS</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>0000024</IRI>
+        <IRI>_0000024</IRI>
         <Literal>German clinical trials register</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>_0000024</IRI>
+        <Literal>http://www.germanctr.de/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>_0000024</IRI>
+        <Literal>https://www.who.int/ictrp/network/primary/en/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>0000025</IRI>
+        <IRI>_0000025</IRI>
         <Literal>The JMACCT (Japan Medical Association, Center for Clinical Trials) clinical trials registry is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
-        <IRI>0000025</IRI>
+        <IRI>_0000025</IRI>
         <Literal>JMACCT</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>0000025</IRI>
+        <IRI>_0000025</IRI>
         <Literal>JMACCT clinical trials registry</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000025</IRI>
+        <IRI>_0000025</IRI>
         <Literal>https://dbcentre3.jmacct.med.or.jp/jmactr/Default_Eng.aspx</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000025</IRI>
+        <IRI>_0000025</IRI>
         <Literal>https://rctportal.niph.go.jp/en/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
-        <IRI>0000026</IRI>
+        <IRI>_0000026</IRI>
         <Literal>adult (18-64)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>0000026</IRI>
+        <IRI>_0000026</IRI>
         <Literal>age_between_18_and_64</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000026</IRI>
+        <IRI>_0000026</IRI>
         <Literal>https://clinicaltrials.gov/ct2/about-studies/glossary</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>0000027</IRI>
+        <IRI>_0000027</IRI>
         <Literal>A centrally registered identifier that is assigned for a specific clinical trial registered in the Sri Lanka clinical trials registry (SLCTR ). The format for the registry number is “SLCTR /” followed  by a 4-digit number, followed by a slash, followed a 3-digit number, e.g., SLCTR/2020/010</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
-        <IRI>0000027</IRI>
+        <IRI>_0000027</IRI>
         <Literal>SLCTR identifier</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>0000027</IRI>
+        <IRI>_0000027</IRI>
         <Literal>Sri Lanka clinical trials registry identifier</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000027</IRI>
+        <IRI>_0000027</IRI>
         <Literal>https://slctr.lk/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>0000028</IRI>
+        <IRI>_0000028</IRI>
         <Literal>The actual total number of participants that are enrolled in a clinical study</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
-        <IRI>0000028</IRI>
+        <IRI>_0000028</IRI>
         <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -2499,7 +2547,7 @@ Each primary outcome measure information includes title, description and time fr
             <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
         </Annotation>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
-        <IRI>0000028</IRI>
+        <IRI>_0000028</IRI>
         <Literal>enrollment</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -2508,112 +2556,112 @@ Each primary outcome measure information includes title, description and time fr
             <Literal>http://www.who.int/ictrp/network/trds/en/index.html</Literal>
         </Annotation>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
-        <IRI>0000028</IRI>
+        <IRI>_0000028</IRI>
         <Literal>sample size</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>0000028</IRI>
+        <IRI>_0000028</IRI>
         <Literal>number of participants</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000028</IRI>
+        <IRI>_0000028</IRI>
         <Literal>http://www.icmje.org/recommendations/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>0000029</IRI>
+        <IRI>_0000029</IRI>
         <Literal>The jRTC (Japan Registry of Clinical Trials) clinical trial registry is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
-        <IRI>0000029</IRI>
+        <IRI>_0000029</IRI>
         <Literal>Japan Registry of Clinical Trials</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
-        <IRI>0000029</IRI>
+        <IRI>_0000029</IRI>
         <Literal>jRTC</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>0000029</IRI>
+        <IRI>_0000029</IRI>
         <Literal>jRTC clinical trials register</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000029</IRI>
+        <IRI>_0000029</IRI>
         <Literal>https://jrct.niph.go.jp/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000029</IRI>
+        <IRI>_0000029</IRI>
         <Literal>https://rctportal.niph.go.jp/en/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>0000030</IRI>
+        <IRI>_0000030</IRI>
         <Literal>A centrally registered identifier that is assigned for a specific clinical trial registered in  Brazilian Registry of Clinical Trials (ReBEC). The format for the ReBEC registry number is “RBR-” followed by  6 characters, e.g., RBR-4hb9qs.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
-        <IRI>0000030</IRI>
+        <IRI>_0000030</IRI>
         <Literal>Brazilian Registry of Clinical Trials identifier</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
-        <IRI>0000030</IRI>
+        <IRI>_0000030</IRI>
         <Literal>ReBEC identifier</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>0000030</IRI>
+        <IRI>_0000030</IRI>
         <Literal>Brazilian clinical trial registry identifier</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000030</IRI>
+        <IRI>_0000030</IRI>
         <Literal>http://www.ensaiosclinicos.gov.br/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>0000031</IRI>
+        <IRI>_0000031</IRI>
         <Literal>Clinical trial phase that is a combination of phases 2 and 3.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
-        <IRI>0000031</IRI>
+        <IRI>_0000031</IRI>
         <Literal>Phase 2/3</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
-        <IRI>0000031</IRI>
+        <IRI>_0000031</IRI>
         <Literal>Phase 2/Phase 3</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
-        <IRI>0000031</IRI>
+        <IRI>_0000031</IRI>
         <Literal>Phase I/II</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>0000031</IRI>
+        <IRI>_0000031</IRI>
         <Literal>clinical trial phase 2/3</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000031</IRI>
+        <IRI>_0000031</IRI>
         <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>0000032</IRI>
+        <IRI>_0000032</IRI>
         <Literal>data item ....</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>0000032</IRI>
+        <IRI>_0000032</IRI>
         <Literal>study result</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -2622,7 +2670,7 @@ Each primary outcome measure information includes title, description and time fr
             <Literal>https://clinicaltrials.gov/ct2/about-studies/glossary</Literal>
         </Annotation>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>0000033</IRI>
+        <IRI>_0000033</IRI>
         <Literal>A type of eligibility criteria that indicates whether people who do not have the condition/disease being studied can participate in that clinical study.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -2631,43 +2679,43 @@ Each primary outcome measure information includes title, description and time fr
             <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
         </Annotation>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>0000033</IRI>
+        <IRI>_0000033</IRI>
         <Literal>Indication that participants who do not have a disease or condition, or related conditions or symptoms, under study in the clinical study are permitted to participate in the clinical study.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
-        <IRI>0000033</IRI>
+        <IRI>_0000033</IRI>
         <Literal>accepts healthy volunteers</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>0000033</IRI>
+        <IRI>_0000033</IRI>
         <Literal>healthy volunteer criterion</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000033</IRI>
+        <IRI>_0000033</IRI>
         <Literal>https://www.who.int/ictrp/network/trds/en/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
-        <IRI>0000034</IRI>
+        <IRI>_0000034</IRI>
         <Literal>child (birth-17)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>0000034</IRI>
+        <IRI>_0000034</IRI>
         <Literal>age_between_birth_and_17_years</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>0000035</IRI>
+        <IRI>_0000035</IRI>
         <Literal>A description of each primary outcome measure (or for observational studies, specific key measurement[s] or observation[s] used to describe patterns of diseases or traits or associations with exposures, risk factors or treatment).
 Each primary outcome measure information includes title, description and time frame.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
-        <IRI>0000035</IRI>
+        <IRI>_0000035</IRI>
         <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -2676,7 +2724,7 @@ Each primary outcome measure information includes title, description and time fr
             <Literal>https://www.clinicaltrialsregister.eu/doc/EU_Clinical_Trials_Register_Glossary.pdf</Literal>
         </Annotation>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
-        <IRI>0000035</IRI>
+        <IRI>_0000035</IRI>
         <Literal>primary end point</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -2685,102 +2733,102 @@ Each primary outcome measure information includes title, description and time fr
             <Literal>https://www.who.int/ictrp/network/trds/en/</Literal>
         </Annotation>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
-        <IRI>0000035</IRI>
+        <IRI>_0000035</IRI>
         <Literal>primary outcome(s)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>0000035</IRI>
+        <IRI>_0000035</IRI>
         <Literal>primary outcome measure information</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000035</IRI>
+        <IRI>_0000035</IRI>
         <Literal>https://clinicaltrials.gov/ct2/about-studies/glossary</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>0000036</IRI>
+        <IRI>_0000036</IRI>
         <Literal>The EU clinical trials register is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
-        <IRI>0000036</IRI>
+        <IRI>_0000036</IRI>
         <Literal>EU-CTR</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>0000036</IRI>
+        <IRI>_0000036</IRI>
         <Literal>EU clinical trials register</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000036</IRI>
+        <IRI>_0000036</IRI>
         <Literal>https://eudract.ema.europa.eu/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000036</IRI>
+        <IRI>_0000036</IRI>
         <Literal>https://www.clinicaltrialsregister.eu</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000036</IRI>
+        <IRI>_0000036</IRI>
         <Literal>https://www.who.int/ictrp/network/primary/en/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>0000037</IRI>
+        <IRI>_0000037</IRI>
         <Literal>The UMIN (University Hospital Medical Information Network Center) clinical trials registry is a Japanese primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
-        <IRI>0000037</IRI>
+        <IRI>_0000037</IRI>
         <Literal>UMIN CTR</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>0000037</IRI>
+        <IRI>_0000037</IRI>
         <Literal>UMIN clinical trials registry</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000037</IRI>
+        <IRI>_0000037</IRI>
         <Literal>https://rctportal.niph.go.jp/en/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000037</IRI>
+        <IRI>_0000037</IRI>
         <Literal>https://www.umin.ac.jp/ctr/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000037</IRI>
+        <IRI>_0000037</IRI>
         <Literal>https://www.who.int/ictrp/network/primary/en/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
-        <IRI>0000038</IRI>
+        <IRI>_0000038</IRI>
         <Literal>older adult (65+)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>0000038</IRI>
+        <IRI>_0000038</IRI>
         <Literal>age_older_than_64</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000038</IRI>
+        <IRI>_0000038</IRI>
         <Literal>https://clinicaltrials.gov/ct2/about-studies/glossary</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>0000039</IRI>
+        <IRI>_0000039</IRI>
         <Literal>Data generated from measurement of experimental variables in a study, or for observational studies, from descriptions of patterns of diseases or traits or associations with exposures, risk factors or treatment.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>0000039</IRI>
+        <IRI>_0000039</IRI>
         <Literal>outcome measure result</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -2789,57 +2837,67 @@ Each primary outcome measure information includes title, description and time fr
             <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
         </Annotation>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>0000040</IRI>
+        <IRI>_0000040</IRI>
         <Literal>Indicate whether a clinical study has been reviewed and approved by at least one human subjects protection review board or such review is not required per applicable law (for example, 21 CFR Part 56, 45 CFR Part 46, or other applicable regulation).</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>0000040</IRI>
+        <IRI>_0000040</IRI>
         <Literal>human subjects protection review board status</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>0000041</IRI>
+        <IRI>_0000041</IRI>
+        <Literal>ClinicalTrials.gov is a registry of clinical trials.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_0000041</IRI>
         <Literal>The Korean clinical trials registry (Clinical Research Information Service (CRiS), Republic of Korea) is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
-        <IRI>0000041</IRI>
+        <IRI>_0000041</IRI>
         <Literal>CRiS</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
-        <IRI>0000041</IRI>
+        <IRI>_0000041</IRI>
         <Literal>Clinical Research Information Service, Republic of Korea</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>0000041</IRI>
+        <IRI>_0000041</IRI>
         <Literal>Korean clinical trials registry</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000041</IRI>
+        <IRI>_0000041</IRI>
         <Literal>http://cris.nih.go.kr/cris/en/use_guide/cris_introduce.jsp</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>_0000041</IRI>
+        <Literal>https://www.who.int/ictrp/network/primary/en/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>0000042</IRI>
+        <IRI>_0000042</IRI>
         <Literal>The international standard randomised controlled trial register is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
-        <IRI>0000042</IRI>
+        <IRI>_0000042</IRI>
         <Literal>ISRCTN</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>0000042</IRI>
+        <IRI>_0000042</IRI>
         <Literal>International standard randomised controlled trial register</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000042</IRI>
+        <IRI>_0000042</IRI>
         <Literal>http://www.isrctn.com/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -2848,17 +2906,17 @@ Each primary outcome measure information includes title, description and time fr
             <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
         </Annotation>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>0000043</IRI>
+        <IRI>_0000043</IRI>
         <Literal>Trials without phases (for example, studies of devices or behavioral interventions).</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
-        <IRI>0000043</IRI>
+        <IRI>_0000043</IRI>
         <Literal>N/A</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>0000043</IRI>
+        <IRI>_0000043</IRI>
         <Literal>phase not applicable</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -2867,72 +2925,72 @@ Each primary outcome measure information includes title, description and time fr
             <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
         </Annotation>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>0000044</IRI>
+        <IRI>_0000044</IRI>
         <Literal>Look back using observations collected predominantly prior to subject selection and enrollment</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>0000044</IRI>
+        <IRI>_0000044</IRI>
         <Literal>retrospective study design</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>0000045</IRI>
-        <Literal>A centrally registered identifier that is assigned for a specific clinical trial registered in the international standard randomised controlled trial register  (ISRCT). The format for the registry number is “ISRCTN” followed by a 10-digit number, e.g., ISRCTN14966673.</Literal>
+        <IRI>_0000045</IRI>
+        <Literal>A centrally registered identifier that is assigned for a specific clinical trial registered in the international standard randomised controlled trial register  (ISRCT). The format for the registry number is “ISRCTN” followed by a 8-digit number, e.g., ISRCTN14966673.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
-        <IRI>0000045</IRI>
+        <IRI>_0000045</IRI>
         <Literal>ISRCTN</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
-        <IRI>0000045</IRI>
+        <IRI>_0000045</IRI>
         <Literal>International Standard Randomised Controlled Trial Number</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>0000045</IRI>
+        <IRI>_0000045</IRI>
         <Literal>International standard randomised controlled trial register identifier</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000045</IRI>
+        <IRI>_0000045</IRI>
         <Literal>http://www.isrctn.com/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000045</IRI>
+        <IRI>_0000045</IRI>
         <Literal>https://www.who.int/ictrp/network/primary/en/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>0000046</IRI>
+        <IRI>_0000046</IRI>
         <Literal>Clinical trial phase that is a combination of phases 1 and 2.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
-        <IRI>0000046</IRI>
+        <IRI>_0000046</IRI>
         <Literal>Phase 1/2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
-        <IRI>0000046</IRI>
+        <IRI>_0000046</IRI>
         <Literal>Phase 1/Phase 2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
-        <IRI>0000046</IRI>
+        <IRI>_0000046</IRI>
         <Literal>Phase I/II</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>0000046</IRI>
+        <IRI>_0000046</IRI>
         <Literal>clinical trial phase 1/2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000046</IRI>
+        <IRI>_0000046</IRI>
         <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -2941,238 +2999,318 @@ Each primary outcome measure information includes title, description and time fr
             <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
         </Annotation>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>0000047</IRI>
+        <IRI>_0000047</IRI>
         <Literal>Look forward using periodic observations collected predominantly following subject enrollment</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>0000047</IRI>
+        <IRI>_0000047</IRI>
         <Literal>prospective study design</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>0000048</IRI>
+        <IRI>_0000048</IRI>
         <Literal>A centrally registered identifier that is assigned for a specific clinical trial registered in the Thai clinical trials registry  (TCTR). The format for the registry number is “TCTR” followed by a 11-digit number, e.g., TCTR20200405001</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
-        <IRI>0000048</IRI>
+        <IRI>_0000048</IRI>
         <Literal>TCTR identifier</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>0000048</IRI>
+        <IRI>_0000048</IRI>
         <Literal>Thai clinical trials registry identifier</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000048</IRI>
+        <IRI>_0000048</IRI>
         <Literal>http://www.clinicaltrials.in.th/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000048</IRI>
+        <IRI>_0000048</IRI>
         <Literal>https://www.who.int/ictrp/network/primary/en/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>0000049</IRI>
+        <IRI>_0000049</IRI>
         <Literal>The Chinese clinical trial registry is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
-        <IRI>0000049</IRI>
+        <IRI>_0000049</IRI>
         <Literal>ChiCTR</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>0000049</IRI>
+        <IRI>_0000049</IRI>
         <Literal>Chinese clinical trial registry</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000049</IRI>
+        <IRI>_0000049</IRI>
         <Literal>http://www.chictr.org.cn/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000049</IRI>
+        <IRI>_0000049</IRI>
         <Literal>https://www.who.int/ictrp/network/primary/en/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>0000050</IRI>
+        <IRI>_0000050</IRI>
         <Literal>The Thai clinical trials registry  is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
-        <IRI>0000050</IRI>
+        <IRI>_0000050</IRI>
         <Literal>TCTR</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>0000050</IRI>
+        <IRI>_0000050</IRI>
         <Literal>Thai clinical trials registry</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000050</IRI>
+        <IRI>_0000050</IRI>
         <Literal>http://www.clinicaltrials.in.th/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000050</IRI>
+        <IRI>_0000050</IRI>
         <Literal>https://www.who.int/ictrp/network/primary/en/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>0000051</IRI>
+        <IRI>_0000051</IRI>
         <Literal>A description of the outcome measure in an interventional study or for observational studies, specific key measurement[s] or observation[s] used to describe patterns of diseases or traits or associations with exposures, risk factors or treatment.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>0000051</IRI>
+        <IRI>_0000051</IRI>
         <Literal>outcome specification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000051</IRI>
+        <IRI>_0000051</IRI>
         <Literal>https://clinicaltrials.gov/ct2/about-studies/glossary</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>0000052</IRI>
+        <IRI>_0000052</IRI>
         <Literal>A centrally registered identifier that is assigned for a specific clinical trial registered in the Indian clinical trial register. The format for the registry number is “CRTI/” followed  by a 4-digit number, followed by a slash, followed a 2-digit number, followed by a slash, followed a 6-digit number, e.g., CTRI/2020/03/024402.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
-        <IRI>0000052</IRI>
+        <IRI>_0000052</IRI>
         <Literal>CRTI identifier</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
-        <IRI>0000052</IRI>
+        <IRI>_0000052</IRI>
         <Literal>Clinical Trials Registry - India identifier</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>0000052</IRI>
+        <IRI>_0000052</IRI>
         <Literal>Indian clinical trial registry identifier</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000052</IRI>
+        <IRI>_0000052</IRI>
         <Literal>http://ctri.nic.in/Clinicaltrials/login.php</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000052</IRI>
+        <IRI>_0000052</IRI>
         <Literal>https://www.who.int/ictrp/network/primary/en/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>0000053</IRI>
+        <IRI>_0000053</IRI>
         <Literal>The Brazilian clinical trials registry is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
-        <IRI>0000053</IRI>
+        <IRI>_0000053</IRI>
         <Literal>ReBec</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>0000053</IRI>
+        <IRI>_0000053</IRI>
         <Literal>Brazilian clinical trials registry</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000053</IRI>
+        <IRI>_0000053</IRI>
         <Literal>http://www.ensaiosclinicos.gov.br/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000053</IRI>
+        <IRI>_0000053</IRI>
         <Literal>https://www.who.int/ictrp/network/primary/en/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>0000054</IRI>
+        <IRI>_0000054</IRI>
         <Literal>A centrally registered identifier that is assigned for a specific clinical trial registered in the Japan Registry of Clinical Trials (jRCT). The format for the registry number is “jRCTs” followed by a 9-digit number, e.g., JPRN-jRCTs031190227</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
-        <IRI>0000054</IRI>
+        <IRI>_0000054</IRI>
         <Literal>Japan registry of clinical trials identifier</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>0000054</IRI>
+        <IRI>_0000054</IRI>
         <Literal>jRCT clinical trial identifier</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000054</IRI>
+        <IRI>_0000054</IRI>
         <Literal>https://jrct.niph.go.jp/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000054</IRI>
+        <IRI>_0000054</IRI>
         <Literal>https://rctportal.niph.go.jp/en/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000054</IRI>
+        <IRI>_0000054</IRI>
         <Literal>https://www.who.int/ictrp/network/primary/en/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>0000055</IRI>
+        <IRI>_0000055</IRI>
         <Literal>A centrally registered identifier that is assigned for a specific clinical trial registered in the Cuban public registry of clinical trials (RPCEC). The format for the registry number is “RPCEC” followed by a 8-digit number, e.g., RPCEC00000306.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
-        <IRI>0000055</IRI>
+        <IRI>_0000055</IRI>
         <Literal>RPCEC identifier</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>0000055</IRI>
+        <IRI>_0000055</IRI>
         <Literal>Cuban public registry of clinical trials identifier</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000055</IRI>
+        <IRI>_0000055</IRI>
         <Literal>http://registroclinico.sld.cu/en/home</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000055</IRI>
+        <IRI>_0000055</IRI>
         <Literal>https://www.who.int/ictrp/network/primary/en/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <IRI>0000056</IRI>
+        <IRI>_0000056</IRI>
         <Literal>A centrally registered identifier that is assigned for a specific clinical trial registered in the Lebanese clinical trials registry  (LBCTR). The format for the registry number is “LBCTR” followed by a 10-digit number, e.g., LBCTR2020043459.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>0000056</IRI>
+        <IRI>_0000056</IRI>
         <Literal>Lebanese clinical trials registry identifier</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000056</IRI>
+        <IRI>_0000056</IRI>
         <Literal>LBCTR identifier</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000056</IRI>
+        <IRI>_0000056</IRI>
         <Literal>http://lbctr.emro.who.int/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>0000056</IRI>
+        <IRI>_0000056</IRI>
         <Literal>https://www.who.int/ictrp/network/primary/en/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_0000073</IRI>
+        <Literal>A primary registry is clinical trial registry in the WHO registry network that meet specific criteria for content, quality and validity, accessibility, unique identification, technical capacity and administration. Primary registries also meet the requirements of the International Clinical Trials Registry Platform (ICMJE).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_0000073</IRI>
+        <Literal xml:lang="en">primary registry</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>_0000073</IRI>
+        <Literal>https://www.who.int/ictrp/network/primary/en/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_0000074</IRI>
+        <Literal>The Peruvian clinical trial registry is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <IRI>_0000074</IRI>
+        <Literal>REPEC</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_0000074</IRI>
+        <Literal xml:lang="en">Peruvian clinical trial registry</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>_0000074</IRI>
+        <Literal>https://ensayosclinicos-repec.ins.gob.pe/en/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>_0000074</IRI>
+        <Literal>https://www.who.int/ictrp/network/primary/en/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_0000075</IRI>
+        <Literal>The Sri Lanka clinical trials registry is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <IRI>_0000075</IRI>
+        <Literal>SLCTR</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_0000075</IRI>
+        <Literal xml:lang="en">Sri Lanka clinical trials registry</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>_0000075</IRI>
+        <Literal>http://www.slctr.lk/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>_0000075</IRI>
+        <Literal>https://www.who.int/ictrp/network/primary/en/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_0000076</IRI>
+        <Literal>ClinicalTrials.gov is a registry for clinical trials.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_0000076</IRI>
+        <Literal xml:lang="en">ClinicalTrial.gov registry</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>_0000076</IRI>
+        <Literal>https://clinicaltrials.gov/</Literal>
     </AnnotationAssertion>
 </Ontology>
 
