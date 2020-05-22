@@ -6,7 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="https://bio.scai.fraunhofer.de/ontology/CTO">
-    <Prefix name="" IRI="https://bio.scai.fraunhofer.de/ontology/CTO_"/>
+    <Prefix name="" IRI="https://bio.scai.fraunhofer.de/ontology/CTO"/>
     <Prefix name="dc" IRI="http://purl.org/dc/elements/1.1/"/>
     <Prefix name="obo" IRI="http://purl.obolibrary.org/obo/"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
@@ -555,6 +555,9 @@
         <Class IRI="_0000076"/>
     </Declaration>
     <Declaration>
+        <Class IRI="_0000077"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty abbreviatedIRI="obo:BFO_0000051"/>
     </Declaration>
     <Declaration>
@@ -1006,7 +1009,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="_0000073"/>
-        <Class abbreviatedIRI="obo:ERO_0001843"/>
+        <Class IRI="_0000076"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="_0000074"/>
@@ -1018,6 +1021,10 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="_0000076"/>
+        <Class IRI="_0000077"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_0000077"/>
         <Class abbreviatedIRI="obo:ERO_0001843"/>
     </SubClassOf>
     <AnnotationAssertion>
@@ -3311,6 +3318,16 @@ Each primary outcome measure information includes title, description and time fr
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
         <IRI>_0000076</IRI>
         <Literal>https://clinicaltrials.gov/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_0000077</IRI>
+        <Literal>A clinical trials registry is a specifc registry type that enables the registration and documentation of clinical trials.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_0000077</IRI>
+        <Literal xml:lang="en">clinical trials registry</Literal>
     </AnnotationAssertion>
 </Ontology>
 
