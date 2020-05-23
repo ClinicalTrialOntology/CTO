@@ -1,5 +1,4 @@
-# CTO-Core
-CTO: Clinical Trial Ontology
+# CTO: Clinical Trial Ontology
 
 - This is a collaborative effort undertaken by Fraunhofer SCAI group(Stepan Gebel, Alpha Tom Kodamu Kodamullil, Sumit Madan, Johannes Darms), University of Michigan(Yongqun "Oliver" He), NIH PubChem (Qingliang "Leon" Li), and Asiyah Lin to develop an ontology to represent clinical trials using a small set of core terms. 
 
