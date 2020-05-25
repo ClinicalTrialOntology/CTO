@@ -6473,7 +6473,7 @@ A study in which an individual acts has his/her own comparison does not fall int
     <!-- https://bio.scai.fraunhofer.de/ontology/CTO_0000003 -->
 
     <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO_0000003">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001843"/>
+        <rdfs:subClassOf rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO_0000073"/>
         <obo:IAO_0000115>Australian New Zealand Clinical Trials Registry  is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>ANZCTR</oboInOwl:hasExactSynonym>
         <rdfs:label>Australian New Zealand clinical trials registry</rdfs:label>
@@ -6487,7 +6487,7 @@ A study in which an individual acts has his/her own comparison does not fall int
 
     <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO_0000004">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C98714"/>
-        <obo:IAO_0000115>A centrally registered identifier that is assigned for a specific clinical trial registered in the Peruvian clinical trial registry  (REPEC). The format for the registry number is “PER-” followed by a 3-digit number, folowed by a hyphen, followed by a 2-digit number e.g., PER-010-20.</obo:IAO_0000115>
+        <obo:IAO_0000115>A centrally registered identifier that is assigned for a specific clinical trial registered in the Peruvian clinical trial registry  (REPEC). The format for the registry number is “PER-” followed by a 3-digit number, followed by a hyphen, followed by a 2-digit number e.g., PER-010-20.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>REPEC identifier</oboInOwl:hasExactSynonym>
         <rdfs:label>Peruvian clinical trial registry identifier</rdfs:label>
         <rdfs:seeAlso>https://ensayosclinicos-repec.ins.gob.pe/en/</rdfs:seeAlso>
@@ -6575,7 +6575,7 @@ Each secondary outcome measure information includes title, description and time 
     <!-- https://bio.scai.fraunhofer.de/ontology/CTO_0000009 -->
 
     <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO_0000009">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001843"/>
+        <rdfs:subClassOf rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO_0000073"/>
         <obo:IAO_0000115>The Iranian registry of clinical trials is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>IRCT</oboInOwl:hasExactSynonym>
         <rdfs:label>Iranian registry of clinical trials</rdfs:label>
@@ -6601,7 +6601,7 @@ Each primary outcome measure information includes title, description and time fr
     <!-- https://bio.scai.fraunhofer.de/ontology/CTO_0000011 -->
 
     <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO_0000011">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001843"/>
+        <rdfs:subClassOf rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO_0000073"/>
         <obo:IAO_0000115>The Indian clinical trials registry is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>CTRI</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>clinical trials registry - India</oboInOwl:hasExactSynonym>
@@ -6615,7 +6615,7 @@ Each primary outcome measure information includes title, description and time fr
     <!-- https://bio.scai.fraunhofer.de/ontology/CTO_0000012 -->
 
     <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO_0000012">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001843"/>
+        <rdfs:subClassOf rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO_0000073"/>
         <obo:IAO_0000115>The Netherlands national trial register is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>NTR</oboInOwl:hasExactSynonym>
         <rdfs:label>The Netherlands national trial register</rdfs:label>
@@ -6654,7 +6654,7 @@ Each primary outcome measure information includes title, description and time fr
     <!-- https://bio.scai.fraunhofer.de/ontology/CTO_0000015 -->
 
     <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO_0000015">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001843"/>
+        <rdfs:subClassOf rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO_0000073"/>
         <obo:IAO_0000115>The Cuban public registry of clinical trials is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>RPCEC</oboInOwl:hasExactSynonym>
         <rdfs:label>Cuban public registry of clinical trials</rdfs:label>
@@ -6683,7 +6683,7 @@ Each primary outcome measure information includes title, description and time fr
     <!-- https://bio.scai.fraunhofer.de/ontology/CTO_0000017 -->
 
     <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO_0000017">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001843"/>
+        <rdfs:subClassOf rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO_0000073"/>
         <obo:IAO_0000115>The Pan African clinical trial registry is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>PACTR</oboInOwl:hasExactSynonym>
         <rdfs:label>Pan African clinical trial registry</rdfs:label>
@@ -6697,7 +6697,7 @@ Each primary outcome measure information includes title, description and time fr
 
     <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO_0000018">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C98714"/>
-        <obo:IAO_0000115>A centrally registered identifier that is assigned for a specific clinical trial registered in the The Netherlands national trial register (NTR). The format for the registry number is “NTR” followed by a 4-digit number, e.g., NL8498.</obo:IAO_0000115>
+        <obo:IAO_0000115>A centrally registered identifier that is assigned for a specific clinical trial registered in the The Netherlands national trial register (NTR). The format for the registry number is “NTR” followed by a 1 to 4-digit number, e.g., NL8498.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>NTR identifier</oboInOwl:hasExactSynonym>
         <rdfs:label>The Netherlands national trial register identifier</rdfs:label>
         <rdfs:seeAlso>https://www.trialregister.nl/</rdfs:seeAlso>
@@ -6709,7 +6709,7 @@ Each primary outcome measure information includes title, description and time fr
     <!-- https://bio.scai.fraunhofer.de/ontology/CTO_0000019 -->
 
     <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO_0000019">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001843"/>
+        <rdfs:subClassOf rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO_0000073"/>
         <obo:IAO_0000115>The JAPIC (Japan Pharmaceutical Information Center) clinical trials registry is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>JapicCTI</oboInOwl:hasExactSynonym>
         <rdfs:label>JAPIC clinical trials registry</rdfs:label>
@@ -6737,6 +6737,7 @@ Each primary outcome measure information includes title, description and time fr
 
     <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO_0000022">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C98714"/>
+        <obo:IAO_0000115>A centrally registered identifier that is assigned for a specific clinical trial registered in the Chinese clinical trials register (ChiCTR). The format for the registry number is “ChiCTR” followed by a 10-digit number, e.g., ChiCTR2000031589.</obo:IAO_0000115>
         <obo:IAO_0000118>ChiCTR identifier</obo:IAO_0000118>
         <oboInOwl:hasExactSynonym>Chinese Clinical Trial Register number</oboInOwl:hasExactSynonym>
         <rdfs:label>Chinese clinical trail registry identifier</rdfs:label>
@@ -6748,11 +6749,12 @@ Each primary outcome measure information includes title, description and time fr
     <!-- https://bio.scai.fraunhofer.de/ontology/CTO_0000023 -->
 
     <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO_0000023">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001843"/>
+        <rdfs:subClassOf rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO_0000073"/>
         <obo:IAO_0000115>The Lebanese clinical trials registry  is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>LBCTR</oboInOwl:hasExactSynonym>
         <rdfs:label>Lebanese clinical trials registry</rdfs:label>
         <rdfs:seeAlso>http://lbctr.emro.who.int/</rdfs:seeAlso>
+        <rdfs:seeAlso>https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -6760,10 +6762,12 @@ Each primary outcome measure information includes title, description and time fr
     <!-- https://bio.scai.fraunhofer.de/ontology/CTO_0000024 -->
 
     <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO_0000024">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001843"/>
+        <rdfs:subClassOf rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO_0000073"/>
         <obo:IAO_0000115>German clinical trials register is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>DRKS</oboInOwl:hasExactSynonym>
         <rdfs:label>German clinical trials register</rdfs:label>
+        <rdfs:seeAlso>http://www.germanctr.de/</rdfs:seeAlso>
+        <rdfs:seeAlso>https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -6771,7 +6775,7 @@ Each primary outcome measure information includes title, description and time fr
     <!-- https://bio.scai.fraunhofer.de/ontology/CTO_0000025 -->
 
     <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO_0000025">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001843"/>
+        <rdfs:subClassOf rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO_0000073"/>
         <obo:IAO_0000115>The JMACCT (Japan Medical Association, Center for Clinical Trials) clinical trials registry is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>JMACCT</oboInOwl:hasExactSynonym>
         <rdfs:label>JMACCT clinical trials registry</rdfs:label>
@@ -6920,7 +6924,7 @@ Each primary outcome measure information includes title, description and time fr
     <!-- https://bio.scai.fraunhofer.de/ontology/CTO_0000036 -->
 
     <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO_0000036">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001843"/>
+        <rdfs:subClassOf rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO_0000073"/>
         <obo:IAO_0000115>The EU clinical trials register is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>EU-CTR</oboInOwl:hasExactSynonym>
         <rdfs:label>EU clinical trials register</rdfs:label>
@@ -6934,7 +6938,7 @@ Each primary outcome measure information includes title, description and time fr
     <!-- https://bio.scai.fraunhofer.de/ontology/CTO_0000037 -->
 
     <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO_0000037">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001843"/>
+        <rdfs:subClassOf rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO_0000073"/>
         <obo:IAO_0000115>The UMIN (University Hospital Medical Information Network Center) clinical trials registry is a Japanese primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>UMIN CTR</oboInOwl:hasExactSynonym>
         <rdfs:label>UMIN clinical trials registry</rdfs:label>
@@ -6985,12 +6989,14 @@ Each primary outcome measure information includes title, description and time fr
     <!-- https://bio.scai.fraunhofer.de/ontology/CTO_0000041 -->
 
     <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO_0000041">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001843"/>
+        <rdfs:subClassOf rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO_0000073"/>
+        <obo:IAO_0000115>ClinicalTrials.gov is a registry of clinical trials.</obo:IAO_0000115>
         <obo:IAO_0000115>The Korean clinical trials registry (Clinical Research Information Service (CRiS), Republic of Korea) is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>CRiS</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Clinical Research Information Service, Republic of Korea</oboInOwl:hasExactSynonym>
         <rdfs:label>Korean clinical trials registry</rdfs:label>
         <rdfs:seeAlso>http://cris.nih.go.kr/cris/en/use_guide/cris_introduce.jsp</rdfs:seeAlso>
+        <rdfs:seeAlso>https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -7032,7 +7038,7 @@ Each primary outcome measure information includes title, description and time fr
 
     <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO_0000045">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C98714"/>
-        <obo:IAO_0000115>A centrally registered identifier that is assigned for a specific clinical trial registered in the international standard randomised controlled trial register  (ISRCT). The format for the registry number is “ISRCTN” followed by a 10-digit number, e.g., ISRCTN14966673.</obo:IAO_0000115>
+        <obo:IAO_0000115>A centrally registered identifier that is assigned for a specific clinical trial registered in the international standard randomised controlled trial register  (ISRCT). The format for the registry number is “ISRCTN” followed by a 8-digit number, e.g., ISRCTN14966673.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>ISRCTN</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>International Standard Randomised Controlled Trial Number</oboInOwl:hasExactSynonym>
         <rdfs:label>International standard randomised controlled trial register identifier</rdfs:label>
@@ -7088,7 +7094,7 @@ Each primary outcome measure information includes title, description and time fr
     <!-- https://bio.scai.fraunhofer.de/ontology/CTO_0000049 -->
 
     <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO_0000049">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001843"/>
+        <rdfs:subClassOf rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO_0000073"/>
         <obo:IAO_0000115>The Chinese clinical trial registry is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>ChiCTR</oboInOwl:hasExactSynonym>
         <rdfs:label>Chinese clinical trial registry</rdfs:label>
@@ -7101,7 +7107,7 @@ Each primary outcome measure information includes title, description and time fr
     <!-- https://bio.scai.fraunhofer.de/ontology/CTO_0000050 -->
 
     <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO_0000050">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001843"/>
+        <rdfs:subClassOf rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO_0000073"/>
         <obo:IAO_0000115>The Thai clinical trials registry  is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>TCTR</oboInOwl:hasExactSynonym>
         <rdfs:label>Thai clinical trials registry</rdfs:label>
@@ -7139,7 +7145,7 @@ Each primary outcome measure information includes title, description and time fr
     <!-- https://bio.scai.fraunhofer.de/ontology/CTO_0000053 -->
 
     <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO_0000053">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001843"/>
+        <rdfs:subClassOf rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO_0000073"/>
         <obo:IAO_0000115>The Brazilian clinical trials registry is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>ReBec</oboInOwl:hasExactSynonym>
         <rdfs:label>Brazilian clinical trials registry</rdfs:label>
@@ -7185,6 +7191,65 @@ Each primary outcome measure information includes title, description and time fr
         <rdfs:seeAlso>LBCTR identifier</rdfs:seeAlso>
         <rdfs:seeAlso>http://lbctr.emro.who.int/</rdfs:seeAlso>
         <rdfs:seeAlso>https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO_0000073 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO_0000073">
+        <rdfs:subClassOf rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO_0000076"/>
+        <obo:IAO_0000115>A primary registry is clinical trial registry in the WHO registry network that meet specific criteria for content, quality and validity, accessibility, unique identification, technical capacity and administration. Primary registries also meet the requirements of the International Clinical Trials Registry Platform (ICMJE).</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">primary registry</rdfs:label>
+        <rdfs:seeAlso>https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO_0000074 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO_0000074">
+        <rdfs:subClassOf rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO_0000073"/>
+        <obo:IAO_0000115>The Peruvian clinical trial registry is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>REPEC</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">Peruvian clinical trial registry</rdfs:label>
+        <rdfs:seeAlso>https://ensayosclinicos-repec.ins.gob.pe/en/</rdfs:seeAlso>
+        <rdfs:seeAlso>https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO_0000075 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO_0000075">
+        <rdfs:subClassOf rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO_0000073"/>
+        <obo:IAO_0000115>The Sri Lanka clinical trials registry is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>SLCTR</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">Sri Lanka clinical trials registry</rdfs:label>
+        <rdfs:seeAlso>http://www.slctr.lk/</rdfs:seeAlso>
+        <rdfs:seeAlso>https://www.who.int/ictrp/network/primary/en/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO_0000076 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO_0000076">
+        <rdfs:subClassOf rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO_0000077"/>
+        <obo:IAO_0000115>ClinicalTrials.gov is a registry for clinical trials.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>ClinicalTrials.gov</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">ClinicalTrial.gov registry</rdfs:label>
+        <rdfs:seeAlso>https://clinicaltrials.gov/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO_0000077 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO_0000077">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001843"/>
+        <obo:IAO_0000115>A clinical trials registry is a specifc registry type that enables the registration and documentation of clinical trials.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">clinical trials registry</rdfs:label>
     </owl:Class>
     
 
@@ -7266,8 +7331,8 @@ Each primary outcome measure information includes title, description and time fr
         <rdfs:seeAlso>http://cris.nih.go.kr/cris/en/use_guide/cris_introduce.jsp</rdfs:seeAlso>
     </rdf:Description>
     <rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO_0000027">
-        <rdfs:label>Sri Lanka clinical trials registry identifier</rdfs:label>
         <rdfs:seeAlso>https://slctr.lk/</rdfs:seeAlso>
+        <rdfs:label>Sri Lanka clinical trials registry identifier</rdfs:label>
         <obo:IAO_0000115>A centrally registered identifier that is assigned for a specific clinical trial registered in the Sri Lanka clinical trials registry (SLCTR ). The format for the registry number is “SLCTR /” followed  by a 4-digit number, followed by a slash, followed a 3-digit number, e.g., SLCTR/2020/010</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>SLCTR identifier</oboInOwl:hasExactSynonym>
     </rdf:Description>
