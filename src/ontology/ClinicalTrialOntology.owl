@@ -3310,6 +3310,11 @@ Each primary outcome measure information includes title, description and time fr
         <Literal>ClinicalTrials.gov is a registry for clinical trials.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <IRI>_0000076</IRI>
+        <Literal>ClinicalTrials.gov</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_0000076</IRI>
         <Literal xml:lang="en">ClinicalTrial.gov registry</Literal>
