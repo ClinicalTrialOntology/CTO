@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://bio.scai.fraunhofer.de/ontology/CTO#"
-     xml:base="https://bio.scai.fraunhofer.de/ontology/CTO"
+<rdf:RDF xmlns="https://bio.scai.fraunhofer.de/ontology/CTO.owl#"
+     xml:base="https://bio.scai.fraunhofer.de/ontology/CTO.owl"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -15,7 +15,7 @@
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#"
      xmlns:statistics="http://purl.org/net/OCRe/statistics.owl#"
      xmlns:study_protocol="http://purl.org/net/OCRe/study_protocol.owl#">
-    <owl:Ontology rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO">
+    <owl:Ontology rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO.owl">
         <dc:contributor>Asiyah Yu Lin (CDRH, Food and Drug Administration)</dc:contributor>
         <dc:contributor>Astghik Sargsyan (Fraunhofer SCAI)</dc:contributor>
         <dc:contributor>Geena Mariya Jose (Causality Biomodels)</dc:contributor>
