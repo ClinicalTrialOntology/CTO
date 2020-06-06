@@ -6,6 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="https://bio.scai.fraunhofer.de/ontology/CTO.owl">
+    <Prefix name="" IRI="https://bio.scai.fraunhofer.de/ontology/CTO.owl"/>
     <Prefix name="dc" IRI="http://purl.org/dc/elements/1.1/"/>
     <Prefix name="obo" IRI="http://purl.obolibrary.org/obo/"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
@@ -19,6 +20,7 @@
     <Prefix name="oboInOwl" IRI="http://www.geneontology.org/formats/oboInOwl#"/>
     <Prefix name="statistics" IRI="http://purl.org/net/OCRe/statistics.owl#"/>
     <Prefix name="study_protocol" IRI="http://purl.org/net/OCRe/study_protocol.owl#"/>
+    <Import>http://ontofox.hegroup.org/CHEBI_imports1.owl</Import>
     <Import>http://ontofox.hegroup.org/DRON_import.owl</Import>
     <Import>http://ontofox.hegroup.org/ERO_Imports2.owl</Import>
     <Import>http://ontofox.hegroup.org/ERO_import.owl</Import>
@@ -41,6 +43,7 @@
     <Import>http://ontofox.hegroup.org/OPMI15_imports.owl</Import>
     <Import>http://ontofox.hegroup.org/OPMI16_imports.owl</Import>
     <Import>http://ontofox.hegroup.org/OPMI17_imports.owl</Import>
+    <Import>http://ontofox.hegroup.org/OPMI18_imports.owl</Import>
     <Import>http://ontofox.hegroup.org/VO_import1.owl</Import>
     <Import>http://purl.obolibrary.org/obo/IAO_import.owl</Import>
     <Import>http://purl.obolibrary.org/obo/IAO_import2.owl</Import>
@@ -557,6 +560,33 @@
         <Class IRI="https://bio.scai.fraunhofer.de/ontology/CTO_0000077"/>
     </Declaration>
     <Declaration>
+        <Class IRI="https://bio.scai.fraunhofer.de/ontology/CTO_0000099"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://bio.scai.fraunhofer.de/ontology/CTO_0000100"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://bio.scai.fraunhofer.de/ontology/CTO_0000101"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://bio.scai.fraunhofer.de/ontology/CTO_0000102"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://bio.scai.fraunhofer.de/ontology/CTO_0000103"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://bio.scai.fraunhofer.de/ontology/CTO_0000104"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://bio.scai.fraunhofer.de/ontology/CTO_0000105"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://bio.scai.fraunhofer.de/ontology/CTO_0000106"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://bio.scai.fraunhofer.de/ontology/CTO_0000108"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty abbreviatedIRI="obo:BFO_0000051"/>
     </Declaration>
     <Declaration>
@@ -1025,6 +1055,42 @@
     <SubClassOf>
         <Class IRI="https://bio.scai.fraunhofer.de/ontology/CTO_0000077"/>
         <Class abbreviatedIRI="obo:ERO_0001843"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://bio.scai.fraunhofer.de/ontology/CTO_0000099"/>
+        <Class abbreviatedIRI="obo:OBI_0600004"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://bio.scai.fraunhofer.de/ontology/CTO_0000100"/>
+        <Class abbreviatedIRI="obo:OPMI_0000381"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://bio.scai.fraunhofer.de/ontology/CTO_0000101"/>
+        <Class abbreviatedIRI="obo:OPMI_0000381"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://bio.scai.fraunhofer.de/ontology/CTO_0000102"/>
+        <Class abbreviatedIRI="obo:OPMI_0000381"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://bio.scai.fraunhofer.de/ontology/CTO_0000103"/>
+        <Class abbreviatedIRI="obo:OAE_0000002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://bio.scai.fraunhofer.de/ontology/CTO_0000104"/>
+        <Class abbreviatedIRI="obo:IAO_0000027"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://bio.scai.fraunhofer.de/ontology/CTO_0000105"/>
+        <Class IRI="https://bio.scai.fraunhofer.de/ontology/CTO_0000104"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://bio.scai.fraunhofer.de/ontology/CTO_0000106"/>
+        <Class IRI="https://bio.scai.fraunhofer.de/ontology/CTO_0000104"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://bio.scai.fraunhofer.de/ontology/CTO_0000108"/>
+        <Class abbreviatedIRI="obo:CHEBI_23367"/>
     </SubClassOf>
     <AnnotationAssertion>
         <Annotation>
@@ -3332,6 +3398,51 @@ Each primary outcome measure information includes title, description and time fr
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://bio.scai.fraunhofer.de/ontology/CTO_0000077</IRI>
         <Literal xml:lang="en">clinical trials registry</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://bio.scai.fraunhofer.de/ontology/CTO_0000099</IRI>
+        <Literal xml:lang="en">clinical trial enrollment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://bio.scai.fraunhofer.de/ontology/CTO_0000100</IRI>
+        <Literal xml:lang="en">clinical trial participant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://bio.scai.fraunhofer.de/ontology/CTO_0000101</IRI>
+        <Literal xml:lang="en">healthy enrollee</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://bio.scai.fraunhofer.de/ontology/CTO_0000102</IRI>
+        <Literal xml:lang="en">enrolled patient</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://bio.scai.fraunhofer.de/ontology/CTO_0000103</IRI>
+        <Literal xml:lang="en">placebo medical intervention</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://bio.scai.fraunhofer.de/ontology/CTO_0000104</IRI>
+        <Literal xml:lang="en">outcome measurement datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://bio.scai.fraunhofer.de/ontology/CTO_0000105</IRI>
+        <Literal xml:lang="en">primary outcome measurement datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://bio.scai.fraunhofer.de/ontology/CTO_0000106</IRI>
+        <Literal xml:lang="en">secondary outcome measurement datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://bio.scai.fraunhofer.de/ontology/CTO_0000108</IRI>
+        <Literal xml:lang="en">investigational molecular entity</Literal>
     </AnnotationAssertion>
 </Ontology>
 
