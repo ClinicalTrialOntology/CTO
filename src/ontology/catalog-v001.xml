@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/OPMI23_imports.owl" uri="imports/OPMI23_imports.owl"/>
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/OPMI22_imports.owl" uri="imports/OPMI22_imports.owl"/>
     <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/ERO_Imports3.owl" uri="imports/ERO_Imports3.owl"/>
     <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/NCIT_Imports30.owl" uri="imports/NCIT_Imports30.owl"/>
     <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/OPMI21_imports.owl" uri="imports/OPMI21_imports.owl"/>

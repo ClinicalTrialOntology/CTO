@@ -49,6 +49,8 @@
     <Import>http://ontofox.hegroup.org/OPMI19_imports.owl</Import>
     <Import>http://ontofox.hegroup.org/OPMI20_imports.owl</Import>
     <Import>http://ontofox.hegroup.org/OPMI21_imports.owl</Import>
+    <Import>http://ontofox.hegroup.org/OPMI22_imports.owl</Import>
+    <Import>http://ontofox.hegroup.org/OPMI23_imports.owl</Import>
     <Import>http://ontofox.hegroup.org/VO_import1.owl</Import>
     <Import>http://purl.obolibrary.org/obo/IAO_import.owl</Import>
     <Import>http://purl.obolibrary.org/obo/IAO_import2.owl</Import>
@@ -577,6 +579,12 @@
     </Declaration>
     <Declaration>
         <Class IRI="https://bio.scai.fraunhofer.de/ontology/CTO_0000109"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://bio.scai.fraunhofer.de/ontology/CTO_0000110"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://bio.scai.fraunhofer.de/ontology/CTO_0000111"/>
     </Declaration>
     <Declaration>
         <ObjectProperty abbreviatedIRI="obo:BFO_0000051"/>
@@ -1111,6 +1119,14 @@
     <SubClassOf>
         <Class IRI="https://bio.scai.fraunhofer.de/ontology/CTO_0000109"/>
         <Class abbreviatedIRI="obo:OPMI_0004507"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://bio.scai.fraunhofer.de/ontology/CTO_0000110"/>
+        <Class abbreviatedIRI="obo:OBI_0000243"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://bio.scai.fraunhofer.de/ontology/CTO_0000111"/>
+        <Class abbreviatedIRI="obo:ERO_0001402"/>
     </SubClassOf>
     <AnnotationAssertion>
         <Annotation>
@@ -3441,6 +3457,16 @@ Each primary outcome measure information includes title, description and time fr
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://bio.scai.fraunhofer.de/ontology/CTO_0000109</IRI>
         <Literal xml:lang="en">drug clinical trial</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://bio.scai.fraunhofer.de/ontology/CTO_0000110</IRI>
+        <Literal xml:lang="en">clinical trial sponsor role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://bio.scai.fraunhofer.de/ontology/CTO_0000111</IRI>
+        <Literal xml:lang="en">procedure clinical trIal</Literal>
     </AnnotationAssertion>
 </Ontology>
 

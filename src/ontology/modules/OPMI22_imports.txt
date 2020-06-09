@@ -1,0 +1,23 @@
+[URI of the OWL(RDF/XML) output file]
+
+
+[Source ontology]
+OPMI
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/OPMI_0000393 #contact for public queries
+http://purl.obolibrary.org/obo/OPMI_0000389 #contact of scientific queries
+http://purl.obolibrary.org/obo/OPMI_0000384 #facility contact
+http://purl.obolibrary.org/obo/OPMI_0000395 #central contact person of study
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/NCBITaxon_9606 #Homo sapiens
+subClassOf
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]
