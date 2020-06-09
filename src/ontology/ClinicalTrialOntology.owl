@@ -39,6 +39,7 @@
     <Import>http://ontofox.hegroup.org/OBI_import14.owl</Import>
     <Import>http://ontofox.hegroup.org/OBI_imports15.owl</Import>
     <Import>http://ontofox.hegroup.org/OGMS_import2.owl</Import>
+    <Import>http://ontofox.hegroup.org/OMIABIS_Imports1.owl</Import>
     <Import>http://ontofox.hegroup.org/OPMI12_import.owl</Import>
     <Import>http://ontofox.hegroup.org/OPMI13_imports.owl</Import>
     <Import>http://ontofox.hegroup.org/OPMI14_imports.owl</Import>
@@ -587,6 +588,21 @@
         <Class IRI="https://bio.scai.fraunhofer.de/ontology/CTO_0000111"/>
     </Declaration>
     <Declaration>
+        <Class IRI="https://bio.scai.fraunhofer.de/ontology/CTO_0000112"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://bio.scai.fraunhofer.de/ontology/CTO_0000113"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://bio.scai.fraunhofer.de/ontology/CTO_0000114"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://bio.scai.fraunhofer.de/ontology/CTO_0000115"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://bio.scai.fraunhofer.de/ontology/CTO_0000116"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty abbreviatedIRI="obo:BFO_0000051"/>
     </Declaration>
     <Declaration>
@@ -1128,6 +1144,26 @@
         <Class IRI="https://bio.scai.fraunhofer.de/ontology/CTO_0000111"/>
         <Class abbreviatedIRI="obo:ERO_0001402"/>
     </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://bio.scai.fraunhofer.de/ontology/CTO_0000112"/>
+        <Class IRI="https://bio.scai.fraunhofer.de/ontology/CTO_0000005"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://bio.scai.fraunhofer.de/ontology/CTO_0000113"/>
+        <Class IRI="https://bio.scai.fraunhofer.de/ontology/CTO_0000005"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://bio.scai.fraunhofer.de/ontology/CTO_0000114"/>
+        <Class IRI="https://bio.scai.fraunhofer.de/ontology/CTO_0000005"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://bio.scai.fraunhofer.de/ontology/CTO_0000115"/>
+        <Class abbreviatedIRI="obo:OBI_0000115"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://bio.scai.fraunhofer.de/ontology/CTO_0000116"/>
+        <Class abbreviatedIRI="obo:OBI_0000115"/>
+    </SubClassOf>
     <AnnotationAssertion>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
@@ -1614,6 +1650,15 @@ http://www.who.int/ictrp/network/trds/en/index.html</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
         <AbbreviatedIRI>obo:OBI_0500000</AbbreviatedIRI>
         <Literal>https://www.who.int/ictrp/network/trds/en/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+            <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:OBI_0500003</AbbreviatedIRI>
+        <Literal>Participants receive one of two (or more) alternative interventions during the initial phase of the study and receive the other intervention during the second phase of the study</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
@@ -3467,6 +3512,95 @@ Each primary outcome measure information includes title, description and time fr
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://bio.scai.fraunhofer.de/ontology/CTO_0000111</IRI>
         <Literal xml:lang="en">procedure clinical trIal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>https://bio.scai.fraunhofer.de/ontology/CTO_0000112</IRI>
+        <Literal>a study design in which neither the subjects nor the investigators are permitted to know which subject is receiving which treatment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <IRI>https://bio.scai.fraunhofer.de/ontology/CTO_0000112</IRI>
+        <Literal>double-blind</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <IRI>https://bio.scai.fraunhofer.de/ontology/CTO_0000112</IRI>
+        <Literal>double-blinded</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://bio.scai.fraunhofer.de/ontology/CTO_0000112</IRI>
+        <Literal xml:lang="en">double blinded design</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>https://bio.scai.fraunhofer.de/ontology/CTO_0000113</IRI>
+        <Literal>a study design in which only the  investigators are permitted to know which subject is receiving which treatment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <IRI>https://bio.scai.fraunhofer.de/ontology/CTO_0000113</IRI>
+        <Literal>double blind</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <IRI>https://bio.scai.fraunhofer.de/ontology/CTO_0000113</IRI>
+        <Literal>double blinded</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://bio.scai.fraunhofer.de/ontology/CTO_0000113</IRI>
+        <Literal xml:lang="en">single blinded design</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>https://bio.scai.fraunhofer.de/ontology/CTO_0000114</IRI>
+        <Literal>a study design in which  the subjects and  the investigators are permitted to know which subject is receiving which treatment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <IRI>https://bio.scai.fraunhofer.de/ontology/CTO_0000114</IRI>
+        <Literal>open blind</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <IRI>https://bio.scai.fraunhofer.de/ontology/CTO_0000114</IRI>
+        <Literal>open label</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://bio.scai.fraunhofer.de/ontology/CTO_0000114</IRI>
+        <Literal xml:lang="en">open blinded design</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+            <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>https://bio.scai.fraunhofer.de/ontology/CTO_0000115</IRI>
+        <Literal>Groups of participants are assigned to receive interventions based on prior milestones being reached in the study, such as in some dose escalation and adaptive design studies</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://bio.scai.fraunhofer.de/ontology/CTO_0000115</IRI>
+        <Literal xml:lang="en">sequential design</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>https://bio.scai.fraunhofer.de/ontology/CTO_0000116</IRI>
+        <Literal>study design with a single group (arm)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <IRI>https://bio.scai.fraunhofer.de/ontology/CTO_0000116</IRI>
+        <Literal>sinlge arm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://bio.scai.fraunhofer.de/ontology/CTO_0000116</IRI>
+        <Literal xml:lang="en">single arm design</Literal>
     </AnnotationAssertion>
 </Ontology>
 
