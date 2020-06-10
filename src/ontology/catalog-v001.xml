@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/OPMI24_imports.owl" uri="imports/OPMI24_imports.owl"/>
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/OBI_imports16.owl" uri="imports/OBI_imports16.owl"/>
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/OMIABIS_Imports1.owl" uri="imports/OMIABIS_Imports1.owl"/>
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/OPMI23_imports.owl" uri="imports/OPMI23_imports.owl"/>
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/OPMI22_imports.owl" uri="imports/OPMI22_imports.owl"/>
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/ERO_Imports3.owl" uri="imports/ERO_Imports3.owl"/>
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/NCIT_Imports30.owl" uri="imports/NCIT_Imports30.owl"/>
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/OPMI21_imports.owl" uri="imports/OPMI21_imports.owl"/>
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/OPMI20_imports.owl" uri="imports/OPMI20_imports.owl"/>
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/OPMI19_imports.owl" uri="imports/OPMI19_imports.owl"/>
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/CHEBI_imports1.owl" uri="imports/CHEBI_imports1.owl"/>
+    <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/OPMI18_imports.owl" uri="imports/OPMI18_imports.owl"/>
     <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/NCIT_Imports29.owl" uri="imports/NCIT_Imports29.owl"/>
     <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/NCIT_Imports28.owl" uri="imports/NCIT_Imports28.owl"/>
     <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/IAO5_imports.owl" uri="imports/IAO5_imports.owl"/>

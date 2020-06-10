@@ -12,9 +12,7 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
-     xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#"
-     xmlns:statistics="http://purl.org/net/OCRe/statistics.owl#"
-     xmlns:study_protocol="http://purl.org/net/OCRe/study_protocol.owl#">
+     xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
     <owl:Ontology rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO.owl">
         <dc:contributor>Asiyah Yu Lin (CDRH, Food and Drug Administration)</dc:contributor>
         <dc:contributor>Astghik Sargsyan (Fraunhofer SCAI)</dc:contributor>
@@ -138,7 +136,7 @@
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
         <obo:IAO_0000111 xml:lang="en">definition</obo:IAO_0000111>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</obo:IAO_0000111>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">textual definition</obo:IAO_0000111>
+        <obo:IAO_0000111>textual definition</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115>A property representing the English language definitions of what NCI means by the concept. They may also include information about the definition&apos;s source and attribution in a form that can easily be interpreted by software.</obo:IAO_0000115>
         <obo:IAO_0000115>English language definitions of what NCI means by the concept. These are limited to 1024 characters. They may also include information about the definition&apos;s source and attribution in a form that can easily be interpreted by software.</obo:IAO_0000115>
@@ -190,7 +188,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
         <rdfs:label xml:lang="en">definition</rdfs:label>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">textual definition</rdfs:label>
+        <rdfs:label>textual definition</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -605,6 +603,20 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_9991118 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OBI_9991118">
+        <obo:IAO_0000111>IEDB alternative term</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An alternative term used by the IEDB.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON:Randi Vita, Jason Greenbaum, Bjoern Peters</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IEDB</obo:IAO_0000119>
+        <rdfs:label>IEDB alternative term</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OPMI_0000364 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OPMI_0000364">
@@ -687,18 +699,6 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
     <!-- http://purl.org/dc/terms/title -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
-    
-
-
-    <!-- http://purl.org/net/OCRe/statistics.owl#curator -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/net/OCRe/statistics.owl#curator"/>
-    
-
-
-    <!-- http://purl.org/net/OCRe/study_protocol.owl#develop_comment -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/net/OCRe/study_protocol.owl#develop_comment"/>
     
 
 
@@ -1472,7 +1472,6 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
         <obo:IAO_0000115 xml:lang="en">p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003])</obo:IAO_0000115>
         <obo:IAO_0000116 xml:lang="en">BFO 2 Reference: The realm of occurrents is less pervasively marked by the presence of natural units than is the case in the realm of independent continuants. Thus there is here no counterpart of ‘object’. In BFO 1.0 ‘process’ served as such a counterpart. In BFO 2.0 ‘process’ is, rather, the occurrent counterpart of ‘material entity’. Those natural – as contrasted with engineered, which here means: deliberately executed – units which do exist in the realm of occurrents are typically either parasitic on the existence of natural units on the continuant side, or they are fiat in nature. Thus we can count lives; we can count football games; we can count chemical reactions performed in experiments or in chemical manufacturing. We cannot count the processes taking place, for instance, in an episode of insect mating behavior.Even where natural units are identifiable, for example cycles in a cyclical process such as the beating of a heart or an organism’s sleep/wake cycle, the processes in question form a sequence with no discontinuities (temporal gaps) of the sort that we find for instance where billiard balls or zebrafish or planets are separated by clear spatial gaps. Lives of organisms are process units, but they too unfold in a continuous series from other, prior processes such as fertilization, and they unfold in turn in continuous series of post-life processes such as post-mortem decay. Clear examples of boundaries of processes are almost always of the fiat sort (midnight, a time of death as declared in an operating theater or on a death certificate, the initiation of a state of war)</obo:IAO_0000116>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ero.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
@@ -1735,8 +1734,10 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
         <obo:IAO_0000112 xml:lang="en">the student role</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A realizable entity  the manifestation of which brings about some result or end that is not essential to a continuant  in virtue of the kind of thing that it is but that can be served or participated in by that kind of continuant  in some kinds of natural, social or institutional contexts.</obo:IAO_0000115>
         <obo:IAO_0000116 xml:lang="en">BFO 2 Reference: One major family of examples of non-rigid universals involves roles, and ontologies developed for corresponding administrative purposes may consist entirely of representatives of entities of this sort. Thus ‘professor’, defined as follows,b instance_of professor at t =Def. there is some c, c instance_of professor role &amp; c inheres_in b at t.denotes a non-rigid universal and so also do ‘nurse’, ‘student’, ‘colonel’, ‘taxpayer’, and so forth. (These terms are all, in the jargon of philosophy, phase sortals.) By using role terms in definitions, we can create a BFO conformant treatment of such entities drawing on the fact that, while an instance of professor may be simultaneously an instance of trade union member, no instance of the type professor role is also (at any time) an instance of the type trade union member role (any more than any instance of the type color is at any time an instance of the type length).If an ontology of employment positions should be defined in terms of roles following the above pattern, this enables the ontology to do justice to the fact that individuals instantiate the corresponding universals –  professor, sergeant, nurse – only during certain phases in their lives.</obo:IAO_0000116>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
         <obo:IAO_0000600 xml:lang="en">b is a role means: b is a realizable entity &amp; b exists because there is some single bearer that is in some special physical, social, or institutional set of circumstances in which this bearer does not have to be&amp; b is not such that, if it ceases to exist, then the physical make-up of the bearer is thereby changed. (axiom label in BFO2 Reference: [061-001])</obo:IAO_0000600>
         <obo:IAO_0000602>(forall (x) (if (Role x) (RealizableEntity x))) // axiom label in BFO2 CLIF: [061-001] </obo:IAO_0000602>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
@@ -1970,6 +1971,9 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
         <obo:IAO_0000116 xml:lang="en">BFO 2 Reference: To say that b is causally unified means: b is a material entity which is such that its material parts are tied together in such a way that, in environments typical for entities of the type in question,if c, a continuant part of b that is in the interior of b at t, is larger than a certain threshold size (which will be determined differently from case to case, depending on factors such as porosity of external cover) and is moved in space to be at t at a location on the exterior of the spatial region that had been occupied by b at t, then either b’s other parts will be moved in coordinated fashion or b will be damaged (be affected, for example, by breakage or tearing) in the interval between t and t.causal changes in one part of b can have consequences for other parts of b without the mediation of any entity that lies on the exterior of b. Material entities with no proper material parts would satisfy these conditions trivially. Candidate examples of types of causal unity for material entities of more complex sorts are as follows (this is not intended to be an exhaustive list):CU1: Causal unity via physical coveringHere the parts in the interior of the unified entity are combined together causally through a common membrane or other physical covering\. The latter points outwards toward and may serve a protective function in relation to what lies on the exterior of the entity [13, 47</obo:IAO_0000116>
         <obo:IAO_0000116 xml:lang="en">BFO 2 Reference: an object is a maximal causally unified material entity</obo:IAO_0000116>
         <obo:IAO_0000116 xml:lang="en">BFO 2 Reference: ‘objects’ are sometimes referred to as ‘grains’ [74</obo:IAO_0000116>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
         <obo:IAO_0000600 xml:lang="en">b is an object means: b is a material entity which manifests causal unity of one or other of the types CUn listed above &amp; is of a type (a material universal) instances of which are maximal relative to this criterion of causal unity. (axiom label in BFO2 Reference: [024-001])</obo:IAO_0000600>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
         <rdfs:label xml:lang="en">object</rdfs:label>
@@ -2143,9 +2147,14 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
         <obo:IAO_0000116 xml:lang="en">BFO 2 Reference: Material entities (continuants) can preserve their identity even while gaining and losing material parts. Continuants are contrasted with occurrents, which unfold themselves in successive temporal parts or phases [60</obo:IAO_0000116>
         <obo:IAO_0000116 xml:lang="en">BFO 2 Reference: Object, Fiat Object Part and Object Aggregate are not intended to be exhaustive of Material Entity. Users are invited to propose new subcategories of Material Entity.</obo:IAO_0000116>
         <obo:IAO_0000116 xml:lang="en">BFO 2 Reference: ‘Matter’ is intended to encompass both mass and energy (we will address the ontological treatment of portions of energy in a later version of BFO). A portion of matter is anything that includes elementary particles among its proper or improper parts: quarks and leptons, including electrons, as the smallest particles thus far discovered; baryons (including protons and neutrons) at a higher level of granularity; atoms and molecules at still higher levels, forming the cells, organs, organisms and other material entities studied by biologists, the portions of rock studied by geologists, the fossils studied by paleontologists, and so on.Material entities are three-dimensional entities (entities extended in three spatial dimensions), as contrasted with the processes in which they participate, which are four-dimensional entities (entities extended also along the dimension of time).According to the FMA, material entities may have immaterial entities as parts – including the entities identified below as sites; for example the interior (or ‘lumen’) of your small intestine is a part of your body. BFO 2.0 embodies a decision to follow the FMA here.</obo:IAO_0000116>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ero.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
         <obo:IAO_0000600 xml:lang="en">A material entity is an independent continuant that has some portion of matter as proper or improper continuant part. (axiom label in BFO2 Reference: [019-002])</obo:IAO_0000600>
         <obo:IAO_0000601 xml:lang="en">Every entity which has a material entity as continuant part is a material entity. (axiom label in BFO2 Reference: [020-002])</obo:IAO_0000601>
         <obo:IAO_0000601 xml:lang="en">every entity of which a material entity is continuant part is also a material entity. (axiom label in BFO2 Reference: [021-002])</obo:IAO_0000601>
@@ -2466,6 +2475,50 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_23367 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23367">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molecular entity</obo:IAO_0000111>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer etc., identifiable as a separately distinguishable entity.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">We are assuming that every molecular entity has to be completely connected by chemical bonds. This excludes protein complexes, which are comprised of minimally two separate molecular entities. We will follow up with Chebi to ensure this is their understanding as well</obo:IAO_0000116>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molecular entity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entidad molecular</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entidades moleculares</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entite moleculaire</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molecular entities</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molekulare Entitaet</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:23367</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwlInOwllibrary.org/oboInOwlInOwl/chebi#3_STAR"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molecular entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24431 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24431">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A chemical entity is a physical entity of interest in chemistry including molecular entities, parts thereof, and chemical substances.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemical entity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:24431</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwlInOwllibrary.org/oboInOwlInOwl/chebi#3_STAR"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemical entity</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DRON_00000005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00000005">
@@ -2479,58 +2532,10 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
     
 
 
-    <!-- http://purl.obolibrary.org/obo/ERO_0000014 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ERO_0000014">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
-        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A project to study the role of a specific protein in cell signaling.</obo:IAO_0000112>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A funded collection of investigations as described in a research proposal.</obo:IAO_0000115>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Melissa Haendel</obo:IAO_0000117>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Melissa Haendel</obo:IAO_0000119>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ero.owl"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maybe SameAs &quot;Investigation&quot; but is the subject of funding</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">research project</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ERO_0000015 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ERO_0000015">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0000014"/>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human study</obo:IAO_0000111>
-        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A clinical trial.</obo:IAO_0000112>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Research project that uses or collects measurements or assessments about humans.</obo:IAO_0000115>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Melissa Haendel</obo:IAO_0000117>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OCRe</obo:IAO_0000119>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ero.owl"/>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This should be imported from OCRE- but they currently have no generic human study type. Def is modified.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human study</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ERO_0000016 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ERO_0000016">
-        <rdfs:subClassOf rdf:resource="http://purl.org/net/OCRe/research.owl#Interventional_study"/>
-        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A clinical trial to evaluate the efficacy of a new drug.</obo:IAO_0000112>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An interventional study that contains a set of procedures in medical research and drug development that are conducted to allow safety (or more specifically, information about adverse drug reactions and adverse effects of other treatments) and efficacy data to be collected for health interventions (e.g., drugs, diagnostics, devices, therapy protocols) that is performed over phases.</obo:IAO_0000115>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Nicole Vasilevsky</obo:IAO_0000117>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Clinical_trial</obo:IAO_0000119>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ero.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">clinical trial</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/ERO_0000017 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ERO_0000017">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0000015"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000418"/>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epidemiological study</obo:IAO_0000111>
         <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A study of the populations and demographic of the avian flu.</obo:IAO_0000112>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
@@ -2539,75 +2544,6 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://pmep.cce.cornell.edu/profiles/extoxnet/TIB/epidemiology.html</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ero.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epidemiological study</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ERO_0000348 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ERO_0000348">
-        <rdfs:subClassOf rdf:resource="http://purl.org/net/OCRe/research.owl#Observational_study"/>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">case-only study</obo:IAO_0000111>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Observational study whereby there is a single group of individuals with specific characteristics. This is a method that analyzes data from a case series and is used in case-crossover studies, in case-specular designs, and in molecular and genetic epidemiology to assess relationships between environmental exposures and genotypes.</obo:IAO_0000115>
-        <obo:IAO_0000115>single group of individuals with specific characteristics.</obo:IAO_0000115>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Melissa Haendel</obo:IAO_0000117>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Dictionary of Epidemiology, Fifth Edition, Edited by Miquel Porta. p. 33. ISBN:978-0-19-531449-6 http://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ero.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">case-only study</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ERO_0000348"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>single group of individuals with specific characteristics.</owl:annotatedTarget>
-        <obo:IAO_0000119>https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ERO_0000356 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ERO_0000356">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C70840"/>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">open blinded study</obo:IAO_0000111>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An interventional study in which the person collecting the data and the subject know whether the subjects are in the control or experimental groups.</obo:IAO_0000115>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Nicole Vasilevsky</obo:IAO_0000117>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Open trial</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Open-label trial</obo:IAO_0000118>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://medical-dictionary.thefreedictionary.com/single-blind+study</obo:IAO_0000119>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ero.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">open blinded study</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ERO_0000357 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ERO_0000357">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C70840"/>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">single blinded study</obo:IAO_0000111>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An interventional study in which the person collecting the data knows whether the subjects are in the control or experimental groups but the subjects do not.</obo:IAO_0000115>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Nicole Vasilevsky</obo:IAO_0000117>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://medical-dictionary.thefreedictionary.com/single-blind+study</obo:IAO_0000119>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ero.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">single blinded study</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ERO_0000358 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ERO_0000358">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C70840"/>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">double blinded study</obo:IAO_0000111>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An interventional study in which neither the subjects of the experiment nor the persons administering the experiment know the critical aspects of the experiment; a double-blind procedure is used to guard against both experimenter bias and placebo effects.</obo:IAO_0000115>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Nicole Vasilevsky</obo:IAO_0000117>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.thefreedictionary.com/double-blind+study</obo:IAO_0000119>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ero.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">double blinded study</rdfs:label>
     </owl:Class>
     
 
@@ -2630,7 +2566,7 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
     <!-- http://purl.obolibrary.org/obo/ERO_0001402 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ERO_0001402">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0000015"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000418"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A preliminary study to determine the practicability of a proposed health program or procedure or of a larger study and to appraise the factors that may influence its practicability. A feasibility study aims to discover those things which may affect successful study conduct on a larger scale.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Melanie Wilson</obo:IAO_0000117>
@@ -2925,7 +2861,7 @@ Request that IAO either clarify these or change definitions not to use them</rdf
     <!-- http://purl.obolibrary.org/obo/IAO_0000429 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000429">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000397"/>
         <obo:IAO_0000111 xml:lang="en">email address</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
         <obo:IAO_0000116 xml:lang="en">Alan Ruttenberg 1/3/2012 - Provisional id, see issue at https://github.com/information-artifact-ontology/IAO/issues/130&amp;thanks=130&amp;ts=1325636583</obo:IAO_0000116>
@@ -3140,7 +3076,7 @@ http://www.who.int/ictrp/network/trds/en/index.html</rdfs:seeAlso>
     <!-- http://purl.obolibrary.org/obo/NCIT_C129000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C129000">
-        <rdfs:subClassOf rdf:resource="http://purl.org/net/OCRe/research.owl#Observational_study"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16084"/>
         <obo:IAO_0000115>An observational study that is also considered to be a Patient Registry. This type of study should only be registered once in the Protocol Registration and Results System (PRS), by the sponsor responsible for the primary data collection and analysis.</obo:IAO_0000115>
         <obo:IAO_0000115>Observational studies which include an organized system that uses observational methods to collect uniform data (clinical and other) prospectively for a population defined by a particular disorder/disease, condition (including susceptibility to a disorder), or exposure (including products, health care services, and/or procedures) and that serves a predetermined scientific, clinical, or policy purpose. Patient registries may be single purpose or on-going data collection programs that address one or more questions. (AHRQ)</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
@@ -3167,10 +3103,35 @@ http://www.who.int/ictrp/network/trds/en/index.html</rdfs:seeAlso>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C139174 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C139174">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001402"/>
+        <obo:IAO_0000115>An intervention of a device product is being evaluated to determine the feasibility of the product or to test a prototype device and not health outcomes. Such studies are conducted to confirm the design and operating specifications of a device before beginning a full clinical trial. (ClinicalTrials.gov)</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C139174</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Research Activity</obo:NCIT_P106>
+        <obo:NCIT_P108>Device Feasibility Study</obo:NCIT_P108>
+        <obo:NCIT_P208>CL526612</obo:NCIT_P208>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P325>An intervention of a device product is being evaluated to determine the feasibility of the product or to test a prototype device and not health outcomes. Such studies are conducted to confirm the design and operating specifications of a device before beginning a full clinical trial. (ClinicalTrials.gov)</obo:NCIT_P325>
+        <oboInOwl:hasExactSynonym>DEVICE FEASIBILITY</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Device Feasibility</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Device Feasibility Study</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C132298"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C147067"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66736"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66830"/>
+        <rdfs:label>Device Feasibility Study</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C142175 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C142175">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0000015"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <obo:IAO_0000115>The nature of the investigation or the investigational use for which clinical study is being done.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:NCIT_NHC0>C142175</obo:NCIT_NHC0>
@@ -3382,7 +3343,7 @@ http://www.who.int/ictrp/network/trds/en/index.html</rdfs:seeAlso>
     <!-- http://purl.obolibrary.org/obo/NCIT_C15600 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C15600">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0000016"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0004507"/>
         <obo:IAO_0000115>A clinical research protocol designed to test a new biomedical intervention in a small group of people for the first time. A Phase I trial can be to establish the toxicity of a new treatment with escalating intensity of the treatment administered and/or to determine the side effects of a new treatment for a particular indication in subjects.</obo:IAO_0000115>
         <obo:IAO_0000115>Includes initial studies to determine the metabolism and pharmacologic actions of drugs in humans, the side effects associated with increasing doses, and to gain early evidence of effectiveness; may include healthy participants and/or patients.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
@@ -3427,7 +3388,7 @@ http://www.who.int/ictrp/network/trds/en/index.html</rdfs:seeAlso>
     <!-- http://purl.obolibrary.org/obo/NCIT_C15601 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C15601">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0000016"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0004507"/>
         <obo:IAO_0000115>A clinical research protocol designed to study a biomedical or behavioral intervention in a larger group of people (several hundred), to evaluate the drug&apos;s effectiveness for a particular indication in patients with the disease or condition under study, and to determine the common short-term side effects and risks associated with the intervention.</obo:IAO_0000115>
         <obo:IAO_0000115>Includes controlled clinical studies conducted to evaluate the effectiveness of the drug for a particular indication or indications in participants with the disease or condition under study and to determine the common short-term side effects and risks.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
@@ -3471,7 +3432,7 @@ http://www.who.int/ictrp/network/trds/en/index.html</rdfs:seeAlso>
     <!-- http://purl.obolibrary.org/obo/NCIT_C15602 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C15602">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0000016"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0004507"/>
         <obo:IAO_0000115>A clinical research protocol designed to investigate the efficacy of the biomedical or behavioral intervention in large groups of human subjects (from several hundred to several thousand), to confirm efficacy, to monitor adverse reactions to the new medication or treatment regimen with respect to long-term use and by comparing the intervention to other standard or experimental interventions as well as to a placebo.</obo:IAO_0000115>
         <obo:IAO_0000115>Includes trials conducted after preliminary evidence suggesting effectiveness of the drug has been obtained, and are intended to gather additional information to evaluate the overall benefit-risk relationship of the drug.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
@@ -3516,7 +3477,7 @@ http://www.who.int/ictrp/network/trds/en/index.html</rdfs:seeAlso>
     <!-- http://purl.obolibrary.org/obo/NCIT_C15603 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C15603">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0000016"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0004507"/>
         <obo:IAO_0000115>A randomized, controlled trial that is designed to evaluate the long-term safety and efficacy of a drug for a given indication. Often they are designed to study side effects that may have become apparent after the phase III study was completed.</obo:IAO_0000115>
         <obo:IAO_0000115>Studies of FDA-approved drugs to delineate additional information including the drug&apos;s risks, benefits, and optimal use.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
@@ -3559,7 +3520,7 @@ http://www.who.int/ictrp/network/trds/en/index.html</rdfs:seeAlso>
     <!-- http://purl.obolibrary.org/obo/NCIT_C15693 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C15693">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0000016"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0004507"/>
         <obo:IAO_0000115>A clinical research protocol designed to study the safety, dosage levels and response to new treatment. Phase I/II trials combine a Phase I and a Phase II trial of the same treatment into a single protocol.</obo:IAO_0000115>
         <obo:IAO_0000115>Trials that are a combination of phases 1 and 2.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
@@ -3595,7 +3556,7 @@ http://www.who.int/ictrp/network/trds/en/index.html</rdfs:seeAlso>
     <!-- http://purl.obolibrary.org/obo/NCIT_C15694 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C15694">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0000016"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0004507"/>
         <obo:IAO_0000115>A type of clinical study that combines elements characteristic of traditional Phase II and Phase III trials.</obo:IAO_0000115>
         <obo:IAO_0000115>Trials that are a combination of phases 2 and 3.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
@@ -3662,10 +3623,37 @@ http://www.who.int/ictrp/network/trds/en/index.html</rdfs:seeAlso>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16084 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16084">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000418"/>
+        <obo:IAO_0000115>Studies among cancer patients and healthy populations that involve no intervention or alteration in the status of the participants.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C16084</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Research Activity</obo:NCIT_P106>
+        <obo:NCIT_P108>Observational Study</obo:NCIT_P108>
+        <obo:NCIT_P207>C1518527</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P325>A type of study in which individuals are observed or certain outcomes are measured. No attempt is made to affect the outcome (for example, no treatment is given).</obo:NCIT_P325>
+        <obo:NCIT_P325>Studies in which biomedical and/or health outcomes are assessed in pre-defined groups of individuals. Subjects in the study may receive diagnostic, therapeutic, or other interventions, but the investigator does not assign specific interventions to the subjects of the study.</obo:NCIT_P325>
+        <obo:NCIT_P366>Observational_Study</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>OBSERVATIONAL</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Observational Study</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Observational Trial</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>observational study</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C132298"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66830"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C99077"/>
+        <rdfs:label>Observational Study</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C161319 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C161319">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C93360"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000282"/>
         <obo:IAO_0000115>Primary disease(s) or condition(s) being studied in the trial, or the focus of the study. (clinicaltrials.gov)</obo:IAO_0000115>
         <obo:IAO_0000115>The disease, disorder, syndrome, illness, or injury that is being studied. On ClinicalTrials.gov, conditions may also include other health-related issues, such as lifespan, quality of life, and health risks.</obo:IAO_0000115>
         <obo:IAO_0000115>The name(s) of the disease(s) or condition(s) studied in the clinical study, or the focus of the clinical study. Use, if available, appropriate descriptors from NLM&apos;s Medical Subject Headings (MeSH)-controlled vocabulary thesaurus or terms from another vocabulary, such as the Systematized Nomenclature of Medicine—Clinical Terms (SNOMED CT), that has been mapped to MeSH within the Unified Medical Language System (UMLS) Metathesaurus.</obo:IAO_0000115>
@@ -4102,7 +4090,7 @@ http://www.who.int/ictrp/network/trds/en/index.html</rdfs:seeAlso>
     <!-- http://purl.obolibrary.org/obo/NCIT_C70840 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C70840">
-        <rdfs:subClassOf rdf:resource="http://purl.org/net/OCRe/research.owl#Interventional_study"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C98388"/>
         <obo:IAO_0000115>A clinical study that is designed using a procedure in which one or more parties to the study [subject(s), investigator(s), monitor, or/and data analyst(s)] are kept unaware of the treatment assignment(s).</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <obo:NCIT_NHC0>C70840</obo:NCIT_NHC0>
@@ -4196,7 +4184,7 @@ http://www.who.int/ictrp/network/trds/en/index.html</rdfs:seeAlso>
     <!-- http://purl.obolibrary.org/obo/NCIT_C82638 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C82638">
-        <rdfs:subClassOf rdf:resource="http://purl.org/net/OCRe/research.owl#Interventional_study"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C98388"/>
         <obo:IAO_0000115>A type of clinical study in which two or more treatments are given alone and in combination, such that all possible combinations are represented across the treatment arms, and are compared in parallel against the study control group.</obo:IAO_0000115>
         <obo:IAO_0000115>Two or more interventions, each alone and in combination, are evaluated in parallel against a control group</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
@@ -4332,6 +4320,33 @@ http://www.who.int/ictrp/network/trds/en/index.html</rdfs:seeAlso>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C98388 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C98388">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000418"/>
+        <obo:IAO_0000115>Studies in which individuals are assigned by an investigator based on a protocol to receive specific interventions. Subjects may receive diagnostic, therapeutic or other types of interventions. The assignment of the intervention may or may not be random. The individuals are then followed and biomedical and/or health outcomes are assessed.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C98388</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Research Activity</obo:NCIT_P106>
+        <obo:NCIT_P108>Interventional Study</obo:NCIT_P108>
+        <obo:NCIT_P207>C3274035</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P322>CDISC-GLOSS</obo:NCIT_P322>
+        <obo:NCIT_P325>A trial which intervenes with the inviolability of the trial subject for the purpose of the investigation. For example, the administration of an investigational medical product to the trial subject or use of some extra means of intervention (i.e., samples, tests, or questionnaires) that would not otherwise be used. [Clinical Trial Directive EC/20/2001 definitions]</obo:NCIT_P325>
+        <obo:NCIT_P325>Studies in which individuals are assigned by an investigator based on a protocol to receive specific interventions. Subjects may receive diagnostic, therapeutic or other types of interventions. The assignment of the intervention may or may not be random. The individuals are then followed and biomedical and/or health outcomes are assessed.</obo:NCIT_P325>
+        <oboInOwl:hasExactSynonym>INTERVENTIONAL</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Interventional Study</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>interventional clinical trial</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C132298"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66830"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C67497"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C99077"/>
+        <rdfs:label>Interventional Study</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C98714 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C98714">
@@ -4361,7 +4376,7 @@ http://www.who.int/ictrp/network/trds/en/index.html</rdfs:seeAlso>
     <!-- http://purl.obolibrary.org/obo/NCIT_C98722 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C98722">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0000015"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000418"/>
         <obo:IAO_0000115>An investigational drug product (including biological product) available through expanded access for patients who do not qualify for enrollment in a clinical trial. Expanded Access includes all expanded access types under section 561 of the Federal Food, Drug, and Cosmetic Act: (1) for individual patients, including emergency use; (2) for intermediate-size patient populations; and (3) under a treatment IND or treatment protocol.</obo:IAO_0000115>
         <obo:IAO_0000115>Studies that provide a means for obtaining an experimental drug or device for patients who are not adequately treated by existing therapy, who do not meet the eligibility criteria for enrollment, or who are otherwise unable to participate in another clinical study. Expanded Access studies include individual-patient IND, treatment IND, compassionate use, emergency use or continued access.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
@@ -4617,16 +4632,67 @@ http://www.who.int/ictrp/network/trds/en/index.html</rdfs:seeAlso>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">A processual entity that realizes a plan which is the concretization of a plan specification.</obo:IAO_0000115>
         <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;Plan&apos; includes a future direction sense. That can be problematic if plans are changed during their execution. There are however implicit contingencies for protocols that an agent has in his mind that can be considered part of the plan, even if the agent didn&apos;t have them in mind before. Therefore, a planned process can diverge from what the agent would have said the plan was before executing it, by adjusting to problems encountered during execution (e.g. choosing another reagent with equivalent properties, if the originally planned one has run out.)</obo:IAO_0000116>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">We are only considering successfully completed planned processes. A plan may be modified, and details added during execution. For a given planned process, the associated realized plan specification is the one encompassing all changes made during execution. This means that all processes in which an agent acts towards achieving some
+objectives is a planned process.</obo:IAO_0000116>
         <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">We are only considering successfully completed planned processes. A plan may be modified, and details added during execution. For a given planned process, the associated realized plan specification is the one encompassing all changes made during execution. This means that all processes in which an agent acts towards achieving some 
 objectives is a planned process.</obo:IAO_0000116>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bjoern Peters</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">branch derived</obo:IAO_0000119>
         <obo:IAO_0000232 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6/11/9: Edited at workshop. Used to include: is initiated by an agent</obo:IAO_0000232>
         <obo:IAO_0000232 xml:lang="en">This class merges the previously separated objective driven process and planned process, as they the separation proved hard to maintain. (1/22/09, branch call)</obo:IAO_0000232>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ero.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ico.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/obi.owl</obo:IAO_0000412>
         <rdfs:label xml:lang="en">planned process</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">planned process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000066 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000066">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <obo:IAO_0000111 xml:lang="en">investigation</obo:IAO_0000111>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lung cancer investigation using expression profiling, a stem cell transplant investigation, biobanking is not an investigation, though it may be part of an investigation</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">a planned process that consists of parts: planning, study design execution, documentation and which produce conclusion(s).</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Bjoern Peters</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">OBI branch derived</obo:IAO_0000119>
+        <obo:IAO_0000232 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Could add specific objective specification</obo:IAO_0000232>
+        <obo:IAO_0000232 xml:lang="en">Following OBI call November 2012,26th: it was decided there was no need for adding &quot;achieves objective of drawing conclusion&quot; as existing relations were providing equivalent ability. this note closes the issue and validates the class definition to be part of the OBI core
+editor = PRS</obo:IAO_0000232>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+        <obo:OBI_0001847 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">study</obo:OBI_0001847>
+        <rdfs:label xml:lang="en">investigation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000070 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000070">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <obo:IAO_0000111 xml:lang="en">assay</obo:IAO_0000111>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Assay the wavelength of light emitted by excited Neon atoms. Count of geese flying over a house.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">A planned process with the objective to produce information about the material entity that is the evaluant, by physically examining it or its proxies.</obo:IAO_0000115>
+        <obo:IAO_0000116>12/3/12: BP: the reference to the &apos;physical examination&apos; is included to point out that a prediction is not an assay, as that does not require physical examiniation. </obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">PlanAndPlannedProcess Branch</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">measuring</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">scientific observation</obo:IAO_0000118>
+        <obo:IAO_0000119 xml:lang="en">OBI branch derived</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <obo:OBI_0001847 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">study assay</obo:OBI_0001847>
+        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">any method</obo:OBI_9991118>
+        <rdfs:label xml:lang="en">assay</rdfs:label>
     </owl:Class>
     
 
@@ -4652,22 +4718,16 @@ objectives is a planned process.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000115">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0500000"/>
-        <obo:IAO_0000111 xml:lang="en">intervention design</obo:IAO_0000111>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intervention design</obo:IAO_0000111>
-        <obo:IAO_0000112 xml:lang="en">PMID: 18208636.Br J Nutr. 2008 Jan 22;:1-11.Effect of vitamin D supplementation on bone and vitamin D status among Pakistani immigrants in Denmark: a randomised double-blinded placebo-controlled intervention study.</obo:IAO_0000112>
         <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID: 18208636.Br J Nutr. 2008 Jan 22;:1-11.Effect of vitamin D supplementation on bone and vitamin D status among Pakistani immigrants in Denmark: a randomised double-blinded placebo-controlled intervention study.</obo:IAO_0000112>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
         <obo:IAO_0000115>A description of the manner in which the clinical trial will be conducted.</obo:IAO_0000115>
-        <obo:IAO_0000115 xml:lang="en">An intervention design is a study design in which a controlled process applied to the subjects (the intervention) serves as the independent variable manipulated by the experimentalist. The treatment (perturbation or intervention) defined can be defined as a combination of values taken by independent variable manipulated by the experimentalists are applied to the recruited subjects assigned (possibly by applying specific methods) to treatment groups. The specificity of intervention design is the fact that independent variables are being manipulated and a response of the biological system is evaluated via response variables as monitored by possibly a series of assays.</obo:IAO_0000115>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An intervention design is a study design in which a controlled process applied to the subjects (the intervention) serves as the independent variable manipulated by the experimentalist. The treatment (perturbation or intervention) defined can be defined as a combination of values taken by independent variable manipulated by the experimentalists are applied to the recruited subjects assigned (possibly by applying specific methods) to treatment groups. The specificity of intervention design is the fact that independent variables are being manipulated and a response of the biological system is evaluated via response variables as monitored by possibly a series of assays.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Philppe Rocca-Serra</obo:IAO_0000117>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philppe Rocca-Serra</obo:IAO_0000117>
-        <obo:IAO_0000119 xml:lang="en">OBI branch derived</obo:IAO_0000119>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBI branch derived</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <oboInOwl:hasExactSynonym>Interventional Study Design</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>intervention model</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">intervention design</rdfs:label>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intervention design</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -5021,18 +5081,33 @@ In the examples above, a reagent is an operational component of a device, but th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0002624 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002624">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0500000"/>
+        <obo:IAO_0000111>case-control study design</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A study design that entails the creation of two types of roles, such that each participant under investigation bears one or the other. What distinguishes the two types of roles is an &apos;outcome&apos;, which is associated with participants that have the case role but not associated with participants that have the control role. A case-control study examines the hypothesis that the presence of the outcome in case participants is associated with an &apos;exposure&apos; that is not associated with control participants.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Judkins, Bjoern Peters</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia, OBI</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <rdfs:label>case-control study design</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0300311 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0300311">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0500000"/>
-        <obo:IAO_0000111 xml:lang="en">observation design</obo:IAO_0000111>
-        <obo:IAO_0000112 xml:lang="en">PMID: 12387964.Lancet. 2002 Oct 12;360(9340):1144-9.Deficiency of antibacterial peptides in patients with morbus Kostmann: an observation study.</obo:IAO_0000112>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">observation design</obo:IAO_0000111>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID: 12387964.Lancet. 2002 Oct 12;360(9340):1144-9.Deficiency of antibacterial peptides in patients with morbus Kostmann: an observation study.</obo:IAO_0000112>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
-        <obo:IAO_0000115 xml:lang="en">observation design is a study design in which subjects are monitored in the absence of any active intervention by experimentalists.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Philippe Rocca-Serra</obo:IAO_0000117>
-        <obo:IAO_0000119 xml:lang="en">OBI branch derived</obo:IAO_0000119>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">observation design is a study design in which subjects are monitored in the absence of any active intervention by experimentalists.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippe Rocca-Serra</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBI branch derived</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-        <rdfs:label xml:lang="en">observation design</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">observation design</rdfs:label>
         <rdfs:seeAlso>https://prsinfo.clinicaltrials.gov/definitions.html</rdfs:seeAlso>
     </owl:Class>
     
@@ -5051,6 +5126,7 @@ In the examples above, a reagent is an operational component of a device, but th
         <obo:IAO_0000118 xml:lang="en">experimental design</obo:IAO_0000118>
         <obo:IAO_0000232 xml:lang="en">rediscussed at length (MC/JF/BP). 12/9/08). The definition was clarified to differentiate it from protocol.</obo:IAO_0000232>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omiabis.owl"/>
         <rdfs:label xml:lang="en">study design</rdfs:label>
         <rdfs:seeAlso>https://prsinfo.clinicaltrials.gov/definitions.html</rdfs:seeAlso>
         <rdfs:seeAlso>https://www.who.int/ictrp/network/trds/en/</rdfs:seeAlso>
@@ -5081,12 +5157,19 @@ In the examples above, a reagent is an operational component of a device, but th
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cross over design</obo:IAO_0000111>
         <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID: 17601993-Objective: HIV-infected patients with lipodystrophy (HIV-lipodystrophy) are insulin resistant and have elevated plasma free fatty acid (FFA) concentrations. We aimed to explore the mechanisms underlying FFA-induced insulin resistance in patients with HIV-lipodystrophy. Research Design and Methods: Using a randomized placebo-controlled cross-over design, we studied the effects of an overnight acipimox-induced suppression of FFA on glucose and FFA metabolism by using stable isotope labelled tracer techniques during basal conditions and a two-stage euglycemic, hyperinsulinemic clamp (20 mU insulin/m(2)/min; 50 mU insulin/m(2)/min) in nine patients with nondiabetic HIV-lipodystrophy. All patients received antiretroviral therapy. Biopsies from the vastus lateralis muscle were obtained during each stage of the clamp. Results: Acipimox treatment reduced basal FFA rate of appearance by 68.9% (52.6%-79.5%) and decreased plasma FFA concentration by 51.6 % (42.0%-58.9%), (both, P &lt; 0.0001). Endogenous glucose production was not influenced by acipimox. During the clamp the increase in glucose-uptake was significantly greater after acipimox treatment compared to placebo (acipimox: 26.85 (18.09-39.86) vs placebo: 20.30 (13.67-30.13) mumol/kg/min; P &lt; 0.01). Insulin increased phosphorylation of Akt (Thr(308)) and GSK-3beta (Ser(9)), decreased phosphorylation of glycogen synthase (GS) site 3a+b and increased GS-activity (I-form) in skeletal muscle (P &lt; 0.01). Acipimox decreased phosphorylation of GS (site 3a+b) (P &lt; 0.02) and increased GS-activity (P &lt; 0.01) in muscle. Conclusion: The present study provides direct evidence that suppression of lipolysis in patients with HIV-lipodystrophy improves insulin-stimulated peripheral glucose-uptake. The increased glucose-uptake may in part be explained by increased dephosphorylation of GS (site 3a+b) resulting in increased GS activity.</obo:IAO_0000112>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115>Participants receive one of two (or more) alternative interventions during the initial phase of the study and receive the other intervention during the second phase of the study</obo:IAO_0000115>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a repeated measure design which ensures that experimental units receive, in sequence, the treatment (or the control), and then, after a specified time interval (aka *wash-out periods*), switch to the control (or treatment). In this design, subjects (patients in human context) serve as their own controls, and randomization may be used to determine the ordering which a subject receives the treatment and control</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippe Rocca-Serra</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(source: http://www.sbu.se/Filer/Content0/publikationer/1/literaturesearching_1993/glossary.html)</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cross over design</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBI_0500003"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Participants receive one of two (or more) alternative interventions during the initial phase of the study and receive the other intervention during the second phase of the study</owl:annotatedTarget>
+        <obo:IAO_0000119>https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
@@ -5109,16 +5192,16 @@ In the examples above, a reagent is an operational component of a device, but th
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0500006">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0500000"/>
-        <obo:IAO_0000111 xml:lang="en">parallel group design</obo:IAO_0000111>
-        <obo:IAO_0000112 xml:lang="en">PMID: 17408389-Purpose: Proliferative vitreoretinopathy (PVR) is the most important reason for blindness following retinal detachment. Presently, vitreous tamponades such as gas or silicone oil cannot contact the lower part of the retina. A heavier-than-water tamponade displaces the inflammatory and PVR-stimulating environment from the inferior area of the retina. The Heavy Silicone Oil versus Standard Silicone Oil Study (HSO Study) is designed to answer the question of whether a heavier-than-water tamponade improves the prognosis of eyes with PVR of the lower retina. Methods: The HSO Study is a multicentre, randomized, prospective controlled clinical trial comparing two endotamponades within a two-arm parallel group design. Patients with inferiorly and posteriorly located PVR are randomized to either heavy silicone oil or standard silicone oil as a tamponading agent. Three hundred and fifty consecutive patients are recruited per group. After intraoperative re-attachment, patients are randomized to either standard silicone oil (1000 cSt or 5000 cSt) or Densiron((R)) as a tamponading agent. The main endpoint criteria are complete retinal attachment at 12 months and change of visual acuity (VA) 12 months postoperatively compared with the preoperative VA. Secondary endpoints include complete retinal attachment before endotamponade removal, quality of life analysis and the number of retina affecting re-operation within 1 year of follow-up. Results: The design and early recruitment phase of the study are described. Conclusions: The results of this study will uncover whether or not heavy silicone oil improves the prognosis of eyes with PVR.</obo:IAO_0000112>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">parallel group design</obo:IAO_0000111>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID: 17408389-Purpose: Proliferative vitreoretinopathy (PVR) is the most important reason for blindness following retinal detachment. Presently, vitreous tamponades such as gas or silicone oil cannot contact the lower part of the retina. A heavier-than-water tamponade displaces the inflammatory and PVR-stimulating environment from the inferior area of the retina. The Heavy Silicone Oil versus Standard Silicone Oil Study (HSO Study) is designed to answer the question of whether a heavier-than-water tamponade improves the prognosis of eyes with PVR of the lower retina. Methods: The HSO Study is a multicentre, randomized, prospective controlled clinical trial comparing two endotamponades within a two-arm parallel group design. Patients with inferiorly and posteriorly located PVR are randomized to either heavy silicone oil or standard silicone oil as a tamponading agent. Three hundred and fifty consecutive patients are recruited per group. After intraoperative re-attachment, patients are randomized to either standard silicone oil (1000 cSt or 5000 cSt) or Densiron((R)) as a tamponading agent. The main endpoint criteria are complete retinal attachment at 12 months and change of visual acuity (VA) 12 months postoperatively compared with the preoperative VA. Secondary endpoints include complete retinal attachment before endotamponade removal, quality of life analysis and the number of retina affecting re-operation within 1 year of follow-up. Results: The design and early recruitment phase of the study are described. Conclusions: The results of this study will uncover whether or not heavy silicone oil improves the prognosis of eyes with PVR.</obo:IAO_0000112>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
-        <obo:IAO_0000115 xml:lang="en">A parallel group design or independent measure design is a study design which uses unique experimental unit each experimental group, in other word no two individuals are shared between experimental groups, hence also known as parallel group design. Subjects of a treatment group receive a unique combination of independent variable values making up a treatment</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A parallel group design or independent measure design is a study design which uses unique experimental unit each experimental group, in other word no two individuals are shared between experimental groups, hence also known as parallel group design. Subjects of a treatment group receive a unique combination of independent variable values making up a treatment</obo:IAO_0000115>
         <obo:IAO_0000115>Participants are assigned to one of two or more groups in parallel for the duration of the study</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Philippe Rocca-Serra</obo:IAO_0000117>
-        <obo:IAO_0000118 xml:lang="en">independent measure design</obo:IAO_0000118>
-        <obo:IAO_0000119 xml:lang="en">http://www.holah.karoo.net/experimentaldesigns.htm</obo:IAO_0000119>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippe Rocca-Serra</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">independent measure design</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.holah.karoo.net/experimentaldesigns.htm</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-        <rdfs:label xml:lang="en">parallel group design</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">parallel group design</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBI_0500006"/>
@@ -5133,15 +5216,15 @@ In the examples above, a reagent is an operational component of a device, but th
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0500014">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0500000"/>
-        <obo:IAO_0000111 xml:lang="en">factorial design</obo:IAO_0000111>
-        <obo:IAO_0000112 xml:lang="en">PMID: 17582121-Our objective was to examine the effects of dietary cation-anion difference (DCAD) with different concentrations of dietary crude protein (CP) on performance and acid-base status in early lactation cows. Six lactating Holstein cows averaging 44 d in milk were used in a 6 x 6 Latin square design with a 2 x 3 factorial arrangement of treatments: DCAD of -3, 22, or 47 milliequivalents (Na + K - Cl - S)/100 g of dry matter (DM), and 16 or 19% CP on a DM basis. Linear increases with DCAD occurred in DM intake, milk fat percentage, 4% fat-corrected milk production, milk true protein, milk lactose, and milk solids-not-fat. Milk production itself was unaffected by DCAD. Jugular venous blood pH, base excess and HCO3(-) concentration, and urine pH increased, but jugular venous blood Cl- concentration, urine titratable acidity, and net acid excretion decreased linearly with increasing DCAD. An elevated ratio of coccygeal venous plasma essential AA to nonessential AA with increasing DCAD indicated that N metabolism in the rumen was affected, probably resulting in more microbial protein flowing to the small intestine. Cows fed 16% CP had lower urea N in milk than cows fed 19% CP; the same was true for urea N in coccygeal venous plasma and urine. Dry matter intake, milk production, milk composition, and acid-base status did not differ between the 16 and 19% CP treatments. It was concluded that DCAD affected DM intake and performance of dairy cows in early lactation. Feeding 16% dietary CP to cows in early lactation, compared with 19% CP, maintained lactation performance while reducing urea N excretion in milk and urine.</obo:IAO_0000112>
+        <obo:IAO_0000111>factorial design</obo:IAO_0000111>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID: 17582121-Our objective was to examine the effects of dietary cation-anion difference (DCAD) with different concentrations of dietary crude protein (CP) on performance and acid-base status in early lactation cows. Six lactating Holstein cows averaging 44 d in milk were used in a 6 x 6 Latin square design with a 2 x 3 factorial arrangement of treatments: DCAD of -3, 22, or 47 milliequivalents (Na + K - Cl - S)/100 g of dry matter (DM), and 16 or 19% CP on a DM basis. Linear increases with DCAD occurred in DM intake, milk fat percentage, 4% fat-corrected milk production, milk true protein, milk lactose, and milk solids-not-fat. Milk production itself was unaffected by DCAD. Jugular venous blood pH, base excess and HCO3(-) concentration, and urine pH increased, but jugular venous blood Cl- concentration, urine titratable acidity, and net acid excretion decreased linearly with increasing DCAD. An elevated ratio of coccygeal venous plasma essential AA to nonessential AA with increasing DCAD indicated that N metabolism in the rumen was affected, probably resulting in more microbial protein flowing to the small intestine. Cows fed 16% CP had lower urea N in milk than cows fed 19% CP; the same was true for urea N in coccygeal venous plasma and urine. Dry matter intake, milk production, milk composition, and acid-base status did not differ between the 16 and 19% CP treatments. It was concluded that DCAD affected DM intake and performance of dairy cows in early lactation. Feeding 16% dietary CP to cows in early lactation, compared with 19% CP, maintained lactation performance while reducing urea N excretion in milk and urine.</obo:IAO_0000112>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
         <obo:IAO_0000115>Two or more interventions, each alone and in combination, are evaluated in parallel against a control group</obo:IAO_0000115>
-        <obo:IAO_0000115 xml:lang="en">factorial design is_a study design which is used to evaluate two or more factors simultaneously. The treatments are combinations of levels of the factors. The advantages of factorial designs over one-factor-at-a-time experiments is that they are more efficient and they allow interactions to be detected. In statistics, a factorial design experiment is an experiment whose design consists of two or more factors, each with discrete possible values or levels, and whose experimental units take on all possible combinations of these levels across all such factors. Such an experiment allows studying the effect of each factor on the response variable, as well as the effects of interactions between factors on the response variable.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Philippe Rocca-Serra</obo:IAO_0000117>
-        <obo:IAO_0000119 xml:lang="en">http://www.stats.gla.ac.uk/steps/glossary/anova.html#facdes And from wikipedia (01/03/2007): http://en.wikipedia.org/wiki/Factorial_experiment)</obo:IAO_0000119>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">factorial design is_a study design which is used to evaluate two or more factors simultaneously. The treatments are combinations of levels of the factors. The advantages of factorial designs over one-factor-at-a-time experiments is that they are more efficient and they allow interactions to be detected. In statistics, a factorial design experiment is an experiment whose design consists of two or more factors, each with discrete possible values or levels, and whose experimental units take on all possible combinations of these levels across all such factors. Such an experiment allows studying the effect of each factor on the response variable, as well as the effects of interactions between factors on the response variable.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippe Rocca-Serra</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.stats.gla.ac.uk/steps/glossary/anova.html#facdes And from wikipedia (01/03/2007): http://en.wikipedia.org/wiki/Factorial_experiment)</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-        <rdfs:label xml:lang="en">factorial design</rdfs:label>
+        <rdfs:label>factorial design</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBI_0500014"/>
@@ -5374,6 +5457,29 @@ https://www.who.int/ictrp/network/trds/en/</obo:IAO_0000119>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OMIABIS_0001019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIABIS_0001019">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0500000"/>
+        <obo:IAO_0000115 xml:lang="en">A study design that involves repeated observations of the same entity over time. In the biobank context, longitudinal studies sample a group of people in a given time period, and study them at intervals by the acquisition and analyses of data and/or samples over time.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Alice Nzinga</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omiabis.owl"/>
+        <rdfs:label xml:lang="en">longitudinal study design</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMIABIS_0001020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIABIS_0001020">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIABIS_0001019"/>
+        <obo:IAO_0000115 xml:lang="en">A longitudinal study that aims to study a case-defined population who presently have a certain condition or recepient of a particular treatment that are followed over time and are compared with a similar group who do not have condition.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omiabis.owl"/>
+        <rdfs:label xml:lang="en">cohort study design</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OMRSE_00000024 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000024">
@@ -5406,7 +5512,7 @@ However, Shaw explicates:
     <!-- http://purl.obolibrary.org/obo/OPMI_0000112 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000112">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000397"/>
         <obo:IAO_0000115>A telephone number is a sequence of digits assigned to a fixed-line telephone subscriber station connected to a telephone line or to a wireless electronic telephony device, such as a radio telephone or a mobile telephone, or to other devices for data transmission via the public switched telephone network (PSTN) or other public and private networks.</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000118>phone number</obo:IAO_0000118>
@@ -5424,6 +5530,20 @@ However, Shaw explicates:
         <obo:IAO_0000115>The textual name of the contact person or organization</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
         <rdfs:label xml:lang="en">contact name</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000282 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000282">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+        <obo:IAO_0000115>The medical state or condition of a patient</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Edison Ong</obo:IAO_0000117>
+        <obo:IAO_0000118>medical state</obo:IAO_0000118>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Medical_state</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+        <rdfs:label xml:lang="en">medical condition</rdfs:label>
     </owl:Class>
     
 
@@ -5904,6 +6024,63 @@ http://www.who.int/ictrp/network/trds/en/index.html</rdfs:seeAlso>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000381 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000381">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+        <rdfs:label xml:lang="en">human subject</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000383 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000383">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <obo:IAO_0000112>In clinicaltrials.gov, contact information character limits:
+First Name: 62 characters
+Last Name: 62 characters
+Degree: 30 characters
+Phone: 30 characters
+Phone Ext: 14 characters
+Email: 254 characters
+Citation: https://prsinfo.clinicaltrials.gov/definitions.html#StudyOfficials</obo:IAO_0000112>
+        <obo:IAO_0000115>A person who serves as a contact role and has disclosed specified information to be reached. Usually the contact information, such as email and phone number, is provided.,</obo:IAO_0000115>
+        <obo:IAO_0000116>Leon, Asiyah, Oliver: Since each contact needs to provide some contact information, we may need to define the contact information.</obo:IAO_0000116>
+        <obo:IAO_0000117>Leon Li, Asiyah Lin, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://prsinfo.clinicaltrials.gov/definitions.html#StudyOfficials</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+        <rdfs:label xml:lang="en">contact person</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000384 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000384">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000383"/>
+        <obo:IAO_0000115>A contact person for each facility participating in a study.</obo:IAO_0000115>
+        <obo:IAO_0000117>Leon Li, Asiyah Lin, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+        <rdfs:label xml:lang="en">facility contact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000389 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000389">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000383"/>
+        <obo:IAO_0000117>Leon Li, Asiyah Lin, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://prsinfo.clinicaltrials.gov/definitions.html#StudyOfficials</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+        <rdfs:label xml:lang="en">contact of scientific queries</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OPMI_0000390 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000390">
@@ -5913,6 +6090,56 @@ http://www.who.int/ictrp/network/trds/en/index.html</rdfs:seeAlso>
         <obo:IAO_0000118>human investigator role</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
         <rdfs:label xml:lang="en">investigator role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000391 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000391">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000115>a role taken by a person who serves as a contact for some process.</obo:IAO_0000115>
+        <obo:IAO_0000117>Leon Li, Asiyah Lin, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+        <rdfs:label xml:lang="en">contact person role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000393 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000393">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000383"/>
+        <obo:IAO_0000117>Leon Li, Asiyah Lin, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://prsinfo.clinicaltrials.gov/definitions.html#StudyOfficials</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+        <rdfs:label xml:lang="en">contact for public queries</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000395 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000395">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000383"/>
+        <obo:IAO_0000115>A person to whom questions concerning enrollment at any location of the study can be addressed.</obo:IAO_0000115>
+        <obo:IAO_0000117>Leon Li, Asiyah Lin, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118>central contact person</obo:IAO_0000118>
+        <obo:IAO_0000119>https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+        <rdfs:label xml:lang="en">central contact person of study</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000397 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000397">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115>information content entity about a contact person</obo:IAO_0000115>
+        <obo:IAO_0000117>Leon Li, Asiyah Lin, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+        <rdfs:label xml:lang="en">contact person information</rdfs:label>
     </owl:Class>
     
 
@@ -5976,10 +6203,58 @@ by WHO (https://www.who.int/ictrp/network/trds/en/)</rdfs:comment>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000402 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000402">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000202"/>
+        <obo:IAO_0000115>An investigation agent role taken by an agent (an individual, organization, group or another legal entity) who provides support to an investigation. The support may include funding, design, implementation, data analysis or reporting. The responsible party is responsible for confirming all collaborators before listing them.</obo:IAO_0000115>
+        <obo:IAO_0000117>Leon Li, Asiyah Li, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118>collaborator role</obo:IAO_0000118>
+        <obo:IAO_0000119>https://prsinfo.clinicaltrials.gov/definitions.html#Collaborators</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.who.int/ictrp/network/trds/en/</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+        <rdfs:comment>A secondary sponsor may serve as a collaborator role. However, a  collaborator may not serve as a secondary sponsor role.</rdfs:comment>
+        <rdfs:label xml:lang="en">investigation collaborator role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000418 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000418">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000066"/>
+        <obo:IAO_0000115>A systematic, scientific investigation that can be either interventional or observational and involves human beings as research subjects. Human subject research can be either medical (clinical) research or non-medical (e.g., social science) research.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118>human investigation</obo:IAO_0000118>
+        <obo:IAO_0000118>human study</obo:IAO_0000118>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Human_subject_research</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+        <rdfs:label xml:lang="en">human subject study</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPMI_0004507 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0004507">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C98388"/>
+        <obo:IAO_0000115>a clinical trial is a medical interventional study where participants are assigned prospectively to an intervention or interventions according to a protocol to evaluate the safety and efficacy of the intervention(s) on biomedical or other health related outcomes. The Interventions include but are not restricted to drugs, cells and other biological products, surgical procedures, radiologic procedures, devices, behavioral treatments, process-of-care changes, preventive care, etc.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Asiyah Yu Lin, Qingliang Li</obo:IAO_0000117>
+        <obo:IAO_0000118>interventional trial</obo:IAO_0000118>
+        <obo:IAO_0000119>https://clinicaltrials.gov/ct2/search/map</obo:IAO_0000119>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Clinical_trial</obo:IAO_0000119>
+        <obo:IAO_0000119>https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.who.int/ictrp/en/</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+        <rdfs:label xml:lang="en">clinical trial</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OPMI_0004508 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0004508">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0000016"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0004507"/>
         <obo:IAO_0000115>A clinical trial that is at Early Phase 1 or Phase 0</obo:IAO_0000115>
         <obo:IAO_0000115>A clinical trial that is at an Early Phase i or Phase 0, which is designed to use an investigational agent that is available only in very limited quantities and which has never previously given to humans or for which there is extremely limited human experience. Phase 0 clinical trials are intended to enable researchers to understand the path of the drug in the body and its efficacy. Adverse event reporting in Phase 0 trials is expedited. [def-source: NCI]</obo:IAO_0000115>
         <obo:IAO_0000115>Exploratory trials, involving very limited human exposure, with no therapeutic or diagnostic intent (e.g., screening studies, microdose studies). (Formerly listed as &quot;Phase 0&quot;)</obo:IAO_0000115>
@@ -6197,7 +6472,7 @@ by WHO (https://www.who.int/ictrp/network/trds/en/)</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/VO_0000596 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0000596">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0000015"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000418"/>
         <obo:IAO_0000115>A processual entity by which a vaccine is tested clinically for safety and effectiveness. Clinical trials are conducted in phases. Classically, clinical trials unfold in three phases in order to gather data and information about a vaccine and its performance. This will form the basis of a dossier submitted to regulatory authorities by way of an application for licensure. After a vaccine is licensed and is being used by large numbers of people, a Phase IV study may or may not be taken for vaccine clinical evaluation.</obo:IAO_0000115>
         <obo:IAO_0000116>Most vaccines against a pathogen (e.g., HIV) are not tested by vaccinating people and then deliberately exposing them to virulent pathogen (e.g., HIV). This strategy is never for a vaccine against a disease as serious as HIV.
 The best way to determine if a vaccine is effective is to test it in a randomized, controlled, double-blind clinical trial. This type of trial is often referred to as the gold standard in medical research and provides the strongest evidence for the efficacy of a vaccine.</obo:IAO_0000116>
@@ -6205,222 +6480,6 @@ The best way to determine if a vaccine is effective is to test it in a randomize
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
         <rdfs:label>vaccine clinical trial</rdfs:label>
     </owl:Class>
-    
-
-
-    <!-- http://purl.org/net/OCRe/research.owl#Case_control_study -->
-
-    <owl:Class rdf:about="http://purl.org/net/OCRe/research.owl#Case_control_study">
-        <rdfs:subClassOf rdf:resource="http://purl.org/net/OCRe/research.owl#Observational_study"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A case control study is an observational study that compares people with a specific disease or outcome of interest (cases) to people from the same population without that disease or outcome (controls), and which seeks to find associations between the outcome and prior exposure to particular risk factors. [Glossary of Terms in The Cochrane Collaboration]</obo:IAO_0000115>
-        <obo:IAO_0000115>Group of individuals with specific characteristics (for example, conditions or exposures) compared to group(s) with different characteristics, but otherwise similar.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ero.owl"/>
-        <statistics:curator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Simona</statistics:curator>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Case-control study</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.org/net/OCRe/research.owl#Case_control_study"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Group of individuals with specific characteristics (for example, conditions or exposures) compared to group(s) with different characteristics, but otherwise similar.</owl:annotatedTarget>
-        <obo:IAO_0000119>https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.org/net/OCRe/research.owl#Case_crossover_study -->
-
-    <owl:Class rdf:about="http://purl.org/net/OCRe/research.owl#Case_crossover_study">
-        <rdfs:subClassOf rdf:resource="http://purl.org/net/OCRe/research.owl#Observational_study"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A case-crossover study is an observational study that aims to answer the question, “Was this event triggered by something unusual that happened just before?” The key feature of the design is that each case serves as its own control. The method is analogous to a crossover experiment viewed retrospectively, except that the investigator does not control when a patient starts and stops being exposed to the potential trigger. Also, the exposure frequency is typically measured in only a sample of the total time when the patient was at risk of the injury or disease onset. Thus it usually resembles a case-control study more than a retrospective cohort study. 
-The simplest case-crossover design is closely analogous to a traditional matched-pair case-control design. In both designs, each case has a matched control. In a traditional matched-pair case-control study, the control is a different person at a similar time. In the matched-pair case-crossover design, the control is the same person at a different time [Annu Rev Public Health. 2000;21:193-221.]</obo:IAO_0000115>
-        <obo:IAO_0000115>Characteristics of case immediately prior to disease onset (sometimes called the hazard period) compared to characteristics of same case at a prior time (that is, control period).</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ero.owl"/>
-        <statistics:curator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Simona</statistics:curator>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Case-crossover study</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.org/net/OCRe/research.owl#Case_crossover_study"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Characteristics of case immediately prior to disease onset (sometimes called the hazard period) compared to characteristics of same case at a prior time (that is, control period).</owl:annotatedTarget>
-        <obo:IAO_0000119>https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.org/net/OCRe/research.owl#Cohort_study -->
-
-    <owl:Class rdf:about="http://purl.org/net/OCRe/research.owl#Cohort_study">
-        <rdfs:subClassOf rdf:resource="http://purl.org/net/OCRe/research.owl#Observational_study"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cohort study is an observational study in which a defined group of people (the cohort) is followed over time. The outcomes of people in subsets of this cohort are compared, to examine people who were exposed or not exposed (or exposed at different levels) to a particular intervention or other factor of interest. A prospective cohort study assembles participants and follows them into the future. A retrospective (or historical) cohort study identifies subjects from past records and follows them from the time of those records to the present. [Glossary of Terms in The Cochrane Collaboration]</obo:IAO_0000115>
-        <obo:IAO_0000115>Group of individuals, initially defined and composed, with common characteristics (for example, condition, birth year), who are examined or traced over a given time period.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ero.owl"/>
-        <statistics:curator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Simona</statistics:curator>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cohort study</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.org/net/OCRe/research.owl#Cohort_study"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Group of individuals, initially defined and composed, with common characteristics (for example, condition, birth year), who are examined or traced over a given time period.</owl:annotatedTarget>
-        <obo:IAO_0000119>https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.org/net/OCRe/research.owl#Cross-sectional_study -->
-
-    <owl:Class rdf:about="http://purl.org/net/OCRe/research.owl#Cross-sectional_study">
-        <rdfs:subClassOf rdf:resource="http://purl.org/net/OCRe/research.owl#Observational_study"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cross-sectional study is an observational study measuring the distribution of some characteristic(s) in a population at a particular point in time. (Also called survey.) [adapted from: Glossary of Terms in The Cochrane Collaboration]</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ero.owl"/>
-        <statistics:curator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Simona</statistics:curator>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cross-sectional study</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/net/OCRe/research.owl#Interventional_study -->
-
-    <owl:Class rdf:about="http://purl.org/net/OCRe/research.owl#Interventional_study">
-        <rdfs:subClassOf rdf:resource="http://purl.org/net/OCRe/research.owl#Quantitative_human_study"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An interventional study is a quantitative study that prospectively assigns human participants or groups of humans to one or more health-related interventions to evaluate the effects on health outcomes. Interventions include but are not restricted to drugs, cells and other biological products, surgical procedures, radiologic procedures, devices, behavioural treatments, process-of-care changes, preventive care, etc. [adapted from: WHO, available at: http://www.who.int/ictrp/en/]</obo:IAO_0000115>
-        <obo:IAO_0000115>Participants are assigned prospectively to an intervention or interventions according to a protocol to evaluate the effect of the intervention(s) on biomedical or other health related outcomes.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ero.owl"/>
-        <statistics:curator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Simona</statistics:curator>
-        <study_protocol:develop_comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Simona: to be reviewed</study_protocol:develop_comment>
-        <oboInOwl:hasExactSynonym>clinical trail</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Interventional study</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.org/net/OCRe/research.owl#Interventional_study"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Participants are assigned prospectively to an intervention or interventions according to a protocol to evaluate the effect of the intervention(s) on biomedical or other health related outcomes.</owl:annotatedTarget>
-        <obo:IAO_0000119>https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.org/net/OCRe/research.owl#Interventional_study"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>clinical trail</owl:annotatedTarget>
-        <rdfs:seeAlso>https://clinicaltrials.gov/ct2/about-studies/glossary</rdfs:seeAlso>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.org/net/OCRe/research.owl#Observational_study -->
-
-    <owl:Class rdf:about="http://purl.org/net/OCRe/research.owl#Observational_study">
-        <rdfs:subClassOf rdf:resource="http://purl.org/net/OCRe/research.owl#Quantitative_human_study"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An observational study is a quantitative study in which the investigators do not seek to intervene, and simply observe the course of events. [adapted from: Glossary of Terms in The Cochrane Collaboration]</obo:IAO_0000115>
-        <obo:IAO_0000115>Studies in human beings in which biomedical and/or health outcomes are assessed in pre-defined groups of individuals. Participants in the study may receive diagnostic, therapeutic, or other interventions, but the investigator does not assign specific interventions to the study participants. This includes when participants receive interventions as part of routine medical care, and a researcher studies the effect of the intervention.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ero.owl"/>
-        <statistics:curator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Simona</statistics:curator>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Observational study</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.org/net/OCRe/research.owl#Observational_study"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Studies in human beings in which biomedical and/or health outcomes are assessed in pre-defined groups of individuals. Participants in the study may receive diagnostic, therapeutic, or other interventions, but the investigator does not assign specific interventions to the study participants. This includes when participants receive interventions as part of routine medical care, and a researcher studies the effect of the intervention.</owl:annotatedTarget>
-        <obo:IAO_0000119>https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.org/net/OCRe/research.owl#Parallel_group_study -->
-
-    <owl:Class rdf:about="http://purl.org/net/OCRe/research.owl#Parallel_group_study">
-        <rdfs:subClassOf rdf:resource="http://purl.org/net/OCRe/research.owl#Interventional_study"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A parallel group study is an interventional study that compares across at least two allocation groups concurrently, each receiving a regimen of interventions (which can be &quot;no intervention&quot;).</obo:IAO_0000115>
-        <obo:IAO_0000115>Participants are assigned to one of two or more groups in parallel for the duration of the study</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ero.owl"/>
-        <statistics:curator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Simona</statistics:curator>
-        <study_protocol:develop_comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Simona: to be reviewed.</study_protocol:develop_comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parallel group study</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.org/net/OCRe/research.owl#Parallel_group_study"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Participants are assigned to one of two or more groups in parallel for the duration of the study</owl:annotatedTarget>
-        <obo:IAO_0000119>https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.org/net/OCRe/research.owl#Qualitative_human_study -->
-
-    <owl:Class rdf:about="http://purl.org/net/OCRe/research.owl#Qualitative_human_study">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0000015"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A qualitative study is an individual-human study whose primary mode of inquiry is qualitative.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ero.owl"/>
-        <statistics:curator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Simona</statistics:curator>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Qualitative human study</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/net/OCRe/research.owl#Quantitative_human_study -->
-
-    <owl:Class rdf:about="http://purl.org/net/OCRe/research.owl#Quantitative_human_study">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0000015"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A quantitative study is an individual-human study whose primary mode of inquiry is quantitative.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ero.owl"/>
-        <statistics:curator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Simona</statistics:curator>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quantitative human study</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/net/OCRe/study_design.owl#Crossover_study -->
-
-    <owl:Class rdf:about="http://purl.org/net/OCRe/study_design.owl#Crossover_study">
-        <rdfs:subClassOf rdf:resource="http://purl.org/net/OCRe/research.owl#Interventional_study"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A crossover study is an interventional study where the population is a more than a single human subject, in which at least two regimens of interventions are given alternatingly. Upon completion of one regimen, participants are switched to the other. For example, for a comparison of regimens A and B, the participants are randomly allocated to receive them in either the order A, B or the order B, A. 
-Regimens are assigned to and data are analyzed within more than one participant at a time.</obo:IAO_0000115>
-        <obo:IAO_0000115>Participants receive one of two (or more) alternative interventions during the initial phase of the study and receive the other intervention during the second phase of the study</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ero.owl"/>
-        <statistics:curator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Simona</statistics:curator>
-        <study_protocol:develop_comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Simona: to be reviewed</study_protocol:develop_comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crossover study</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.org/net/OCRe/study_design.owl#Crossover_study"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Participants receive one of two (or more) alternative interventions during the initial phase of the study and receive the other intervention during the second phase of the study</owl:annotatedTarget>
-        <obo:IAO_0000119>https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.org/net/OCRe/study_design.owl#N-of-1_crossover_study -->
-
-    <owl:Class rdf:about="http://purl.org/net/OCRe/study_design.owl#N-of-1_crossover_study">
-        <rdfs:subClassOf rdf:resource="http://purl.org/net/OCRe/research.owl#Interventional_study"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An N-of-1 crossover study is an interventional study where the population is a single human subject and in which at least two regimens of interventions are given alternatingly. Regimens are assigned to and data are analyzed within one participant at a time.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ero.owl"/>
-        <statistics:curator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Simona</statistics:curator>
-        <study_protocol:develop_comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Simona: to be reviewed</study_protocol:develop_comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N-of-1 crossover study</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/net/OCRe/study_design.owl#Single_group_study -->
-
-    <owl:Class rdf:about="http://purl.org/net/OCRe/study_design.owl#Single_group_study">
-        <rdfs:subClassOf rdf:resource="http://purl.org/net/OCRe/research.owl#Interventional_study"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A single group study is an interventional study that has only a single allocation group and no contemporaneuos comparison group.
-
-A study in which an individual acts has his/her own comparison does not fall into this category, since an individual is not a group.</obo:IAO_0000115>
-        <obo:IAO_0000115>Clinical trials with a single arm</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ero.owl"/>
-        <statistics:curator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Simona</statistics:curator>
-        <study_protocol:develop_comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Simona: to be reviewed</study_protocol:develop_comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Single group study</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.org/net/OCRe/study_design.owl#Single_group_study"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Clinical trials with a single arm</owl:annotatedTarget>
-        <obo:IAO_0000119>https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
-    </owl:Axiom>
     
 
 
@@ -6667,9 +6726,11 @@ Each primary outcome measure information includes title, description and time fr
     <!-- https://bio.scai.fraunhofer.de/ontology/CTO_0000016 -->
 
     <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO_0000016">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
         <obo:IAO_0000115>For clinical trials, a planned measurement described in the protocol that is used to determine the effect of an intervention/treatment on participants. For observational studies, a measurement or observation that is used to describe patterns of diseases or traits, or associations with exposures, risk factors, or treatment. Types of outcome measures include primary outcome measure and secondary outcome measure.</obo:IAO_0000115>
-        <rdfs:label>outcome measure</rdfs:label>
+        <oboInOwl:hasExactSynonym>outcome measure</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>outcome measurement</oboInOwl:hasExactSynonym>
+        <rdfs:label>clinical trial outcome measurement</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO_0000016"/>
@@ -7254,6 +7315,195 @@ Each primary outcome measure information includes title, description and time fr
     
 
 
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO_0000099 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO_0000099">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0600004"/>
+        <rdfs:label xml:lang="en">clinical trial enrollment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO_0000100 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO_0000100">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000381"/>
+        <rdfs:label xml:lang="en">clinical trial participant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO_0000101 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO_0000101">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000381"/>
+        <rdfs:label xml:lang="en">healthy enrollee</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO_0000102 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO_0000102">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000381"/>
+        <rdfs:label xml:lang="en">enrolled patient</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO_0000103 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO_0000103">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000002"/>
+        <rdfs:label xml:lang="en">placebo medical intervention</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO_0000104 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO_0000104">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <rdfs:label xml:lang="en">outcome measurement datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO_0000105 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO_0000105">
+        <rdfs:subClassOf rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO_0000104"/>
+        <rdfs:label xml:lang="en">primary outcome measurement datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO_0000106 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO_0000106">
+        <rdfs:subClassOf rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO_0000104"/>
+        <rdfs:label xml:lang="en">secondary outcome measurement datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO_0000108 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO_0000108">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <rdfs:label xml:lang="en">investigational molecular entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO_0000109 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO_0000109">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0004507"/>
+        <rdfs:label xml:lang="en">drug clinical trial</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO_0000110 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO_0000110">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000243"/>
+        <rdfs:label xml:lang="en">clinical trial sponsor role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO_0000111 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO_0000111">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001402"/>
+        <rdfs:label xml:lang="en">procedure clinical trIal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO_0000112 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO_0000112">
+        <rdfs:subClassOf rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO_0000005"/>
+        <obo:IAO_0000115>a study design in which neither the subjects nor the investigators are permitted to know which subject is receiving which treatment</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>double-blind</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>double-blinded</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">double blinded design</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO_0000113 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO_0000113">
+        <rdfs:subClassOf rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO_0000005"/>
+        <obo:IAO_0000115>a study design in which only the  investigators are permitted to know which subject is receiving which treatment</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>double blind</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>double blinded</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">single blinded design</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO_0000114 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO_0000114">
+        <rdfs:subClassOf rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO_0000005"/>
+        <obo:IAO_0000115>a study design in which  the subjects and  the investigators are permitted to know which subject is receiving which treatment</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>open blind</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>open label</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">open blinded design</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO_0000115 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO_0000115">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000115"/>
+        <obo:IAO_0000115>Groups of participants are assigned to receive interventions based on prior milestones being reached in the study, such as in some dose escalation and adaptive design studies</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">sequential design</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO_0000115"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Groups of participants are assigned to receive interventions based on prior milestones being reached in the study, such as in some dose escalation and adaptive design studies</owl:annotatedTarget>
+        <obo:IAO_0000119>https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO_0000116 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO_0000116">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000115"/>
+        <obo:IAO_0000115>study design with a single group (arm)</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>sinlge arm</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">single arm design</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO_0000117 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO_0000117">
+        <rdfs:subClassOf rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO_0000016"/>
+        <rdfs:label xml:lang="en">primary outcome measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://bio.scai.fraunhofer.de/ontology/CTO_0000118 -->
+
+    <owl:Class rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO_0000118">
+        <rdfs:subClassOf rdf:resource="https://bio.scai.fraunhofer.de/ontology/CTO_0000016"/>
+        <rdfs:label xml:lang="en">secondary outcome measurement</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -7321,9 +7571,72 @@ Each primary outcome measure information includes title, description and time fr
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000348">
+        <obo:IAO_0000115>single group of individuals with specific characteristics.</obo:IAO_0000115>
+    </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ERO_0000348"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>single group of individuals with specific characteristics.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
+    </owl:Axiom>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/omrse.owl">
         <rdfs:label xml:lang="en">The Ontology of Medically Related Social Entities</rdfs:label>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/net/OCRe/research.owl#Case_control_study">
+        <obo:IAO_0000115>Group of individuals with specific characteristics (for example, conditions or exposures) compared to group(s) with different characteristics, but otherwise similar.</obo:IAO_0000115>
+    </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.org/net/OCRe/research.owl#Case_control_study"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Group of individuals with specific characteristics (for example, conditions or exposures) compared to group(s) with different characteristics, but otherwise similar.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
+    </owl:Axiom>
+    <rdf:Description rdf:about="http://purl.org/net/OCRe/research.owl#Case_crossover_study">
+        <obo:IAO_0000115>Characteristics of case immediately prior to disease onset (sometimes called the hazard period) compared to characteristics of same case at a prior time (that is, control period).</obo:IAO_0000115>
+    </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.org/net/OCRe/research.owl#Case_crossover_study"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Characteristics of case immediately prior to disease onset (sometimes called the hazard period) compared to characteristics of same case at a prior time (that is, control period).</owl:annotatedTarget>
+        <obo:IAO_0000119>https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
+    </owl:Axiom>
+    <rdf:Description rdf:about="http://purl.org/net/OCRe/research.owl#Cohort_study">
+        <obo:IAO_0000115>Group of individuals, initially defined and composed, with common characteristics (for example, condition, birth year), who are examined or traced over a given time period.</obo:IAO_0000115>
+    </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.org/net/OCRe/research.owl#Cohort_study"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Group of individuals, initially defined and composed, with common characteristics (for example, condition, birth year), who are examined or traced over a given time period.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
+    </owl:Axiom>
+    <rdf:Description rdf:about="http://purl.org/net/OCRe/research.owl#Parallel_group_study">
+        <obo:IAO_0000115>Participants are assigned to one of two or more groups in parallel for the duration of the study</obo:IAO_0000115>
+    </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.org/net/OCRe/research.owl#Parallel_group_study"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Participants are assigned to one of two or more groups in parallel for the duration of the study</owl:annotatedTarget>
+        <obo:IAO_0000119>https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
+    </owl:Axiom>
+    <rdf:Description rdf:about="http://purl.org/net/OCRe/study_design.owl#Crossover_study">
+        <obo:IAO_0000115>Participants receive one of two (or more) alternative interventions during the initial phase of the study and receive the other intervention during the second phase of the study</obo:IAO_0000115>
+    </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.org/net/OCRe/study_design.owl#Crossover_study"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Participants receive one of two (or more) alternative interventions during the initial phase of the study and receive the other intervention during the second phase of the study</owl:annotatedTarget>
+        <obo:IAO_0000119>https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
+    </owl:Axiom>
+    <rdf:Description rdf:about="http://purl.org/net/OCRe/study_design.owl#Single_group_study">
+        <obo:IAO_0000115>Clinical trials with a single arm</obo:IAO_0000115>
+    </rdf:Description>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.org/net/OCRe/study_design.owl#Single_group_study"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Clinical trials with a single arm</owl:annotatedTarget>
+        <obo:IAO_0000119>https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
+    </owl:Axiom>
     <rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO_0000021">
         <obo:IAO_0000115>A centrally registered identifier that is assigned for a specific clinical trial registered in the Korean Clinical Research Information Service (CRIS). The format for the registry number is “KCT” followed by a 7-digit number, e.g., KCT0004537.</obo:IAO_0000115>
         <rdfs:label>Korean clinical trial registry identifier</rdfs:label>
@@ -7339,16 +7652,16 @@ Each primary outcome measure information includes title, description and time fr
     <rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO_0000029">
         <rdfs:label>jRTC clinical trials register</rdfs:label>
         <obo:IAO_0000115>The jRTC (Japan Registry of Clinical Trials) clinical trial registry is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</obo:IAO_0000115>
-        <rdfs:seeAlso>https://jrct.niph.go.jp/</rdfs:seeAlso>
         <oboInOwl:hasExactSynonym>Japan Registry of Clinical Trials</oboInOwl:hasExactSynonym>
+        <rdfs:seeAlso>https://jrct.niph.go.jp/</rdfs:seeAlso>
         <oboInOwl:hasExactSynonym>jRTC</oboInOwl:hasExactSynonym>
         <rdfs:seeAlso>https://rctportal.niph.go.jp/en/</rdfs:seeAlso>
     </rdf:Description>
     <rdf:Description rdf:about="https://bio.scai.fraunhofer.de/ontology/CTO_0000042">
         <oboInOwl:hasExactSynonym>ISRCTN</oboInOwl:hasExactSynonym>
         <rdfs:seeAlso>http://www.isrctn.com/</rdfs:seeAlso>
-        <rdfs:label>International standard randomised controlled trial register</rdfs:label>
         <obo:IAO_0000115>The international standard randomised controlled trial register is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</obo:IAO_0000115>
+        <rdfs:label>International standard randomised controlled trial register</rdfs:label>
     </rdf:Description>
 </rdf:RDF>
 

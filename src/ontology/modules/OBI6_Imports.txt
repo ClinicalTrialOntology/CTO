@@ -9,6 +9,7 @@ http://purl.obolibrary.org/obo/OBI_0000115 # 'intervention design'
 http://purl.obolibrary.org/obo/OBI_0300311 # 'observation design'
 http://purl.obolibrary.org/obo/OBI_0500006 #parallel group design
 http://purl.obolibrary.org/obo/OBI_0500014 #factorial design
+http://purl.obolibrary.org/obo/OBI_0002624 #case-control study design
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/IAO_0000030 # 'information content entity'
