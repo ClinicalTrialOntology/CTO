@@ -38,6 +38,7 @@
     <Import>http://ontofox.hegroup.org/OBI_import13.owl</Import>
     <Import>http://ontofox.hegroup.org/OBI_import14.owl</Import>
     <Import>http://ontofox.hegroup.org/OBI_imports15.owl</Import>
+    <Import>http://ontofox.hegroup.org/OBI_imports16.owl</Import>
     <Import>http://ontofox.hegroup.org/OGMS_import2.owl</Import>
     <Import>http://ontofox.hegroup.org/OMIABIS_Imports1.owl</Import>
     <Import>http://ontofox.hegroup.org/OPMI12_import.owl</Import>
@@ -52,6 +53,7 @@
     <Import>http://ontofox.hegroup.org/OPMI21_imports.owl</Import>
     <Import>http://ontofox.hegroup.org/OPMI22_imports.owl</Import>
     <Import>http://ontofox.hegroup.org/OPMI23_imports.owl</Import>
+    <Import>http://ontofox.hegroup.org/OPMI24_imports.owl</Import>
     <Import>http://ontofox.hegroup.org/VO_import1.owl</Import>
     <Import>http://purl.obolibrary.org/obo/IAO_import.owl</Import>
     <Import>http://purl.obolibrary.org/obo/IAO_import2.owl</Import>
@@ -603,6 +605,12 @@
         <Class IRI="https://bio.scai.fraunhofer.de/ontology/CTO_0000116"/>
     </Declaration>
     <Declaration>
+        <Class IRI="https://bio.scai.fraunhofer.de/ontology/CTO_0000117"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="https://bio.scai.fraunhofer.de/ontology/CTO_0000118"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty abbreviatedIRI="obo:BFO_0000051"/>
     </Declaration>
     <Declaration>
@@ -930,7 +938,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="https://bio.scai.fraunhofer.de/ontology/CTO_0000016"/>
-        <Class abbreviatedIRI="obo:BFO_0000015"/>
+        <Class abbreviatedIRI="obo:OBI_0000070"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="https://bio.scai.fraunhofer.de/ontology/CTO_0000017"/>
@@ -1163,6 +1171,14 @@
     <SubClassOf>
         <Class IRI="https://bio.scai.fraunhofer.de/ontology/CTO_0000116"/>
         <Class abbreviatedIRI="obo:OBI_0000115"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://bio.scai.fraunhofer.de/ontology/CTO_0000117"/>
+        <Class IRI="https://bio.scai.fraunhofer.de/ontology/CTO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://bio.scai.fraunhofer.de/ontology/CTO_0000118"/>
+        <Class IRI="https://bio.scai.fraunhofer.de/ontology/CTO_0000016"/>
     </SubClassOf>
     <AnnotationAssertion>
         <Annotation>
@@ -2393,9 +2409,19 @@ Each primary outcome measure information includes title, description and time fr
         <Literal>For clinical trials, a planned measurement described in the protocol that is used to determine the effect of an intervention/treatment on participants. For observational studies, a measurement or observation that is used to describe patterns of diseases or traits, or associations with exposures, risk factors, or treatment. Types of outcome measures include primary outcome measure and secondary outcome measure.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
         <IRI>https://bio.scai.fraunhofer.de/ontology/CTO_0000016</IRI>
         <Literal>outcome measure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <IRI>https://bio.scai.fraunhofer.de/ontology/CTO_0000016</IRI>
+        <Literal>outcome measurement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://bio.scai.fraunhofer.de/ontology/CTO_0000016</IRI>
+        <Literal>clinical trial outcome measurement</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -3601,6 +3627,16 @@ Each primary outcome measure information includes title, description and time fr
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://bio.scai.fraunhofer.de/ontology/CTO_0000116</IRI>
         <Literal xml:lang="en">single arm design</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://bio.scai.fraunhofer.de/ontology/CTO_0000117</IRI>
+        <Literal xml:lang="en">primary outcome measurement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://bio.scai.fraunhofer.de/ontology/CTO_0000118</IRI>
+        <Literal xml:lang="en">secondary outcome measurement</Literal>
     </AnnotationAssertion>
 </Ontology>
 
