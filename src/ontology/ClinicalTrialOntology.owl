@@ -293,16 +293,10 @@
         <Class abbreviatedIRI="obo:NCIT_C70817"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="obo:NCIT_C70840"/>
-    </Declaration>
-    <Declaration>
         <Class abbreviatedIRI="obo:NCIT_C71485"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:NCIT_C71486"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:NCIT_C82638"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:NCIT_C84336"/>
@@ -611,6 +605,9 @@
         <Class IRI="https://bio.scai.fraunhofer.de/ontology/CTO_0000118"/>
     </Declaration>
     <Declaration>
+        <Class IRI="https://bio.scai.fraunhofer.de/ontology/CTO_0000119"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty abbreviatedIRI="obo:BFO_0000051"/>
     </Declaration>
     <Declaration>
@@ -652,7 +649,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:ERO_0001402"/>
-        <Class abbreviatedIRI="obo:OPMI_0000418"/>
+        <Class IRI="https://bio.scai.fraunhofer.de/ontology/CTO_0000119"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:ERO_0001843"/>
@@ -744,7 +741,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:NCIT_C16084"/>
-        <Class abbreviatedIRI="obo:OPMI_0000418"/>
+        <Class IRI="https://bio.scai.fraunhofer.de/ontology/CTO_0000119"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:NCIT_C25320"/>
@@ -797,20 +794,12 @@
         <Class abbreviatedIRI="obo:OBI_0000272"/>
     </SubClassOf>
     <SubClassOf>
-        <Class abbreviatedIRI="obo:NCIT_C70840"/>
-        <Class abbreviatedIRI="obo:NCIT_C98388"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class abbreviatedIRI="obo:NCIT_C71485"/>
         <Class abbreviatedIRI="obo:NCIT_C147141"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:NCIT_C71486"/>
         <Class abbreviatedIRI="obo:NCIT_C147141"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:NCIT_C82638"/>
-        <Class abbreviatedIRI="obo:NCIT_C98388"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:NCIT_C84336"/>
@@ -834,7 +823,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:NCIT_C98388"/>
-        <Class abbreviatedIRI="obo:OPMI_0000418"/>
+        <Class IRI="https://bio.scai.fraunhofer.de/ontology/CTO_0000119"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:NCIT_C98714"/>
@@ -842,7 +831,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:NCIT_C98722"/>
-        <Class abbreviatedIRI="obo:OPMI_0000418"/>
+        <Class IRI="https://bio.scai.fraunhofer.de/ontology/CTO_0000119"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:NCIT_C98747"/>
@@ -874,7 +863,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:VO_0000596"/>
-        <Class abbreviatedIRI="obo:OPMI_0000418"/>
+        <Class IRI="https://bio.scai.fraunhofer.de/ontology/CTO_0000119"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="https://bio.scai.fraunhofer.de/ontology/CTO_0000001"/>
@@ -1180,6 +1169,10 @@
         <Class IRI="https://bio.scai.fraunhofer.de/ontology/CTO_0000118"/>
         <Class IRI="https://bio.scai.fraunhofer.de/ontology/CTO_0000016"/>
     </SubClassOf>
+    <SubClassOf>
+        <Class IRI="https://bio.scai.fraunhofer.de/ontology/CTO_0000119"/>
+        <Class abbreviatedIRI="obo:OPMI_0000418"/>
+    </SubClassOf>
     <AnnotationAssertion>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
@@ -1481,15 +1474,6 @@ http://www.who.int/ictrp/network/trds/en/index.html</Literal>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:NCIT_C71486</AbbreviatedIRI>
         <Literal>One or more interventions are evaluated for maximizing comfort, minimizing side effects, or mitigating against a decline in the participant&apos;s health or function.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <Annotation>
-            <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
-            <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
-        </Annotation>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <AbbreviatedIRI>obo:NCIT_C82638</AbbreviatedIRI>
-        <Literal>Two or more interventions, each alone and in combination, are evaluated in parallel against a control group</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
@@ -3637,6 +3621,21 @@ Each primary outcome measure information includes title, description and time fr
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>https://bio.scai.fraunhofer.de/ontology/CTO_0000118</IRI>
         <Literal xml:lang="en">secondary outcome measurement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>https://bio.scai.fraunhofer.de/ontology/CTO_0000119</IRI>
+        <Literal>clinical trial in a broader range is every .....</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <IRI>https://bio.scai.fraunhofer.de/ontology/CTO_0000119</IRI>
+        <Literal>clinical study</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://bio.scai.fraunhofer.de/ontology/CTO_0000119</IRI>
+        <Literal xml:lang="en">clinical trial</Literal>
     </AnnotationAssertion>
 </Ontology>
 

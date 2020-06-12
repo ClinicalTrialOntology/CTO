@@ -428,7 +428,7 @@ editor = PRS</obo:IAO_0000232>
         <obo:IAO_0000119>https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
         <obo:IAO_0000119>https://www.who.int/ictrp/en/</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
-        <rdfs:label xml:lang="en">clinical trial</rdfs:label>
+        <rdfs:label xml:lang="en">interventional clinical trial</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
