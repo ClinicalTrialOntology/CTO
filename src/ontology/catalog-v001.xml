@@ -94,4 +94,5 @@
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/OPMI_import10.owl" uri="imports/OPMI_import10.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/OAE_import.owl" uri="imports/OAE_import.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/NCIT_import2.owl" uri="imports/NCIT_import2.owl"/>
+    <uri id="User Entered Import Resolution" name="http://ontofox.hegroup.org/akrt6v6h.owl" uri="OPMI_Dontation.owl"/>
 </catalog>

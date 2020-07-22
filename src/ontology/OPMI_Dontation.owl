@@ -287,9 +287,9 @@ We also have the outstanding issue of how to aim different definitions to differ
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OPMI_0000289 -->
+    <!-- http://purl.obolibrary.org/obo/CTO_0000213 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000289">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CTO_0000213">
         <rdfs:label xml:lang="en">USA National Clinical Trial identifier</rdfs:label>
         <obo:IAO_0000118>National Clinical Trial identifier</obo:IAO_0000118>
         <obo:IAO_0000119>https://www.nlm.nih.gov/bsd/policy/clin_trials.html</obo:IAO_0000119>
@@ -303,9 +303,9 @@ We also have the outstanding issue of how to aim different definitions to differ
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OPMI_0000290 -->
+    <!-- http://purl.obolibrary.org/obo/CTO_0000217 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000290">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CTO_0000217">
         <rdfs:label xml:lang="en">title of clinical trial</rdfs:label>
         <obo:IAO_0000115>A textual entity that is the title of a clinical trial</obo:IAO_0000115>
         <obo:IAO_0000119>https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
@@ -314,9 +314,9 @@ We also have the outstanding issue of how to aim different definitions to differ
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OPMI_0000291 -->
+    <!-- http://purl.obolibrary.org/obo/CTO_0000219 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000291">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CTO_0000219">
         <rdfs:label xml:lang="en">official title of clinical trial</rdfs:label>
         <obo:IAO_0000119>https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
         <obo:IAO_0000115>A title of clinical trial that is recorded as official</obo:IAO_0000115>
@@ -325,9 +325,9 @@ We also have the outstanding issue of how to aim different definitions to differ
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OPMI_0000292 -->
+    <!-- http://purl.obolibrary.org/obo/CTO_0000218 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000292">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CTO_0000218">
         <rdfs:label xml:lang="en">lay title of clinical trial</rdfs:label>
         <obo:IAO_0000115>A title of clinical trial that is meant for lay people understanding</obo:IAO_0000115>
         <obo:IAO_0000119>https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
@@ -336,9 +336,9 @@ We also have the outstanding issue of how to aim different definitions to differ
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OPMI_0000295 -->
+    <!-- http://purl.obolibrary.org/obo/CTO_0000214 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000295">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CTO_0000214">
         <rdfs:label xml:lang="en">study start date</rdfs:label>
         <obo:IAO_0000115>The date on which a study starts</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
@@ -346,9 +346,9 @@ We also have the outstanding issue of how to aim different definitions to differ
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OPMI_0000298 -->
+    <!-- http://purl.obolibrary.org/obo/CTO_0000216 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000298">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CTO_0000216">
         <rdfs:label xml:lang="en">clinical trial study completion date</rdfs:label>
         <obo:IAO_0000119>https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
         <obo:IAO_0000115>The date the final participant was examined or received an intervention for purposes of final collection of data for the primary and secondary outcome measures and adverse events (for example, last participant’s last visit), whether the clinical study concluded according to the pre-specified protocol or was terminated.</obo:IAO_0000115>
@@ -357,9 +357,9 @@ We also have the outstanding issue of how to aim different definitions to differ
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OPMI_0000299 -->
+    <!-- http://purl.obolibrary.org/obo/CTO_0000215 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000299">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CTO_0000215">
         <rdfs:label xml:lang="en">clinical trial primary completion date</rdfs:label>
         <obo:IAO_0000115>The date that the final participant was examined or received an intervention for the purposes of final collection of data for the primary outcome, whether the clinical study concluded according to the pre-specified protocol or was terminated. In the case of clinical studies with more than one primary outcome measure with different completion dates, this term refers to the date on which data collection is completed for all of the primary outcomes.</obo:IAO_0000115>
         <obo:IAO_0000119>https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
@@ -368,9 +368,9 @@ We also have the outstanding issue of how to aim different definitions to differ
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OPMI_0000300 -->
+    <!-- http://purl.obolibrary.org/obo/CTO_0000200 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000300">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CTO_0000200">
         <rdfs:label xml:lang="en">clinical trial primary purpose specification</rdfs:label>
         <obo:IAO_0000115>The main objective of the intervention(s) being evaluated by the clinical trial.</obo:IAO_0000115>
         <obo:IAO_0000118>primary purpose of clinical trial</obo:IAO_0000118>
@@ -380,9 +380,9 @@ We also have the outstanding issue of how to aim different definitions to differ
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OPMI_0000356 -->
+    <!-- http://purl.obolibrary.org/obo/CTO_0000209 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000356">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CTO_0000209">
         <rdfs:label xml:lang="en">Japan clinical trial identifier</rdfs:label>
         <obo:IAO_0000119>https://pubchem.ncbi.nlm.nih.gov/source/NIPH%20Clinical%20Trials%20Search%20of%20Japan</obo:IAO_0000119>
         <obo:IAO_0000117>Qingliang Leon Li, Asiyah Yu Lin, Oliver He</obo:IAO_0000117>
@@ -392,9 +392,9 @@ We also have the outstanding issue of how to aim different definitions to differ
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OPMI_0000357 -->
+    <!-- http://purl.obolibrary.org/obo/CTO_0000212 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000357">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CTO_0000212">
         <rdfs:label xml:lang="en">UMIN-CTR clinical trial identifier</rdfs:label>
         <obo:IAO_0000115>A Japan clinical trial identifier provided by the University Hospital Medical Information Network Center (UMIN-CTR)</obo:IAO_0000115>
         <obo:IAO_0000119>https://rctportal.niph.go.jp/en/</obo:IAO_0000119>
@@ -404,9 +404,9 @@ We also have the outstanding issue of how to aim different definitions to differ
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OPMI_0000358 -->
+    <!-- http://purl.obolibrary.org/obo/CTO_0000210 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000358">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CTO_0000210">
         <rdfs:label xml:lang="en">JAPIC clinical trial identifier</rdfs:label>
         <obo:IAO_0000117>Qingliang Leon Li, Asiyah Yu Lin, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>https://rctportal.niph.go.jp/en/</obo:IAO_0000119>
@@ -415,9 +415,9 @@ We also have the outstanding issue of how to aim different definitions to differ
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OPMI_0000359 -->
+    <!-- http://purl.obolibrary.org/obo/CTO_0000211 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000359">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CTO_0000211">
         <rdfs:label xml:lang="en">JMACCT clinical trial identifier</rdfs:label>
         <obo:IAO_0000119>https://rctportal.niph.go.jp/en/</obo:IAO_0000119>
         <obo:IAO_0000117>Qingliang Leon Li, Asiyah Yu Lin, Oliver He</obo:IAO_0000117>
@@ -426,9 +426,9 @@ We also have the outstanding issue of how to aim different definitions to differ
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OPMI_0000360 -->
+    <!-- http://purl.obolibrary.org/obo/CTO_0000208 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000360">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CTO_0000208">
         <rdfs:label xml:lang="en">European clinical trial registry identifier</rdfs:label>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/EudraCT</obo:IAO_0000119>
         <obo:IAO_0000119>https://www.clinicaltrialsregister.eu/ctr-search/search</obo:IAO_0000119>
@@ -441,9 +441,9 @@ We also have the outstanding issue of how to aim different definitions to differ
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OPMI_0000367 -->
+    <!-- http://purl.obolibrary.org/obo/CTO_0000201 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000367">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CTO_0000201">
         <rdfs:label xml:lang="en">clinical trial phase</rdfs:label>
         <obo:IAO_0000117>Leon Li, Asiyah Lin, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000115>The quality of a clinical trial that studies a drug or biological product. The phase is based on the study&#39;s objective, the number of participants, and other characteristics. According to USA FDA, there are five phases: Early Phase 1 (formerly listed as Phase 0), Phase 1, Phase 2, Phase 3, and Phase 4.</obo:IAO_0000115>
@@ -454,9 +454,9 @@ We also have the outstanding issue of how to aim different definitions to differ
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OPMI_0000368 -->
+    <!-- http://purl.obolibrary.org/obo/CTO_0000203 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000368">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CTO_0000203">
         <rdfs:label xml:lang="en">clinical trial phase 1</rdfs:label>
         <obo:NCIT_P207>C0920321</obo:NCIT_P207>
         <obo:IAO_0000118>Phase 1</obo:IAO_0000118>
@@ -471,9 +471,9 @@ We also have the outstanding issue of how to aim different definitions to differ
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OPMI_0000369 -->
+    <!-- http://purl.obolibrary.org/obo/CTO_0000204 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000369">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CTO_0000204">
         <rdfs:label xml:lang="en">clinical trial phase 2</rdfs:label>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Clinical_trial</obo:IAO_0000119>
         <obo:IAO_0000117>Leon Li, Asiyah Lin, Oliver He</obo:IAO_0000117>
@@ -487,9 +487,9 @@ We also have the outstanding issue of how to aim different definitions to differ
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OPMI_0000370 -->
+    <!-- http://purl.obolibrary.org/obo/CTO_0000205 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000370">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CTO_0000205">
         <rdfs:label xml:lang="en">clinical trial phase 3</rdfs:label>
         <obo:NCIT_P207>C0282461</obo:NCIT_P207>
         <obo:OPMI_0000364>C15602</obo:OPMI_0000364>
@@ -503,9 +503,9 @@ We also have the outstanding issue of how to aim different definitions to differ
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OPMI_0000371 -->
+    <!-- http://purl.obolibrary.org/obo/CTO_0000206 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000371">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CTO_0000206">
         <rdfs:label xml:lang="en">clinical trial phase 4</rdfs:label>
         <obo:IAO_0000117>Leon Li, Asiyah Lin, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Clinical_trial</obo:IAO_0000119>
@@ -518,9 +518,9 @@ We also have the outstanding issue of how to aim different definitions to differ
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OPMI_0000372 -->
+    <!-- http://purl.obolibrary.org/obo/CTO_0000202 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000372">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CTO_0000202">
         <rdfs:label>clinical trial early phase 1</rdfs:label>
         <obo:IAO_0000118>Pre-Clinical Phase</obo:IAO_0000118>
         <obo:IAO_0000118></obo:IAO_0000118>
@@ -537,9 +537,9 @@ We also have the outstanding issue of how to aim different definitions to differ
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OPMI_0004507 -->
+    <!-- http://purl.obolibrary.org/obo/CTO_0000220 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0004507">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CTO_0000220">
         <rdfs:label xml:lang="en">clinical trial</rdfs:label>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Clinical_trial</obo:IAO_0000119>
         <obo:IAO_0000115>a clinical trial is a medical interventional study where participants are assigned prospectively to an intervention or interventions according to a protocol to evaluate the safety and efficacy of the intervention(s) on biomedical or other health related outcomes. The Interventions include but are not restricted to drugs, cells and other biological products, surgical procedures, radiologic procedures, devices, behavioral treatments, process-of-care changes, preventive care, etc.</obo:IAO_0000115>
@@ -553,14 +553,14 @@ We also have the outstanding issue of how to aim different definitions to differ
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OPMI_0004508 -->
+    <!-- http://purl.obolibrary.org/obo/CTO_0000207 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0004508">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CTO_0000207">
         <rdfs:label xml:lang="en">Early Phase 1 clinical trial</rdfs:label>
         <owl:equivalentClass>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000366"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000372"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CTO_0000202"/>
             </owl:Restriction>
         </owl:equivalentClass>
         <obo:IAO_0000115>A clinical trial that is at Early Phase 1 or Phase 0</obo:IAO_0000115>
