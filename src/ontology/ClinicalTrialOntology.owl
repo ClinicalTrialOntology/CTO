@@ -6,7 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://purl.obolibrary.org/obo/cto.owl">
-    <Prefix name="" IRI="http://purl.obolibrary.org/obo/cto.owl#"/>
+    <Prefix name="" IRI="http://purl.obolibrary.org/obo/cto.owl"/>
     <Prefix name="dc" IRI="http://purl.org/dc/elements/1.1/"/>
     <Prefix name="obo" IRI="http://purl.obolibrary.org/obo/"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
@@ -55,6 +55,7 @@
     <Import>http://ontofox.hegroup.org/OPMI23_imports.owl</Import>
     <Import>http://ontofox.hegroup.org/OPMI24_imports.owl</Import>
     <Import>http://ontofox.hegroup.org/VO_import1.owl</Import>
+    <Import>http://ontofox.hegroup.org/akrt6v6h.owl</Import>
     <Import>http://purl.obolibrary.org/obo/IAO_import.owl</Import>
     <Import>http://purl.obolibrary.org/obo/IAO_import2.owl</Import>
     <Import>http://purl.obolibrary.org/obo/IAO_import3.owl</Import>
@@ -109,7 +110,6 @@
     <Import>http://purl.obolibrary.org/obo/OPMI_import9.owl</Import>
     <Import>http://purl.obolibrary.org/obo/PATO_import.owl</Import>
     <Import>http://purl.obolibrary.org/obo/PDRO_import.owl</Import>
-    <Import>http://ontofox.hegroup.org/akrt6v6h.owl</Import>
     <Import>http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl</Import>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="dc:contributor"/>
@@ -405,6 +405,15 @@
         <Class abbreviatedIRI="obo:CTO_0000118"/>
     </Declaration>
     <Declaration>
+        <Class abbreviatedIRI="obo:CTO_0000201"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:CTO_0000207"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:CTO_0000209"/>
+    </Declaration>
+    <Declaration>
         <Class abbreviatedIRI="obo:ERO_0001843"/>
     </Declaration>
     <Declaration>
@@ -592,15 +601,6 @@
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:OPMI_0000326"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:CTO_0000209"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:CTO_0000201"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="obo:CTO_0000207"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:PATO_0001241"/>
@@ -955,6 +955,90 @@
         <Class abbreviatedIRI="obo:CTO_0000016"/>
     </SubClassOf>
     <SubClassOf>
+        <Class abbreviatedIRI="obo:CTO_0000200"/>
+        <Class abbreviatedIRI="obo:IAO_0000005"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:CTO_0000201"/>
+        <Class abbreviatedIRI="obo:PATO_0001236"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:CTO_0000202"/>
+        <Class abbreviatedIRI="obo:CTO_0000201"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:CTO_0000203"/>
+        <Class abbreviatedIRI="obo:CTO_0000201"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:CTO_0000204"/>
+        <Class abbreviatedIRI="obo:CTO_0000201"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:CTO_0000205"/>
+        <Class abbreviatedIRI="obo:CTO_0000201"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:CTO_0000206"/>
+        <Class abbreviatedIRI="obo:CTO_0000201"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:CTO_0000207"/>
+        <Class abbreviatedIRI="obo:CTO_0000220"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:CTO_0000208"/>
+        <Class abbreviatedIRI="obo:NCIT_C98714"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:CTO_0000209"/>
+        <Class abbreviatedIRI="obo:NCIT_C98714"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:CTO_0000210"/>
+        <Class abbreviatedIRI="obo:NCIT_C98714"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:CTO_0000211"/>
+        <Class abbreviatedIRI="obo:CTO_0000209"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:CTO_0000212"/>
+        <Class abbreviatedIRI="obo:CTO_0000209"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:CTO_0000213"/>
+        <Class abbreviatedIRI="obo:NCIT_C98714"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:CTO_0000214"/>
+        <Class abbreviatedIRI="obo:BFO_0000148"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:CTO_0000215"/>
+        <Class abbreviatedIRI="obo:OPMI_0000297"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:CTO_0000216"/>
+        <Class abbreviatedIRI="obo:OPMI_0000297"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:CTO_0000217"/>
+        <Class abbreviatedIRI="obo:IAO_0000300"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:CTO_0000218"/>
+        <Class abbreviatedIRI="obo:CTO_0000217"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:CTO_0000219"/>
+        <Class abbreviatedIRI="obo:CTO_0000217"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:CTO_0000220"/>
+        <Class abbreviatedIRI="obo:NCIT_C98388"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class abbreviatedIRI="obo:ERO_0000017"/>
         <Class abbreviatedIRI="obo:OPMI_0000418"/>
     </SubClassOf>
@@ -1171,10 +1255,6 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:OPMI_0000223"/>
         <Class abbreviatedIRI="obo:NCIT_C60776"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class abbreviatedIRI="obo:CTO_0000207"/>
-        <Class abbreviatedIRI="obo:CTO_0000220"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:PATO_0001241"/>
@@ -2720,6 +2800,105 @@ Each primary outcome measure information includes title, description and time fr
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">secondary outcome measurement</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasNarrowSynonym"/>
+        <AbbreviatedIRI>obo:CTO_0000201</AbbreviatedIRI>
+        <Literal>phase</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <AbbreviatedIRI>obo:CTO_0000201</AbbreviatedIRI>
+        <Literal>https://www.who.int/ictrp/network/trds/en/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+            <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:CTO_0000207</AbbreviatedIRI>
+        <Literal>Exploratory trials, involving very limited human exposure, with no therapeutic or diagnostic intent (e.g., screening studies, microdose studies). (Formerly listed as &quot;Phase 0&quot;)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <AbbreviatedIRI>obo:CTO_0000208</AbbreviatedIRI>
+        <Literal>https://www.who.int/ictrp/network/primary/en/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <AbbreviatedIRI>obo:CTO_0000209</AbbreviatedIRI>
+        <Literal>https://www.who.int/ictrp/network/jprn2/en/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AbbreviatedIRI>obo:CTO_0000210</AbbreviatedIRI>
+        <Literal>JapicCTI</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:CTO_0000211</AbbreviatedIRI>
+        <Literal>A centrally registered identifier that is assigned for a specific clinical trial registered in JMACCT. The format for the JMACCT registry number is “JMA-IIA” followed by a 5-digit number, e.g., JMA-IIA00391.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AbbreviatedIRI>obo:CTO_0000211</AbbreviatedIRI>
+        <Literal>JMACCT</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AbbreviatedIRI>obo:CTO_0000212</AbbreviatedIRI>
+        <Literal>UMIN</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:CTO_0000215</AbbreviatedIRI>
+        <Literal>primary completion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+            <Literal>http://www.icmje.org/recommendations/ 
+http://www.who.int/ictrp/network/trds/en/index.html</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:CTO_0000216</AbbreviatedIRI>
+        <Literal>completion date</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:CTO_0000218</AbbreviatedIRI>
+        <Literal>brief title</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:CTO_0000218</AbbreviatedIRI>
+        <Literal>lay title</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:CTO_0000218</AbbreviatedIRI>
+        <Literal>public title</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <AbbreviatedIRI>obo:CTO_0000218</AbbreviatedIRI>
+        <Literal>https://www.who.int/ictrp/network/trds/en/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:CTO_0000219</AbbreviatedIRI>
+        <Literal>full title</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:CTO_0000219</AbbreviatedIRI>
+        <Literal>scientific title</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <AbbreviatedIRI>obo:CTO_0000219</AbbreviatedIRI>
+        <Literal>https://www.who.int/ictrp/network/trds/en/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
             <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
@@ -3300,41 +3479,6 @@ https://www.who.int/ictrp/network/trds/en/</Literal>
 2. the art of distinguishing one disease from another.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
-        <AbbreviatedIRI>obo:CTO_0000219</AbbreviatedIRI>
-        <Literal>full title</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
-        <AbbreviatedIRI>obo:CTO_0000219</AbbreviatedIRI>
-        <Literal>scientific title</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <AbbreviatedIRI>obo:CTO_0000219</AbbreviatedIRI>
-        <Literal>https://www.who.int/ictrp/network/trds/en/</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
-        <AbbreviatedIRI>obo:CTO_0000218</AbbreviatedIRI>
-        <Literal>brief title</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
-        <AbbreviatedIRI>obo:CTO_0000218</AbbreviatedIRI>
-        <Literal>lay title</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
-        <AbbreviatedIRI>obo:CTO_0000218</AbbreviatedIRI>
-        <Literal>public title</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <AbbreviatedIRI>obo:CTO_0000218</AbbreviatedIRI>
-        <Literal>https://www.who.int/ictrp/network/trds/en/</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
             <Literal>http://www.icmje.org/recommendations/ 
@@ -3375,21 +3519,6 @@ http://www.who.int/ictrp/network/trds/en/index.html</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <Annotation>
-            <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-            <Literal>http://www.icmje.org/recommendations/ 
-http://www.who.int/ictrp/network/trds/en/index.html</Literal>
-        </Annotation>
-        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
-        <AbbreviatedIRI>obo:CTO_0000216</AbbreviatedIRI>
-        <Literal>completion date</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
-        <AbbreviatedIRI>obo:CTO_0000215</AbbreviatedIRI>
-        <Literal>primary completion</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <Annotation>
             <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
             <Literal>https://www.clinicaltrials.gov/ct2/about-studies/glossary</Literal>
         </Annotation>
@@ -3427,36 +3556,6 @@ http://www.who.int/ictrp/network/trds/en/index.html</Literal>
 http://www.who.int/ictrp/network/trds/en/index.html</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <AbbreviatedIRI>obo:CTO_0000209</AbbreviatedIRI>
-        <Literal>https://www.who.int/ictrp/network/jprn2/en/</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
-        <AbbreviatedIRI>obo:CTO_0000212</AbbreviatedIRI>
-        <Literal>UMIN</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
-        <AbbreviatedIRI>obo:CTO_0000210</AbbreviatedIRI>
-        <Literal>JapicCTI</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <AbbreviatedIRI>obo:CTO_0000211</AbbreviatedIRI>
-        <Literal>A centrally registered identifier that is assigned for a specific clinical trial registered in JMACCT. The format for the JMACCT registry number is “JMA-IIA” followed by a 5-digit number, e.g., JMA-IIA00391.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
-        <AbbreviatedIRI>obo:CTO_0000211</AbbreviatedIRI>
-        <Literal>JMACCT</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <AbbreviatedIRI>obo:CTO_0000208</AbbreviatedIRI>
-        <Literal>https://www.who.int/ictrp/network/primary/en/</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
             <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
@@ -3466,16 +3565,6 @@ http://www.who.int/ictrp/network/trds/en/index.html</Literal>
         <Literal>Combining a drug and device, a biological product and device; a drug and biological product; or a drug, biological product, and device</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="oboInOwl:hasNarrowSynonym"/>
-        <AbbreviatedIRI>obo:CTO_0000201</AbbreviatedIRI>
-        <Literal>phase</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <AbbreviatedIRI>obo:CTO_0000201</AbbreviatedIRI>
-        <Literal>https://www.who.int/ictrp/network/trds/en/</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
             <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
@@ -3483,15 +3572,6 @@ http://www.who.int/ictrp/network/trds/en/index.html</Literal>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
         <AbbreviatedIRI>obo:OPMI_0000376</AbbreviatedIRI>
         <Literal>behavioral</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <Annotation>
-            <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
-            <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
-        </Annotation>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
-        <AbbreviatedIRI>obo:CTO_0000207</AbbreviatedIRI>
-        <Literal>Exploratory trials, involving very limited human exposure, with no therapeutic or diagnostic intent (e.g., screening studies, microdose studies). (Formerly listed as &quot;Phase 0&quot;)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
