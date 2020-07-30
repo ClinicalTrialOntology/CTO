@@ -113,10 +113,9 @@
     </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">textual definition</rdfs:label>
+        <rdfs:label>textual definition</rdfs:label>
         <rdfs:label xml:lang="en">definition</rdfs:label>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</obo:IAO_0000111>
-        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">textual definition</obo:IAO_0000111>
         <oboInOwl:hasExactSynonym>DEFINITION</oboInOwl:hasExactSynonym>
         <obo:IAO_0000116 xml:lang="en">2012-04-05: 
 Barry Smith
@@ -142,6 +141,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
         <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
         <obo:IAO_0000115 xml:lang="en">The official OBI definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
+        <obo:IAO_0000111>textual definition</obo:IAO_0000111>
         <obo:IAO_0000115 xml:lang="en">The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
         <obo:IAO_0000111 xml:lang="en">definition</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
@@ -311,30 +311,6 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000148"/>
         <obo:IAO_0000115>The date on which a study completes</obo:IAO_0000115>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OPMI_0000298 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000298">
-        <rdfs:label xml:lang="en">clinical trial study completion date</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000297"/>
-        <obo:IAO_0000119>https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
-        <obo:IAO_0000115>The date the final participant was examined or received an intervention for purposes of final collection of data for the primary and secondary outcome measures and adverse events (for example, last participant’s last visit), whether the clinical study concluded according to the pre-specified protocol or was terminated.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OPMI_0000299 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000299">
-        <rdfs:label xml:lang="en">clinical trial primary completion date</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000297"/>
-        <obo:IAO_0000115>The date that the final participant was examined or received an intervention for the purposes of final collection of data for the primary outcome, whether the clinical study concluded according to the pre-specified protocol or was terminated. In the case of clinical studies with more than one primary outcome measure with different completion dates, this term refers to the date on which data collection is completed for all of the primary outcomes.</obo:IAO_0000115>
-        <obo:IAO_0000119>https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
     </owl:Class>
     
