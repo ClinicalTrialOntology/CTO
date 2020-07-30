@@ -41,7 +41,6 @@
     <Import>http://ontofox.hegroup.org/OBI_imports16.owl</Import>
     <Import>http://ontofox.hegroup.org/OGMS_import2.owl</Import>
     <Import>http://ontofox.hegroup.org/OMIABIS_Imports1.owl</Import>
-    <Import>http://ontofox.hegroup.org/OPMI12_import.owl</Import>
     <Import>http://ontofox.hegroup.org/OPMI13_imports.owl</Import>
     <Import>http://ontofox.hegroup.org/OPMI14_imports.owl</Import>
     <Import>http://ontofox.hegroup.org/OPMI15_imports.owl</Import>
