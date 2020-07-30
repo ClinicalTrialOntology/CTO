@@ -103,7 +103,6 @@
     <Import>http://purl.obolibrary.org/obo/OPMI_import3.owl</Import>
     <Import>http://purl.obolibrary.org/obo/OPMI_import4.owl</Import>
     <Import>http://purl.obolibrary.org/obo/OPMI_import5.owl</Import>
-    <Import>http://purl.obolibrary.org/obo/OPMI_import6.owl</Import>
     <Import>http://purl.obolibrary.org/obo/OPMI_import7.owl</Import>
     <Import>http://purl.obolibrary.org/obo/OPMI_import8.owl</Import>
     <Import>http://purl.obolibrary.org/obo/OPMI_import9.owl</Import>
