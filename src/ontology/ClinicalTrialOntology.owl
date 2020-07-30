@@ -1252,6 +1252,10 @@
         <Class abbreviatedIRI="obo:NCIT_C60776"/>
     </SubClassOf>
     <SubClassOf>
+        <Class abbreviatedIRI="obo:OPMI_0000296"/>
+        <Class abbreviatedIRI="obo:CTO_0000214"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class abbreviatedIRI="obo:PATO_0001241"/>
         <Class abbreviatedIRI="obo:BFO_0000019"/>
     </SubClassOf>

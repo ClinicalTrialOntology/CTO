@@ -5,12 +5,8 @@ http://purl.obolibrary.org/obo/OPMI_import.owl
 OPMI
 
 [Low level source term URIs]
-http://purl.obolibrary.org/obo/OPMI_0000295 #study start date
 http://purl.obolibrary.org/obo/OPMI_0000296 #clinical trial start date
-
 [Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/BFO_0000148 #zero-dimensional temporal region
-
 [Source term retrieval setting]
 includeAllIntermediates
 
