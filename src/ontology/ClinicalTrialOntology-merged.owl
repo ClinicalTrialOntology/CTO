@@ -957,6 +957,28 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
     
 
 
+    <!-- http://purl.obolibrary.org/obo/RO_0002248 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002248">
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002249"/>
+        <obo:IAO_0000112>Any portion of roundup &apos;has active ingredient&apos; some glyphosate</obo:IAO_0000112>
+        <obo:IAO_0000115>A relationship that holds between a substance and a chemical entity, if the chemical entity is part of the substance, and the chemical entity forms the biologically active component of the substance.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
+        <oboInOwl:hasExactSynonym>has active substance</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>has active pharmaceutical ingredient</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>has active ingredient</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002249 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002249">
+        <rdfs:label>active ingredient in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.w3.org/2000/01/rdf-schema#subClassOf -->
 
     <owl:ObjectProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#subClassOf">
@@ -7581,8 +7603,8 @@ The best way to determine if a vaccine is effective is to test it in a randomize
         <rdfs:seeAlso>http://cris.nih.go.kr/cris/en/use_guide/cris_introduce.jsp</rdfs:seeAlso>
     </rdf:Description>
     <rdf:Description rdf:about="obo:CTO_0000027">
-        <rdfs:seeAlso>https://slctr.lk/</rdfs:seeAlso>
         <rdfs:label>Sri Lanka clinical trials registry identifier</rdfs:label>
+        <rdfs:seeAlso>https://slctr.lk/</rdfs:seeAlso>
         <oboInOwl:hasExactSynonym>SLCTR identifier</oboInOwl:hasExactSynonym>
         <obo:IAO_0000115>A centrally registered identifier that is assigned for a specific clinical trial registered in the Sri Lanka clinical trials registry (SLCTR ). The format for the registry number is “SLCTR /” followed  by a 4-digit number, followed by a slash, followed a 3-digit number, e.g., SLCTR/2020/010</obo:IAO_0000115>
     </rdf:Description>

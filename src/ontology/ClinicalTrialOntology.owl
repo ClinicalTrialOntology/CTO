@@ -104,6 +104,7 @@
     <Import>http://purl.obolibrary.org/obo/OPMI_import7.owl</Import>
     <Import>http://purl.obolibrary.org/obo/PATO_import.owl</Import>
     <Import>http://purl.obolibrary.org/obo/PDRO_import.owl</Import>
+    <Import>http://ontofox.hegroup.org/4wwzuu97.owl</Import>
     <Import>http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl</Import>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="dc:contributor"/>
