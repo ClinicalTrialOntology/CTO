@@ -5,10 +5,10 @@ http://purl.obolibrary.org/obo/OPMI_donation.owl
 OPMI
 
 [Low level source term URIs]
-http://purl.obolibrary.org/obo/OPMI_0000300,http://purl.obolibrary.org/obo/CTO_0000200
-http://purl.obolibrary.org/obo/OPMI_0000367,http://purl.obolibrary.org/obo/CTO_0000201
-http://purl.obolibrary.org/obo/OPMI_0000372,http://purl.obolibrary.org/obo/CTO_0000202
-http://purl.obolibrary.org/obo/OPMI_0000368,http://purl.obolibrary.org/obo/CTO_0000203
+http://purl.obolibrary.org/obo/OPMI_0000300
+http://purl.obolibrary.org/obo/OPMI_0000367
+http://purl.obolibrary.org/obo/OPMI_0000372
+http://purl.obolibrary.org/obo/OPMI_0000368
 http://purl.obolibrary.org/obo/OPMI_0000369
 http://purl.obolibrary.org/obo/OPMI_0000370
 http://purl.obolibrary.org/obo/OPMI_0000371
