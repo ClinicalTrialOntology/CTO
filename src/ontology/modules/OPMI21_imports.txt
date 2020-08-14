@@ -1,11 +1,11 @@
 [URI of the OWL(RDF/XML) output file]
-
+http://purl.obolibrary.org/obo/NCIT_import21.owl
 
 [Source ontology]
 OPMI
 
 [Low level source term URIs]
-http://purl.obolibrary.org/obo/OPMI_0004507 #clinical trial
+http://purl.obolibrary.org/obo/OPMI_0000418 #human intervention study
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/OBI_0000011 #planned process

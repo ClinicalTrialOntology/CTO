@@ -6,7 +6,7 @@ OPMI
 
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/OPMI_0000297
-includeAllChildren
+
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/BFO_0000148

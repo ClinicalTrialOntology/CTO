@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://ontofox.hegroup.org/OPMI16_imports.owl#"
-     xml:base="http://ontofox.hegroup.org/OPMI16_imports.owl"
+<rdf:RDF xmlns="http://ontofox.hegroup.org/akrt6v6h.owl#"
+     xml:base="http://ontofox.hegroup.org/akrt6v6h.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
@@ -8,11 +8,11 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:obo="http://purl.obolibrary.org/obo/">
-    <owl:Ontology rdf:about="http://ontofox.hegroup.org/OPMI16_imports.owl"/>
+    <owl:Ontology rdf:about="http://ontofox.hegroup.org/akrt6v6h.owl"/>
+    
 
 
-
-    <!--
+    <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Annotation properties
@@ -21,24 +21,6 @@
      -->
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000602">
-        <rdfs:label>has associated axiom(fol)</rdfs:label>
-        <rdfs:label xml:lang="en">has associated axiom(fol)</rdfs:label>
-        <obo:IAO_0000600 xml:lang="en">An axiom expressed in first order logic using CLIF syntax</obo:IAO_0000600>
-        <obo:IAO_0000119 xml:lang="en">Person:Alan Ruttenberg</obo:IAO_0000119>
-        <obo:IAO_0000117 xml:lang="en">Person:Alan Ruttenberg</obo:IAO_0000117>
-        <obo:IAO_0000111 xml:lang="en">has associated axiom(fol)</obo:IAO_0000111>
-        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000601">
-        <rdfs:label>has associated axiom(nl)</rdfs:label>
-        <rdfs:label xml:lang="en">has associated axiom(nl)</rdfs:label>
-        <obo:IAO_0000600 xml:lang="en">An axiom associated with a term expressed using natural language</obo:IAO_0000600>
-        <obo:IAO_0000119 xml:lang="en">Person:Alan Ruttenberg</obo:IAO_0000119>
-        <obo:IAO_0000117 xml:lang="en">Person:Alan Ruttenberg</obo:IAO_0000117>
-        <obo:IAO_0000111 xml:lang="en">has associated axiom(nl)</obo:IAO_0000111>
-        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
-    </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#isDefinedBy"/>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P98">
         <rdfs:label>DesignNote</rdfs:label>
@@ -49,28 +31,7 @@
         <obo:IAO_0000115>Design notes are notations made by NCI vocabulary curators. They are intended to provide supplemental, unstructured information to the user or additional insight about the concept.</obo:IAO_0000115>
         <obo:NCIT_P108>DesignNote</obo:NCIT_P108>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000600">
-        <rdfs:label>elucidation</rdfs:label>
-        <rdfs:label xml:lang="en">elucidation</rdfs:label>
-        <obo:IAO_0000119 xml:lang="en">Person:Barry Smith</obo:IAO_0000119>
-        <obo:IAO_0000600 xml:lang="en">Primitive terms in a highest-level ontology such as BFO are terms which are so basic to our understanding of reality that there is no way of defining them in a non-circular fashion. For these, therefore, we can provide only elucidations, supplemented by examples and by axioms</obo:IAO_0000600>
-        <obo:IAO_0000111 xml:lang="en">elucidation</obo:IAO_0000111>
-        <obo:IAO_0000117 xml:lang="en">person:Alan Ruttenberg</obo:IAO_0000117>
-        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000179">
-        <rdfs:label>BFO OWL specification label</rdfs:label>
-        <rdfs:label xml:lang="en">BFO OWL specification label</rdfs:label>
-        <obo:IAO_0000111 xml:lang="en">BFO OWL specification label</obo:IAO_0000111>
-        <obo:IAO_0000232 xml:lang="en">Really of interest to developers only</obo:IAO_0000232>
-        <obo:IAO_0000115 xml:lang="en">Relates an entity in the ontology to the name of the variable that is used to represent it in the code that generates the BFO OWL file from the lispy specification.</obo:IAO_0000115>
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#is_metadata_tag"/>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_alternative_id</rdfs:label>
-    </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OPMI_0000364">
         <rdfs:label xml:lang="en">NCIT code</rdfs:label>
         <obo:IAO_0000115>An annotation property that refers to a code defined by NCIT</obo:IAO_0000115>
@@ -144,15 +105,7 @@
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
     </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
-        <rdfs:label>imported from</rdfs:label>
         <rdfs:label xml:lang="en">imported from</rdfs:label>
-        <obo:IAO_0000115 xml:lang="en">For external terms/classes, the ontology from which the term was imported</obo:IAO_0000115>
-        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
-        <obo:IAO_0000117 xml:lang="en">PERSON:Alan Ruttenberg</obo:IAO_0000117>
-        <obo:IAO_0000117 xml:lang="en">PERSON:Melanie Courtot</obo:IAO_0000117>
-        <obo:IAO_0000111 xml:lang="en">imported from</obo:IAO_0000111>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
-        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
     </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
@@ -160,7 +113,7 @@
         <rdfs:label xml:lang="en">definition</rdfs:label>
         <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</obo:IAO_0000111>
         <oboInOwl:hasExactSynonym>DEFINITION</oboInOwl:hasExactSynonym>
-        <obo:IAO_0000116 xml:lang="en">2012-04-05:
+        <obo:IAO_0000116 xml:lang="en">2012-04-05: 
 Barry Smith
 
 The official OBI definition, explaining the meaning of a class or property: &#39;Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions&#39;  is terrible.
@@ -171,13 +124,13 @@ A statement of necessary and sufficient conditions explaining the meaning of an 
 
 Alan Ruttenberg
 
-Your proposed definition is a reasonable candidate, except that it is very common that necessary and sufficient conditions are not given. Mostly they are necessary, occasionally they are necessary and sufficient or just sufficient. Often they use terms that are not themselves defined and so they effectively can&#39;t be evaluated by those criteria.
+Your proposed definition is a reasonable candidate, except that it is very common that necessary and sufficient conditions are not given. Mostly they are necessary, occasionally they are necessary and sufficient or just sufficient. Often they use terms that are not themselves defined and so they effectively can&#39;t be evaluated by those criteria. 
 
 On the specifics of the proposed definition:
 
-We don&#39;t have definitions of &#39;meaning&#39; or &#39;expression&#39; or &#39;property&#39;. For &#39;reference&#39; in the intended sense I think we use the term &#39;denotation&#39;. For &#39;expression&#39;, I think we you mean symbol, or identifier. For &#39;meaning&#39; it differs for class and property. For class we want documentation that let&#39;s the intended reader determine whether an entity is instance of the class, or not. For property we want documentation that let&#39;s the intended reader determine, given a pair of potential relata, whether the assertion that the relation holds is true. The &#39;intended reader&#39; part suggests that we also specify who, we expect, would be able to understand the definition, and also generalizes over human and computer reader to include textual and logical definition.
+We don&#39;t have definitions of &#39;meaning&#39; or &#39;expression&#39; or &#39;property&#39;. For &#39;reference&#39; in the intended sense I think we use the term &#39;denotation&#39;. For &#39;expression&#39;, I think we you mean symbol, or identifier. For &#39;meaning&#39; it differs for class and property. For class we want documentation that let&#39;s the intended reader determine whether an entity is instance of the class, or not. For property we want documentation that let&#39;s the intended reader determine, given a pair of potential relata, whether the assertion that the relation holds is true. The &#39;intended reader&#39; part suggests that we also specify who, we expect, would be able to understand the definition, and also generalizes over human and computer reader to include textual and logical definition. 
 
-Personally, I am more comfortable weakening definition to documentation, with instructions as to what is desirable.
+Personally, I am more comfortable weakening definition to documentation, with instructions as to what is desirable. 
 
 We also have the outstanding issue of how to aim different definitions to different audiences. A clinical audience reading chebi wants a different sort of definition documentation/definition from a chemistry trained audience, and similarly there is a need for a definition that is adequate for an ontologist to work with.  </obo:IAO_0000116>
         <obo:IAO_0000115>English language definitions of what NCI means by the concept. These are limited to 1024 characters. They may also include information about the definition&#39;s source and attribution in a form that can easily be interpreted by software.</obo:IAO_0000115>
@@ -192,15 +145,6 @@ We also have the outstanding issue of how to aim different definitions to differ
     </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">database_cross_reference</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000180">
-        <rdfs:label>BFO CLIF specification label</rdfs:label>
-        <rdfs:label xml:lang="en">BFO CLIF specification label</rdfs:label>
-        <obo:IAO_0000119>Person:Alan Ruttenberg</obo:IAO_0000119>
-        <obo:IAO_0000111 xml:lang="en">BFO CLIF specification label</obo:IAO_0000111>
-        <obo:IAO_0000232 xml:lang="en">Really of interest to developers only</obo:IAO_0000232>
-        <obo:IAO_0000115 xml:lang="en">Relates an entity in the ontology to the term that is used to represent it in the the CLIF specification of BFO2</obo:IAO_0000115>
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
     </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112">
         <rdfs:label>example of usage</rdfs:label>
@@ -228,21 +172,6 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000115 xml:lang="en">The concise, meaningful, and human-friendly name for a class or property preferred by the ontology developers. (US-English)</obo:IAO_0000115>
         <obo:IAO_0000111 xml:lang="en">editor preferred label</obo:IAO_0000111>
         <obo:IAO_0000111 xml:lang="en">editor preferred term</obo:IAO_0000111>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
-        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000232">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">curator notes</rdfs:label>
-        <rdfs:label>curator note</rdfs:label>
-        <rdfs:label xml:lang="en">curator note</rdfs:label>
-        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</oboInOwl:is_metadata_tag>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IAO:0000232</oboInOwl:hasDbXref>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">curator_notes</oboInOwl:id>
-        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">curator_notes</oboInOwl:shorthand>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uberon</oboInOwl:hasOBONamespace>
-        <obo:IAO_0000115 xml:lang="en">An administrative note of use for a curator but of no use for a user</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">PERSON:Alan Ruttenberg</obo:IAO_0000117>
-        <obo:IAO_0000111 xml:lang="en">curator note</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
     </owl:AnnotationProperty>
@@ -306,10 +235,10 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:NCIT_P108>Preferred_Name</obo:NCIT_P108>
         <oboInOwl:hasExactSynonym>Preferred_Name</oboInOwl:hasExactSynonym>
     </owl:AnnotationProperty>
+    
 
 
-
-    <!--
+    <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Datatypes
@@ -317,10 +246,10 @@ We also have the outstanding issue of how to aim different definitions to differ
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
 
 
-
-    <!--
+    <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Object Properties
@@ -328,20 +257,26 @@ We also have the outstanding issue of how to aim different definitions to differ
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000136 -->
 
-    <!-- http://www.w3.org/2000/01/rdf-schema#subClassOf -->
-
-    <owl:ObjectProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#subClassOf">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/gaz.owl"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000136">
+        <rdfs:label xml:lang="en">is about</rdfs:label>
     </owl:ObjectProperty>
+    
 
 
+    <!-- http://purl.obolibrary.org/obo/OPMI_0000366 -->
 
-    <!--
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OPMI_0000366">
+        <rdfs:label xml:lang="en">has process quality</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Classes
@@ -349,73 +284,197 @@ We also have the outstanding issue of how to aim different definitions to differ
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
 
 
+    <!-- http://purl.obolibrary.org/obo/CTO_0000213 -->
 
-    <!-- http://purl.obolibrary.org/obo/BFO_0000019 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CTO_0000213">
+        <rdfs:label xml:lang="en">USA National Clinical Trial identifier</rdfs:label>
+        <obo:IAO_0000118>National Clinical Trial identifier</obo:IAO_0000118>
+        <obo:IAO_0000119>https://www.nlm.nih.gov/bsd/policy/clin_trials.html</obo:IAO_0000119>
+        <obo:IAO_0000118>NCT identifier</obo:IAO_0000118>
+        <obo:IAO_0000119>https://clinicaltrials.gov/ct2/about-site/link-to</obo:IAO_0000119>
+        <obo:IAO_0000117>Qingliang Leon Li, Asiyah Yu Lin, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118>NCT number</obo:IAO_0000118>
+        <obo:IAO_0000115>A centrally registered identifier that is assigned for a specific clinical trial registered in  the ClinicalTrials.gov. The format for the ClinicalTrials.gov registry number is “NCT” followed by an 8-digit number, e.g.: NCT00000419.</obo:IAO_0000115>
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000019">
-        <rdfs:label xml:lang="en">quality</rdfs:label>
-        <obo:IAO_0000602>(forall (x) (if (Quality x) (SpecificallyDependentContinuant x))) // axiom label in BFO2 CLIF: [055-001] </obo:IAO_0000602>
-        <obo:BFO_0000179>quality</obo:BFO_0000179>
-        <obo:BFO_0000180>Quality</obo:BFO_0000180>
-        <obo:IAO_0000602>(forall (x) (if (exists (t) (and (existsAt x t) (Quality x))) (forall (t_1) (if (existsAt x t_1) (Quality x))))) // axiom label in BFO2 CLIF: [105-001] </obo:IAO_0000602>
-        <obo:IAO_0000601 xml:lang="en">If an entity is a quality at any time that it exists, then it is a quality at every time that it exists. (axiom label in BFO2 Reference: [105-001])</obo:IAO_0000601>
-        <obo:IAO_0000600 xml:lang="en">a quality is a specifically dependent continuant that, in contrast to roles and dispositions, does not require any further process in order to be realized. (axiom label in BFO2 Reference: [055-001])</obo:IAO_0000600>
-        <obo:IAO_0000112 xml:lang="en">the ambient temperature of this portion of air</obo:IAO_0000112>
-        <obo:IAO_0000112 xml:lang="en">the color of a tomato</obo:IAO_0000112>
-        <obo:IAO_0000112 xml:lang="en">the length of the circumference of your waist</obo:IAO_0000112>
-        <obo:IAO_0000112 xml:lang="en">the mass of this piece of gold.</obo:IAO_0000112>
-        <obo:IAO_0000112 xml:lang="en">the shape of your nose</obo:IAO_0000112>
-        <obo:IAO_0000112 xml:lang="en">the shape of your nostril</obo:IAO_0000112>
-        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
     </owl:Class>
+    
 
 
+    <!-- http://purl.obolibrary.org/obo/CTO_0000217 -->
 
-    <!-- http://purl.obolibrary.org/obo/OPMI_0000367 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CTO_0000217">
+        <rdfs:label xml:lang="en">title of clinical trial</rdfs:label>
+        <obo:IAO_0000115>A textual entity that is the title of a clinical trial</obo:IAO_0000115>
+        <obo:IAO_0000119>https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000367">
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CTO_0000219 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CTO_0000219">
+        <rdfs:label xml:lang="en">official title of clinical trial</rdfs:label>
+        <obo:IAO_0000119>https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
+        <obo:IAO_0000115>A title of clinical trial that is recorded as official</obo:IAO_0000115>
+
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CTO_0000218 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CTO_0000218">
+        <rdfs:label xml:lang="en">lay title of clinical trial</rdfs:label>
+        <obo:IAO_0000115>A title of clinical trial that is meant for lay people understanding</obo:IAO_0000115>
+        <obo:IAO_0000119>https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
+
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CTO_0000214 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CTO_0000214">
+        <rdfs:label xml:lang="en">study start date</rdfs:label>
+        <obo:IAO_0000115>The date on which a study starts</obo:IAO_0000115>
+
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CTO_0000216 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CTO_0000216">
+        <rdfs:label xml:lang="en">clinical trial study completion date</rdfs:label>
+        <obo:IAO_0000119>https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
+        <obo:IAO_0000115>The date the final participant was examined or received an intervention for purposes of final collection of data for the primary and secondary outcome measures and adverse events (for example, last participant’s last visit), whether the clinical study concluded according to the pre-specified protocol or was terminated.</obo:IAO_0000115>
+
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CTO_0000215 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CTO_0000215">
+        <rdfs:label xml:lang="en">clinical trial primary completion date</rdfs:label>
+        <obo:IAO_0000115>The date that the final participant was examined or received an intervention for the purposes of final collection of data for the primary outcome, whether the clinical study concluded according to the pre-specified protocol or was terminated. In the case of clinical studies with more than one primary outcome measure with different completion dates, this term refers to the date on which data collection is completed for all of the primary outcomes.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
+
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CTO_0000200 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CTO_0000200">
+        <rdfs:label xml:lang="en">clinical trial primary purpose specification</rdfs:label>
+        <obo:IAO_0000115>The main objective of the intervention(s) being evaluated by the clinical trial.</obo:IAO_0000115>
+        <obo:IAO_0000118>primary purpose of clinical trial</obo:IAO_0000118>
+        <obo:IAO_0000119>https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
+
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CTO_0000209 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CTO_0000209">
+        <rdfs:label xml:lang="en">Japan clinical trial identifier</rdfs:label>
+        <obo:IAO_0000119>https://pubchem.ncbi.nlm.nih.gov/source/NIPH%20Clinical%20Trials%20Search%20of%20Japan</obo:IAO_0000119>
+        <obo:IAO_0000117>Qingliang Leon Li, Asiyah Yu Lin, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://rctportal.niph.go.jp/en/</obo:IAO_0000119>
+
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CTO_0000212 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CTO_0000212">
+        <rdfs:label xml:lang="en">UMIN-CTR clinical trial identifier</rdfs:label>
+        <obo:IAO_0000115>A Japan clinical trial identifier provided by the University Hospital Medical Information Network Center (UMIN-CTR)</obo:IAO_0000115>
+        <obo:IAO_0000119>https://rctportal.niph.go.jp/en/</obo:IAO_0000119>
+        <obo:IAO_0000117>Qingliang Leon Li, Asiyah Yu Lin, Oliver He</obo:IAO_0000117>
+
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CTO_0000210 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CTO_0000210">
+        <rdfs:label xml:lang="en">JAPIC clinical trial identifier</rdfs:label>
+        <obo:IAO_0000117>Qingliang Leon Li, Asiyah Yu Lin, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://rctportal.niph.go.jp/en/</obo:IAO_0000119>
+
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CTO_0000211 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CTO_0000211">
+        <rdfs:label xml:lang="en">JMACCT clinical trial identifier</rdfs:label>
+        <obo:IAO_0000119>https://rctportal.niph.go.jp/en/</obo:IAO_0000119>
+        <obo:IAO_0000117>Qingliang Leon Li, Asiyah Yu Lin, Oliver He</obo:IAO_0000117>
+
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CTO_0000208 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CTO_0000208">
+        <rdfs:label xml:lang="en">European clinical trial registry identifier</rdfs:label>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/EudraCT</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.clinicaltrialsregister.eu/ctr-search/search</obo:IAO_0000119>
+        <obo:IAO_0000112>EudraCT Number: 2007-002422-29</obo:IAO_0000112>
+        <obo:IAO_0000119>https://www.clinicaltrialsregister.eu/ctr-search/search?query=eudract</obo:IAO_0000119>
+        <obo:IAO_0000117>Qingliang Leon Li, Asiyah Yu Lin, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118>EudraCT identifier</obo:IAO_0000118>
+
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CTO_0000201 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CTO_0000201">
         <rdfs:label xml:lang="en">clinical trial phase</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001236"/>
         <obo:IAO_0000117>Leon Li, Asiyah Lin, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000115>The quality of a clinical trial that studies a drug or biological product. The phase is based on the study&#39;s objective, the number of participants, and other characteristics. According to USA FDA, there are five phases: Early Phase 1 (formerly listed as Phase 0), Phase 1, Phase 2, Phase 3, and Phase 4.</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.clinicaltrials.gov/ct2/help/glossary/phase</obo:IAO_0000119>
         <obo:IAO_0000118>clinical trial stage</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+
     </owl:Class>
+    
 
 
+    <!-- http://purl.obolibrary.org/obo/CTO_0000203 -->
 
-    <!-- http://purl.obolibrary.org/obo/OPMI_0000368 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000368">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CTO_0000203">
         <rdfs:label xml:lang="en">clinical trial phase 1</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000367"/>
         <obo:NCIT_P207>C0920321</obo:NCIT_P207>
-        <obo:OPMI_0000364>C15600</obo:OPMI_0000364>
-        <obo:IAO_0000118>Phase I</obo:IAO_0000118>
         <obo:IAO_0000118>Phase 1</obo:IAO_0000118>
+        <obo:OPMI_0000364>C15600</obo:OPMI_0000364>
         <obo:IAO_0000115>A clinical trial phase that represents the first-in-man trial, which tests within a small group of people (typically 20-80) to evaluate safety, determine safe dosage ranges, and begin to identify side effects. A drug&#39;s side effects could be subtle or long term, or may only happen with a few people, so phase 1 trials are not expected to identify all side effects.</obo:IAO_0000115>
         <obo:IAO_0000117>Leon Li, Asiyah Lin, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Clinical_trial</obo:IAO_0000119>
         <obo:IAO_0000119>http://purl.obolibrary.org/obo/NCIT_C15600</obo:IAO_0000119>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+        <obo:IAO_0000118>Phase I</obo:IAO_0000118>
+
     </owl:Class>
+    
 
 
+    <!-- http://purl.obolibrary.org/obo/CTO_0000204 -->
 
-    <!-- http://purl.obolibrary.org/obo/OPMI_0000369 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000369">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CTO_0000204">
         <rdfs:label xml:lang="en">clinical trial phase 2</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000367"/>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Clinical_trial</obo:IAO_0000119>
         <obo:IAO_0000117>Leon Li, Asiyah Lin, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>http://purl.obolibrary.org/obo/NCIT_C15601</obo:IAO_0000119>
@@ -423,16 +482,15 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:NCIT_P207>C0282460</obo:NCIT_P207>
         <obo:IAO_0000115>A clinical trial phase that is designed to study a biomedical or behavioral intervention in a larger group of people (several hundred), to evaluate the drug&#39;s effectiveness for a particular indication in patients with the disease or condition under study, and to determine the common short-term side effects and risks associated with the intervention. [def-source: NCI]</obo:IAO_0000115>
         <obo:OPMI_0000364>C15601</obo:OPMI_0000364>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+
     </owl:Class>
+    
 
 
+    <!-- http://purl.obolibrary.org/obo/CTO_0000205 -->
 
-    <!-- http://purl.obolibrary.org/obo/OPMI_0000370 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000370">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CTO_0000205">
         <rdfs:label xml:lang="en">clinical trial phase 3</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000367"/>
         <obo:NCIT_P207>C0282461</obo:NCIT_P207>
         <obo:OPMI_0000364>C15602</obo:OPMI_0000364>
         <obo:IAO_0000115>A clinical trial phase that is designed to investigate the efficacy of the biomedical or behavioral intervention in large groups of human subjects (from several hundred to several thousand), to confirm efficacy, to monitor adverse reactions to the new medication or treatment regimen with respect to long-term use and by comparing the intervention to other standard or experimental interventions as well as to a placebo. [def-source: NCI]</obo:IAO_0000115>
@@ -440,68 +498,117 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Clinical_trial</obo:IAO_0000119>
         <obo:IAO_0000119>http://purl.obolibrary.org/obo/NCIT_C15602</obo:IAO_0000119>
         <obo:IAO_0000118>Phase III</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+
     </owl:Class>
+    
 
 
+    <!-- http://purl.obolibrary.org/obo/CTO_0000206 -->
 
-    <!-- http://purl.obolibrary.org/obo/OPMI_0000371 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000371">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CTO_0000206">
         <rdfs:label xml:lang="en">clinical trial phase 4</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000367"/>
         <obo:IAO_0000117>Leon Li, Asiyah Lin, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Clinical_trial</obo:IAO_0000119>
         <obo:NCIT_P207>C0282462</obo:NCIT_P207>
         <obo:OPMI_0000364>C15603</obo:OPMI_0000364>
         <obo:IAO_0000115>A clinical trial phase that is designed for a randomized, controlled trial to evaluate the long-term safety and efficacy of a drug for a given indication. Often they are designed to study side effects that may have become apparent after the phase III study was completed. [def-source: NCI]</obo:IAO_0000115>
         <obo:IAO_0000118>Phase IV</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+
     </owl:Class>
+    
 
 
+    <!-- http://purl.obolibrary.org/obo/CTO_0000202 -->
 
-    <!-- http://purl.obolibrary.org/obo/OPMI_0000372 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPMI_0000372">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CTO_0000202">
         <rdfs:label>clinical trial early phase 1</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000367"/>
         <obo:IAO_0000118>Pre-Clinical Phase</obo:IAO_0000118>
         <obo:IAO_0000118></obo:IAO_0000118>
         <obo:IAO_0000117>Leon Li, Asiyah Lin, Oliver He</obo:IAO_0000117>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Clinical_trial</obo:IAO_0000119>
         <obo:IAO_0000118>Early Phase 1</obo:IAO_0000118>
-        <obo:IAO_0000118 xml:lang="en">clinical trial phase 0</obo:IAO_0000118>
         <obo:IAO_0000119>http://purl.obolibrary.org/obo/NCIT_C54721</obo:IAO_0000119>
         <obo:NCIT_P207>C1882358</obo:NCIT_P207>
         <obo:OPMI_0000364>C54721</obo:OPMI_0000364>
         <obo:IAO_0000115>A clinical trial phase that is designed to use an investigational agent that is available only in very limited quantities and which has never previously given to humans or for which there is extremely limited human experience. Phase 0 clinical trials are intended to enable researchers to understand the path of the drug in the body and its efficacy. Adverse event reporting in Phase 0 trials is expedited. [def-source: NCI]</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
+        <obo:IAO_0000118 xml:lang="en">clinical trial phase 0</obo:IAO_0000118>
+
     </owl:Class>
+    
 
 
+    <!-- http://purl.obolibrary.org/obo/CTO_0000220 -->
 
-    <!-- http://purl.obolibrary.org/obo/PATO_0001236 -->
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CTO_0000220">
+        <rdfs:label xml:lang="en">clinical trial</rdfs:label>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Clinical_trial</obo:IAO_0000119>
+        <obo:IAO_0000115>a clinical trial is a medical interventional study where participants are assigned prospectively to an intervention or interventions according to a protocol to evaluate the safety and efficacy of the intervention(s) on biomedical or other health related outcomes. The Interventions include but are not restricted to drugs, cells and other biological products, surgical procedures, radiologic procedures, devices, behavioral treatments, process-of-care changes, preventive care, etc.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.who.int/ictrp/en/</obo:IAO_0000119>
+        <obo:IAO_0000119>https://prsinfo.clinicaltrials.gov/definitions.html</obo:IAO_0000119>
+        <obo:IAO_0000119>https://clinicaltrials.gov/ct2/search/map</obo:IAO_0000119>
+        <obo:IAO_0000117>Oliver He, Asiyah Yu Lin, Qingliang Li</obo:IAO_0000117>
+        <obo:IAO_0000118>interventional trial</obo:IAO_0000118>
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001236">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">process quality</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A quality which inheres in an process.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATO:0001236</oboInOwl:id>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATO:0001239</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PATO:0001240</oboInOwl:hasAlternativeId>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">See comments of relational quality of a physical entity.</rdfs:comment>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quality</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quality of a process</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quality of occurrent</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quality of process</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">relational quality of occurrent</oboInOwl:hasExactSynonym>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/opmi.owl"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CTO_0000207 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CTO_0000207">
+        <rdfs:label xml:lang="en">Early Phase 1 clinical trial</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000366"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CTO_0000202"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A clinical trial that is at Early Phase 1 or Phase 0</obo:IAO_0000115>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Clinical_trial</obo:IAO_0000119>
+        <obo:IAO_0000118>Pre-Clinical Trial</obo:IAO_0000118>
+        <obo:IAO_0000119>http://purl.obolibrary.org/obo/NCIT_C54721</obo:IAO_0000119>
+        <obo:IAO_0000118>Phase 0 clinical trial</obo:IAO_0000118>
+        <obo:IAO_0000115>A clinical trial that is at an Early Phase i or Phase 0, which is designed to use an investigational agent that is available only in very limited quantities and which has never previously given to humans or for which there is extremely limited human experience. Phase 0 clinical trials are intended to enable researchers to understand the path of the drug in the body and its efficacy. Adverse event reporting in Phase 0 trials is expedited. [def-source: NCI]</obo:IAO_0000115>
+        <obo:IAO_0000117>Leon Li, Asiyah Lin, Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118>Phase 0 trial</obo:IAO_0000118>
+
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000122 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000122">
+        <rdfs:label xml:lang="en">ready for release</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000125 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000125">
+        <rdfs:label xml:lang="en">pending final vetting</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/iao.owl -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/iao.owl"/>
 </rdf:RDF>
 
 
 
 <!-- Generated by the OWL API (version 1.3.5.1016) http://owlapi.sourceforge.net -->
+

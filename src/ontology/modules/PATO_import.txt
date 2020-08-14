@@ -8,8 +8,12 @@ PATO
 http://purl.obolibrary.org/obo/PATO_0000384
 http://purl.obolibrary.org/obo/PATO_0000383
 
+
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/PATO_0001241
+
+http://purl.obolibrary.org/obo/PATO_0001236
+subClassOf http://purl.obolibrary.org/obo/BFO_0000019 #quality
 
 [Source term retrieval setting]
 includeAllIntermediates
