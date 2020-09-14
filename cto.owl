@@ -3341,8 +3341,9 @@ Each primary outcome measure information includes title, description and time fr
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CTO_0000077">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001843"/>
-        <obo:IAO_0000115>A clinical trials registry is a specifc registry type that enables the registration and documentation of clinical trials.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">clinical trials registry</rdfs:label>
+        <obo:IAO_0000115>A clinical trials registry organization is an organization that enables the registration and documentation of clinical trials.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>clinical trials registry</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">clinical trials registry organization</rdfs:label>
     </owl:Class>
     
 
@@ -7582,8 +7583,8 @@ The best way to determine if a vaccine is effective is to test it in a randomize
         <rdfs:seeAlso>http://cris.nih.go.kr/cris/en/use_guide/cris_introduce.jsp</rdfs:seeAlso>
     </rdf:Description>
     <rdf:Description rdf:about="obo:CTO_0000027">
-        <rdfs:label>Sri Lanka clinical trials registry identifier</rdfs:label>
         <rdfs:seeAlso>https://slctr.lk/</rdfs:seeAlso>
+        <rdfs:label>Sri Lanka clinical trials registry identifier</rdfs:label>
         <oboInOwl:hasExactSynonym>SLCTR identifier</oboInOwl:hasExactSynonym>
         <obo:IAO_0000115>A centrally registered identifier that is assigned for a specific clinical trial registered in the Sri Lanka clinical trials registry (SLCTR ). The format for the registry number is “SLCTR /” followed  by a 4-digit number, followed by a slash, followed a 3-digit number, e.g., SLCTR/2020/010</obo:IAO_0000115>
     </rdf:Description>
@@ -7591,8 +7592,8 @@ The best way to determine if a vaccine is effective is to test it in a randomize
         <rdfs:label>jRTC clinical trials register</rdfs:label>
         <rdfs:seeAlso>https://rctportal.niph.go.jp/en/</rdfs:seeAlso>
         <obo:IAO_0000115>The jRTC (Japan Registry of Clinical Trials) clinical trial registry is a primary clinical trial registry recognised by WHO and ICMJE that enables the registration of clinical trials.</obo:IAO_0000115>
-        <rdfs:seeAlso>https://jrct.niph.go.jp/</rdfs:seeAlso>
         <oboInOwl:hasExactSynonym>Japan Registry of Clinical Trials</oboInOwl:hasExactSynonym>
+        <rdfs:seeAlso>https://jrct.niph.go.jp/</rdfs:seeAlso>
         <oboInOwl:hasExactSynonym>jRTC</oboInOwl:hasExactSynonym>
     </rdf:Description>
     <rdf:Description rdf:about="obo:CTO_0000042">
