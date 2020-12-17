@@ -1,6 +1,6 @@
 # CTO: Clinical Trial Ontology
 
-- This is a collaborative effort undertaken by Fraunhofer SCAI group(Stepan Gebel, Alpha Tom Kodamullil, Sumit Madan, Johannes Darms), University of Michigan(Yongqun "Oliver" He), NIH PubChem (Qingliang "Leon" Li), and CDRH/FDA (Asiyah Lin) to develop an ontology to represent clinical trials using a small set of core terms. 
+- This is a collaborative effort undertaken by Fraunhofer SCAI group(Stepan Gebel, Alpha Tom Kodamullil, Sumit Madan, Johannes Darms), University of Michigan(Yongqun "Oliver" He), NIH PubChem (Qingliang "Leon" Li), and NIH/NHGRI (Asiyah Lin) to develop an ontology to represent clinical trials using a small set of core terms. 
 
 - The CTO-core uses Basic Formal Ontology (BFO) as its top level ontology.
 
