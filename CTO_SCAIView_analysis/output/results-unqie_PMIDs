@@ -1,0 +1,17 @@
+results-hydroxychloroquine.txt
+The results-hydroxychloroquine.txt contains 8103 rows in total.
+There are 7617 rows with PMID.
+There are 1107 unique PMIDs.
+Out of 486 without PMID, 425 has DOI ids, 61 are in a separate file to review manually.
+
+results-imatinib.txt
+The results-imatinib.txt contains 1007 rows in total.
+There are 993 rows with PMID.
+There are 83 unique PMIDs.
+Out of 14 without PMID, 14 has DOI ids, 0 are in a separate file to review manually.
+
+results-ivermectin.txt
+The results-ivermectin.txt contains 2058 rows in total.
+There are 1972 rows with PMID.
+There are 138 unique PMIDs.
+Out of 86 without PMID, 75 has DOI ids, 11 are in a separate file to review manually.
