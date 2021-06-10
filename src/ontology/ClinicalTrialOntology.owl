@@ -367,6 +367,9 @@
         <Class abbreviatedIRI="obo:CTO_0000106"/>
     </Declaration>
     <Declaration>
+        <Class abbreviatedIRI="obo:CTO_0000107"/>
+    </Declaration>
+    <Declaration>
         <Class abbreviatedIRI="obo:CTO_0000108"/>
     </Declaration>
     <Declaration>
@@ -398,6 +401,12 @@
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:CTO_0000118"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:CTO_0000119"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:CTO_0000120"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:CTO_0000201"/>
@@ -610,6 +619,39 @@
         <ObjectProperty abbreviatedIRI="obo:BFO_0000051"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty abbreviatedIRI="obo:CTO_0000126"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="obo:CTO_0000127"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="obo:CTO_0000128"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="obo:CTO_0000129"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="obo:CTO_0000130"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="obo:CTO_0000131"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:CTO_0000121"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:CTO_0000122"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:CTO_0000123"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:CTO_0000124"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:CTO_0000125"/>
+    </Declaration>
+    <Declaration>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
     </Declaration>
     <Declaration>
@@ -644,6 +686,9 @@
     </Declaration>
     <Declaration>
         <Datatype abbreviatedIRI="rdf:langString"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
     </Declaration>
     <SubClassOf>
         <Class abbreviatedIRI="obo:CTO_0000001"/>
@@ -906,6 +951,10 @@
         <Class abbreviatedIRI="obo:CTO_0000104"/>
     </SubClassOf>
     <SubClassOf>
+        <Class abbreviatedIRI="obo:CTO_0000107"/>
+        <Class abbreviatedIRI="obo:OAE_0000002"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class abbreviatedIRI="obo:CTO_0000108"/>
         <Class abbreviatedIRI="obo:CHEBI_23367"/>
     </SubClassOf>
@@ -948,6 +997,14 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:CTO_0000118"/>
         <Class abbreviatedIRI="obo:CTO_0000016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:CTO_0000119"/>
+        <Class abbreviatedIRI="obo:CTO_0000107"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:CTO_0000120"/>
+        <Class abbreviatedIRI="obo:CTO_0000107"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:CTO_0000200"/>
@@ -2685,6 +2742,21 @@ Each primary outcome measure information includes title, description and time fr
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">secondary outcome measurement datum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:CTO_0000107</AbbreviatedIRI>
+        <Literal>Asiyah Yu Lin, Qingliang &quot;Leon&quot; Li</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <AbbreviatedIRI>obo:CTO_0000107</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-06-10T13:15:41Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:CTO_0000107</AbbreviatedIRI>
+        <Literal xml:lang="en">investigational molecular entity administration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:CTO_0000108</AbbreviatedIRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">investigational molecular entity</Literal>
@@ -2802,6 +2874,409 @@ Each primary outcome measure information includes title, description and time fr
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:CTO_0000118</AbbreviatedIRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">secondary outcome measurement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:CTO_0000119</AbbreviatedIRI>
+        <Literal>Asiyah Yu Lin, Qingliang &quot;Leon&quot; Li</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <AbbreviatedIRI>obo:CTO_0000119</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-06-10T13:15:58Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:CTO_0000119</AbbreviatedIRI>
+        <Literal xml:lang="en">investigational drug administration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:CTO_0000120</AbbreviatedIRI>
+        <Literal>Asiyah Yu Lin, Qingliang &quot;Leon&quot; Li</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <AbbreviatedIRI>obo:CTO_0000120</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-06-10T13:16:26Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:CTO_0000120</AbbreviatedIRI>
+        <Literal xml:lang="en">investigational supplement administration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:CTO_0000121"/>
+        <AbbreviatedIRI>obo:CTO_0000121</AbbreviatedIRI>
+        <Literal>Corresponding to CT.gov XML tag &quot;official_title&quot;
+
+&lt;xs:element name=&quot;clinical_study&quot;&gt;
+&lt;xs:complexType&gt;
+&lt;xs:sequence&gt;
+...
+&lt;xs:element name=&quot;official_title&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot;/&gt;
+...</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:CTO_0000121</AbbreviatedIRI>
+        <Literal>Asiyah Yu Lin, Qingliang &quot;Leon&quot; Li</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <AbbreviatedIRI>obo:CTO_0000121</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-06-10T13:26:41Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:source"/>
+        <AbbreviatedIRI>obo:CTO_0000121</AbbreviatedIRI>
+        <Literal>https://clinicaltrials.gov/ct2/html/images/info/public.xsd</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:CTO_0000121</AbbreviatedIRI>
+        <Literal xml:lang="en">hasOfficialTitle</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000116"/>
+        <AbbreviatedIRI>obo:CTO_0000122</AbbreviatedIRI>
+        <Literal>Corresponding to CT.gov XML tag &quot;brief_title&quot;
+
+&lt;xs:element name=&quot;clinical_study&quot;&gt;
+&lt;xs:complexType&gt;
+&lt;xs:sequence&gt;
+...
+&lt;xs:element name=&quot;brief_title&quot; type=&quot;xs:string&quot;/&gt;
+...</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:CTO_0000122</AbbreviatedIRI>
+        <Literal>Asiyah Yu Lin, Qingliang &quot;Leon&quot; Li</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <AbbreviatedIRI>obo:CTO_0000122</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-06-10T13:32:02Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:source"/>
+        <AbbreviatedIRI>obo:CTO_0000122</AbbreviatedIRI>
+        <Literal>https://clinicaltrials.gov/ct2/html/images/info/public.xsd</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:CTO_0000122</AbbreviatedIRI>
+        <Literal xml:lang="en">hasBriefTitle</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000116"/>
+        <AbbreviatedIRI>obo:CTO_0000123</AbbreviatedIRI>
+        <Literal>Corresponding to CT.gov XML tag &quot;primary completion date&quot; with flag &quot;Actual&quot;
+
+
+&lt;xs:element name=&quot;clinical_study&quot;&gt;
+&lt;xs:complexType&gt;
+&lt;xs:sequence&gt;
+...
+&lt;xs:element name=&quot;primary_completion_date&quot; type=&quot;variable_date_struct&quot; minOccurs=&quot;0&quot;/&gt;
+...</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:CTO_0000123</AbbreviatedIRI>
+        <Literal>Asiyah Yu Lin,</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <AbbreviatedIRI>obo:CTO_0000123</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-06-10T13:33:12Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:source"/>
+        <AbbreviatedIRI>obo:CTO_0000123</AbbreviatedIRI>
+        <Literal>https://clinicaltrials.gov/ct2/html/images/info/public.xsd</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:CTO_0000123</AbbreviatedIRI>
+        <Literal xml:lang="en">hasCompletionDate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000116"/>
+        <AbbreviatedIRI>obo:CTO_0000124</AbbreviatedIRI>
+        <Literal>Corresponding to CT.gov XML tag &quot;start_date&quot; with flag &quot;Actual&quot;.
+
+&lt;xs:element name=&quot;clinical_study&quot;&gt;
+&lt;xs:complexType&gt;
+&lt;xs:sequence&gt;
+...
+&lt;xs:element name=&quot;start_date&quot; type=&quot;variable_date_struct&quot; minOccurs=&quot;0&quot;/&gt;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:CTO_0000124</AbbreviatedIRI>
+        <Literal>Asiyah Yu Lin, Qingliang &quot;Leon&quot; Li</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <AbbreviatedIRI>obo:CTO_0000124</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-06-10T13:35:06Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:source"/>
+        <AbbreviatedIRI>obo:CTO_0000124</AbbreviatedIRI>
+        <Literal>https://clinicaltrials.gov/ct2/html/images/info/public.xsd</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:CTO_0000124</AbbreviatedIRI>
+        <Literal xml:lang="en">hasStartDate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000116"/>
+        <AbbreviatedIRI>obo:CTO_0000125</AbbreviatedIRI>
+        <Literal>Corresponding to CT.gov XML tag &quot;phase&quot;:
+
+&lt;xs:simpleType name=&quot;phase_enum&quot;&gt;
+&lt;xs:restriction base=&quot;xs:string&quot;&gt;
+&lt;xs:enumeration value=&quot;N/A&quot;/&gt;
+&lt;xs:enumeration value=&quot;Early Phase 1&quot;/&gt;
+&lt;xs:enumeration value=&quot;Phase 1&quot;/&gt;
+&lt;xs:enumeration value=&quot;Phase 1/Phase 2&quot;/&gt;
+&lt;xs:enumeration value=&quot;Phase 2&quot;/&gt;
+&lt;xs:enumeration value=&quot;Phase 2/Phase 3&quot;/&gt;
+&lt;xs:enumeration value=&quot;Phase 3&quot;/&gt;
+&lt;xs:enumeration value=&quot;Phase 4&quot;/&gt;
+&lt;/xs:restriction&gt;
+&lt;/xs:simpleType&gt;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:CTO_0000125</AbbreviatedIRI>
+        <Literal>Asiyah Yu Lin, Qingliang &quot;Leon&quot; Li</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <AbbreviatedIRI>obo:CTO_0000125</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-06-10T13:36:18Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:source"/>
+        <AbbreviatedIRI>obo:CTO_0000125</AbbreviatedIRI>
+        <Literal>https://clinicaltrials.gov/ct2/html/images/info/public.xsd</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:CTO_0000125</AbbreviatedIRI>
+        <Literal xml:lang="en">hasPhase</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000116"/>
+        <AbbreviatedIRI>obo:CTO_0000126</AbbreviatedIRI>
+        <Literal>Corresponding to CT.gov XML tag &quot;Principal Investigator&quot;, a type of &quot;responsible party&quot;
+
+&lt;xs:simpleType name=&quot;role_enum&quot;&gt;
+&lt;xs:restriction base=&quot;xs:string&quot;&gt;
+&lt;xs:enumeration value=&quot;Principal Investigator&quot;/&gt;
+&lt;xs:enumeration value=&quot;Sub-Investigator&quot;/&gt;
+&lt;xs:enumeration value=&quot;Study Chair&quot;/&gt;
+&lt;xs:enumeration value=&quot;Study Director&quot;/&gt;
+&lt;/xs:restriction&gt;
+&lt;/xs:simpleType&gt;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:CTO_0000126</AbbreviatedIRI>
+        <Literal>Asiyah Yu Lin, Qingliang &quot;Leon&quot; Li</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <AbbreviatedIRI>obo:CTO_0000126</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-06-10T13:42:36Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:source"/>
+        <AbbreviatedIRI>obo:CTO_0000126</AbbreviatedIRI>
+        <Literal>https://clinicaltrials.gov/ct2/html/images/info/public.xsd</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:CTO_0000126</AbbreviatedIRI>
+        <Literal xml:lang="en">has investigator</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000116"/>
+        <AbbreviatedIRI>obo:CTO_0000127</AbbreviatedIRI>
+        <Literal>Corresponding to CT.gov XML tag &quot;collaborator&quot;, a type of &quot;sponsors&quot;
+
+&lt;!--  === Sponsors ====================================================  --&gt;
+&lt;xs:complexType name=&quot;sponsors_struct&quot;&gt;
+&lt;xs:sequence&gt;
+&lt;xs:element name=&quot;lead_sponsor&quot; type=&quot;sponsor_struct&quot;/&gt;
+&lt;xs:element name=&quot;collaborator&quot; type=&quot;sponsor_struct&quot; minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;/&gt;
+&lt;/xs:sequence&gt;
+&lt;/xs:complexType&gt;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:CTO_0000127</AbbreviatedIRI>
+        <Literal>Asiyah Yu Lin, Qingliang &quot;Leon&quot; Li</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <AbbreviatedIRI>obo:CTO_0000127</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-06-10T13:45:21Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:source"/>
+        <AbbreviatedIRI>obo:CTO_0000127</AbbreviatedIRI>
+        <Literal>https://clinicaltrials.gov/ct2/html/images/info/public.xsd</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:CTO_0000127</AbbreviatedIRI>
+        <Literal xml:lang="en">has collaborator</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000116"/>
+        <AbbreviatedIRI>obo:CTO_0000128</AbbreviatedIRI>
+        <Literal>Corresponding to CT.gov XML tag: &quot;overall_contact&quot;
+
+
+&lt;xs:element name=&quot;clinical_study&quot;&gt;
+&lt;xs:complexType&gt;
+&lt;xs:sequence&gt;
+...
+&lt;xs:element name=&quot;overall_contact&quot; type=&quot;contact_struct&quot; minOccurs=&quot;0&quot;/&gt;
+...</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:CTO_0000128</AbbreviatedIRI>
+        <Literal>Asiyah Yu Lin, Qingliang &quot;Leon&quot; Li</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <AbbreviatedIRI>obo:CTO_0000128</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-06-10T13:46:58Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:source"/>
+        <AbbreviatedIRI>obo:CTO_0000128</AbbreviatedIRI>
+        <Literal>https://clinicaltrials.gov/ct2/html/images/info/public.xsd</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:CTO_0000128</AbbreviatedIRI>
+        <Literal xml:lang="en">has contact</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000116"/>
+        <AbbreviatedIRI>obo:CTO_0000129</AbbreviatedIRI>
+        <Literal>Corresponding to CT.gov XML tag : &quot;location_countries&quot;
+
+
+&lt;xs:element name=&quot;clinical_study&quot;&gt;
+&lt;xs:complexType&gt;
+&lt;xs:sequence&gt;
+...
+&lt;xs:element name=&quot;location_countries&quot; type=&quot;countries_struct&quot; minOccurs=&quot;0&quot;/&gt;
+...</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:CTO_0000129</AbbreviatedIRI>
+        <Literal>Asiyah Yu Lin, Qingliang &quot;Leon&quot; Li</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <AbbreviatedIRI>obo:CTO_0000129</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-06-10T13:47:26Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:source"/>
+        <AbbreviatedIRI>obo:CTO_0000129</AbbreviatedIRI>
+        <Literal>https://clinicaltrials.gov/ct2/html/images/info/public.xsd</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:CTO_0000129</AbbreviatedIRI>
+        <Literal xml:lang="en">has clinical trial site</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000116"/>
+        <AbbreviatedIRI>obo:CTO_0000130</AbbreviatedIRI>
+        <Literal>Corresponding to CT.gov XML tag &quot;lead_sponsor&quot;, a type of &quot;sponsors&quot;
+
+&lt;!--  === Sponsors ====================================================  --&gt;
+&lt;xs:complexType name=&quot;sponsors_struct&quot;&gt;
+&lt;xs:sequence&gt;
+&lt;xs:element name=&quot;lead_sponsor&quot; type=&quot;sponsor_struct&quot;/&gt;
+&lt;xs:element name=&quot;collaborator&quot; type=&quot;sponsor_struct&quot; minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;/&gt;
+&lt;/xs:sequence&gt;
+&lt;/xs:complexType&gt;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:CTO_0000130</AbbreviatedIRI>
+        <Literal>Asiyah Yu Lin, Qingliang &quot;Leon&quot; Li</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <AbbreviatedIRI>obo:CTO_0000130</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-06-10T13:47:47Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:source"/>
+        <AbbreviatedIRI>obo:CTO_0000130</AbbreviatedIRI>
+        <Literal>https://clinicaltrials.gov/ct2/html/images/info/public.xsd</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:CTO_0000130</AbbreviatedIRI>
+        <Literal xml:lang="en">has primary sponsor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000116"/>
+        <AbbreviatedIRI>obo:CTO_0000131</AbbreviatedIRI>
+        <Literal>Corresponding to CT.gov XML tag &quot;agency&quot;
+
+&lt;!--  === Sponsor =====================================================  --&gt;
+&lt;xs:simpleType name=&quot;agency_class_enum&quot;&gt;
+&lt;xs:restriction base=&quot;xs:string&quot;&gt;
+&lt;xs:enumeration value=&quot;NIH&quot;/&gt;
+&lt;xs:enumeration value=&quot;U.S. Fed&quot;/&gt;
+&lt;xs:enumeration value=&quot;Industry&quot;/&gt;
+&lt;xs:enumeration value=&quot;Other&quot;/&gt;
+&lt;/xs:restriction&gt;
+&lt;/xs:simpleType&gt;
+&lt;xs:complexType name=&quot;sponsor_struct&quot;&gt;
+&lt;xs:sequence&gt;
+&lt;xs:element name=&quot;agency&quot; type=&quot;xs:string&quot;/&gt;
+&lt;xs:element name=&quot;agency_class&quot; type=&quot;agency_class_enum&quot; minOccurs=&quot;0&quot;/&gt;
+&lt;/xs:sequence&gt;
+&lt;/xs:complexType&gt;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:CTO_0000131</AbbreviatedIRI>
+        <Literal>Asiyah Yu Lin, Qingliang &quot;Leon&quot; Li</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <AbbreviatedIRI>obo:CTO_0000131</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-06-10T13:48:23Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:source"/>
+        <AbbreviatedIRI>obo:CTO_0000131</AbbreviatedIRI>
+        <Literal>https://clinicaltrials.gov/ct2/html/images/info/public.xsd</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:CTO_0000131</AbbreviatedIRI>
+        <Literal xml:lang="en">has funding agency</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasNarrowSynonym"/>
