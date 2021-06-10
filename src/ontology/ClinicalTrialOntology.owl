@@ -409,6 +409,9 @@
         <Class abbreviatedIRI="obo:CTO_0000120"/>
     </Declaration>
     <Declaration>
+        <Class abbreviatedIRI="obo:CTO_0000132"/>
+    </Declaration>
+    <Declaration>
         <Class abbreviatedIRI="obo:CTO_0000201"/>
     </Declaration>
     <Declaration>
@@ -664,6 +667,9 @@
         <AnnotationProperty abbreviatedIRI="dc:contributor"/>
     </Declaration>
     <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+    </Declaration>
+    <Declaration>
         <AnnotationProperty abbreviatedIRI="dc:description"/>
     </Declaration>
     <Declaration>
@@ -686,9 +692,6 @@
     </Declaration>
     <Declaration>
         <Datatype abbreviatedIRI="rdf:langString"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty abbreviatedIRI="dc:date"/>
     </Declaration>
     <SubClassOf>
         <Class abbreviatedIRI="obo:CTO_0000001"/>
@@ -1005,6 +1008,10 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:CTO_0000120"/>
         <Class abbreviatedIRI="obo:CTO_0000107"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:CTO_0000132"/>
+        <Class abbreviatedIRI="obo:CTO_0000220"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:CTO_0000200"/>
@@ -3277,6 +3284,46 @@ Each primary outcome measure information includes title, description and time fr
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:CTO_0000131</AbbreviatedIRI>
         <Literal xml:lang="en">has funding agency</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:CTO_0000132</AbbreviatedIRI>
+        <Literal xml:lang="en">A clinical trial is conducted for the purpose of demonstrating the efficacy of a new drug in order to obtain its marketing approval by regulatory authorities (e.g. FDA in the United States and EMA in Europe). The pivotal clinical trial usually is a Phase III clinical trial, but exceptionally phase 2 studies could also be utilized as pivotal trials.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000116"/>
+        <AbbreviatedIRI>obo:CTO_0000132</AbbreviatedIRI>
+        <Literal xml:lang="en">This is the same terms as the pre-version of this ontology: Clinical Trials Ontology - Neurodegenerative Diseases:  http://www.co-ode.org/ontologies/ont.owl#Pivotal_trial</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000118"/>
+        <AbbreviatedIRI>obo:CTO_0000132</AbbreviatedIRI>
+        <Literal xml:lang="en">pivotal trial</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:CTO_0000132</AbbreviatedIRI>
+        <Literal xml:lang="en">https://en.wikipedia.org/wiki/Pivotal_trial</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:CTO_0000132</AbbreviatedIRI>
+        <Literal xml:lang="en">https://www.sofpromed.com/pivotal-clinical-trials-frequently-asked-questions/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:CTO_0000132</AbbreviatedIRI>
+        <Literal>Asiyah Yu Lin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <AbbreviatedIRI>obo:CTO_0000132</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-06-10T16:49:17Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:CTO_0000132</AbbreviatedIRI>
+        <Literal xml:lang="en">pivotal clinical trial</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasNarrowSynonym"/>
