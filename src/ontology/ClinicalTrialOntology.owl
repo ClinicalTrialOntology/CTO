@@ -693,6 +693,14 @@
     <Declaration>
         <Datatype abbreviatedIRI="rdf:langString"/>
     </Declaration>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:CTO_0000105"/>
+        <Class abbreviatedIRI="obo:NCIT_C98772"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class abbreviatedIRI="obo:CTO_0000106"/>
+        <Class abbreviatedIRI="obo:NCIT_C98781"/>
+    </EquivalentClasses>
     <SubClassOf>
         <Class abbreviatedIRI="obo:CTO_0000001"/>
         <Class abbreviatedIRI="obo:IAO_0000030"/>
@@ -1301,11 +1309,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:NCIT_C98772"/>
-        <Class abbreviatedIRI="obo:IAO_0000027"/>
+        <Class abbreviatedIRI="obo:CTO_0000104"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:NCIT_C98781"/>
-        <Class abbreviatedIRI="obo:IAO_0000027"/>
+        <Class abbreviatedIRI="obo:CTO_0000104"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:OBI_0000011"/>
@@ -1325,7 +1333,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:VO_0000596"/>
-        <Class abbreviatedIRI="obo:OPMI_0000418"/>
+        <Class abbreviatedIRI="obo:CTO_0000220"/>
     </SubClassOf>
     <AnnotationAssertion>
         <Annotation>
@@ -2769,9 +2777,29 @@ Each primary outcome measure information includes title, description and time fr
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">investigational molecular entity</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:CTO_0000109</AbbreviatedIRI>
+        <Literal xml:lang="en">A clinical trial investigate some molecular entity which either will be a new drug or is already an approved drug but looking for new indications or new populations that are not stated in the drug label.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:CTO_0000109</AbbreviatedIRI>
+        <Literal xml:lang="en">Asiyah Yu Lin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:CTO_0000109</AbbreviatedIRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">drug clinical trial</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:CTO_0000110</AbbreviatedIRI>
+        <Literal xml:lang="en">a sponsor role that ties to a clinical trial.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AbbreviatedIRI>obo:CTO_0000110</AbbreviatedIRI>
+        <Literal xml:lang="en">Asiyah Yu Lin</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3439,6 +3467,11 @@ http://www.who.int/ictrp/network/trds/en/index.html</Literal>
         <Literal>https://www.who.int/ictrp/network/trds/en/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:IAO_0000027</AbbreviatedIRI>
+        <Literal xml:lang="en">a data item that is about the outcome measured by a clinical trial.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
             <Literal>http://www.icmje.org/recommendations/ 
@@ -3750,7 +3783,7 @@ http://www.who.int/ictrp/network/trds/en/index.html</Literal>
             <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
             <Literal>https://prsinfo.clinicaltrials.gov/definitions.html</Literal>
         </Annotation>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000116"/>
         <AbbreviatedIRI>obo:NCIT_C98722</AbbreviatedIRI>
         <Literal>An investigational drug product (including biological product) available through expanded access for patients who do not qualify for enrollment in a clinical trial. Expanded Access includes all expanded access types under section 561 of the Federal Food, Drug, and Cosmetic Act: (1) for individual patients, including emergency use; (2) for intermediate-size patient populations; and (3) under a treatment IND or treatment protocol.</Literal>
     </AnnotationAssertion>
