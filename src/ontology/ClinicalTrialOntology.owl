@@ -911,7 +911,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:CTO_0000073"/>
-        <Class abbreviatedIRI="obo:CTO_0000076"/>
+        <Class abbreviatedIRI="obo:CTO_0000077"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:CTO_0000074"/>
@@ -923,7 +923,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:CTO_0000076"/>
-        <Class abbreviatedIRI="obo:CTO_0000077"/>
+        <Class abbreviatedIRI="obo:CTO_0000073"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:CTO_0000077"/>
@@ -2684,7 +2684,7 @@ Each primary outcome measure information includes title, description and time fr
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:CTO_0000076</AbbreviatedIRI>
-        <Literal>ClinicalTrials.gov is a registry for clinical trials.</Literal>
+        <Literal xml:lang="en">ClinicalTrials.gov is a registry for clinical trials funded and maintained by NIH/NLM in US.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
@@ -2694,7 +2694,7 @@ Each primary outcome measure information includes title, description and time fr
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:CTO_0000076</AbbreviatedIRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">ClinicalTrial.gov registry</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">US ClinicalTrial.gov registry</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
