@@ -12,8 +12,8 @@
 
 ## Publication
 1. **[CTO: A Community-Based Clinical Trial Ontology and Its Applications in PubChemRDF and SCAIView](http://ceur-ws.org/Vol-2807/paperH.pdf)**. [   [ slides](https://icbo2020.inf.unibz.it/wp-content/uploads/2020/09/icbo-s1700a_15.pdf) (pdf), [talk video](https://www.youtube.com/watch?v=4tmyDN6enuA&list=PLhzFEi0G-n-uom3STXbNSL4lOyCNyGQ5B&index=4) (mp4, 10MB) ] <br/> 
- * Authors: Asiyah Yu Lin, Stephan Gebel, Qingliang Leon Li, Sumit Madan, Johannes Darms, Evan Bolton, Barry Smith, Martin Hofmann- Apitius, Yongqun Oliver He, Alpha Tom Kodamullil <br/>
- * Journal: Proceedings of the 11th International Conference on Biomedical Ontologies (ICBO) http://ceur-ws.org/Vol-2807/
+  Authors: Asiyah Yu Lin, Stephan Gebel, Qingliang Leon Li, Sumit Madan, Johannes Darms, Evan Bolton, Barry Smith, Martin Hofmann- Apitius, Yongqun Oliver He, Alpha Tom Kodamullil <br/>
+ Journal: Proceedings of the 11th International Conference on Biomedical Ontologies (ICBO) http://ceur-ws.org/Vol-2807/
 
 ## Development 
 
